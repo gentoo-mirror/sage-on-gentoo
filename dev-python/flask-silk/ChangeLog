@@ -1,0 +1,30 @@
+# ChangeLog for dev-python/flask-silk
+# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  09 Jun 2015; François Bissey <francois.bissey@canterbury.ac.nz>
+  -flask-silk-0.1.1-r1.ebuild, -flask-silk-0.1.1.ebuild:
+  removing old unused ebuilds
+
+*flask-silk-0.2 (31 Oct 2014)
+
+  31 Oct 2014; François Bissey <francois.bissey@canterbury.ac.nz>
+  +flask-silk-0.2.ebuild:
+  bump for sagenb 0.11.0
+
+  18 Dec 2012; François Bissey <francois.bissey@canterbury.ac.nz>
+  flask-silk-0.1.1-r1.ebuild:
+  bump EAPI
+
+*flask-silk-0.1.1-r1 (17 Dec 2012)
+
+  17 Dec 2012; Christopher Schwan <cschwan@students.uni-mainz.de>
+  +flask-silk-0.1.1-r1.ebuild:
+  Migrate to distutils-r1.eclass
+
+  31 Jul 2012; François Bissey <francois.bissey@canterbury.ac.nz>
+  flask-silk-0.1.1.ebuild:
+  keywording
+
+  18 Jul 2012; François Bissey <francois.bissey@canterbury.ac.nz> ChangeLog:
+  Initial changelog
