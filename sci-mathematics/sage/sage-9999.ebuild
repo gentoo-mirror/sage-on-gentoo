@@ -70,7 +70,7 @@ CDEPEND="dev-libs/gmp:0=
 	~sci-libs/pynac-0.3.9.2[${PYTHON_USEDEP}]
 	>=sci-libs/symmetrica-2.0-r3
 	>=sci-libs/zn_poly-0.9
-	sci-mathematics/glpk:0=
+	sci-mathematics/glpk:0=[gmp]
 	>=sci-mathematics/lcalc-1.23-r6[pari]
 	>=sci-mathematics/lrcalc-1.1.6_beta1
 	>=sci-mathematics/pari-2.8_pre20150611[data,gmp,doc]
@@ -103,7 +103,7 @@ RDEPEND="${CDEPEND}
 	>=dev-python/matplotlib-1.4.0[${PYTHON_USEDEP}]
 	>=dev-python/mpmath-0.18[${PYTHON_USEDEP}]
 	>=dev-python/networkx-1.8[${PYTHON_USEDEP}]
-	~dev-python/sage-pexpect-2.0[${PYTHON_USEDEP}]
+	~dev-python/pexpect-3.3[${PYTHON_USEDEP}]
 	>=dev-python/pycrypto-2.1.0[${PYTHON_USEDEP}]
 	>=dev-python/rpy-2.3.8[${PYTHON_USEDEP}]
 	>=dev-python/sphinx-1.2.2[${PYTHON_USEDEP}]
@@ -121,7 +121,7 @@ RDEPEND="${CDEPEND}
 	>=sci-mathematics/mcube-20051209
 	>=sci-mathematics/optimal-20040603
 	>=sci-mathematics/palp-2.1
-	~sci-mathematics/sage-data-elliptic_curves-0.7
+	~sci-mathematics/sage-data-elliptic_curves-0.8
 	~sci-mathematics/sage-data-graphs-20130920
 	~sci-mathematics/sage-data-combinatorial_designs-20140630
 	~sci-mathematics/sage-data-polytopes_db-20120220
@@ -135,7 +135,7 @@ RDEPEND="${CDEPEND}
 		|| ( app-text/dvipng[truetype] media-gfx/imagemagick[png] )
 	)"
 
-PDEPEND=">=sci-mathematics/sage-notebook-0.11.4-r2[${PYTHON_USEDEP}]"
+PDEPEND=">=sci-mathematics/sage-notebook-0.11.4-r3[${PYTHON_USEDEP}]"
 
 CHECKREQS_DISK_BUILD="5G"
 
@@ -208,12 +208,6 @@ python_prepare() {
 	rm sage/misc/package.py
 	rm sage/misc/dist.py
 	rm -rf sage/dev
-
-	# replace pexpect with sage pinned version
-	sed -i "s:import pexpect:import sage_pexpect as pexpect:g" \
-		`grep -rl "import pexpect" *`
-	sed -i "s:from pexpect:from sage_pexpect:g" \
-		`grep -rl "from pexpect" *`
 
 	############################################################################
 	# Fixes to Sage's build system
