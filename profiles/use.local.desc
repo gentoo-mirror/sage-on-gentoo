@@ -1,25 +1,66 @@
 # This file is deprecated as per GLEP 56 in favor of metadata.xml. Please add
 # your descriptions to your package's metadata.xml ONLY.
-# * generated automatically using egencache *
+# * generated automatically using pmaint *
 
-dev-lang/python:sage - Apply fix for issue7689 required by sage.
-dev-lang/python:threads - Enable threading support. (DON'T DISABLE THIS UNLESS YOU KNOW WHAT YOU'RE DOING)
-dev-lang/python:wide-unicode - Enable wide Unicode implementation which uses 4-byte Unicode characters. Switching of this USE flag changes ABI of Python and requires reinstallation of many Python modules. (DON'T DISABLE THIS UNLESS YOU KNOW WHAT YOU'RE DOING)
-dev-lang/python:wininst - Install Windows executables required to create an executable installer for MS Windows.
-dev-python/cvxopt:glpk - Use GNU Linear Programming Kit
+dev-libs/ppl:lpsol - Build the ppl_lpsol linear programming problem solver
+dev-python/cvxopt:dsdp - Use interior point library sci-libs/dsdp
+dev-python/cvxopt:glpk - Use GNU Linear Programming Kit sci-mathematics/glpk
+dev-python/ipython:matplotlib - Add support for dev-python/matplotlib
+dev-python/ipython:mongodb - Enable support for MongoDB via dev-python/pymongo
+dev-python/ipython:nbconvert - Enable support for converting notebooks to various formats using app-text/pandoc
+dev-python/ipython:notebook - Install requirements for the web notebook based on www-servers/tornado
+dev-python/ipython:octave - Enable octave bridge via dev-python/oct2py
+dev-python/matplotlib:excel - Pull dev-python/xlwt for the exceltools toolkit
+dev-python/matplotlib:gtk3 - Use x11-libs/gtk+:3 instead of x11-libs/gtk+:2
+dev-python/matplotlib:pyside - Qt support via dev-python/pyside
 sci-chemistry/jmol:client-only - Install the viewer only, no applet files for httpd
-sci-mathematics/flint:qs - Compiles support for quadratic sieve algorithm
+sci-chemistry/jspecview:applet - Create an applet
 sci-libs/libsingular:boost - Compile against external boost headers (dev-libs/boost)
-sci-mathematics/ecm:shellcmd - Enable shell command execution
+sci-libs/libsingular:flint - Use flint-2
+sci-mathematics/eclib:boost - Use boost libraries for threading and parallelism
+sci-mathematics/eclib:flint - Enable the use of flint for certain operations
+sci-mathematics/flint:gc - Enable garbage collection support via dev-libs/boehm-gc
+sci-mathematics/flint:ntl - Build NTL interface
+sci-mathematics/gmp-ecm:custom-tune - Improve performance of some operations by selecting machine-specific defaults
+sci-mathematics/gmp-ecm:gwnum - Use GWNum lib where possible
 sci-mathematics/lcalc:pari - Use pari for elliptic curve routines. This enables '-e' option
+sci-mathematics/maxima:clisp - Compile maxima with GNU CLISP (dev-lisp/clisp)
+sci-mathematics/maxima:clozurecl - Compile maxima with Clozure Common Lisp (dev-lisp/clozurecl)
+sci-mathematics/maxima:cmucl - Compile maxima with CMU Common Lisp (dev-lisp/cmucl)
+sci-mathematics/maxima:ecls - Compile maxima with Embeddable Common Lisp (dev-lisp/ecls)
+sci-mathematics/maxima:gcl - Compile maxima with GNU Common Lisp (dev-lisp/gcl)
+sci-mathematics/maxima:sbcl - Compile maxima with Steel Bank Common Lisp (dev-lisp/sbcl)
+sci-mathematics/pari:data - Add additional data (elldata, galdata, seadata, nftables)
 sci-mathematics/polybori:gd - Build with media-libs/gd
-sci-mathematics/polybori:sage - Replace the standard python interface by sage's python interface for easy integration in sage.
-sci-mathematics/sage:mpc - Enables the dev-libs/mpc extension for multiprecision complex arithmetic
+sci-mathematics/sage:arb - build the bindings to the arb library
+sci-mathematics/sage:bin-html - install pre-built html documentation
+sci-mathematics/sage:bliss - build the bindings to the bliss library
+sci-mathematics/sage:html - build and install html documentation
+sci-mathematics/sage:modular_decomposition - build the bindings to the modular_decomposition library
 sci-mathematics/sage:testsuite - If activated installs Sage's sources into /usr/share/sage/devel/sage to enable testing
 sci-mathematics/sage-baselayout:X - Installs icon and desktop file
 sci-mathematics/sage-baselayout:testsuite - If activated installs scripts to enable testing of Sage
-sci-mathematics/sage-baselayout:tools - Install some tools for sage development
 sci-mathematics/sage-doc:html - Install HTML documentation
-sci-mathematics/sage-doc:pdf - Install the pdf version of the documentation.
+sci-mathematics/sage-doc:linguas_ca - Install Catalan documentation in html and/or pdf.
+sci-mathematics/sage-doc:linguas_de - Install German documentation in html and/or pdf.
+sci-mathematics/sage-doc:linguas_en - Install English documentation in html and/or pdf.
+sci-mathematics/sage-doc:linguas_fr - Install French documentation in html and/or pdf.
+sci-mathematics/sage-doc:linguas_hu - Install Hungarian documentation in html and/or pdf.
+sci-mathematics/sage-doc:linguas_it - Install Italian documentation in html and/or pdf.
+sci-mathematics/sage-doc:linguas_pt - Install Portuguese documentation in html and/or pdf.
+sci-mathematics/sage-doc:linguas_ru - Install Russian documentation in html and/or pdf.
+sci-mathematics/sage-doc:linguas_tr - Install Turkish documentation in html and/or pdf.
+sci-mathematics/sage-doc-bin:html - Install HTML documentation
+sci-mathematics/sage-doc-bin:linguas_ca - Install Catalan documentation in html and/or pdf.
+sci-mathematics/sage-doc-bin:linguas_de - Install German documentation in html and/or pdf.
+sci-mathematics/sage-doc-bin:linguas_en - Install English documentation in html and/or pdf.
+sci-mathematics/sage-doc-bin:linguas_fr - Install French documentation in html and/or pdf.
+sci-mathematics/sage-doc-bin:linguas_hu - Install Hungarian documentation in html and/or pdf.
+sci-mathematics/sage-doc-bin:linguas_it - Install Italian documentation in html and/or pdf.
+sci-mathematics/sage-doc-bin:linguas_pt - Install Portuguese documentation in html and/or pdf.
+sci-mathematics/sage-doc-bin:linguas_ru - Install Russian documentation in html and/or pdf.
+sci-mathematics/sage-doc-bin:linguas_tr - Install Turkish documentation in html and/or pdf.
 sci-mathematics/sage-notebook:java - Enable JMol for 3D-printing in the notebook
 sci-mathematics/sage-notebook:server - Install scripts and user to run the notebook as a daemon
+sci-mathematics/singular:boost - Compile against external boost headers (dev-libs/boost)
+sci-mathematics/singular:flint - Use flint-2
