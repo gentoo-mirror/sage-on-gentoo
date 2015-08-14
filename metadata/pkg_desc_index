@@ -10,6 +10,7 @@ dev-python/flask-silk 0.2: Adds silk icons to your Flask application or module, 
 dev-python/ipython 3.0.0-r1 3.1.0: Advanced interactive shell for Python
 dev-python/matplotlib 1.3.1: Pure python plotting library with matlab like syntax
 dev-python/pexpect 3.3-r1: Python module for spawning child applications and responding to expected patterns
+dev-python/python-igraph 0.7.0: Python interface for the igraph library
 dev-python/sage-pexpect 2.0-r1: Python module for spawning child applications and responding to expected patterns
 dev-python/sphinx 1.2.2 1.2.3: Python documentation generator
 dev-tex/sage-latex 2.3.4: SageTeX package allows to embed code from the Sage mathematics software suite into LaTeX documents
