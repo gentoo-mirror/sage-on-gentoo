@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
+# $Id$
 
 EAPI=5
 
@@ -15,7 +15,7 @@ SLOT="0"
 KEYWORDS="~amd64  ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos ~x64-macos"
 IUSE="static-libs"
 
-RDEPEND=">=sci-mathematics/flint-2.4.4"
+RDEPEND=">=sci-mathematics/flint-2.4.4:="
 DEPEND="${RDEPEND}"
 
 PATCHES=( "${FILESDIR}"/${PN}-2.5.0-makefile.in.patch )
