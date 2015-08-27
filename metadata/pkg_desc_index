@@ -41,7 +41,7 @@ sci-mathematics/chomp 20120805: CHomP computes topological invariants of a colle
 sci-mathematics/cu2 20060223: An non-optimal 2x2x2 rubik's cube solver
 sci-mathematics/cubex 20060128: An non-optimal 3x3x3 rubik's cube solver
 sci-mathematics/dikcube 20070912-r1: Dik T. Winter's rubik's cube solver and related tools
-sci-mathematics/eclib 0_p20140921-r1 20150510-r1: Programs for enumerating and computing with elliptic curves defined over the rational numbers.
+sci-mathematics/eclib 0_p20140921-r1 20150510-r1 20150827: Programs for enumerating and computing with elliptic curves defined over the rational numbers.
 sci-mathematics/flint 2.5.2: Fast Library for Number Theory
 sci-mathematics/flintqs 20070817: William Hart's GPL'd highly optimized multi-polynomial quadratic sieve for integer factorization
 sci-mathematics/gap 4.7.5 4.7.7 4.7.8: System for computational discrete algebra
