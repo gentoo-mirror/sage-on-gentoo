@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
+# $Id$
 
 EAPI="5"
 
@@ -17,7 +17,7 @@ IUSE="doc cpu_flags_x86_sse2"
 
 RESTRICT="mirror"
 
-CDEPEND=">=dev-libs/gmp-4.0.0"
+CDEPEND="dev-libs/gmp:="
 DEPEND="${CDEPEND}
 	doc? ( app-doc/doxygen )"
 RDEPEND="${CDEPEND}"

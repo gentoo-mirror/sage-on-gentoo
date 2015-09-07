@@ -1,6 +1,6 @@
-# Copyright 1999-2014 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
+# $Id$
 
 EAPI=5
 
@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="+blas +custom-tune gwnum -openmp static-libs test"
 
 DEPEND="
-	dev-libs/gmp
+	dev-libs/gmp:=
 	!sci-mathematics/ecm
 	blas? ( sci-libs/gsl )
 	gwnum? ( sci-mathematics/gwnum )"
