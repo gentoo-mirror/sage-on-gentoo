@@ -17,8 +17,8 @@ dev-tex/tkz-base 1.16c: tkz-base is a base package to give easy access to progra
 dev-tex/tkz-berge 2.8: A collection of useful macros to draw some classic graphs of the graph theory or others graphs
 dev-tex/tkz-graph 2.7d: tkz-graph is a set of convenient macros for drawing graphs
 media-gfx/tachyon 0.98.9-r2: A portable, high performance parallel ray tracing system
-sci-chemistry/jmol 12.0.45 12.3.14 12.3.27: Jmol is a java molecular viever for 3-D chemical structures.
-sci-chemistry/jmol-applet 12.3.14 12.3.14-r1 12.3.27: Jmol is a java molecular viever for 3-D chemical structures.
+sci-chemistry/jmol 12.3.27: Jmol is a java molecular viever for 3-D chemical structures.
+sci-chemistry/jmol-applet 12.3.27: Jmol is a java molecular viever for 3-D chemical structures.
 sci-chemistry/jspecview 1169 1169-r1: Spectroscopy Viewer
 sci-chemistry/sage-jmol-bin 14.2.4-r2 14.2.11-r1: Jmol is a java molecular viever for 3-D chemical structures.
 sci-libs/fflas-ffpack 1.6.0-r5: FFLAS-FFPACK is a LGPL-2.1+ library for dense linear algebra over word-size finite fields.
