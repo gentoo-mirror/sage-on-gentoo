@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile configure install postinst prepare unpack
+DEPEND=!sci-mathematics/sage-doc
+DESCRIPTION=Documentation, tutorials and help files for Sage (pre-built html/pdf)
+EAPI=5
+HOMEPAGE=http://www.sagemath.org/
+IUSE=+html linguas_ca linguas_de linguas_en linguas_fr linguas_hu linguas_it linguas_pt linguas_ru linguas_tr
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+LICENSE=GPL-2
+RDEPEND=!sci-mathematics/sage-doc >=dev-python/sphinx-1.2.2
+REQUIRED_USE=html? ( linguas_en )
+RESTRICT=mirror
+SLOT=0
+SRC_URI=mirror://sagemath/6.6.tar.gz -> sage-6.6.tar.gz http://www.mathematik.uni-kl.de/ftp/pub/Math/Singular/SOURCES/3-1-6/Singular-3-1-6-share.tar.gz html? ( mirror://sagemathdoc/sage-6.6-doc-html.tar.xz )
+_eclasses_=base	84d9f879f57a8316ff02be0373a3d6f9	eutils	351a78113be5b393c09a2c948701ad36	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361
+_md5_=9b805e4490891cc2fc1d5ae2680a45f7

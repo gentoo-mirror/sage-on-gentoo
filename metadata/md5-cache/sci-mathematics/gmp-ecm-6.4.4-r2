@@ -1,0 +1,14 @@
+DEFINED_PHASES=configure install prepare pretend
+DEPEND=dev-libs/gmp:= !sci-mathematics/ecm blas? ( sci-libs/gsl ) gwnum? ( sci-mathematics/gwnum ) !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DESCRIPTION=Elliptic Curve Method for Integer Factorization
+EAPI=5
+HOMEPAGE=http://ecm.gforge.inria.fr/
+IUSE=+blas +custom-tune gwnum -openmp static-libs test
+KEYWORDS=~amd64 ~x86 ~x86-macos ~ppc-macos ~x64-macos
+LICENSE=GPL-3 LGPL-3
+RDEPEND=dev-libs/gmp:= !sci-mathematics/ecm blas? ( sci-libs/gsl ) gwnum? ( sci-mathematics/gwnum )
+REQUIRED_USE=gwnum? ( !openmp ) x86-macos? ( !custom-tune )
+SLOT=0
+SRC_URI=https://gforge.inria.fr/frs/download.php/32159/gmp-ecm-6.4.4.tar.gz
+_eclasses_=autotools	7d16e72a943b4803ca9691b2ecf89216	eutils	351a78113be5b393c09a2c948701ad36	flag-o-matic	85dc1eac3c64d8141374490ed64122e5	libtool	7f78cd7d403808a350c9ae23f5821fb4	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361
+_md5_=a1b040d426a43e2294dab76abdcbf65e
