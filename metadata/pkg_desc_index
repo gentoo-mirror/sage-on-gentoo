@@ -2,7 +2,7 @@ app-emacs/sage_mode 0.12: An emacs mode for sage
 dev-libs/ntl 6.2.1: High-performance and portable Number Theory C++ library
 dev-libs/ppl 1.1-r1: The Parma Polyhedra Library provides numerical abstractions for analysis of complex systems
 dev-python/cvxopt 1.1.7: Python package for convex optimization
-dev-python/cython 0.22-r5 0.23.2-r1: A Python to C compiler
+dev-python/cython 0.22-r5 0.23.3-r1: A Python to C compiler
 dev-python/flask-autoindex 0.5: A mod_autoindex for Flask
 dev-python/flask-oldsessions 0.10: Compatibility layer for older flask-0.10 and under sessions
 dev-python/flask-silk 0.2: Adds silk icons to your Flask application or module, or extension
