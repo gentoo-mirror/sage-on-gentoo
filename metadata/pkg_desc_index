@@ -1,5 +1,5 @@
 app-emacs/sage_mode 0.12: An emacs mode for sage
-dev-libs/ntl 6.2.1: High-performance and portable Number Theory C++ library
+dev-libs/ntl 6.2.1 9.4.0: High-performance and portable Number Theory C++ library
 dev-python/cvxopt 1.1.7: Python package for convex optimization
 dev-python/cython 0.22-r5 0.23.3-r1: A Python to C compiler
 dev-python/flask-autoindex 0.5: A mod_autoindex for Flask
