@@ -33,6 +33,7 @@ sci-mathematics/pari:data - Add additional data (elldata, galdata, seadata, nfta
 sci-mathematics/polybori:gd - Build with media-libs/gd
 sci-mathematics/sage:arb - build the bindings to the arb library
 sci-mathematics/sage:bin-html - install pre-built html documentation
+sci-mathematics/sage:bin-pdf - install pre-built pdf documentation
 sci-mathematics/sage:bliss - build the bindings to the bliss library
 sci-mathematics/sage:html - build and install html documentation
 sci-mathematics/sage:modular_decomposition - build the bindings to the modular_decomposition library
