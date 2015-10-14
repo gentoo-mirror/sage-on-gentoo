@@ -1,14 +1,14 @@
 DEFINED_PHASES=compile configure install prepare setup test
-DEPEND=dev-libs/gmp[cxx] >=sci-libs/givaro-3.7.0 ~sci-libs/fflas-ffpack-1.6.0 virtual/cblas virtual/lapack sage? ( dev-libs/ntl ) sci-libs/iml dev-libs/mpfr:=
+DEPEND=dev-libs/gmp[cxx] >=sci-libs/givaro-3.7.0 ~sci-libs/fflas-ffpack-1.6.0 virtual/cblas virtual/lapack sage? ( dev-libs/ntl:= ) sci-libs/iml dev-libs/mpfr:=
 DESCRIPTION=LinBox is a C++ template library for linear algebra computation over integers and over finite fields
 EAPI=5
 HOMEPAGE=http://linalg.org/
 IUSE=sage static-libs
 KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos ~x64-macos
 LICENSE=LGPL-2.1
-RDEPEND=dev-libs/gmp[cxx] >=sci-libs/givaro-3.7.0 ~sci-libs/fflas-ffpack-1.6.0 virtual/cblas virtual/lapack sage? ( dev-libs/ntl ) sci-libs/iml dev-libs/mpfr:=
+RDEPEND=dev-libs/gmp[cxx] >=sci-libs/givaro-3.7.0 ~sci-libs/fflas-ffpack-1.6.0 virtual/cblas virtual/lapack sage? ( dev-libs/ntl:= ) sci-libs/iml dev-libs/mpfr:=
 RESTRICT=mirror sage? ( test )
 SLOT=0
 SRC_URI=http://linalg.org/linbox-1.3.2.tar.gz
 _eclasses_=autotools	542bf3f83917668f3893f4da1ca238ff	autotools-utils	0bf099a6e3dfeaf20a7a94504d8dd896	eutils	43da5163ba106e87d22d2e7d6d67537f	flag-o-matic	85dc1eac3c64d8141374490ed64122e5	libtool	7f78cd7d403808a350c9ae23f5821fb4	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
-_md5_=b063cf2e04b0723120f10bc52dff9567
+_md5_=3fc606d41e4272d5096f663ff944574f
