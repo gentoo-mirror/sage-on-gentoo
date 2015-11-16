@@ -9,6 +9,12 @@ dev-python/ipython:mongodb - Enable support for MongoDB via dev-python/pymongo
 dev-python/ipython:nbconvert - Enable support for converting notebooks to various formats using app-text/pandoc
 dev-python/ipython:notebook - Install requirements for the web notebook based on www-servers/tornado
 dev-python/ipython:octave - Enable octave bridge via dev-python/oct2py
+dev-python/sympy:imaging - Add support for dev-python/imaging
+dev-python/sympy:ipython - Add support for dev-python/ipython
+dev-python/sympy:mathml - Add support for mathml
+dev-python/sympy:pyglet - Use dev-python/pyglet for plots and print preview
+dev-python/sympy:texmacs - Add app-office/texmacs interface
+dev-python/sympy:theano - Add support for dev-python/theano
 sci-chemistry/jmol:client-only - Install the viewer only, no applet files for httpd
 sci-chemistry/jspecview:applet - Create an applet
 sci-libs/libsingular:boost - Compile against external boost headers (dev-libs/boost)
