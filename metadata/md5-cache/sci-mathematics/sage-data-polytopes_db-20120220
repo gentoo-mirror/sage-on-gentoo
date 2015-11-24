@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DESCRIPTION=Sage's polytopes database
+EAPI=5
+HOMEPAGE=http://www.sagemath.org
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos ~x64-macos
+LICENSE=GPL-2
+RESTRICT=mirror
+SLOT=0
+SRC_URI=mirror://sageupstream/polytopes_db/polytopes_db-20120220.tar.bz2
+_eclass_exported_funcs=src_install:-
+_md5_=63bb6465e6eb586be57ce4763880d09b
