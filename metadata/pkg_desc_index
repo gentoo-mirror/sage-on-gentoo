@@ -51,7 +51,7 @@ sci-mathematics/gap_sage_packages 4.6.4: A small collection of packages for GAP
 sci-mathematics/gmp-ecm 6.4.4-r1 6.4.4-r2: Elliptic Curve Method for Integer Factorization
 sci-mathematics/gp2c 0.0.9_p3: A GP to C translator
 sci-mathematics/lcalc 1.23-r7: A program for calculating with L-functions
-sci-mathematics/lrcalc 1.1.7 1.2: Littlewood-Richardson Calculator
+sci-mathematics/lrcalc 1.1.7 1.2-r1: Littlewood-Richardson Calculator
 sci-mathematics/maxima 5.35.1-r2: Free computer algebra environment based on Macsyma
 sci-mathematics/mcube 20051209: An non-optimal 4x4x4 rubik's cube solver
 sci-mathematics/optimal 20040603-r1: An optimal rubik's cube solver using God's Algorithm
