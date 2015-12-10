@@ -2,7 +2,7 @@ app-emacs/sage_mode 0.12: An emacs mode for sage
 app-vim/vim-gap 2011.06.27: vim plugin: GAP template engine syntax highlighting, indention
 dev-lang/python 2.7.10-r10 2.7.10-r11: An interpreted, interactive, object-oriented programming language
 dev-libs/ntl 6.2.1 9.6.2: High-performance and portable Number Theory C++ library
-dev-python/cvxopt 1.1.7: Python package for convex optimization
+dev-python/cvxopt 1.1.7 1.1.8: Python package for convex optimization
 dev-python/cython 0.22-r5 0.23.4-r1: A Python to C compiler
 dev-python/flask-autoindex 0.5: A mod_autoindex for Flask
 dev-python/flask-oldsessions 0.10: Compatibility layer for older flask-0.10 and under sessions
