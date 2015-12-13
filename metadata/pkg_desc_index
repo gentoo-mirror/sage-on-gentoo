@@ -46,7 +46,7 @@ sci-mathematics/cubex 20060128: An non-optimal 3x3x3 rubik's cube solver
 sci-mathematics/dikcube 20070912-r1: Dik T. Winter's rubik's cube solver and related tools
 sci-mathematics/eclib 20150510-r1 20150827: Programs for enumerating and computing with elliptic curves defined over the rational numbers.
 sci-mathematics/flint 2.5.2: Fast Library for Number Theory
-sci-mathematics/flintqs 20070817: William Hart's GPL'd highly optimized multi-polynomial quadratic sieve for integer factorization
+sci-mathematics/flintqs 1.0: William Hart's GPL'd multi-polynomial quadratic sieve for integer factorization
 sci-mathematics/gap 4.7.5 4.7.7 4.7.8 4.7.8-r1: System for computational discrete algebra
 sci-mathematics/gap_sage_packages 4.6.4: A small collection of packages for GAP
 sci-mathematics/gmp-ecm 6.4.4-r1 6.4.4-r2: Elliptic Curve Method for Integer Factorization
