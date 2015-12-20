@@ -44,28 +44,6 @@ sci-mathematics/sage:bliss - build the bindings to the bliss library
 sci-mathematics/sage:html - build and install html documentation
 sci-mathematics/sage:modular_decomposition - build the bindings to the modular_decomposition library
 sci-mathematics/sage:testsuite - If activated installs Sage's sources into /usr/share/sage/devel/sage to enable testing
-sci-mathematics/sage-baselayout:X - Installs icon and desktop file
-sci-mathematics/sage-baselayout:testsuite - If activated installs scripts to enable testing of Sage
-sci-mathematics/sage-doc:html - Install HTML documentation
-sci-mathematics/sage-doc:linguas_ca - Install Catalan documentation in html and/or pdf.
-sci-mathematics/sage-doc:linguas_de - Install German documentation in html and/or pdf.
-sci-mathematics/sage-doc:linguas_en - Install English documentation in html and/or pdf.
-sci-mathematics/sage-doc:linguas_fr - Install French documentation in html and/or pdf.
-sci-mathematics/sage-doc:linguas_hu - Install Hungarian documentation in html and/or pdf.
-sci-mathematics/sage-doc:linguas_it - Install Italian documentation in html and/or pdf.
-sci-mathematics/sage-doc:linguas_pt - Install Portuguese documentation in html and/or pdf.
-sci-mathematics/sage-doc:linguas_ru - Install Russian documentation in html and/or pdf.
-sci-mathematics/sage-doc:linguas_tr - Install Turkish documentation in html and/or pdf.
-sci-mathematics/sage-doc-bin:html - Install HTML documentation
-sci-mathematics/sage-doc-bin:linguas_ca - Install Catalan documentation in html and/or pdf.
-sci-mathematics/sage-doc-bin:linguas_de - Install German documentation in html and/or pdf.
-sci-mathematics/sage-doc-bin:linguas_en - Install English documentation in html and/or pdf.
-sci-mathematics/sage-doc-bin:linguas_fr - Install French documentation in html and/or pdf.
-sci-mathematics/sage-doc-bin:linguas_hu - Install Hungarian documentation in html and/or pdf.
-sci-mathematics/sage-doc-bin:linguas_it - Install Italian documentation in html and/or pdf.
-sci-mathematics/sage-doc-bin:linguas_pt - Install Portuguese documentation in html and/or pdf.
-sci-mathematics/sage-doc-bin:linguas_ru - Install Russian documentation in html and/or pdf.
-sci-mathematics/sage-doc-bin:linguas_tr - Install Turkish documentation in html and/or pdf.
 sci-mathematics/sage-notebook:java - Enable JMol for 3D-printing in the notebook
 sci-mathematics/sage-notebook:server - Install scripts and user to run the notebook as a daemon
 sci-mathematics/singular:boost - Compile against external boost headers (dev-libs/boost)
