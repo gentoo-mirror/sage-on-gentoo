@@ -10,7 +10,7 @@ dev-python/flask-silk 0.2: Adds silk icons to your Flask application or module, 
 dev-python/ipython 3.1.0: Advanced interactive shell for Python
 dev-python/numpy 1.10.1-r2 1.10.2-r1: Fast array and numerical python library
 dev-python/pari_jupyter 1.0.0: Jupyter kernel for PARI/GP
-dev-python/pexpect 3.3-r1: Python module for spawning child applications and responding to expected patterns
+dev-python/pexpect 3.3-r1 4.0.1-r1: Python module to spawn child applications and responding to expected patterns
 dev-python/python-igraph 0.7.0: Python interface for the igraph library
 dev-python/sphinx 1.2.2 1.2.3: Python documentation generator
 dev-python/sympy 0.7.6.1-r1: Computer Algebra System in pure Python
@@ -68,6 +68,6 @@ sci-mathematics/sage-data-conway_polynomials 0.4-r3: Sage's conway polynomial da
 sci-mathematics/sage-data-elliptic_curves 0.7-r2 0.8: Sage's elliptic curves databases
 sci-mathematics/sage-data-graphs 20130920 20150724: Sage's graph database
 sci-mathematics/sage-data-polytopes_db 20120220: Sage's polytopes database
-sci-mathematics/sage-notebook 0.11.4-r4: The Sage Notebook is a web-based graphical user interface for mathematical software
+sci-mathematics/sage-notebook 0.11.4-r4 0.11.6.1: The Sage Notebook is a web-based graphical user interface for sage
 sci-mathematics/singular 3.1.7_p1-r4: Computer algebra system for polynomial computations
 sci-mathematics/sympow 1.018.1: Computes special values of symmetric power elliptic curve L-functions
