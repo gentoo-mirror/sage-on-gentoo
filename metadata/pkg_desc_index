@@ -10,7 +10,7 @@ dev-python/flask-silk 0.2: Adds silk icons to your Flask application or module, 
 dev-python/ipython 3.1.0: Advanced interactive shell for Python
 dev-python/numpy 1.10.1-r2 1.10.2-r2: Fast array and numerical python library
 dev-python/pari_jupyter 1.0.0: Jupyter kernel for PARI/GP
-dev-python/pexpect 3.3-r1 4.0.1-r1: Python module to spawn child applications and responding to expected patterns
+dev-python/pexpect 3.3-r1 4.0.1-r2: Python module to spawn child applications and responding to expected patterns
 dev-python/python-igraph 0.7.0: Python interface for the igraph library
 dev-python/sphinx 1.2.2 1.2.3: Python documentation generator
 dev-python/sympy 0.7.6.1-r1: Computer Algebra System in pure Python
