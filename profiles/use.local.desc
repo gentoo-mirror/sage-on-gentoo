@@ -7,11 +7,6 @@ dev-lang/python:wide-unicode - Enable wide Unicode implementation which uses 4-b
 dev-lang/python:wininst - Install Windows executables required to create an executable installer for MS Windows.
 dev-python/cvxopt:dsdp - Use interior point library sci-libs/dsdp
 dev-python/cvxopt:glpk - Use GNU Linear Programming Kit sci-mathematics/glpk
-dev-python/ipython:matplotlib - Add support for dev-python/matplotlib
-dev-python/ipython:mongodb - Enable support for MongoDB via dev-python/pymongo
-dev-python/ipython:nbconvert - Enable support for converting notebooks to various formats using app-text/pandoc
-dev-python/ipython:notebook - Install requirements for the web notebook based on www-servers/tornado
-dev-python/ipython:octave - Enable octave bridge via dev-python/oct2py
 dev-python/sympy:imaging - Add support for dev-python/imaging
 dev-python/sympy:ipython - Add support for dev-python/ipython
 dev-python/sympy:mathml - Add support for mathml
