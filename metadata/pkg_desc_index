@@ -23,14 +23,14 @@ sci-chemistry/jmol-applet 12.3.27: Jmol is a java molecular viever for 3-D chemi
 sci-chemistry/jspecview 1169 1169-r1: Spectroscopy Viewer
 sci-chemistry/sage-jmol-bin 14.2.4-r2 14.2.11-r1: Jmol is a java molecular viever for 3-D chemical structures.
 sci-libs/bliss 0.73: A Tool for Computing Automorphism Groups and Canonical Labelings of Graphs
-sci-libs/fflas-ffpack 1.6.0-r5: FFLAS-FFPACK is a LGPL-2.1+ library for dense linear algebra over word-size finite fields.
+sci-libs/fflas-ffpack 1.6.0-r5: FFLAS-FFPACK is a library for dense linear algebra over word-size finite fields.
 sci-libs/fplll 20151201: Different implementations of the floating-point LLL reduction algorithm
 sci-libs/givaro 3.7.1: Givaro is a C++ library for arithmetic and algebraic computations
 sci-libs/iml 1.0.4: Integer Matrix Library
-sci-libs/libcliquer 1.21_p1: Cliquer is a set of C routines for finding cliques in an arbitrary weighted graph
+sci-libs/libcliquer 1.21_p1: A set of C routines for finding cliques in an arbitrary weighted graph
 sci-libs/libgap 4.7.8 4.8.1: A cython library interface to gap for sage
 sci-libs/libsingular 3.1.7_p1-r6: Computer algebra system for polynomial computations
-sci-libs/linbox 1.3.2-r2: LinBox is a C++ template library for linear algebra computation over integers and over finite fields
+sci-libs/linbox 1.3.2-r2: A C++ template library for linear algebra over integers and over finite fields
 sci-libs/m4ri 20140914: Method of four russian for inversion (M4RI)
 sci-libs/m4rie 20140914 20150908: Method of four russian for inversion (M4RI)
 sci-libs/modular_decomposition 20100607: This is an implementation of a modular decomposition algorithm.
