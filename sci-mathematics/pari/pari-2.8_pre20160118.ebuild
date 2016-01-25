@@ -10,6 +10,7 @@ DESCRIPTION="Computer-aided number theory C library and tools"
 HOMEPAGE="http://pari.math.u-bordeaux.fr/"
 EGIT_REPO_URI="http://pari.math.u-bordeaux.fr/git/pari.git"
 EGIT_BRANCH=master
+EGIT_COMMIT=2230-g450ce38
 
 LICENSE="GPL-2"
 # Pari dev release have soname of the form pari-{gmp-}-{PV}.so.0
@@ -34,6 +35,8 @@ PATCHES=(
 	"${FILESDIR}"/${PN}-2.3.2-ppc-powerpc-arch-fix.patch
 	"${FILESDIR}"/${PN}-2.7.0-doc-make.patch
 	"${FILESDIR}"/${PN}-2.8_pre20150611-no-automagic.patch
+	"${FILESDIR}"/${PN}-2.8_pre20160118-stackwarn.patch
+	"${FILESDIR}"/${PN}-2.8_pre20160118-warnmem.patch
 	)
 
 get_compile_dir() {
