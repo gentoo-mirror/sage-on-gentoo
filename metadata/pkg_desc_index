@@ -8,7 +8,7 @@ dev-python/flask-autoindex 0.5: A mod_autoindex for Flask
 dev-python/flask-oldsessions 0.10: Compatibility layer for older flask-0.10 and under sessions
 dev-python/flask-silk 0.2: Adds silk icons to your Flask application or module, or extension
 dev-python/numpy 1.10.1-r2 1.10.2-r2 1.10.4: Fast array and numerical python library
-dev-python/pari_jupyter 1.0.0: Jupyter kernel for PARI/GP
+dev-python/pari_jupyter 1.0.0 1.0.1: Jupyter kernel for PARI/GP
 dev-python/pexpect 3.3-r1 4.0.1-r2: Python module to spawn child applications and responding to expected patterns
 dev-python/python-igraph 0.7.0: Python interface for the igraph library
 dev-python/sphinx 1.2.2 1.2.3: Python documentation generator
@@ -22,13 +22,11 @@ sci-chemistry/jmol 12.3.27: Jmol is a java molecular viever for 3-D chemical str
 sci-chemistry/jmol-applet 12.3.27: Jmol is a java molecular viever for 3-D chemical structures.
 sci-chemistry/jspecview 1169 1169-r1: Spectroscopy Viewer
 sci-chemistry/sage-jmol-bin 14.2.4-r2 14.2.11-r1: Jmol is a java molecular viever for 3-D chemical structures.
-sci-libs/autocliquer 1.21: autotooled fork of cliquer
 sci-libs/bliss 0.73: A Tool for Computing Automorphism Groups and Canonical Labelings of Graphs
 sci-libs/fflas-ffpack 1.6.0-r5: FFLAS-FFPACK is a library for dense linear algebra over word-size finite fields.
 sci-libs/fplll 20151201: Different implementations of the floating-point LLL reduction algorithm
 sci-libs/givaro 3.7.1: Givaro is a C++ library for arithmetic and algebraic computations
 sci-libs/iml 1.0.4: Integer Matrix Library
-sci-libs/libcliquer 1.21_p1: A set of C routines for finding cliques in an arbitrary weighted graph
 sci-libs/libgap 4.7.8 4.8.1: A cython library interface to gap for sage
 sci-libs/libsingular 3.1.7_p1-r6: Computer algebra system for polynomial computations
 sci-libs/linbox 1.3.2-r2: A C++ template library for linear algebra over integers and over finite fields
@@ -41,6 +39,7 @@ sci-libs/zn_poly 0.9-r3: A library for polynomial arithmetic
 sci-mathematics/arb 2.6.0 2.7.0-r1 2.8.1: Arb is a C library for arbitrary-precision floating-point ball arithmetic.
 sci-mathematics/brial 0.8.4.3: BriAL, a successor to PolyBoRI: Polynomials over Boolean Rings
 sci-mathematics/chomp 20120805: CHomP computes topological invariants of a collection of n-dimensional cubes
+sci-mathematics/cliquer 1.21: autotooled fork of cliquer
 sci-mathematics/cu2 20060223: An non-optimal 2x2x2 rubik's cube solver
 sci-mathematics/cubex 20060128: An non-optimal 3x3x3 rubik's cube solver
 sci-mathematics/dikcube 20070912-r1: Dik T. Winter's rubik's cube solver and related tools
