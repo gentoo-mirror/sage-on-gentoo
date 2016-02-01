@@ -8,19 +8,25 @@ inherit autotools
 
 DESCRIPTION="autotooled fork of cliquer"
 HOMEPAGE="https://github.com/dimpase/autocliquer"
-SRC_URI="https://github.com/dimpase/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
+SRC_URI="https://github.com/dimpase/autocliquer/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~amd64"
-IUSE=""
+IUSE="static-libs"
 
 DEPEND=""
-RDEPEND="${DEPEND}
-	!!sci-libs/libcliquer"
+RDEPEND="${DEPEND}"
+
+S="${WORKDIR}/auto${P}"
 
 src_prepare(){
 	default
 
 	eautoreconf
+}
+
+src_configure(){
+	econf \
+		$(use_enable static-libs static)
 }
