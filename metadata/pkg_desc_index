@@ -5,7 +5,7 @@ dev-libs/ntl 9.6.2 9.6.2-r1: High-performance and portable Number Theory C++ lib
 dev-python/cvxopt 1.1.8: Python package for convex optimization
 dev-python/cysignals 1.0_rc2 9999: interrupt and signal handling for Cython
 dev-python/cython 0.23.4-r2: A Python to C compiler
-dev-python/flask-autoindex 0.5: A mod_autoindex for Flask
+dev-python/flask-autoindex 0.5 0.6: A mod_autoindex for Flask
 dev-python/flask-oldsessions 0.10: Compatibility layer for older flask-0.10 and under sessions
 dev-python/flask-silk 0.2: Adds silk icons to your Flask application or module, or extension
 dev-python/numpy 1.10.1-r2 1.10.2-r2 1.10.4: Fast array and numerical python library
