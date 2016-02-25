@@ -26,7 +26,7 @@ sci-chemistry/sage-jmol-bin 14.2.4-r2 14.2.11-r1: Jmol is a java molecular vieve
 sci-libs/bliss 0.73: A Tool for Computing Automorphism Groups and Canonical Labelings of Graphs
 sci-libs/fflas-ffpack 1.6.0-r5: FFLAS-FFPACK is a library for dense linear algebra over word-size finite fields.
 sci-libs/fplll 20151201: Different implementations of the floating-point LLL reduction algorithm
-sci-libs/givaro 3.7.1: Givaro is a C++ library for arithmetic and algebraic computations
+sci-libs/givaro 3.7.1 4.0.1 9999: Givaro is a C++ library for arithmetic and algebraic computations
 sci-libs/iml 1.0.4: Integer Matrix Library
 sci-libs/libgap 4.7.8 4.8.1: A cython library interface to gap for sage
 sci-libs/libsingular 3.1.7_p1-r6: Computer algebra system for polynomial computations
