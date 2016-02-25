@@ -1,15 +1,15 @@
 DEFINED_PHASES=configure prepare setup
-DEPEND=virtual/cblas virtual/lapack >=dev-libs/gmp-4.0[cxx] >=sci-libs/givaro-3.7.0 !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DEPEND=virtual/cblas virtual/lapack >=dev-libs/gmp-4.0[cxx] =sci-libs/givaro-3.7* !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
 DESCRIPTION=FFLAS-FFPACK is a library for dense linear algebra over word-size finite fields.
 EAPI=6
 HOMEPAGE=http://linalg.org/projects/fflas-ffpack
 IUSE=static-libs
 KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos ~x64-macos
 LICENSE=LGPL-2.1
-RDEPEND=virtual/cblas virtual/lapack >=dev-libs/gmp-4.0[cxx] >=sci-libs/givaro-3.7.0
+RDEPEND=virtual/cblas virtual/lapack >=dev-libs/gmp-4.0[cxx] =sci-libs/givaro-3.7*
 RESTRICT=mirror
 SLOT=0
 SRC_URI=http://linalg.org/fflas-ffpack-1.6.0.tar.gz
 _eclass_exported_funcs=pkg_setup:- src_prepare:- src_configure:-
 _eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	libtool	b75230758539a7da029e24afdb693960	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
-_md5_=4e4a9ca2f38789b13ed9bc8e584d5fa5
+_md5_=b9bc7cad9ff95e2bad497cf957b6af2c
