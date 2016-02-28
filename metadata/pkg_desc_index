@@ -54,6 +54,7 @@ sci-mathematics/lcalc 1.23-r7: A program for calculating with L-functions
 sci-mathematics/lrcalc 1.1.7 1.2-r1: Littlewood-Richardson Calculator
 sci-mathematics/maxima 5.35.1-r2: Free computer algebra environment based on Macsyma
 sci-mathematics/mcube 20051209: An non-optimal 4x4x4 rubik's cube solver
+sci-mathematics/nauty 2.6.1: Computing automorphism groups of graphs and digraphs
 sci-mathematics/optimal 20040603-r1: An optimal rubik's cube solver using God's Algorithm
 sci-mathematics/palp 2.1-r1: A Package for Analyzing Lattice Polytopes
 sci-mathematics/pari 2.8_pre20150611 2.8_pre20151001 2.8_pre20151201 2.8_pre20160130 2.8_pre20160209 9999: Computer-aided number theory C library and tools
