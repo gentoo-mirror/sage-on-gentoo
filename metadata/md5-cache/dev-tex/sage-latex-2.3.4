@@ -1,6 +1,6 @@
 DEFINED_PHASES=compile configure install postinst postrm prepare test unpack
 DEPEND=python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] virtual/latex-base >=sys-apps/texinfo-4.2-r5
-DESCRIPTION=SageTeX package allows to embed code from the Sage mathematics software suite into LaTeX documents
+DESCRIPTION=SageTeX allows you to embed Sage code into LaTeX documents
 EAPI=5
 HOMEPAGE=http://www.sagemath.org https://bitbucket.org/ddrake/sagetex/overview
 IUSE=examples python_targets_python2_7
@@ -13,4 +13,4 @@ SLOT=0
 SRC_URI=mirror://sageupstream/sagetex/sagetex-2.3.4.tar.bz2
 _eclass_exported_funcs=pkg_postrm:latex-package pkg_postinst:latex-package src_unpack:base src_prepare:- src_configure:base src_compile:- src_test:distutils-r1 src_install:-
 _eclasses_=base	3fe4f8980633fd7bc69e9887209ba2fe	distutils-r1	4e8ac1ba76ddacd8f7c0289aa586a34c	eutils	9d81603248f2ba3ec59124320d123e5e	latex-package	343898697e1130e0665632129e623648	multibuild	742139c87a9fa3766f0c2b155e5522bf	multilib	3972ca401cf7dbb430df9995f5d8d580	multiprocessing	e32940a7b2a9992ad217eccddb84d548	python-r1	0f6937650a475d673baa5d0c8c0b37b3	python-utils-r1	2e6826f6a93ad2acf904eecf5b5fb6d2	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
-_md5_=b620ceb76e2066b71fc1187b9b3a7009
+_md5_=41e3382f5f241129be40673e0bae25b6

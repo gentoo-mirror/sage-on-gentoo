@@ -14,7 +14,7 @@ dev-python/pexpect 3.3-r1 4.0.1-r2: Python module to spawn child applications an
 dev-python/python-igraph 0.7.0: Python interface for the igraph library
 dev-python/sphinx 1.2.2 1.2.3: Python documentation generator
 dev-python/sympy 0.7.6.1-r1: Computer Algebra System in pure Python
-dev-tex/sage-latex 2.3.4 3.0: SageTeX package allows to embed code from the Sage mathematics software suite into LaTeX documents
+dev-tex/sage-latex 2.3.4 3.0: SageTeX allows you to embed Sage code into LaTeX documents
 dev-tex/tkz-base 1.16c: tkz-base is a base package to give easy access to programation with tikz
 dev-tex/tkz-berge 2.8: A collection of useful macros to draw some classic graphs of the graph theory or others graphs
 dev-tex/tkz-graph 2.7d: tkz-graph is a set of convenient macros for drawing graphs
