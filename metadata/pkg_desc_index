@@ -48,7 +48,7 @@ sci-mathematics/eclib 20150827: enumerating and computing with elliptic curves d
 sci-mathematics/flintqs 1.0: William Hart's GPL'd multi-polynomial quadratic sieve for integer factorization
 sci-mathematics/gap 4.7.8 4.7.8-r1 4.8.1-r1: System for computational discrete algebra
 sci-mathematics/gap_sage_packages 4.6.4: A small collection of packages for GAP
-sci-mathematics/gmp-ecm 6.4.4-r1 6.4.4-r2: Elliptic Curve Method for Integer Factorization
+sci-mathematics/gmp-ecm 6.4.4-r1 6.4.4-r2 7.0_rc1: Elliptic Curve Method for Integer Factorization
 sci-mathematics/gp2c 0.0.9_p5: A GP to C translator
 sci-mathematics/lcalc 1.23-r7: A program for calculating with L-functions
 sci-mathematics/lrcalc 1.1.7 1.2-r1: Littlewood-Richardson Calculator
