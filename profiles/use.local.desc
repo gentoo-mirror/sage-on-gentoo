@@ -35,6 +35,7 @@ sci-mathematics/sage:bin-html - install pre-built html documentation
 sci-mathematics/sage:bin-pdf - install pre-built pdf documentation
 sci-mathematics/sage:bliss - build the bindings to the bliss library
 sci-mathematics/sage:html - build and install html documentation
+sci-mathematics/sage:manifolds - install the optional manifolds package from http://sagemanifolds.obspm.fr
 sci-mathematics/sage:modular_decomposition - build the bindings to the modular_decomposition library
 sci-mathematics/sage:testsuite - If activated installs Sage's sources into /usr/share/sage/devel/sage to enable testing
 sci-mathematics/sage-notebook:java - Enable JMol for 3D-printing in the notebook
