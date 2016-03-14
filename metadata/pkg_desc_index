@@ -3,7 +3,7 @@ app-vim/vim-gap 2011.06.27: vim plugin: GAP template engine syntax highlighting,
 dev-lang/python 2.7.10-r10 2.7.10-r11: An interpreted, interactive, object-oriented programming language
 dev-libs/ntl 9.6.2 9.6.2-r1 9.6.4 9.7.0: High-performance and portable Number Theory C++ library
 dev-python/cvxopt 1.1.8: Python package for convex optimization
-dev-python/cysignals 1.0 1.0.1 9999: interrupt and signal handling for Cython
+dev-python/cysignals 1.0 1.0.1 1.1.0 9999: interrupt and signal handling for Cython
 dev-python/cython 0.23.4-r2: A Python to C compiler
 dev-python/flask-autoindex 0.5 0.6: A mod_autoindex for Flask
 dev-python/flask-oldsessions 0.10: Compatibility layer for older flask-0.10 and under sessions
