@@ -30,7 +30,6 @@ sci-mathematics/maxima:gcl - Compile maxima with GNU Common Lisp (dev-lisp/gcl)
 sci-mathematics/maxima:sbcl - Compile maxima with Steel Bank Common Lisp (dev-lisp/sbcl)
 sci-mathematics/pari:data - Add additional data (elldata, galdata, seadata, nftables)
 sci-mathematics/polybori:gd - Build with media-libs/gd
-sci-mathematics/sage:arb - build the bindings to the arb library
 sci-mathematics/sage:bin-html - install pre-built html documentation
 sci-mathematics/sage:bin-pdf - install pre-built pdf documentation
 sci-mathematics/sage:bliss - build the bindings to the bliss library
