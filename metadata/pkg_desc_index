@@ -62,7 +62,7 @@ sci-mathematics/planarity 2.2.0: This code project provides a library for implem
 sci-mathematics/polybori 0.8.3-r2: Polynomials over Boolean Rings
 sci-mathematics/qsieve 3.02: A program for factoring numbers
 sci-mathematics/ratpoints 2.1.3-r4: Ratpoints tries to find all rational points on a hyperelliptic curve
-sci-mathematics/sage 6.10 7.0 7.0-r1 7.1 9999: Math software for abstract and numerical computations
+sci-mathematics/sage 6.10 7.0 7.0-r1 7.1 7.1-r1 9999: Math software for abstract and numerical computations
 sci-mathematics/sage-data-combinatorial_designs 20140630: Data for Combinatorial Designs
 sci-mathematics/sage-data-conway_polynomials 0.4-r3: Sage's conway polynomial database
 sci-mathematics/sage-data-elliptic_curves 0.8: Sage's elliptic curves databases
