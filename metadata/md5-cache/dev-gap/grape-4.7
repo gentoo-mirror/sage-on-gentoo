@@ -1,0 +1,14 @@
+DEFINED_PHASES=install prepare
+DEPEND=>=sci-mathematics/gap-4.7.8
+DESCRIPTION=GRaph Algorithms using PErmutation groups
+EAPI=6
+HOMEPAGE=http://www.gap-system.org/Packages/grape.html
+IUSE=bliss
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=>=sci-mathematics/gap-4.7.8 bliss? ( >=sci-libs/bliss-0.73 ) !bliss? ( sci-mathematics/nauty )
+SLOT=0
+SRC_URI=http://www.gap-system.org/pub/gap/gap4/tar.bz2/packages/grape4r7.tar.bz2
+_eclass_exported_funcs=src_prepare:- src_install:-
+_eclasses_=eutils	9d81603248f2ba3ec59124320d123e5e	multilib	3972ca401cf7dbb430df9995f5d8d580	prefix	e7f2b9c6e57342e5d25eac22fce23062	toolchain-funcs	d513d423d449877e49d99af3f7af7acb	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_md5_=ab128589ecf422df957caaba1981c849

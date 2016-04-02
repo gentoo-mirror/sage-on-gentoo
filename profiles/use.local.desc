@@ -2,42 +2,4 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
-dev-lang/python:threads - Enable threading support. (DON'T DISABLE THIS UNLESS YOU KNOW WHAT YOU'RE DOING)
-dev-lang/python:wide-unicode - Enable wide Unicode implementation which uses 4-byte Unicode characters. Switching of this USE flag changes ABI of Python and requires reinstallation of many Python modules. (DON'T DISABLE THIS UNLESS YOU KNOW WHAT YOU'RE DOING)
-dev-lang/python:wininst - Install Windows executables required to create an executable installer for MS Windows.
-dev-python/cvxopt:dsdp - Use interior point library sci-libs/dsdp
-dev-python/cvxopt:glpk - Use GNU Linear Programming Kit sci-mathematics/glpk
-dev-python/sympy:imaging - Add support for dev-python/imaging
-dev-python/sympy:ipython - Add support for dev-python/ipython
-dev-python/sympy:mathml - Add support for mathml
-dev-python/sympy:pyglet - Use dev-python/pyglet for plots and print preview
-dev-python/sympy:texmacs - Add app-office/texmacs interface
-dev-python/sympy:theano - Add support for dev-python/theano
-sci-chemistry/jmol:client-only - Install the viewer only, no applet files for httpd
-sci-chemistry/jspecview:applet - Create an applet
-sci-libs/libsingular:boost - Compile against external boost headers (dev-libs/boost)
-sci-libs/libsingular:flint - Use flint-2
-sci-mathematics/eclib:boost - Use boost libraries for threading and parallelism
-sci-mathematics/eclib:flint - Enable the use of flint for certain operations
-sci-mathematics/gmp-ecm:custom-tune - Improve performance of some operations by selecting machine-specific defaults
-sci-mathematics/gmp-ecm:gwnum - Use GWNum lib where possible
-sci-mathematics/lcalc:pari - Use pari for elliptic curve routines. This enables '-e' option
-sci-mathematics/maxima:clisp - Compile maxima with GNU CLISP (dev-lisp/clisp)
-sci-mathematics/maxima:clozurecl - Compile maxima with Clozure Common Lisp (dev-lisp/clozurecl)
-sci-mathematics/maxima:cmucl - Compile maxima with CMU Common Lisp (dev-lisp/cmucl)
-sci-mathematics/maxima:ecls - Compile maxima with Embeddable Common Lisp (dev-lisp/ecls)
-sci-mathematics/maxima:gcl - Compile maxima with GNU Common Lisp (dev-lisp/gcl)
-sci-mathematics/maxima:sbcl - Compile maxima with Steel Bank Common Lisp (dev-lisp/sbcl)
-sci-mathematics/pari:data - Add additional data (elldata, galdata, seadata, nftables)
-sci-mathematics/polybori:gd - Build with media-libs/gd
-sci-mathematics/sage:bin-html - install pre-built html documentation
-sci-mathematics/sage:bin-pdf - install pre-built pdf documentation
-sci-mathematics/sage:bliss - build the bindings to the bliss library
-sci-mathematics/sage:html - build and install html documentation
-sci-mathematics/sage:manifolds - install the optional manifolds package from http://sagemanifolds.obspm.fr
-sci-mathematics/sage:modular_decomposition - build the bindings to the modular_decomposition library
-sci-mathematics/sage:testsuite - If activated installs Sage's sources into /usr/share/sage/devel/sage to enable testing
-sci-mathematics/sage-notebook:java - Enable JMol for 3D-printing in the notebook
-sci-mathematics/sage-notebook:server - Install scripts and user to run the notebook as a daemon
-sci-mathematics/singular:boost - Compile against external boost headers (dev-libs/boost)
-sci-mathematics/singular:flint - Use flint-2
+dev-gap/grape:bliss - Use bliss instead of nauty's dreadnaut as the back end for grape.

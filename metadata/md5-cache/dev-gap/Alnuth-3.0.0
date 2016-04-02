@@ -1,0 +1,14 @@
+DEFINED_PHASES=install
+DEPEND=>=sci-mathematics/gap-4.7.8
+DESCRIPTION=Algebraic number theory and an interface to PARI/GP
+EAPI=6
+HOMEPAGE=http://www.gap-system.org/Packages/alnuth.html
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+PDEPEND=dev-gap/autpgrp dev-gap/polycyclic
+RDEPEND=>=sci-mathematics/gap-4.7.8 >=sci-mathematics/pari-2.5.0
+SLOT=0
+SRC_URI=http://www.gap-system.org/pub/gap/gap4/tar.bz2/packages/Alnuth-3.0.0.tar.bz2
+_eclass_exported_funcs=src_install:-
+_eclasses_=multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	d513d423d449877e49d99af3f7af7acb
+_md5_=c6c122ad15db49648ab60e1681c552ad
