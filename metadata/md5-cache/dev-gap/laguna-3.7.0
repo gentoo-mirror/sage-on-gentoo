@@ -10,4 +10,4 @@ SLOT=0
 SRC_URI=http://www.gap-system.org/pub/gap/gap4/tar.bz2/packages/laguna-3.7.0.tar.bz2
 _eclass_exported_funcs=src_install:-
 _eclasses_=multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	d513d423d449877e49d99af3f7af7acb
-_md5_=273d94889d64bcd26f83d396f416c4bd
+_md5_=6baf8fcd3e32d245e4e3713efdc0b7a1
