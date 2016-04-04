@@ -9,5 +9,4 @@ RDEPEND=>=sci-mathematics/gap-4.7.8 dev-gap/polycyclic dev-gap/crystcat
 SLOT=0
 SRC_URI=http://www.gap-system.org/pub/gap/gap4/tar.bz2/packages/hap1.11.tar.bz2
 _eclass_exported_funcs=pkg_postinst:- src_install:-
-_eclasses_=eutils	9d81603248f2ba3ec59124320d123e5e	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	d513d423d449877e49d99af3f7af7acb
-_md5_=5711324929fb475ae0776c8bfcd24065
+_md5_=a105e4026488291afd2a7febdef7e5db
