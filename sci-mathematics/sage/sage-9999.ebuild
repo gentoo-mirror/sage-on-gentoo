@@ -26,7 +26,8 @@ SRC_URI="${SRC_URI}
 	mirror://sagemath/patches/sage-icon.tar.bz2
 	http://www.mathematik.uni-kl.de/ftp/pub/Math/Singular/SOURCES/3-1-6/Singular-3-1-6-share.tar.gz"
 
-LANGS="ca de en fr hu it ja pt ru tr"
+#LANGS="ca de en fr hu it ja pt ru tr"
+LANGS="en"
 
 LICENSE="GPL-2"
 SLOT="0"
@@ -89,9 +90,9 @@ CDEPEND="dev-libs/gmp:0=
 	bliss? ( >=sci-libs/bliss-0.73 )
 	pdf? (
 		app-text/texlive[extra,${LINGUAS_USEDEP}]
-		~dev-python/sphinx-1.2.2[${PYTHON_USEDEP}]
+		~dev-python/sphinx-1.4.1[${PYTHON_USEDEP}]
 	)
-	html? ( ~dev-python/sphinx-1.2.2[${PYTHON_USEDEP}] )"
+	html? ( ~dev-python/sphinx-1.4.1[${PYTHON_USEDEP}] )"
 
 DEPEND="${CDEPEND}"
 
@@ -133,7 +134,7 @@ RDEPEND="${CDEPEND}
 	www-servers/tornado
 	!prefix? ( >=sys-libs/glibc-2.13-r4 )
 	latex? (
-		~dev-tex/sage-latex-2.3.4
+		~dev-tex/sage-latex-3.0
 		|| ( app-text/dvipng[truetype] media-gfx/imagemagick[png] )
 	)"
 
@@ -207,7 +208,7 @@ python_prepare() {
 	###############################
 
 	# Remove sage's package management system, git capabilities and associated tests
-	eapply "${FILESDIR}"/${PN}-7.1-neutering.patch
+	eapply "${FILESDIR}"/${PN}-7.2-neutering.patch
 	rm sage/misc/dist.py
 	rm -rf sage/dev
 
