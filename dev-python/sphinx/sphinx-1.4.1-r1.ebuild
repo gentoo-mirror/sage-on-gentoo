@@ -48,6 +48,7 @@ PATCHES=(
 	"${FILESDIR}"/${PN}-1.4.1-Makefile.patch
 	"${FILESDIR}"/${PN}-1.4.1-environment.patch
 	"${FILESDIR}"/${PN}-1.4.1-issue_777.patch
+	"${FILESDIR}"/${PN}-1.4.1-locale_dir.patch
 	)
 
 S="${WORKDIR}/${MY_P}"
