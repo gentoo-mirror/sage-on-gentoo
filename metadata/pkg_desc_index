@@ -1,5 +1,6 @@
 dev-gap/Alnuth 3.0.0: Algebraic number theory and an interface to PARI/GP
 dev-gap/GAPDoc 1.5.1: A Meta Package for GAP Documentation
+dev-gap/GUAVA 3.13: GAP package for computing with error-correcting codes
 dev-gap/HAPcryst 0.1.11: A HAP extension for crytallographic groups
 dev-gap/aclib 1.2: Almost Crystallographic Groups - A Library and Algorithms
 dev-gap/atlasrep 1.5_p0: A GAP Interface to the Atlas of Group Representations
