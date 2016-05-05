@@ -1,0 +1,10 @@
+DEFINED_PHASES=postinst
+DESCRIPTION=Meta package to install all sage optional gap packages
+EAPI=6
+HOMEPAGE=http://www.gap-system.org/Packages/
+KEYWORDS=~x86 ~amd64
+LICENSE=metapackage
+RDEPEND=~dev-gap/aclib-1.2 ~dev-gap/Alnuth-3.0.0 ~dev-gap/autpgrp-1.5 ~dev-gap/crime-1.4 ~dev-gap/crystcat-1.1.6 ~dev-gap/ctbllib-1.2_p2 ~dev-gap/design-1.6 ~dev-gap/factint-1.5.3 ~dev-gap/grape-4.7 ~dev-gap/GUAVA-3.13 ~dev-gap/hap-1.11 ~dev-gap/HAPcryst-0.1.11 ~dev-gap/happrime-0.6 ~dev-gap/laguna-3.7.0 ~dev-gap/polycyclic-2.11 ~dev-gap/polymaking-0.8.1 ~dev-gap/sonata-2.8 ~dev-gap/tomlib-1.2_p5 ~dev-gap/toric-1.8
+SLOT=0
+_eclass_exported_funcs=pkg_postinst:-
+_md5_=b2898c45fe79c8bc827b0a8eef61279f
