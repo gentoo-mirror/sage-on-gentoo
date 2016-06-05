@@ -2,6 +2,67 @@
 # Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  29 May 2016; François Bissey <francois.bissey@canterbury.ac.nz>
+  sage-9999.ebuild:
+  sci-mathematics/sage: typo in typing patch name
+
+  29 May 2016; François Bissey <francois.bissey@canterbury.ac.nz>
+  +files/sage-9999.typing.patch, sage-9999.ebuild:
+  sci-mathematics/sage: include trac #20702 for issue with typing
+
+  29 May 2016; François Bissey <francois.bissey@canterbury.ac.nz>
+  sage-7.2-r1.ebuild, sage-7.2.ebuild, sage-9999.ebuild:
+  sci-mathematics/sage: sphinx dependency clean up
+
+  25 May 2016; François Bissey <francois.bissey@canterbury.ac.nz>
+  +files/sage-7.3-exec.patch, sage-9999.ebuild:
+  sci-mathematics/sage: bump patch for 7.3.beta1
+
+  24 May 2016; François Bissey <francois.bissey@canterbury.ac.nz>
+  +files/sage-7.3-singular.patch, sage-7.0-r1.ebuild, sage-7.0.ebuild,
+  sage-7.1-r1.ebuild, sage-7.1.ebuild, sage-7.2-r1.ebuild, sage-7.2.ebuild,
+  sage-9999.ebuild:
+  sci-mathematics/sage: work on libsingular dependency, still have the -DNDEBUG
+  issue
+
+  22 May 2016; François Bissey <francois.bissey@canterbury.ac.nz>
+  sage-9999.ebuild:
+  sci-mathematics/sage: Remove a sed now useless and better document a patch
+
+  21 May 2016; François Bissey <francois.bissey@canterbury.ac.nz>
+  +files/sage-7.3-neutering.patch, +files/sage-7.3-safepython.patch,
+  sage-9999.ebuild:
+  sci-mathematics/sage: bump atches and dependencies for 7.3.beta0
+
+  18 May 2016; François Bissey <francois.bissey@canterbury.ac.nz>
+  -files/sage-6.10-blas.patch, -files/sage-6.8-singular_extra_arg.patch,
+  -sage-6.10.ebuild:
+  sci-mathematics/sage: remove 6.10
+
+*sage-7.2-r1 (17 May 2016)
+
+  17 May 2016; François Bissey <francois.bissey@canterbury.ac.nz>
+  +sage-7.2-r1.ebuild:
+  sci-mathematics/sage: add a manifolds option in 7.2 for issue #407
+
+*sage-7.2 (16 May 2016)
+
+  16 May 2016; François Bissey <francois.bissey@canterbury.ac.nz>
+  +sage-7.2.ebuild:
+  sci-mathematics/sage: Bump to 7.2
+
+  12 May 2016; François Bissey <francois.bissey@canterbury.ac.nz> metadata.xml:
+  sci-mathematics/sage: update metadata.xml for issue #421
+
+  11 May 2016; François Bissey <francois.bissey@canterbury.ac.nz> metadata.xml,
+  sage-9999.ebuild:
+  sci-mathematics/sage: make sage-notebook optional for 7.2+. This is now
+  officially a legacy program and sage doesn't depend on it anymore.
+
+  10 May 2016; François Bissey <francois.bissey@canterbury.ac.nz>
+  sage-9999.ebuild:
+  sci-mathematics/sage: bump sagenb dependency
+
   08 May 2016; François Bissey <francois.bissey@canterbury.ac.nz>
   files/sage-7.2-neutering.patch:
   sci-mathematics/sage: cleaning the two failing doctests from the neutering

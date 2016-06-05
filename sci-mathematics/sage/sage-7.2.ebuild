@@ -9,32 +9,21 @@ PYTHON_REQ_USE="readline,sqlite"
 
 inherit distutils-r1 flag-o-matic multiprocessing prefix toolchain-funcs versionator
 
-if [[ ${PV} = *9999* ]]; then
-	EGIT_REPO_URI="git://github.com/sagemath/sage.git"
-	EGIT_BRANCH=develop
-	EGIT_CHECKOUT_DIR="${WORKDIR}/${P}"
-	inherit git-r3
-	KEYWORDS=""
-else
-	SRC_URI="mirror://sagemath/${PV}.tar.gz -> ${P}.tar.gz
-		bin-html? ( mirror://sagemathdoc/${P}-doc-html.tar.xz )
-		bin-pdf? ( mirror://sagemathdoc/${P}-doc-pdf.tar.xz )"
-	KEYWORDS="~amd64 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos ~x64-macos"
-	DOC_USE="+bin-html bin-pdf html pdf"
-fi
-
 DESCRIPTION="Math software for abstract and numerical computations"
 HOMEPAGE="http://www.sagemath.org"
-SRC_URI="${SRC_URI}
+SRC_URI="mirror://sagemath/${PV}.tar.gz -> ${P}.tar.gz
+	bin-html? ( mirror://sagemathdoc/${P}-doc-html.tar.xz )
+	bin-pdf? ( mirror://sagemathdoc/${P}-doc-pdf.tar.xz )
 	mirror://sagemath/patches/sage-icon.tar.bz2
 	http://www.mathematik.uni-kl.de/ftp/pub/Math/Singular/SOURCES/3-1-6/Singular-3-1-6-share.tar.gz"
+KEYWORDS="~amd64 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos ~x64-macos"
 
 LANGS="ca de en fr hu it ja pt ru tr"
 
 LICENSE="GPL-2"
 SLOT="0"
 SAGE_USE="modular_decomposition bliss"
-IUSE="latex testsuite debug X  ${DOC_USE} pdf ${SAGE_USE}"
+IUSE="+bin-html bin-pdf debug html latex pdf sagenb testsuite X ${SAGE_USE}"
 LINGUAS_USEDEP=""
 for X in ${LANGS} ; do
 	IUSE="${IUSE} linguas_${X}"
@@ -52,25 +41,24 @@ CDEPEND="dev-libs/gmp:0=
 	>=dev-lisp/ecls-15.3.7:=
 	dev-python/six[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.10.1-r2[${PYTHON_USEDEP}]
-	>=dev-python/cython-0.23.3-r1[${PYTHON_USEDEP}]
+	>=dev-python/cython-0.24[${PYTHON_USEDEP}]
 	dev-python/pkgconfig
-	>=dev-python/cysignals-1.0.1[${PYTHON_USEDEP}]
+	>=dev-python/cysignals-1.1.0[${PYTHON_USEDEP}]
 	>=dev-python/docutils-0.12[${PYTHON_USEDEP}]
-	>=dev-python/sphinx-1.2.2[${PYTHON_USEDEP}]
 	>=sci-mathematics/eclib-20150827[flint]
 	>=sci-mathematics/gmp-ecm-6.4.4[-openmp]
 	>=sci-mathematics/flint-2.5.2:=[ntl]
-	~sci-libs/fplll-20151201
+	~sci-libs/fplll-20160331
 	~sci-libs/givaro-3.7.1
 	>=sci-libs/gsl-1.16
 	>=sci-libs/iml-1.0.4
 	~sci-mathematics/cliquer-1.21
-	~sci-libs/libgap-4.7.8
+	~sci-libs/libgap-4.8.3
 	~sci-libs/linbox-1.3.2[sage]
 	~sci-libs/m4ri-20140914
 	~sci-libs/m4rie-20150908
 	>=sci-libs/mpfi-1.5.1
-	~sci-libs/pynac-0.6.2[${PYTHON_USEDEP}]
+	~sci-libs/pynac-0.6.5[${PYTHON_USEDEP}]
 	>=sci-libs/symmetrica-2.0-r3
 	>=sci-libs/zn_poly-0.9
 	sci-mathematics/glpk:0=[gmp]
@@ -89,20 +77,16 @@ CDEPEND="dev-libs/gmp:0=
 	virtual/cblas
 	>=sci-mathematics/arb-2.8.1
 	modular_decomposition? ( sci-libs/modular_decomposition )
-	~sci-mathematics/sage-notebook-0.11.7[${PYTHON_USEDEP}]
 	bliss? ( >=sci-libs/bliss-0.73 )
-	pdf? (
-		app-text/texlive[extra,${LINGUAS_USEDEP}]
-		~dev-python/sphinx-1.2.2[${PYTHON_USEDEP}]
-	)
-	html? ( ~dev-python/sphinx-1.2.2[${PYTHON_USEDEP}] )"
+	~dev-python/sphinx-1.4.1[${PYTHON_USEDEP}]"
 
-DEPEND="${CDEPEND}"
+DEPEND="${CDEPEND}
+	pdf? ( app-text/texlive[extra,${LINGUAS_USEDEP}] )"
 
 RDEPEND="${CDEPEND}
 	>=dev-lang/R-3.2.0
 	>=dev-python/cvxopt-1.1.8[glpk,${PYTHON_USEDEP}]
-	>=dev-python/ipython-4.0.0[notebook,${PYTHON_USEDEP}]
+	>=dev-python/ipython-4.1.1[notebook,${PYTHON_USEDEP}]
 	>=dev-python/jinja-2.5.5[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-1.5.1[${PYTHON_USEDEP}]
 	>=dev-python/mpmath-0.18[${PYTHON_USEDEP}]
@@ -110,13 +94,12 @@ RDEPEND="${CDEPEND}
 	>=dev-python/pexpect-4.0.1-r2[${PYTHON_USEDEP}]
 	>=dev-python/pycrypto-2.1.0[${PYTHON_USEDEP}]
 	>=dev-python/rpy-2.3.8[${PYTHON_USEDEP}]
-	>=dev-python/sphinx-1.2.2[${PYTHON_USEDEP}]
-	=dev-python/sympy-0.7.6.1-r1[${PYTHON_USEDEP}]
+	>=dev-python/sympy-1.0[${PYTHON_USEDEP}]
 	~media-gfx/tachyon-0.98.9[png]
 	>=sci-libs/cddlib-094f-r2
 	>=sci-libs/scipy-0.16.1[${PYTHON_USEDEP}]
 	sci-mathematics/flintqs
-	~sci-mathematics/gap-4.7.8
+	~sci-mathematics/gap-4.8.3
 	~sci-mathematics/gfan-0.5
 	>=sci-mathematics/cu2-20060223
 	>=sci-mathematics/cubex-20060128
@@ -135,8 +118,9 @@ RDEPEND="${CDEPEND}
 	>=sci-mathematics/sympow-1.018.1
 	www-servers/tornado
 	!prefix? ( >=sys-libs/glibc-2.13-r4 )
+	sagenb? ( ~sci-mathematics/sage-notebook-0.13[${PYTHON_USEDEP}] )
 	latex? (
-		~dev-tex/sage-latex-2.3.4
+		~dev-tex/sage-latex-3.0
 		|| ( app-text/dvipng[truetype] media-gfx/imagemagick[png] )
 	)"
 
@@ -171,7 +155,7 @@ python_prepare() {
 		[Desktop Entry]
 		Name=Sage Shell
 		Type=Application
-		Comment=Math software for abstract and numerical computations
+		Comment=MAth software for abstract and numerical computations
 		Exec=sage
 		TryExec=sage
 		Icon=sage
@@ -193,7 +177,7 @@ python_prepare() {
 		bin/sage-num-threads.py
 
 	# remove developer and unsupported options
-	eapply "${FILESDIR}"/${PN}-7.1-exec.patch
+	eapply "${FILESDIR}"/${PN}-7.2-exec.patch
 	eprefixify bin/sage
 
 	# create expected folders under extcode
@@ -206,7 +190,7 @@ python_prepare() {
 	###############################
 
 	# Remove sage's package management system, git capabilities and associated tests
-	eapply "${FILESDIR}"/${PN}-7.1-neutering.patch
+	eapply "${FILESDIR}"/${PN}-7.2-neutering.patch
 	rm sage/misc/dist.py
 	rm -rf sage/dev
 
@@ -217,8 +201,9 @@ python_prepare() {
 	# fix lcalc path
 	sed -i "s:libLfunction:Lfunction:g" sage/libs/lcalc/lcalc_sage.h
 
-	# We add -DNDEBUG to objects linking to libsingular And use factory headers from libsingular.
-	eapply "${FILESDIR}"/${PN}-7.0-singular_extra_arg.patch
+	# We add -DNDEBUG to objects linking to libsingular.
+	# and fix factory headers (internal to singular) in decl.pxd
+	eapply "${FILESDIR}"/${PN}-7.2-singular.patch
 
 	# Do not clean up the previous install with setup.py
 	# Get headers generated by cython installed and found at runtime and buildtime
@@ -251,11 +236,6 @@ python_prepare() {
 		sage/interfaces/maxima.py \
 		sage/interfaces/maxima_abstract.py
 
-	# TODO: should be a patch
-	# Uses singular internal copy of the factory header
-	sed -i "s:factory/factory.h:singular/factory.h:" \
-		sage/libs/singular/decl.pxd
-
 	# finding JmolData.jar in the right place
 	sed -i "s:\"jmol\", \"JmolData:\"sage-jmol-bin\", \"lib\", \"JmolData:" sage/interfaces/jmoldata.py
 
@@ -284,7 +264,7 @@ python_prepare() {
 	# it tries to link in the filesystem in ways that are difficult to support 
 	# in a global install from a pure python perspective. See also 
 	# https://github.com/cschwan/sage-on-gentoo/issues/376
-	eapply "${FILESDIR}"/${PN}-7.1-jupyter.patch
+	eapply "${FILESDIR}"/${PN}-7.2-jupyter.patch
 	touch sage_setup/jupyter/__init__.py
 
 	# Make the lazy_import pickle name versioned with the sage version number
@@ -304,7 +284,7 @@ python_prepare() {
 	sed -i "s:\.\.\./local/share/pari:.../share/pari:g" sage/interfaces/gp.py
 
 	# fix all.py
-	eapply "${FILESDIR}"/${PN}-6.8-all.py.patch
+	eapply "${FILESDIR}"/${PN}-7.2-all.py.patch
 	sed -i \
 		-e "s:\"lib\",\"python\":\"$(get_libdir)\",\"${EPYTHON}\":" \
 		-e "s:\"bin\":\"lib\",\"python-exec\",\"${EPYTHON}\":" sage/all.py
@@ -436,6 +416,7 @@ python_install_all() {
 	# install sage-env under /etc
 	insinto /etc
 	doins sage-maxima.lisp sage-env sage-banner
+	newins ../../VERSION.txt sage-version.txt
 
 	if use testsuite ; then
 		# DOCTESTING helper scripts
@@ -564,8 +545,10 @@ pkg_postinst() {
 	fi
 
 	if ! use html ; then
-		ewarn "You haven't requested the html documentation."
-		ewarn "The html version of the sage manual won't be available in the sage notebook."
+		if ! use bin-html ; then
+			ewarn "You haven't requested the html documentation."
+			ewarn "The html version of the sage manual won't be available in the sage notebook."
+		fi
 	fi
 
 	einfo ""
