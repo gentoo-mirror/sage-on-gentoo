@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install
+DEPEND=app-arch/unzip
+DESCRIPTION=An non-optimal 4x4x4 rubik's cube solver
+EAPI=6
+HOMEPAGE=http://www.wrongway.org/?rubiksource
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux ~x64-macos
+LICENSE=GPL-2
+RESTRICT=mirror
+SLOT=0
+SRC_URI=mirror://sagemath/mcube10-src.zip
+_eclass_exported_funcs=src_compile:- src_install:-
+_eclasses_=multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	d513d423d449877e49d99af3f7af7acb
+_md5_=93038c29059d968fae5ad05d5c8ce8ac

@@ -1,0 +1,11 @@
+DEFINED_PHASES=-
+DESCRIPTION=This code project provides a library for implementing graph algorithms
+EAPI=6
+HOMEPAGE=https://code.google.com/p/planarity/
+IUSE=static-libs
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+SLOT=0
+SRC_URI=mirror://sageupstream/planarity/planarity-2.2.0.tar.bz2
+_eclass_exported_funcs=-
+_md5_=5ea92f00bc43feeabdb2f9aad5faed02

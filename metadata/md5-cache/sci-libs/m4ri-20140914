@@ -1,0 +1,15 @@
+DEFINED_PHASES=configure pretend
+DEPEND=media-libs/libpng:= virtual/pkgconfig
+DESCRIPTION=Method of four russian for inversion (M4RI)
+EAPI=6
+HOMEPAGE=http://m4ri.sagemath.org/
+IUSE=debug openmp cpu_flags_x86_sse2 static-libs
+KEYWORDS=~amd64 ~ppc64 ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos ~x64-macos
+LICENSE=GPL-2
+RDEPEND=media-libs/libpng:=
+RESTRICT=mirror
+SLOT=0
+SRC_URI=mirror://sageupstream/m4ri/m4ri-20140914.tar.gz
+_eclass_exported_funcs=pkg_pretend:- src_configure:-
+_eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	flag-o-matic	d270fa247153df66074f795fa42dba3e	multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	d513d423d449877e49d99af3f7af7acb
+_md5_=0bf34d0aaae225a2a9f49fd117bc3b16

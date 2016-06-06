@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile configure install prepare setup test
+DEPEND=virtual/pkgconfig >=dev-libs/boost-1.52.0[python,python_targets_python2_7(-)?,-python_single_target_python2_7(-)] >=sci-libs/m4ri-20090512 !sci-mathematics/polybori doc? ( dev-tex/tex4ht app-doc/doxygen ) !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DESCRIPTION=BriAL, a successor to PolyBoRI: Polynomials over Boolean Rings
+EAPI=5
+HOMEPAGE=https://github.com/BRiAl/BRiAl
+IUSE=doc static-libs python_targets_python2_7
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux ~x86-macos ~x64-macos
+LICENSE=GPL-2
+RDEPEND=>=dev-libs/boost-1.52.0[python,python_targets_python2_7(-)?,-python_single_target_python2_7(-)] >=sci-libs/m4ri-20090512 !sci-mathematics/polybori
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/BRiAl/BRiAl/releases/download/0.8.4.3/brial-0.8.4.3.tar.bz2
+_eclass_exported_funcs=pkg_setup:- src_prepare:autotools-utils src_configure:- src_compile:- src_test:- src_install:-
+_eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	autotools-utils	419811142edf3516b0d0cf1a254d93cb	eutils	792f83d5ec9536cb5ccef375469d8bde	libtool	4890219c51da247200223277f993e054	multibuild	742139c87a9fa3766f0c2b155e5522bf	multilib	d062ae4ba2fc40a19c11de2ad89b6616	python-r1	0f6937650a475d673baa5d0c8c0b37b3	python-utils-r1	13d5b02ea59b21da41c77c9294f3b7f7	toolchain-funcs	d513d423d449877e49d99af3f7af7acb
+_md5_=dbacb5d7dc1dcc6d406c151cf2c08cfb

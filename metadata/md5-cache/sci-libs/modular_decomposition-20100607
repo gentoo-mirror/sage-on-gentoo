@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install
+DESCRIPTION=This is an implementation of a modular decomposition algorithm.
+EAPI=6
+HOMEPAGE=http://www.liafa.jussieu.fr/~fm/
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos ~x64-macos
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=mirror://sageupstream/modular_decomposition/modular_decomposition-20100607.tar.bz2
+_eclass_exported_funcs=src_compile:- src_install:-
+_eclasses_=multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	d513d423d449877e49d99af3f7af7acb
+_md5_=22bfabb001ee94920cd7797fbdeeb694
