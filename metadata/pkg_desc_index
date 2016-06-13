@@ -23,7 +23,7 @@ dev-gap/sage-meta 1.0: Meta package to install all sage optional gap packages
 dev-gap/sonata 2.8: System of nearrings and their applications
 dev-gap/tomlib 1.2_p5: The GAP Library of Tables of Marks
 dev-gap/toric 1.8: toric varieties and some combinatorial geometry computations
-dev-lang/python 2.7.10-r10 2.7.10-r11: An interpreted, interactive, object-oriented programming language
+dev-lang/python 2.7.10-r100: An interpreted, interactive, object-oriented programming language
 dev-libs/ntl 9.6.2 9.6.2-r1 9.6.4 9.8.1: High-performance and portable Number Theory C++ library
 dev-python/cvxopt 1.1.8: Python package for convex optimization
 dev-python/cysignals 1.0 1.0.1 1.1.1 9999: interrupt and signal handling for Cython
@@ -82,7 +82,7 @@ sci-mathematics/mcube 20051209: An non-optimal 4x4x4 rubik's cube solver
 sci-mathematics/nauty 2.6.1: Computing automorphism groups of graphs and digraphs
 sci-mathematics/optimal 20040603-r1: An optimal rubik's cube solver using God's Algorithm
 sci-mathematics/palp 2.1-r1: A Package for Analyzing Lattice Polytopes
-sci-mathematics/pari 2.8_pre20151201 2.8_pre20160209 2.8_pre20160510 9999: Computer-aided number theory C library and tools
+sci-mathematics/pari 2.8_pre20151201 2.8_pre20160209 2.8_pre20160209-r1 2.8_pre20160510 9999: Computer-aided number theory C library and tools
 sci-mathematics/planarity 2.2.0: This code project provides a library for implementing graph algorithms
 sci-mathematics/polybori 0.8.3-r2: Polynomials over Boolean Rings
 sci-mathematics/qsieve 3.02: A program for factoring numbers
