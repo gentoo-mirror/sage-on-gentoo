@@ -36,7 +36,7 @@ dev-python/pari_jupyter 1.1.2: Jupyter kernel for PARI/GP
 dev-python/pexpect 4.0.1-r2: Python module to spawn child applications and responding to expected patterns
 dev-python/python-igraph 0.7.0: Python interface for the igraph library
 dev-python/pyzmq 15.2.0: Lightweight and super-fast messaging library built on top of the ZeroMQ library
-dev-python/sphinx 1.2.2 1.2.3 1.4.1-r3 1.4.2 1.4.4: Python documentation generator
+dev-python/sphinx 1.2.2 1.2.3 1.4.1-r3 1.4.4: Python documentation generator
 dev-python/sympy 0.7.6.1-r1 1.0-r1: Computer Algebra System in pure Python
 dev-tex/sage-latex 2.3.4 3.0: SageTeX allows you to embed Sage code into LaTeX documents
 dev-tex/tkz-base 1.16c: tkz-base is a base package to give easy access to programation with tikz
