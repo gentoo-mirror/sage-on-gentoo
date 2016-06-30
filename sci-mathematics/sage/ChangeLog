@@ -8,6 +8,10 @@
   sci-mathematics/sage: migration L10N. texlive uses L10N and so should we in
   that case.
 
+  25 Jun 2016; François Bissey <francois.bissey@canterbury.ac.nz>
+  +files/sage-7.3-libgap.patch, sage-9999.ebuild:
+  sci-mathematics/sage: bump patches
+
   21 Jun 2016; François Bissey <francois.bissey@canterbury.ac.nz>
   sage-9999.ebuild:
   sci-mathematics/sage: bump pari dependency
