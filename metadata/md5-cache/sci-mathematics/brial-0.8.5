@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile configure install setup test
+DEPEND=virtual/pkgconfig >=dev-libs/boost-1.52.0 >=sci-libs/m4ri-20090512 !sci-mathematics/polybori doc? ( dev-tex/tex4ht app-doc/doxygen )
+DESCRIPTION=BriAL, a successor to PolyBoRI: Polynomials over Boolean Rings
+EAPI=6
+HOMEPAGE=https://github.com/BRiAl/BRiAl
+IUSE=doc static-libs python_targets_python2_7
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux ~x86-macos ~x64-macos
+LICENSE=GPL-2
+RDEPEND=>=dev-libs/boost-1.52.0 >=sci-libs/m4ri-20090512 !sci-mathematics/polybori
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/BRiAl/BRiAl/releases/download/0.8.5/brial-0.8.5.tar.bz2
+_eclass_exported_funcs=pkg_setup:- src_configure:- src_compile:- src_test:- src_install:-
+_eclasses_=multibuild	742139c87a9fa3766f0c2b155e5522bf	multilib	d062ae4ba2fc40a19c11de2ad89b6616	python-r1	0f6937650a475d673baa5d0c8c0b37b3	python-utils-r1	c0ed2a2f233d3af6dd556048695dc5cb	toolchain-funcs	82165206dedb2075f9a0fb8f9b1f9441
+_md5_=9f3fa510859a98752462da09aa87219d

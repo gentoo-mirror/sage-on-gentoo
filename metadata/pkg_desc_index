@@ -62,7 +62,7 @@ sci-libs/pynac 0.6.0 0.6.2 0.6.5 0.6.7: A modified version of GiNaC that replace
 sci-libs/symmetrica 2.0-r4: A collection of routine to handle a variety of topics
 sci-libs/zn_poly 0.9-r3: A library for polynomial arithmetic
 sci-mathematics/arb 2.7.0-r1 2.8.1: Arb is a C library for arbitrary-precision floating-point ball arithmetic.
-sci-mathematics/brial 0.8.4.3: BriAL, a successor to PolyBoRI: Polynomials over Boolean Rings
+sci-mathematics/brial 0.8.4.3 0.8.5: BriAL, a successor to PolyBoRI: Polynomials over Boolean Rings
 sci-mathematics/chomp 20120805: CHomP computes topological invariants of a collection of n-dimensional cubes
 sci-mathematics/cliquer 1.21: autotooled fork of cliquer
 sci-mathematics/cu2 20060223: An non-optimal 2x2x2 rubik's cube solver
