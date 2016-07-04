@@ -22,6 +22,7 @@ sci-chemistry/jspecview:applet - Create an applet
 sci-libs/libsingular:boost - Compile against external boost headers (dev-libs/boost)
 sci-libs/libsingular:flint - Use flint-2
 sci-libs/linbox:opencl - enable the use of opencl in linbox
+sci-libs/pynac:giac - Use the sci-mathematics/giac library.
 sci-mathematics/eclib:boost - Use boost libraries for threading and parallelism
 sci-mathematics/eclib:flint - Enable the use of flint for certain operations
 sci-mathematics/flint:gc - Enable garbage collection support via dev-libs/boehm-gc
