@@ -32,6 +32,7 @@ dev-python/cython 0.23.4-r2 0.23.5 0.24: A Python to C compiler
 dev-python/flask-autoindex 0.5 0.6: A mod_autoindex for Flask
 dev-python/flask-oldsessions 0.10: Compatibility layer for older flask-0.10 and under sessions
 dev-python/flask-silk 0.2: Adds silk icons to your Flask application or module, or extension
+dev-python/giacpy_sage 0.6: A Cython frontend to the c++ library giac for sage
 dev-python/numpy 1.10.1-r2 1.10.2-r2 1.10.4: Fast array and numerical python library
 dev-python/pari_jupyter 1.1.2: Jupyter kernel for PARI/GP
 dev-python/pexpect 4.0.1-r2: Python module to spawn child applications and responding to expected patterns
@@ -73,7 +74,7 @@ sci-mathematics/flint 2.5.2-r1: Fast Library for Number Theory
 sci-mathematics/flintqs 1.0: William Hart's GPL'd multi-polynomial quadratic sieve for integer factorization
 sci-mathematics/gap 4.7.8 4.7.8-r1 4.8.3 4.8.3-r2: System for computational discrete algebra
 sci-mathematics/gap_sage_packages 4.6.4: A small collection of packages for GAP
-sci-mathematics/giac 1.2.2.67: A free C++ CAS (Computer Algebra System) library and its interfaces
+sci-mathematics/giac 1.2.2.69: A free C++ CAS (Computer Algebra System) library and its interfaces
 sci-mathematics/glpk 4.60: GNU Linear Programming Kit
 sci-mathematics/gmp-ecm 6.4.4-r1 6.4.4-r2 7.0_rc2: Elliptic Curve Method for Integer Factorization
 sci-mathematics/gp2c 0.0.9_p5: A GP to C translator
