@@ -43,6 +43,7 @@ sci-mathematics/sage:bin-html - install pre-built html documentation
 sci-mathematics/sage:bin-pdf - install pre-built pdf documentation
 sci-mathematics/sage:bliss - build the bindings to the bliss library
 sci-mathematics/sage:html - build and install html documentation
+sci-mathematics/sage:libbraiding - build the bindings to the libbraiding library
 sci-mathematics/sage:manifolds - install the optional manifolds package from http://sagemanifolds.obspm.fr
 sci-mathematics/sage:modular_decomposition - build the bindings to the modular_decomposition library
 sci-mathematics/sage:pdf - build and install documentation in pdf format
