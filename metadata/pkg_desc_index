@@ -55,6 +55,7 @@ sci-libs/givaro 3.7.1 4.0.1 9999: Givaro is a C++ library for arithmetic and alg
 sci-libs/iml 1.0.4: Integer Matrix Library
 sci-libs/libbraiding 1.0 9999: Expose the functionalities of Braiding as a shared library
 sci-libs/libgap 4.7.8 4.8.3: A cython library interface to gap for sage
+sci-libs/libhomfly 1.0: Library to compute the homfly polynomial of a link
 sci-libs/libsingular 3.1.7_p1-r7 3.1.7_p1-r8 3.1.7_p1-r9: Computer algebra system for polynomial computations
 sci-libs/linbox 1.3.2-r2 1.4.1: A C++ template library for linear algebra over integers and over finite fields
 sci-libs/m4ri 20140914: Method of four russian for inversion (M4RI)
