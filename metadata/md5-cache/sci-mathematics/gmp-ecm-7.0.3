@@ -1,4 +1,4 @@
-DEFINED_PHASES=configure pretend
+DEFINED_PHASES=configure pretend test
 DEPEND=dev-libs/gmp:= !sci-mathematics/ecm gwnum? ( sci-mathematics/gwnum )
 DESCRIPTION=Elliptic Curve Method for Integer Factorization
 EAPI=6
@@ -9,7 +9,7 @@ LICENSE=GPL-3 LGPL-3
 RDEPEND=dev-libs/gmp:= !sci-mathematics/ecm gwnum? ( sci-mathematics/gwnum )
 REQUIRED_USE=gwnum? ( !openmp ) x86-macos? ( !custom-tune )
 SLOT=0
-SRC_URI=https://gforge.inria.fr/frs/download.php/file/35642/gmp-ecm-7.0.tar.gz
-_eclass_exported_funcs=pkg_pretend:- src_configure:-
+SRC_URI=https://gforge.inria.fr/frs/download.php/file/36043/gmp-ecm-7.0.3.tar.gz
+_eclass_exported_funcs=pkg_pretend:- src_configure:- src_test:-
 _eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	flag-o-matic	8632fcd33a047954f007dee9a137bdcc	multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	82165206dedb2075f9a0fb8f9b1f9441
-_md5_=5e67702974e887b7e066ef62c5555c81
+_md5_=ff47ae00f7cf61011b7752c2a6c94607
