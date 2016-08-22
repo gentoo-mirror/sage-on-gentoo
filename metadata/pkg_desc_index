@@ -19,7 +19,7 @@ dev-gap/happrime 0.6: a HAP extension for small prime power groups
 dev-gap/laguna 3.7.0: Lie AlGebras and UNits of group Algebras
 dev-gap/polycyclic 2.11: Computation with polycyclic groups
 dev-gap/polymaking 0.8.1: Interfacing the geometry software polymake
-dev-gap/sage-meta 1.0: Meta package to install all sage optional gap packages
+dev-gap/sage-meta 1.0-r1: Meta package to install all sage optional gap packages
 dev-gap/sonata 2.8: System of nearrings and their applications
 dev-gap/tomlib 1.2_p5: The GAP Library of Tables of Marks
 dev-gap/toric 1.8: toric varieties and some combinatorial geometry computations
