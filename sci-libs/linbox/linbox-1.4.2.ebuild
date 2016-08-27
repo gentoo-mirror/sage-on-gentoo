@@ -22,8 +22,8 @@ RESTRICT="mirror
 	sage? ( test )"
 
 DEPEND="dev-libs/gmp[cxx]
-	~sci-libs/givaro-4.0.1
-	~sci-libs/fflas-ffpack-2.2.1
+	~sci-libs/givaro-4.0.2
+	~sci-libs/fflas-ffpack-2.2.2
 	virtual/cblas
 	virtual/lapack
 	opencl? ( virtual/opencl )
@@ -34,7 +34,7 @@ DEPEND="dev-libs/gmp[cxx]
 	sci-mathematics/flint"
 RDEPEND="${DEPEND}"
 
-DOCS=( ChangeLog README NEWS TODO )
+DOCS=( ChangeLog NEWS TODO )
 
 # TODO: installation of documentation does not work ?
 
