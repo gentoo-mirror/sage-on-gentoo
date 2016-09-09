@@ -49,7 +49,7 @@ CDEPEND="dev-libs/gmp:0=
 	>=dev-lisp/ecls-15.3.7:=
 	dev-python/six[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.10.1-r2[${PYTHON_USEDEP}]
-	>=dev-python/cython-0.24[${PYTHON_USEDEP}]
+	>=dev-python/cython-0.24.1-r1[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
 	dev-python/pkgconfig[${PYTHON_USEDEP}]
 	>=dev-python/cysignals-1.1.0[${PYTHON_USEDEP}]
@@ -63,11 +63,11 @@ CDEPEND="dev-libs/gmp:0=
 	>=sci-libs/iml-1.0.4
 	~sci-mathematics/cliquer-1.21
 	~sci-libs/libgap-4.8.3
-	~sci-libs/linbox-1.4.2[sage,-openmp]
+	~sci-libs/linbox-1.4.2[sage]
 	~sci-libs/m4ri-20140914
 	~sci-libs/m4rie-20150908
 	>=sci-libs/mpfi-1.5.1
-	~sci-libs/pynac-0.6.8[${PYTHON_USEDEP}]
+	~sci-libs/pynac-0.6.9[${PYTHON_USEDEP}]
 	>=sci-libs/symmetrica-2.0-r3
 	>=sci-libs/zn_poly-0.9
 	sci-mathematics/glpk:0=[gmp]
@@ -232,14 +232,12 @@ python_prepare() {
 	# Fixes to Sage itself
 	############################################################################
 
-	eapply "${FILESDIR}"/${PN}-7.4-mpfi.patch
-
 	# sage on gentoo env.py
 	eapply "${FILESDIR}"/${PN}-7.3-env.patch
 	eprefixify sage/env.py
 
 	# fix issue #363 where there is bad interaction between MPL build with qt4 support and ecls
-	eapply "${FILESDIR}"/${PN}-6.9-qt4_conflict.patch
+	eapply "${FILESDIR}"/${PN}-7.4-qt4_conflict.patch
 
 	# sage-maxima.lisp really belong to /etc
 	eapply "${FILESDIR}"/${PN}-6.8-maxima.lisp.patch
