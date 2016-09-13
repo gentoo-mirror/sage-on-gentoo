@@ -32,6 +32,7 @@ dev-python/cython 0.24 0.24.1-r1: A Python to C compiler
 dev-python/flask-autoindex 0.5 0.6: A mod_autoindex for Flask
 dev-python/flask-oldsessions 0.10: Compatibility layer for older flask-0.10 and under sessions
 dev-python/flask-silk 0.2: Adds silk icons to your Flask application or module, or extension
+dev-python/fpylll 0.2.1: A Python (2 and 3) wrapper for fplll.
 dev-python/giacpy_sage 0.6: A Cython frontend to the c++ library giac for sage
 dev-python/ipython 5.0.0: Advanced interactive shell for Python
 dev-python/numpy 1.10.4 1.11.0 1.11.1: Fast array and numerical python library
