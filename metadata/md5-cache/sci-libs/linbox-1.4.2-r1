@@ -1,15 +1,15 @@
 DEFINED_PHASES=configure pretend
-DEPEND=dev-libs/gmp[cxx] ~sci-libs/givaro-4.0.2 ~sci-libs/fflas-ffpack-2.2.2 virtual/cblas virtual/lapack opencl? ( virtual/opencl ) dev-libs/ntl:= sci-libs/iml dev-libs/mpfr:= sci-libs/fplll sci-mathematics/flint
+DEPEND=dev-libs/gmp[cxx] ~sci-libs/givaro-4.0.2 ~sci-libs/fflas-ffpack-2.2.2 virtual/cblas virtual/lapack opencl? ( virtual/opencl ) dev-libs/ntl:= sci-libs/iml dev-libs/mpfr:= sci-mathematics/flint
 DESCRIPTION=A C++ template library for linear algebra over integers and over finite fields
 EAPI=5
 HOMEPAGE=http://linalg.org/
 IUSE=sage static-libs openmp opencl
 KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos ~x64-macos
 LICENSE=LGPL-2.1
-RDEPEND=dev-libs/gmp[cxx] ~sci-libs/givaro-4.0.2 ~sci-libs/fflas-ffpack-2.2.2 virtual/cblas virtual/lapack opencl? ( virtual/opencl ) dev-libs/ntl:= sci-libs/iml dev-libs/mpfr:= sci-libs/fplll sci-mathematics/flint
+RDEPEND=dev-libs/gmp[cxx] ~sci-libs/givaro-4.0.2 ~sci-libs/fflas-ffpack-2.2.2 virtual/cblas virtual/lapack opencl? ( virtual/opencl ) dev-libs/ntl:= sci-libs/iml dev-libs/mpfr:= sci-mathematics/flint
 RESTRICT=mirror sage? ( test )
 SLOT=0
 SRC_URI=https://github.com/linbox-team/linbox/releases/download/v1.4.2/linbox-1.4.2.tar.gz
 _eclass_exported_funcs=pkg_pretend:- src_configure:-
 _eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	flag-o-matic	8632fcd33a047954f007dee9a137bdcc	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	6198c04daba0e1307bd844df7d37f423
-_md5_=e38d7acee6555f576a0af2f7bfcdd799
+_md5_=475fe16bd611432d23348643c170e71b
