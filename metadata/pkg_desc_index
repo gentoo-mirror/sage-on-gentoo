@@ -52,7 +52,7 @@ sci-chemistry/jspecview 1169 1169-r1: Spectroscopy Viewer
 sci-chemistry/sage-jmol-bin 14.2.4-r2 14.2.11-r1: Jmol is a java molecular viever for 3-D chemical structures.
 sci-libs/bliss 0.73: A Tool for Computing Automorphism Groups and Canonical Labelings of Graphs
 sci-libs/fflas-ffpack 1.6.0-r5 2.2.2-r1: FFLAS-FFPACK is a library for dense linear algebra over word-size finite fields.
-sci-libs/fplll 5.0.3_rc0 20160331: Different implementations of the floating-point LLL reduction algorithm
+sci-libs/fplll 5.0.3 20160331: Different implementations of the floating-point LLL reduction algorithm
 sci-libs/givaro 3.7.1 4.0.2 9999: Givaro is a C++ library for arithmetic and algebraic computations
 sci-libs/iml 1.0.4: Integer Matrix Library
 sci-libs/libbraiding 1.0 9999: Expose the functionalities of Braiding as a shared library
