@@ -28,14 +28,13 @@ dev-libs/ntl 9.6.2-r1 9.6.4 9.8.1 10.1.0: High-performance and portable Number T
 dev-lisp/ecls 16.1.2-r1: ECL is an embeddable Common Lisp implementation
 dev-python/cvxopt 1.1.8: Python package for convex optimization
 dev-python/cysignals 1.1.1 9999: interrupt and signal handling for Cython
-dev-python/cython 0.24 0.24.1-r1: A Python to C compiler
+dev-python/cython 0.24.1-r1: A Python to C compiler
 dev-python/flask-autoindex 0.5 0.6: A mod_autoindex for Flask
 dev-python/flask-oldsessions 0.10: Compatibility layer for older flask-0.10 and under sessions
 dev-python/flask-silk 0.2: Adds silk icons to your Flask application or module, or extension
 dev-python/fpylll 0.2.3: A Python (2 and 3) wrapper for fplll.
 dev-python/giacpy_sage 0.6: A Cython frontend to the c++ library giac for sage
-dev-python/ipython 5.0.0: Advanced interactive shell for Python
-dev-python/numpy 1.10.4 1.11.0 1.11.1: Fast array and numerical python library
+dev-python/numpy 1.10.4 1.11.1: Fast array and numerical python library
 dev-python/pari_jupyter 1.1.2: Jupyter kernel for PARI/GP
 dev-python/pexpect 4.0.1-r2: Python module to spawn child applications and responding to expected patterns
 dev-python/python-igraph 0.7.0: Python interface for the igraph library
