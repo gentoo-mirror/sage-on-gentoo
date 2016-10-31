@@ -49,7 +49,7 @@ CDEPEND="dev-libs/gmp:0=
 	>=dev-lisp/ecls-15.3.7:=
 	dev-python/six[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.10.1-r2[${PYTHON_USEDEP}]
-	~dev-python/cython-0.24.1[${PYTHON_USEDEP}]
+	~dev-python/cython-0.25.1[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
 	dev-python/pkgconfig[${PYTHON_USEDEP}]
 	>=dev-python/cysignals-1.1.0[${PYTHON_USEDEP}]
@@ -77,7 +77,7 @@ CDEPEND="dev-libs/gmp:0=
 	>=sci-mathematics/brial-0.8.5[${PYTHON_USEDEP}]
 	>=sci-mathematics/ratpoints-2.1.3
 	>=sci-mathematics/rw-0.7
-	~sci-mathematics/singular-4.0.3_p3[readline]
+	~sci-mathematics/singular-4.0.3_p4[readline]
 	media-libs/gd[jpeg,png]
 	media-libs/libpng:0=
 	>=sys-libs/readline-6.2
@@ -203,6 +203,9 @@ python_prepare() {
 	# Patches to the sage library
 	#
 	###############################
+
+	# upgrade to singular 4.0.3_p4
+	eapply "${FILESDIR}"/singular-4.0.3p4.patch
 
 	# Remove sage's package management system, git capabilities and associated tests
 	eapply "${FILESDIR}"/${PN}-7.4-neutering.patch
