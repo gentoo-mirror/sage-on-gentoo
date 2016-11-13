@@ -19,6 +19,7 @@ dev-python/sympy:texmacs - Add app-office/texmacs interface
 dev-python/sympy:theano - Add support for dev-python/theano
 sci-chemistry/jmol:client-only - Install the viewer only, no applet files for httpd
 sci-chemistry/jspecview:applet - Create an applet
+sci-libs/gsl:cblas-external - Link gsl with external cblas provided by (virtual/cblas) instead of shipped internal version
 sci-libs/libsingular:boost - Compile against external boost headers (dev-libs/boost)
 sci-libs/libsingular:flint - Use flint-2
 sci-libs/linbox:opencl - enable the use of opencl in linbox
