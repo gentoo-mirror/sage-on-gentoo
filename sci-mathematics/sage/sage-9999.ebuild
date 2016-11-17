@@ -54,6 +54,7 @@ CDEPEND="dev-libs/gmp:0=
 	dev-python/pkgconfig[${PYTHON_USEDEP}]
 	>=dev-python/cysignals-1.1.0[${PYTHON_USEDEP}]
 	>=dev-python/docutils-0.12[${PYTHON_USEDEP}]
+	>=dev-python/psutil-4.4.0[${PYTHON_USEDEP}]
 	>=sci-mathematics/eclib-20150827[flint]
 	~sci-mathematics/gmp-ecm-6.4.4[-openmp]
 	>=sci-mathematics/flint-2.5.2:=[ntl]
@@ -203,9 +204,6 @@ python_prepare() {
 	# Patches to the sage library
 	#
 	###############################
-
-	# upgrade to singular 4.0.3_p4
-	#eapply "${FILESDIR}"/singular-4.0.3p4.patch
 
 	# Remove sage's package management system, git capabilities and associated tests
 	eapply "${FILESDIR}"/${PN}-7.4-neutering.patch
