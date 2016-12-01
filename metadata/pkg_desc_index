@@ -37,7 +37,6 @@ dev-python/giacpy_sage 0.6: A Cython frontend to the c++ library giac for sage
 dev-python/numpy 1.10.4 1.11.1: Fast array and numerical python library
 dev-python/pari_jupyter 1.1.2: Jupyter kernel for PARI/GP
 dev-python/pexpect 4.0.1-r2: Python module to spawn child applications and responding to expected patterns
-dev-python/pkgconfig 1.1.0-r1: Interface Python with pkg-config
 dev-python/python-igraph 0.7.0: Python interface for the igraph library
 dev-python/sphinx 1.4.4: Python documentation generator
 dev-python/sympy 1.0-r1: Computer Algebra System in pure Python
@@ -70,7 +69,6 @@ sci-libs/zn_poly 0.9-r3: A library for polynomial arithmetic
 sci-mathematics/ExportSageNB 2.0: This is a tool to convert SageNB notebooks to other formats.
 sci-mathematics/arb 2.8.1: Arb is a C library for arbitrary-precision floating-point ball arithmetic.
 sci-mathematics/brial 0.8.5: BriAL, a successor to PolyBoRI: Polynomials over Boolean Rings
-sci-mathematics/chomp 20120805: CHomP computes topological invariants of a collection of n-dimensional cubes
 sci-mathematics/cliquer 1.21: autotooled fork of cliquer
 sci-mathematics/cu2 20060223: An non-optimal 2x2x2 rubik's cube solver
 sci-mathematics/cubex 20060128: An non-optimal 3x3x3 rubik's cube solver
@@ -79,7 +77,6 @@ sci-mathematics/eclib 20150827 20160720: enumerating and computing with elliptic
 sci-mathematics/flint 2.5.2-r1: Fast Library for Number Theory
 sci-mathematics/flintqs 1.0: William Hart's GPL'd multi-polynomial quadratic sieve for integer factorization
 sci-mathematics/gap 4.8.3-r2: System for computational discrete algebra
-sci-mathematics/gap_sage_packages 4.6.4: A small collection of packages for GAP
 sci-mathematics/giac 1.2.2.101 1.2.2.103: A free C++ CAS (Computer Algebra System) library and its interfaces
 sci-mathematics/glpk 4.60-r1: GNU Linear Programming Kit
 sci-mathematics/gmp-ecm 6.4.4-r1 6.4.4-r2 7.0.4: Elliptic Curve Method for Integer Factorization
