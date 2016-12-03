@@ -37,6 +37,7 @@ dev-python/giacpy_sage 0.6: A Cython frontend to the c++ library giac for sage
 dev-python/numpy 1.10.4 1.11.1: Fast array and numerical python library
 dev-python/pari_jupyter 1.1.2: Jupyter kernel for PARI/GP
 dev-python/pexpect 4.0.1-r2: Python module to spawn child applications and responding to expected patterns
+dev-python/pkgconfig 1.2.2: Interface Python with pkg-config
 dev-python/python-igraph 0.7.0: Python interface for the igraph library
 dev-python/sphinx 1.4.4: Python documentation generator
 dev-python/sympy 1.0-r1: Computer Algebra System in pure Python
