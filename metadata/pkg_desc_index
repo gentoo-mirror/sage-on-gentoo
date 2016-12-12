@@ -28,7 +28,7 @@ dev-libs/ntl 9.6.2-r1 9.6.4 9.8.1 10.1.0: High-performance and portable Number T
 dev-lisp/ecls 16.1.2-r1: ECL is an embeddable Common Lisp implementation
 dev-python/cvxopt 1.1.8: Python package for convex optimization
 dev-python/cysignals 1.1.1-r1 1.4.0 9999: interrupt and signal handling for Cython
-dev-python/cython 0.24.1-r1 0.25.1-r1: A Python to C compiler
+dev-python/cython 0.24.1-r1 0.25.1-r1 0.25.2-r1: A Python to C compiler
 dev-python/flask-autoindex 0.5 0.6: A mod_autoindex for Flask
 dev-python/flask-oldsessions 0.10: Compatibility layer for older flask-0.10 and under sessions
 dev-python/flask-silk 0.2: Adds silk icons to your Flask application or module, or extension
