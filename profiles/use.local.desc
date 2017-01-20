@@ -43,6 +43,8 @@ sci-mathematics/polybori:gd - Build with media-libs/gd
 sci-mathematics/sage:bin-html - install pre-built html documentation
 sci-mathematics/sage:bin-pdf - install pre-built pdf documentation
 sci-mathematics/sage:bliss - build the bindings to the bliss library
+sci-mathematics/sage:doc-html - build and install html documentation
+sci-mathematics/sage:doc-pdf - build and install documentation in pdf format
 sci-mathematics/sage:html - build and install html documentation
 sci-mathematics/sage:libbraiding - build the bindings to the libbraiding library
 sci-mathematics/sage:libhomfly - build the bindings to the libhomfly library
