@@ -73,14 +73,14 @@ sci-mathematics/cliquer 1.21: autotooled fork of cliquer
 sci-mathematics/cu2 20060223: An non-optimal 2x2x2 rubik's cube solver
 sci-mathematics/cubex 20060128: An non-optimal 3x3x3 rubik's cube solver
 sci-mathematics/dikcube 20070912-r1: Dik T. Winter's rubik's cube solver and related tools
-sci-mathematics/eclib 20160720: enumerating and computing with elliptic curves defined over the rational numbers
+sci-mathematics/eclib 20160720 20170104: enumerating and computing with elliptic curves defined over the rational numbers
 sci-mathematics/flint 2.5.2-r1: Fast Library for Number Theory
 sci-mathematics/flintqs 1.0: William Hart's GPL'd multi-polynomial quadratic sieve for integer factorization
 sci-mathematics/gap 4.8.3-r2: System for computational discrete algebra
 sci-mathematics/giac 1.2.2.103-r1: A free C++ CAS (Computer Algebra System) library and its interfaces
 sci-mathematics/glpk 4.60-r1: GNU Linear Programming Kit
 sci-mathematics/gmp-ecm 6.4.4-r1 6.4.4-r2 7.0.4: Elliptic Curve Method for Integer Factorization
-sci-mathematics/gp2c 0.0.9_p5: A GP to C translator
+sci-mathematics/gp2c 0.0.9_p5 0.0.10: A GP to C translator
 sci-mathematics/lcalc 1.23-r7: A program for calculating with L-functions
 sci-mathematics/lrcalc 1.2-r1: Littlewood-Richardson Calculator
 sci-mathematics/maxima 5.35.1-r2 5.38.1-r1: Free computer algebra environment based on Macsyma

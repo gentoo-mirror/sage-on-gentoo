@@ -1,0 +1,14 @@
+DEFINED_PHASES=configure
+DEPEND=>=sci-mathematics/pari-2.5.0:= >=dev-libs/ntl-5.4.2:= flint? ( sci-mathematics/flint:= ) boost? ( dev-libs/boost[threads] )
+DESCRIPTION=enumerating and computing with elliptic curves defined over the rational numbers
+EAPI=6
+HOMEPAGE=http://www.warwick.ac.uk/~masgaj/mwrank/index.html
+IUSE=static-libs flint boost
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux ~x86-macos ~x64-macos
+LICENSE=GPL-2
+RDEPEND=>=sci-mathematics/pari-2.5.0:= >=dev-libs/ntl-5.4.2:= flint? ( sci-mathematics/flint:= ) boost? ( dev-libs/boost[threads] )
+RESTRICT=mirror
+SLOT=0/2
+SRC_URI=http://homepages.warwick.ac.uk/staff/J.E.Cremona/ftp/eclib-20170104.tar.bz2
+_eclass_exported_funcs=src_configure:-
+_md5_=d77c925309ee80d8e70cfa6598c8d00e
