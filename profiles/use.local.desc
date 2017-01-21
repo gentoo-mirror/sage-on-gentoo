@@ -20,8 +20,6 @@ dev-python/sympy:theano - Add support for dev-python/theano
 sci-chemistry/jmol:client-only - Install the viewer only, no applet files for httpd
 sci-chemistry/jspecview:applet - Create an applet
 sci-libs/gsl:cblas-external - Link gsl with external cblas provided by (virtual/cblas) instead of shipped internal version
-sci-libs/libsingular:boost - Compile against external boost headers (dev-libs/boost)
-sci-libs/libsingular:flint - Use flint-2
 sci-libs/linbox:opencl - enable the use of opencl in linbox
 sci-libs/pynac:giac - Use the sci-mathematics/giac library.
 sci-mathematics/eclib:boost - Use boost libraries for threading and parallelism
@@ -54,5 +52,3 @@ sci-mathematics/sage:sagenb - Trigger the installation of the historic sage-note
 sci-mathematics/sage:testsuite - If activated installs tools to runs the testsuite and insure that all the files needed are present.
 sci-mathematics/sage-notebook:java - Enable JMol for 3D-printing in the notebook
 sci-mathematics/sage-notebook:server - Install scripts and user to run the notebook as a daemon
-sci-mathematics/singular:boost - Compile against external boost headers (dev-libs/boost)
-sci-mathematics/singular:flint - Use flint-2
