@@ -1,0 +1,12 @@
+DEFINED_PHASES=install
+DEPEND=app-arch/unzip
+DESCRIPTION=Thebe is a Jupyter javascript plugin for static sites
+EAPI=6
+HOMEPAGE=https://oreillymedia.github.io/thebe/
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=app-arch/unzip
+SLOT=0
+SRC_URI=https://github.com/oreillymedia/thebe/archive/9624e0a07a00026103dce1a3e32bbfbf90a6d0f9.zip -> thebe-20160525.zip
+_eclass_exported_funcs=src_install:-
+_md5_=9a39959a8d40f2949135bc258ffdad45
