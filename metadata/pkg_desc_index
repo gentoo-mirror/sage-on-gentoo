@@ -23,7 +23,7 @@ dev-gap/sage-meta 1.0-r1: Meta package to install all sage optional gap packages
 dev-gap/sonata 2.8: System of nearrings and their applications
 dev-gap/tomlib 1.2_p5: The GAP Library of Tables of Marks
 dev-gap/toric 1.8: toric varieties and some combinatorial geometry computations
-dev-lang/python 2.7.10-r100 2.7.12-r102: An interpreted, interactive, object-oriented programming language
+dev-lang/python 2.7.10-r100 2.7.12-r102 2.7.13-r100: An interpreted, interactive, object-oriented programming language
 dev-libs/ntl 10.1.0: High-performance and portable Number Theory C++ library
 dev-lisp/ecls 16.1.2-r1: ECL is an embeddable Common Lisp implementation
 dev-python/cvxopt 1.1.8: Python package for convex optimization
