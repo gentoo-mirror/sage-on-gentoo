@@ -1,6 +1,5 @@
 # Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Id$
 
 EAPI=6
 
@@ -18,13 +17,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
-DEPEND=">=sci-libs/fplll-5.0.3
+CDEPEND=">=sci-libs/fplll-5.0.3
 	<sci-libs/fplll-20160000
 	dev-python/cython[${PYTHON_USEDEP}]
 	dev-python/cysignals[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	dev-python/numpy[${PYTHON_USEDEP}]"
+DEPEND="${CDEPEND}
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
-RDEPEND="${DEPEND}"
+RDEPEND="${CDEPEND}"
 
 S="${WORKDIR}/${MY_P}"
 

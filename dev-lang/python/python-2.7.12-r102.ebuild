@@ -1,6 +1,5 @@
-# Copyright 1999-2016 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Id$
 
 EAPI="5"
 WANT_LIBTOOL="none"
@@ -31,9 +30,7 @@ RDEPEND="app-arch/bzip2:0=
 	virtual/libintl
 	berkdb? ( || (
 		sys-libs/db:5.3
-		sys-libs/db:5.2
 		sys-libs/db:5.1
-		sys-libs/db:5.0
 		sys-libs/db:4.8
 		sys-libs/db:4.7
 		sys-libs/db:4.6
