@@ -10,4 +10,4 @@ RDEPEND=>=sci-mathematics/gap-4.7.8
 SLOT=0
 SRC_URI=http://www.gap-system.org/pub/gap/gap4/tar.bz2/packages/polycyclic-2.11.tar.bz2
 _eclass_exported_funcs=src_install:-
-_md5_=cd2036843f4f9fed521c81d02eb75376
+_md5_=adae648caea215c9238e6531475b9915

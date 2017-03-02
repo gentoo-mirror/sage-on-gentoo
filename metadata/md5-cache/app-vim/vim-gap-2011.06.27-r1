@@ -10,4 +10,4 @@ SLOT=0
 SRC_URI=https://github.com/petRUShka/vim-gap/archive/3ef9645373cf8a0d57d4cd8b15bcf83e5e7d5a19.tar.gz -> vim-gap-2011.06.27.tar.gz
 _eclass_exported_funcs=pkg_postrm:vim-plugin pkg_postinst:vim-plugin src_unpack:vcs-snapshot src_prepare:- src_install:vim-plugin
 _eclasses_=vcs-snapshot	03289f51c769cf409d200d2d628cdd6e	vim-doc	af2c81a1feeb0a99e91bee3e20769edb	vim-plugin	6f0171b0a2f2fce005c13b4c0685a0d8
-_md5_=ebae760daf9a4a018deeeb5833c4c3b3
+_md5_=12deace02e55b4fd7b806c13da1b23f0

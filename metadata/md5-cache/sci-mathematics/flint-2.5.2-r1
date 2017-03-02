@@ -12,4 +12,4 @@ SLOT=0/13
 SRC_URI=http://www.flintlib.org/flint-2.5.2.tar.gz
 _eclass_exported_funcs=src_configure:- src_compile:- src_test:- src_install:-
 _eclasses_=multilib	0236be304ee52e7f179ed2f337075515	toolchain-funcs	53b75b4a49cf3e61530a523804045432
-_md5_=b2605dccb57ccbe97eb9c387526991a4
+_md5_=d464258e9f66b7edd2b2d4b5d636b7b5

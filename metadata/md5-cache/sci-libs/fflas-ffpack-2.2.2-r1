@@ -13,4 +13,4 @@ SLOT=0
 SRC_URI=https://github.com/linbox-team/fflas-ffpack/releases/download/v2.2.2/fflas-ffpack-2.2.2.tar.gz
 _eclass_exported_funcs=pkg_pretend:- pkg_setup:- src_prepare:- src_configure:-
 _eclasses_=autotools	7027963e8e8cc12c91117bdb9225dc26	eutils	3c847a0129fed780bd709b98e426f89c	libtool	48b1b9f6194d2842456514d1184ca72e	multilib	0236be304ee52e7f179ed2f337075515	toolchain-funcs	53b75b4a49cf3e61530a523804045432
-_md5_=2783043935fb26adbe147f378c99a99a
+_md5_=43abb6b8e2c0b2b206a073a58fe1b36f

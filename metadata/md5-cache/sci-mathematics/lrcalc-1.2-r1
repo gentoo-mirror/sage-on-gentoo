@@ -9,4 +9,4 @@ RESTRICT=mirror
 SLOT=0/1
 SRC_URI=http://math.rutgers.edu/~asbuch/lrcalc/lrcalc-1.2.tar.gz
 _eclass_exported_funcs=src_configure:-
-_md5_=428b41a6ab68795d15b4aab41c59cd6e
+_md5_=1b60dda42b2144f6c532973e63ea0434

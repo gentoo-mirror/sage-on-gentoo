@@ -9,4 +9,4 @@ SLOT=0
 SRC_URI=mirror://sagemath/optimal-20040603.tar.gz
 _eclass_exported_funcs=src_compile:- src_install:-
 _eclasses_=multilib	0236be304ee52e7f179ed2f337075515	toolchain-funcs	53b75b4a49cf3e61530a523804045432
-_md5_=651837a95847f19db9861310c8c79e1d
+_md5_=498fb3b1b2809d89347c2fba656ac4e6
