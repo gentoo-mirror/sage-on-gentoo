@@ -34,7 +34,7 @@ dev-python/flask-oldsessions 0.10: Compatibility layer for older flask-0.10 and 
 dev-python/flask-silk 0.2: Adds silk icons to your Flask application or module, or extension
 dev-python/fpylll 0.2.3: A Python (2 and 3) wrapper for fplll.
 dev-python/giacpy_sage 0.6: A Cython frontend to the c++ library giac for sage
-dev-python/ipywidgets 6.0.0_rc2: IPython HTML widgets for Jupyter
+dev-python/ipywidgets 6.0.0-r1: IPython HTML widgets for Jupyter
 dev-python/numpy 1.10.4 1.11.2-r1: Fast array and numerical python library
 dev-python/pari_jupyter 1.1.2: Jupyter kernel for PARI/GP
 dev-python/pexpect 4.0.1-r2: Python module to spawn child applications and responding to expected patterns
@@ -42,7 +42,6 @@ dev-python/pkgconfig 1.2.2: Interface Python with pkg-config
 dev-python/python-igraph 0.7.0: Python interface for the igraph library
 dev-python/sphinx 1.4.4-r1: Python documentation generator
 dev-python/sympy 1.0-r1: Computer Algebra System in pure Python
-dev-python/widgetsnbextension 2.0.0_rc1: IPython HTML widgets for Jupyter
 dev-tex/sage-latex 2.3.4 3.0: SageTeX allows you to embed Sage code into LaTeX documents
 dev-tex/tkz-base 1.16c: tkz-base is a base package to give easy access to programation with tikz
 dev-tex/tkz-berge 2.8: Useful macros to draw some classic graphs of the graph theory or others graphs
