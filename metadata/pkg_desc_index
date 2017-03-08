@@ -26,7 +26,6 @@ dev-gap/toric 1.8: toric varieties and some combinatorial geometry computations
 dev-lang/python 2.7.12-r102 2.7.13-r100: An interpreted, interactive, object-oriented programming language
 dev-libs/ntl 10.1.0: High-performance and portable Number Theory C++ library
 dev-lisp/ecls 16.1.2-r1: ECL is an embeddable Common Lisp implementation
-dev-python/cvxopt 1.1.8: Python package for convex optimization
 dev-python/cysignals 1.1.1-r1 1.4.0 9999: interrupt and signal handling for Cython
 dev-python/cython 0.24.1-r1 0.25.2-r1: A Python to C compiler
 dev-python/flask-autoindex 0.5 0.6: A mod_autoindex for Flask
@@ -38,7 +37,6 @@ dev-python/ipywidgets 6.0.0-r1: IPython HTML widgets for Jupyter
 dev-python/numpy 1.10.4 1.11.2-r1: Fast array and numerical python library
 dev-python/pari_jupyter 1.1.2: Jupyter kernel for PARI/GP
 dev-python/pexpect 4.0.1-r2: Python module to spawn child applications and responding to expected patterns
-dev-python/pkgconfig 1.2.2: Interface Python with pkg-config
 dev-python/python-igraph 0.7.0: Python interface for the igraph library
 dev-python/sphinx 1.4.4-r1: Python documentation generator
 dev-python/sympy 1.0-r1: Computer Algebra System in pure Python
@@ -55,7 +53,6 @@ sci-libs/bliss 0.73: A Tool for Computing Automorphism Groups and Canonical Labe
 sci-libs/fflas-ffpack 1.6.0-r5 2.2.2-r1: FFLAS-FFPACK is a library for dense linear algebra over word-size finite fields.
 sci-libs/fplll 5.0.3: Different implementations of the floating-point LLL reduction algorithm
 sci-libs/givaro 3.7.1 4.0.2 9999: Givaro is a C++ library for arithmetic and algebraic computations
-sci-libs/gsl 2.3-r1: GNU Scientific Library
 sci-libs/libbraiding 1.0 9999: Expose the functionalities of Braiding as a shared library
 sci-libs/libgap 4.8.3 4.8.6: A cython library interface to gap for sage
 sci-libs/libhomfly 1.0.1: Library to compute the homfly polynomial of a link

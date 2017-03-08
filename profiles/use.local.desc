@@ -9,8 +9,6 @@ dev-lang/python:wininst - Install Windows executables required to create an exec
 dev-lisp/ecls:gengc - Use generational garbage collection (experimental)
 dev-lisp/ecls:libatomic - Use dev-libs/libatomic_ops library
 dev-lisp/ecls:precisegc - Use type information during garbage collection (experimental)
-dev-python/cvxopt:dsdp - Use interior point library sci-libs/dsdp
-dev-python/cvxopt:glpk - Use GNU Linear Programming Kit sci-mathematics/glpk
 dev-python/sympy:imaging - Add support for dev-python/imaging
 dev-python/sympy:ipython - Add support for dev-python/ipython
 dev-python/sympy:mathml - Add support for mathml
@@ -19,7 +17,6 @@ dev-python/sympy:texmacs - Add app-office/texmacs interface
 dev-python/sympy:theano - Add support for dev-python/theano
 sci-chemistry/jmol:client-only - Install the viewer only, no applet files for httpd
 sci-chemistry/jspecview:applet - Create an applet
-sci-libs/gsl:cblas-external - Link gsl with external cblas provided by (virtual/cblas) instead of shipped internal version
 sci-libs/linbox:opencl - enable the use of opencl in linbox
 sci-libs/pynac:giac - Use the sci-mathematics/giac library.
 sci-mathematics/eclib:boost - Use boost libraries for threading and parallelism
