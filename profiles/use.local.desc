@@ -36,16 +36,14 @@ sci-mathematics/maxima:gcl - Compile maxima with GNU Common Lisp (dev-lisp/gcl)
 sci-mathematics/maxima:sbcl - Compile maxima with Steel Bank Common Lisp (dev-lisp/sbcl)
 sci-mathematics/pari:data - Add additional data (elldata, galdata, seadata, nftables)
 sci-mathematics/polybori:gd - Build with media-libs/gd
-sci-mathematics/sage:bin-html - install pre-built html documentation
-sci-mathematics/sage:bin-pdf - install pre-built pdf documentation
 sci-mathematics/sage:bliss - build the bindings to the bliss library
 sci-mathematics/sage:doc-html - build and install html documentation
+sci-mathematics/sage:doc-html-bin - install pre-built html documentation
 sci-mathematics/sage:doc-pdf - build and install documentation in pdf format
-sci-mathematics/sage:html - build and install html documentation
+sci-mathematics/sage:doc-pdf-bin - install pre-built pdf documentation
 sci-mathematics/sage:libbraiding - build the bindings to the libbraiding library
 sci-mathematics/sage:libhomfly - build the bindings to the libhomfly library
 sci-mathematics/sage:modular_decomposition - build the bindings to the modular_decomposition library
-sci-mathematics/sage:pdf - build and install documentation in pdf format
 sci-mathematics/sage:sagenb - Trigger the installation of the historic sage-notebook (a jupyter notebook is installed with sage)
 sci-mathematics/sage:testsuite - If activated installs tools to runs the testsuite and insure that all the files needed are present.
 sci-mathematics/sage-notebook:java - Enable JMol for 3D-printing in the notebook
