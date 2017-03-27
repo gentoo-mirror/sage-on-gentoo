@@ -7,7 +7,7 @@ IUSE=static-libs
 KEYWORDS=~amd64 ~x86
 LICENSE=LGPL-2+
 RDEPEND=>=dev-libs/gmp-4.2.0:0 >=dev-libs/mpfr-2.3.0:0
-SLOT=0/2.0
+SLOT=0/3.0
 SRC_URI=https://github.com/fplll/fplll/releases/download/5.1.0/fplll-5.1.0.tar.gz
 _eclass_exported_funcs=src_configure:-
-_md5_=7f1e1cf1e14ecd8f22dbe10999b3394b
+_md5_=6e1b4a3943b65337f8eb042e4d745279
