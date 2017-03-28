@@ -85,7 +85,7 @@ sci-mathematics/nauty 2.6.1: Computing automorphism groups of graphs and digraph
 sci-mathematics/optimal 20040603-r1: An optimal rubik's cube solver using God's Algorithm
 sci-mathematics/palp 2.1-r1: A Package for Analyzing Lattice Polytopes
 sci-mathematics/pari 2.8.0_alpha 2.9.1-r1 2.9.1-r100 9999: Computer-aided number theory C library and tools
-sci-mathematics/planarity 2.2.0: This code project provides a library for implementing graph algorithms
+sci-mathematics/planarity 2.2.0 3.0.0.5: This code project provides a library for implementing graph algorithms
 sci-mathematics/polybori 0.8.3-r2: Polynomials over Boolean Rings
 sci-mathematics/qsieve 3.02: A program for factoring numbers
 sci-mathematics/ratpoints 2.1.3-r4: Ratpoints tries to find all rational points on a hyperelliptic curve
