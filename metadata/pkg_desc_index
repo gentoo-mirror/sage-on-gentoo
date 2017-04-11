@@ -39,7 +39,7 @@ dev-python/pari_jupyter 1.1.2: Jupyter kernel for PARI/GP
 dev-python/python-igraph 0.7.0: Python interface for the igraph library
 dev-python/sphinx 1.4.4-r1 1.5.3: Python documentation generator
 dev-python/sympy 1.0-r1: Computer Algebra System in pure Python
-dev-tex/sage-latex 2.3.4 3.0: SageTeX allows you to embed Sage code into LaTeX documents
+dev-tex/sage-latex 3.0: SageTeX allows you to embed Sage code into LaTeX documents
 dev-tex/tkz-base 1.16c: tkz-base is a base package to give easy access to programation with tikz
 dev-tex/tkz-berge 2.8: Useful macros to draw some classic graphs of the graph theory or others graphs
 dev-tex/tkz-graph 2.7d: tkz-graph is a set of convenient macros for drawing graphs
@@ -86,7 +86,6 @@ sci-mathematics/optimal 20040603-r1: An optimal rubik's cube solver using God's 
 sci-mathematics/palp 2.1-r1: A Package for Analyzing Lattice Polytopes
 sci-mathematics/pari 2.8.0_alpha 2.9.1-r1 2.9.1-r100 2.9.2 9999: Computer-aided number theory C library and tools
 sci-mathematics/planarity 2.2.0 3.0.0.5: This code project provides a library for implementing graph algorithms
-sci-mathematics/polybori 0.8.3-r2: Polynomials over Boolean Rings
 sci-mathematics/qsieve 3.02: A program for factoring numbers
 sci-mathematics/ratpoints 2.1.3-r4: Ratpoints tries to find all rational points on a hyperelliptic curve
 sci-mathematics/sage 7.5.1-r1 7.6 9999: Math software for abstract and numerical computations
