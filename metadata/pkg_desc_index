@@ -26,7 +26,7 @@ dev-gap/toric 1.8: toric varieties and some combinatorial geometry computations
 dev-lang/python 2.7.12-r102 2.7.13-r100: An interpreted, interactive, object-oriented programming language
 dev-libs/ntl 10.1.0: High-performance and portable Number Theory C++ library
 dev-lisp/ecls 16.1.2-r1: ECL is an embeddable Common Lisp implementation
-dev-python/cysignals 1.4.0 9999: interrupt and signal handling for Cython
+dev-python/cysignals 1.4.0 1.5.0 9999: interrupt and signal handling for Cython
 dev-python/cython 0.25.2-r2: A Python to C compiler
 dev-python/flask-autoindex 0.5 0.6: A mod_autoindex for Flask
 dev-python/flask-oldsessions 0.10: Compatibility layer for older flask-0.10 and under sessions
