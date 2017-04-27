@@ -1,4 +1,4 @@
-DEFINED_PHASES=configure prepare unpack
+DEFINED_PHASES=configure install prepare unpack
 DEPEND=>=dev-libs/gmp-4.0[cxx] >=dev-vcs/git-1.8.2.1 >=app-portage/elt-patches-20170317 !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
 DESCRIPTION=Givaro is a C++ library for arithmetic and algebraic computations
 EAPI=6
@@ -8,6 +8,6 @@ LICENSE=CeCILL-B
 RDEPEND=>=dev-libs/gmp-4.0[cxx]
 RESTRICT=mirror
 SLOT=0
-_eclass_exported_funcs=src_unpack:git-r3 src_prepare:- src_configure:-
+_eclass_exported_funcs=src_unpack:git-r3 src_prepare:- src_configure:- src_install:-
 _eclasses_=autotools	7027963e8e8cc12c91117bdb9225dc26	git-r3	cbafa3261c37c7e3af44bb16a34ea390	libtool	e32ea84bf82cf8987965b574672dba93	multilib	0236be304ee52e7f179ed2f337075515	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee
-_md5_=a1bbc8c284cd33835d894fe2a344a189
+_md5_=f0f554d95b7875dd686b9220a9feeba0

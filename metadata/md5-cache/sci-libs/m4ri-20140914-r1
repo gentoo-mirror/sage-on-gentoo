@@ -1,4 +1,4 @@
-DEFINED_PHASES=configure pretend
+DEFINED_PHASES=configure install pretend
 DEPEND=media-libs/libpng:= virtual/pkgconfig
 DESCRIPTION=Method of four russian for inversion (M4RI)
 EAPI=6
@@ -10,6 +10,6 @@ RDEPEND=media-libs/libpng:=
 RESTRICT=mirror
 SLOT=0
 SRC_URI=mirror://sageupstream/m4ri/m4ri-20140914.tar.gz
-_eclass_exported_funcs=pkg_pretend:- src_configure:-
+_eclass_exported_funcs=pkg_pretend:- src_configure:- src_install:-
 _eclasses_=epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	flag-o-matic	61cad4fb5d800b29d484b27cb033f59b	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	0236be304ee52e7f179ed2f337075515	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee
-_md5_=950e0b445747ee5e66b65ee19014ff0d
+_md5_=3f68c02098f0815d6ed89cc4919dd2fa

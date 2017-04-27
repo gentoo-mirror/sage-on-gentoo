@@ -1,4 +1,4 @@
-DEFINED_PHASES=configure
+DEFINED_PHASES=configure install
 DEPEND=>=dev-libs/gmp-4.0[cxx]
 DESCRIPTION=Givaro is a C++ library for arithmetic and algebraic computations
 EAPI=6
@@ -10,5 +10,5 @@ RDEPEND=>=dev-libs/gmp-4.0[cxx]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/linbox-team/givaro/releases/download/v4.0.2/givaro-4.0.2.tar.gz
-_eclass_exported_funcs=src_configure:-
-_md5_=52ef9ea23a11eb44618ffae1b45be9d8
+_eclass_exported_funcs=src_configure:- src_install:-
+_md5_=50671140213d35af319f688d03209ed6

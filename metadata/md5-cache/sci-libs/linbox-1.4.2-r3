@@ -1,4 +1,4 @@
-DEFINED_PHASES=configure pretend
+DEFINED_PHASES=configure install pretend
 DEPEND=dev-libs/gmp[cxx] ~sci-libs/givaro-4.0.2 ~sci-libs/fflas-ffpack-2.2.2 virtual/cblas virtual/lapack opencl? ( virtual/opencl ) dev-libs/ntl:= sci-libs/iml dev-libs/mpfr:= sci-mathematics/flint
 DESCRIPTION=A C++ template library for linear algebra over integers and over finite fields
 EAPI=6
@@ -10,6 +10,6 @@ RDEPEND=dev-libs/gmp[cxx] ~sci-libs/givaro-4.0.2 ~sci-libs/fflas-ffpack-2.2.2 vi
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/linbox-team/linbox/releases/download/v1.4.2/linbox-1.4.2.tar.gz
-_eclass_exported_funcs=pkg_pretend:- src_configure:-
+_eclass_exported_funcs=pkg_pretend:- src_configure:- src_install:-
 _eclasses_=multilib	0236be304ee52e7f179ed2f337075515	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee
-_md5_=a7bd900d4a4584648641a2b5fde29901
+_md5_=8a1588e8784bd8ec85619680fe0d6403
