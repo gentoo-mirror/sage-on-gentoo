@@ -1,4 +1,4 @@
-DEFINED_PHASES=configure
+DEFINED_PHASES=configure install
 DESCRIPTION=Littlewood-Richardson Calculator
 EAPI=6
 HOMEPAGE=http://www.math.rutgers.edu/~asbuch/lrcalc/
@@ -8,5 +8,5 @@ LICENSE=GPL-2
 RESTRICT=mirror
 SLOT=0/1
 SRC_URI=http://math.rutgers.edu/~asbuch/lrcalc/lrcalc-1.2.tar.gz
-_eclass_exported_funcs=src_configure:-
-_md5_=1b60dda42b2144f6c532973e63ea0434
+_eclass_exported_funcs=src_configure:- src_install:-
+_md5_=e67de8601a60bf0af9f45102c68a4de4
