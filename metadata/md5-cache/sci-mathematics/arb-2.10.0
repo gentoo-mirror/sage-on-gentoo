@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install test
+DEPEND=>=sci-mathematics/flint-2.5.0:=
+DESCRIPTION=Arb is a C library for arbitrary-precision floating-point ball arithmetic.
+EAPI=6
+HOMEPAGE=http://fredrikj.net/arb/
+IUSE=static-libs
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos ~x64-macos
+LICENSE=GPL-2+
+RDEPEND=>=sci-mathematics/flint-2.5.0:=
+SLOT=0/1.1
+SRC_URI=https://github.com/fredrik-johansson/arb/archive/2.10.0.tar.gz -> arb-2.10.0.tar.gz
+_eclass_exported_funcs=src_configure:- src_compile:- src_test:- src_install:-
+_eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee
+_md5_=53af114e2de906028d9f32ae846c99c8
