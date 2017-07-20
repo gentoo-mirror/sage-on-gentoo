@@ -28,7 +28,7 @@ dev-libs/ntl 10.1.0-r1 10.3.0-r1: High-performance and portable Number Theory C+
 dev-lisp/ecls 16.1.2-r1: ECL is an embeddable Common Lisp implementation
 dev-python/cvxopt 1.1.9: Python package for convex optimization
 dev-python/cypari2 1.0.0: A Python interface to the number theory library libpari
-dev-python/cysignals 1.4.0 1.6.4 9999: interrupt and signal handling for Cython
+dev-python/cysignals 1.4.0 1.6.4 1.6.5 9999: interrupt and signal handling for Cython
 dev-python/cython 0.25.2-r3: A Python to C compiler
 dev-python/flask-autoindex 0.5 0.6: A mod_autoindex for Flask
 dev-python/flask-oldsessions 0.10: Compatibility layer for older flask-0.10 and under sessions
