@@ -36,8 +36,7 @@ dev-python/fpylll 0.2.3-r1 0.2.4: A Python (2 and 3) wrapper for fplll.
 dev-python/giacpy_sage 0.6: A Cython frontend to the c++ library giac for sage
 dev-python/ipywidgets 6.0.0-r1: IPython HTML widgets for Jupyter
 dev-python/jupyter-kernel-gap 0.9: This wrapper-kernel is a Jupyter kernel for GAP
-dev-python/networkx 1.11: Python tools to manipulate graphs and complex networks
-dev-python/numpy 1.10.4 1.11.2-r1: Fast array and numerical python library
+dev-python/numpy 1.10.4: Fast array and numerical python library
 dev-python/pari_jupyter 1.1.2: Jupyter kernel for PARI/GP
 dev-python/python-igraph 0.7.0: Python interface for the igraph library
 dev-python/sage-brial 1.0.1: BriAL, a successor to PolyBoRI: Polynomials over Boolean Rings
