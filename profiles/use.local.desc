@@ -12,10 +12,11 @@ dev-lisp/ecls:precisegc - Use type information during garbage collection (experi
 dev-python/cvxopt:dsdp - Use interior point library sci-libs/dsdp
 dev-python/cvxopt:glpk - Use GNU Linear Programming Kit sci-mathematics/glpk
 dev-python/sphinx:net - enable internet capabilities
-dev-python/sympy:imaging - Add support for dev-python/imaging
+dev-python/sympy:imaging - Add support for dev-python/pillow
 dev-python/sympy:ipython - Add support for dev-python/ipython
 dev-python/sympy:mathml - Add support for mathml
 dev-python/sympy:pyglet - Use dev-python/pyglet for plots and print preview
+dev-python/sympy:symengine - Add support for a dev-python/symengine backend
 dev-python/sympy:texmacs - Add app-office/texmacs interface
 dev-python/sympy:theano - Add support for dev-python/theano
 sci-chemistry/jmol:client-only - Install the viewer only, no applet files for httpd
