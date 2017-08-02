@@ -51,7 +51,6 @@ sci-chemistry/jmol 12.3.27: Jmol is a java molecular viever for 3-D chemical str
 sci-chemistry/jmol-applet 12.3.27: Jmol is a java molecular viever for 3-D chemical structures.
 sci-chemistry/jspecview 1169 1169-r1: Spectroscopy Viewer
 sci-chemistry/sage-jmol-bin 14.2.4-r2 14.2.11-r1: Jmol is a java molecular viever for 3-D chemical structures.
-sci-libs/bliss 0.73: A Tool for Computing Automorphism Groups and Canonical Labelings of Graphs
 sci-libs/brial 1.0.1: BriAL, a successor to PolyBoRI: Polynomials over Boolean Rings
 sci-libs/fflas-ffpack 1.6.0-r5 2.2.2-r2: FFLAS-FFPACK is a library for dense linear algebra over word-size finite fields.
 sci-libs/fplll 5.0.3 5.1.0-r1: Different implementations of the floating-point LLL reduction algorithm
