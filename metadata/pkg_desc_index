@@ -82,7 +82,7 @@ sci-mathematics/gmp-ecm 6.4.4-r1 6.4.4-r2 7.0.4: Elliptic Curve Method for Integ
 sci-mathematics/gp2c 0.0.9_p5 0.0.10: A GP to C translator
 sci-mathematics/lcalc 1.23-r7: A program for calculating with L-functions
 sci-mathematics/lrcalc 1.2-r2: Littlewood-Richardson Calculator
-sci-mathematics/maxima 5.35.1-r2 5.39.0-r1: Free computer algebra environment based on Macsyma
+sci-mathematics/maxima 5.39.0-r1: Free computer algebra environment based on Macsyma
 sci-mathematics/mcube 20051209: An non-optimal 4x4x4 rubik's cube solver
 sci-mathematics/nauty 2.6.1 2.6.7: Computing automorphism groups of graphs and digraphs
 sci-mathematics/optimal 20040603-r1: An optimal rubik's cube solver using God's Algorithm
