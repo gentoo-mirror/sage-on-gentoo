@@ -1,16 +1,16 @@
 DEFINED_PHASES=compile configure install postinst postrm prepare test
-DEPEND=python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] virtual/latex-base >=sys-apps/texinfo-4.2-r5
+DEPEND=app-text/texlive[extra] python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] virtual/latex-base >=sys-apps/texinfo-4.2-r5
 DESCRIPTION=SageTeX allows you to embed Sage code into LaTeX documents
 EAPI=6
 HOMEPAGE=http://www.sagemath.org https://github.com/dandrake/sagetex
 IUSE=examples python_targets_python2_7
 KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux ~x86-macos ~x64-macos
 LICENSE=GPL-2
-RDEPEND=dev-tex/pgf python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] virtual/latex-base
+RDEPEND=app-text/texlive[extra] dev-tex/pgf python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] virtual/latex-base
 REQUIRED_USE=|| ( python_targets_python2_7 )
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/dandrake/sagetex/archive/v3.0.tar.gz -> sagetex-3.0.tar.gz
 _eclass_exported_funcs=pkg_postrm:latex-package pkg_postinst:latex-package src_prepare:- src_configure:distutils-r1 src_compile:- src_test:distutils-r1 src_install:-
 _eclasses_=distutils-r1	372bbe39047c0a2550319a3a82f3e063	latex-package	79acad19b9efeec616d0ad70cd117b03	multibuild	72647e255187a1fadc81097b3657e5c3	multilib	97f470f374f2e94ccab04a2fb21d811e	multiprocessing	284a473719153462f3e974d86c8cb81c	python-r1	e9350ec46bb5c9f3504b4fbe8b8d8987	python-utils-r1	c9de01becf9df3f8c10aeec3dc693f5d	toolchain-funcs	185a06792159ca143528e7010368e8af	xdg-utils	f2c8335407f0b935b0a96d4adf23ef25
-_md5_=5a26e01c33253e9d51909e09586bad09
+_md5_=2c07ee100ccc531b6916eb1afa3becd3
