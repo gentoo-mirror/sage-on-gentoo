@@ -8,5 +8,4 @@ LICENSE=GPL-2+
 RDEPEND=>=sci-mathematics/pari-2.9.0 dev-lang/perl
 SLOT=0
 SRC_URI=http://pari.math.u-bordeaux.fr/pub/pari/GP2C/gp2c-0.0.10.tar.gz
-_eclass_exported_funcs=src_configure:-
 _md5_=9561313a79df7335801f7c0933ff6836

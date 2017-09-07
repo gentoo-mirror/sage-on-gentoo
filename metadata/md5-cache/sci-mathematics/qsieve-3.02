@@ -10,5 +10,4 @@ RDEPEND=dev-libs/gmp:=
 RESTRICT=mirror
 SLOT=0
 SRC_URI=http://www.thorstenreinecke.de/downloads/qsieve-3.02.tar.bz2
-_eclass_exported_funcs=src_configure:-
 _md5_=f06f54701e8bd0d6bb7b17ca31180fcf

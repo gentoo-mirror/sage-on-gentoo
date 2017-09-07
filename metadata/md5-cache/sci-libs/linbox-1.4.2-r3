@@ -10,6 +10,5 @@ RDEPEND=dev-libs/gmp[cxx] ~sci-libs/givaro-4.0.2 ~sci-libs/fflas-ffpack-2.2.2 vi
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/linbox-team/linbox/releases/download/v1.4.2/linbox-1.4.2.tar.gz
-_eclass_exported_funcs=pkg_pretend:- src_configure:- src_install:-
 _eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	185a06792159ca143528e7010368e8af
 _md5_=8a1588e8784bd8ec85619680fe0d6403

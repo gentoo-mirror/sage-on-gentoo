@@ -9,5 +9,4 @@ LICENSE=GPL-2
 RDEPEND=>=dev-libs/gmp-5.0.2 ~sci-mathematics/gap-4.8.6
 SLOT=0
 SRC_URI=mirror://sageupstream/libgap/libgap-4.8.6.tar.gz
-_eclass_exported_funcs=src_prepare:- src_configure:- src_install:-
 _md5_=399bc1391c5e1635f0e1fc271b24ba80

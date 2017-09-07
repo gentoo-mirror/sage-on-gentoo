@@ -7,5 +7,4 @@ LICENSE=GPL-2
 RESTRICT=mirror
 SLOT=0
 SRC_URI=mirror://sageupstream/graphs/graphs-20161026.tar.bz2
-_eclass_exported_funcs=src_install:-
 _md5_=587d10ed405d15d297c7f65506812575

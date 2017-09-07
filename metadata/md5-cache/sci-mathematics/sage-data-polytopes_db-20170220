@@ -7,5 +7,4 @@ LICENSE=GPL-2
 RESTRICT=mirror
 SLOT=0
 SRC_URI=mirror://sageupstream/polytopes_db/polytopes_db-20170220.tar.bz2
-_eclass_exported_funcs=src_install:-
 _md5_=97c268ad8b5f214cf7d43b951b49eaf6

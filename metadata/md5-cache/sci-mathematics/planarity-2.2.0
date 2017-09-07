@@ -7,5 +7,4 @@ KEYWORDS=~amd64 ~x86
 LICENSE=BSD
 SLOT=0
 SRC_URI=mirror://sageupstream/planarity/planarity-2.2.0.tar.bz2
-_eclass_exported_funcs=-
 _md5_=87c25e55b42ffeaa6860abbed7f4cf44
