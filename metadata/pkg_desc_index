@@ -76,7 +76,7 @@ sci-mathematics/eclib 20170330-r1 20171002: enumerating and computing with ellip
 sci-mathematics/flint 2.5.2-r1: Fast Library for Number Theory
 sci-mathematics/flintqs 1.0: William Hart's GPL'd multi-polynomial quadratic sieve for integer factorization
 sci-mathematics/gap 4.8.6-r3: System for computational discrete algebra
-sci-mathematics/giac 1.2.3.57 1.4.9.19: A free C++ CAS (Computer Algebra System) library and its interfaces
+sci-mathematics/giac 1.2.3.57 1.4.9.19 1.4.9.33: A free C++ CAS (Computer Algebra System) library and its interfaces
 sci-mathematics/glpk 4.60-r1 4.63-r2: GNU Linear Programming Kit
 sci-mathematics/gmp-ecm 6.4.4-r1 6.4.4-r2 7.0.4: Elliptic Curve Method for Integer Factorization
 sci-mathematics/gp2c 0.0.9_p5 0.0.10: A GP to C translator
