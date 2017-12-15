@@ -32,7 +32,7 @@ index 405c3f6..fa363ca 100755
      # See Trac #23713 and #23892
      os.environ["OMP_NUM_THREADS"] = "2"
 diff --git a/sage/matrix/matrix_mod2_dense.pyx b/sage/matrix/matrix_mod2_dense.pyx
-index a7e0e69..99024d0 100644
+index ea0925c..99024d0 100644
 --- a/sage/matrix/matrix_mod2_dense.pyx
 +++ b/sage/matrix/matrix_mod2_dense.pyx
 @@ -176,27 +176,6 @@ cdef class Matrix_mod2_dense(matrix_dense.Matrix_dense):   # dense or sparse
@@ -43,7 +43,7 @@ index a7e0e69..99024d0 100644
 -        Large matrices fail gracefully::
 -
 -            sage: import resource
--            sage: if resource.RLIMIT_AS == resource.RLIMIT_RSS:
+-            sage: if resource.RLIMIT_AS == getattr(resource, 'RLIMIT_RSS', None):
 -            ....:     # Skip this test if RLIMIT_AS is not properly
 -            ....:     # supported like on OS X, see Trac #24190
 -            ....:     raise RuntimeError("matrix allocation failed")
