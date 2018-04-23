@@ -7,5 +7,5 @@ LICENSE=GPL-2
 RESTRICT=mirror
 SLOT=0
 SRC_URI=mirror://sageupstream/combinatorial_designs/combinatorial_designs-20140630.tar.bz2
-_eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	versionator	ce21313503c41896ebcd7d58b0607e37
+_eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	versionator	26ca8a8bd95d6a74122c08ba98a4ee72
 _md5_=976c09d797a1610538ec71598dabcdbe
