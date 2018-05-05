@@ -10,5 +10,5 @@ RDEPEND=pari? ( sci-mathematics/pari:= )
 RESTRICT=mirror test
 SLOT=0
 SRC_URI=mirror://sageupstream/lcalc/lcalc-1.23.tar.bz2
-_eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	885c7d8dd70a58825f3d17e35a3cd1e9
+_eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	fa02994d0beba88681127d93da4411ec
 _md5_=307542dd9a48b3dca0880a1cd413da67

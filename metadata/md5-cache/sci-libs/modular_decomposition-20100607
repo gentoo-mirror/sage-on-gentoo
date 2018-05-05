@@ -6,5 +6,5 @@ KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos ~x64-macos
 LICENSE=GPL-2
 SLOT=0
 SRC_URI=mirror://sageupstream/modular_decomposition/modular_decomposition-20100607.tar.bz2
-_eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	885c7d8dd70a58825f3d17e35a3cd1e9
+_eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	fa02994d0beba88681127d93da4411ec
 _md5_=84d276d36a27888bd6d7cd27348b14c1
