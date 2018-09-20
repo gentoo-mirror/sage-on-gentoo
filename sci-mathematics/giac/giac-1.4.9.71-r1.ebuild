@@ -13,7 +13,7 @@ SRC_URI="http://www-fourier.ujf-grenoble.fr/~parisse/debian/dists/stable/main/so
 LICENSE="GPL-2"
 
 SLOT="0"
-KEYWORDS="~x86 ~amd64"
+KEYWORDS="~amd64 ~x86"
 LANGS="el en es fr pt"
 IUSE="ao doc examples fltk gc static-libs"
 for X in ${LANGS} ; do
@@ -28,6 +28,7 @@ RDEPEND="dev-libs/gmp:=[cxx]
 	sci-libs/mpfi
 	sci-libs/gsl:=
 	>=sci-mathematics/pari-2.7:=
+	sci-mathematics/glpk
 	dev-libs/ntl:=
 	virtual/lapack
 	net-misc/curl
