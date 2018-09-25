@@ -4,11 +4,11 @@ DESCRIPTION=A program for calculating with L-functions
 EAPI=6
 HOMEPAGE=http://oto.math.uwaterloo.ca/~mrubinst/L_function_public/L.html
 IUSE=pari
-KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos ~x64-macos
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos
 LICENSE=GPL-2
 RDEPEND=pari? ( sci-mathematics/pari:= )
 RESTRICT=mirror test
 SLOT=0
 SRC_URI=mirror://sageupstream/lcalc/lcalc-1.23.tar.bz2
 _eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	e4a9360924c5ce9f52e61342cde58512
-_md5_=307542dd9a48b3dca0880a1cd413da67
+_md5_=6baaa4b0d733e164d87a33f5a5edcb2a

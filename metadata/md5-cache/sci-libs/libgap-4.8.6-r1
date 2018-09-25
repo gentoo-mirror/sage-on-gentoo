@@ -4,9 +4,9 @@ DESCRIPTION=A cython library interface to gap for sage
 EAPI=6
 HOMEPAGE=https://bitbucket.org/vbraun/libgap
 IUSE=static-libs
-KEYWORDS=~x86 ~amd64 ~ppc-macos ~x86-macos ~x64-macos
+KEYWORDS=~amd64 ~x86 ~ppc-macos ~x64-macos ~x86-macos
 LICENSE=GPL-2
 RDEPEND=>=dev-libs/gmp-5.0.2 ~sci-mathematics/gap-4.8.6
 SLOT=0
 SRC_URI=mirror://sageupstream/libgap/libgap-4.8.6.tar.gz
-_md5_=399bc1391c5e1635f0e1fc271b24ba80
+_md5_=341470b3b2d8ffcff7a9f5aab2a088b8

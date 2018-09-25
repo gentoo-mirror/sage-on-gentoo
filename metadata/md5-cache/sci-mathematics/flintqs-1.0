@@ -3,11 +3,11 @@ DEPEND=dev-libs/gmp:= >=app-portage/elt-patches-20170815 !<sys-devel/gettext-0.1
 DESCRIPTION=William Hart's GPL'd multi-polynomial quadratic sieve for integer factorization
 EAPI=6
 HOMEPAGE=https://github.com/sagemath/FlintQS
-KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux ~x86-macos ~x64-macos
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux ~x64-macos ~x86-macos
 LICENSE=GPL-2
 RDEPEND=dev-libs/gmp:=
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/sagemath/FlintQS/archive/v1.0.tar.gz -> flintqs-1.0.tar.gz
 _eclasses_=autotools	1bf086cdd7356f5c9a4acd9727bd2065	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	e4a9360924c5ce9f52e61342cde58512
-_md5_=a4f82bfd85370a4e6be07c8544592ff4
+_md5_=95f313f3eb8ea53306056fe6c2a168cf

@@ -4,10 +4,10 @@ DESCRIPTION=A program for factoring numbers
 EAPI=6
 HOMEPAGE=http://www.thorstenreinecke.de/qsieve/
 IUSE=doc cpu_flags_x86_sse2
-KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux ~x86-macos ~x64-macos
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux ~x64-macos ~x86-macos
 LICENSE=GPL-2
 RDEPEND=dev-libs/gmp:=
 RESTRICT=mirror
 SLOT=0
 SRC_URI=http://www.thorstenreinecke.de/downloads/qsieve-3.02.tar.bz2
-_md5_=f06f54701e8bd0d6bb7b17ca31180fcf
+_md5_=e9ebbc8364425cd5e8a82c975d527402
