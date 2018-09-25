@@ -1,12 +1,11 @@
 DEFINED_PHASES=install
 DEPEND=sci-mathematics/gap
 DESCRIPTION=A GAP Interface to the Atlas of Group Representations
-EAPI=6
+EAPI=7
 HOMEPAGE=http://www.gap-system.org/Packages/atlasrep.html
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2+
 RDEPEND=sci-mathematics/gap net-misc/wget
 SLOT=0
-SRC_URI=http://www.gap-system.org/pub/gap/gap4/tar.bz2/packages/atlasrep1r5p0.tar.bz2
-_eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	versionator	2352c3fc97241f6a02042773c8287748
-_md5_=618799f9484affdc54c38e97b7d6b125
+SRC_URI=http://www.gap-system.org/pub/gap/gap4/tar.bz2/packages/atlasrep1r5p1.tar.bz2
+_md5_=e301b56193691db8f0c73258cb4c2bf9

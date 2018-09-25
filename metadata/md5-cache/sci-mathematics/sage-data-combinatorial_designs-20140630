@@ -1,11 +1,10 @@
 DEFINED_PHASES=install
 DESCRIPTION=Data for Combinatorial Designs
-EAPI=6
+EAPI=7
 HOMEPAGE=http://www.sagemath.org
 KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos
 LICENSE=GPL-2
 RESTRICT=mirror
 SLOT=0
 SRC_URI=mirror://sageupstream/combinatorial_designs/combinatorial_designs-20140630.tar.bz2
-_eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	versionator	2352c3fc97241f6a02042773c8287748
-_md5_=93c859fbc8eb4aa19bf373a6230ee1ac
+_md5_=864ff77080a9e0eadf848cceff6e60e5
