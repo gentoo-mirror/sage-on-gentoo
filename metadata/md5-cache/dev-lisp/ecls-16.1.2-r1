@@ -1,7 +1,7 @@
 DEFINED_PHASES=compile configure install prepare setup
 DEPEND=dev-libs/gmp:0 virtual/libffi libatomic? ( dev-libs/libatomic_ops ) >=dev-libs/boehm-gc-7.1[threads?] >=dev-lisp/asdf-2.33-r3:= app-text/texi2html emacs? ( virtual/emacs >=app-eselect/eselect-emacs-1.12 )
 DESCRIPTION=ECL is an embeddable Common Lisp implementation
-EAPI=5
+EAPI=7
 HOMEPAGE=https://common-lisp.net/project/ecl/
 IUSE=cxx debug emacs gengc precisegc cpu_flags_x86_sse +threads +unicode +libatomic X
 KEYWORDS=~amd64 ~ppc ~sparc ~x86
@@ -10,5 +10,5 @@ RDEPEND=dev-libs/gmp:0 virtual/libffi libatomic? ( dev-libs/libatomic_ops ) >=de
 RESTRICT=test
 SLOT=0/16.1.2
 SRC_URI=https://common-lisp.net/project/ecl/static/files/release/ecl-16.1.2.tgz
-_eclasses_=desktop	b1d22ac8bdd4679ab79c71aca235009d	epatch	a1bf4756dba418a7238f3be0cb010c54	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	6e6c2737b59a4b982de6fb3ecefd87f8	ltprune	08f9e1d9ee0af8f5d9a7854efbcd8c0e	multilib	97f470f374f2e94ccab04a2fb21d811e	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	e4a9360924c5ce9f52e61342cde58512	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
-_md5_=71864765344b1db1b5d35a852bb73a6f
+_eclasses_=eutils	6e6c2737b59a4b982de6fb3ecefd87f8	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	e4a9360924c5ce9f52e61342cde58512
+_md5_=49ab9d6c57d12eadec85fdf75eaf78cc

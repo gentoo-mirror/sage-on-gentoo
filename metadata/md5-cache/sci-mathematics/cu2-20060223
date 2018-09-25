@@ -1,7 +1,7 @@
 DEFINED_PHASES=compile install
 DEPEND=app-arch/unzip
 DESCRIPTION=An non-optimal 2x2x2 rubik's cube solver
-EAPI=5
+EAPI=7
 HOMEPAGE=http://www.wrongway.org/?rubiksource
 KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux ~x64-macos
 LICENSE=GPL-2
@@ -9,4 +9,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=mirror://sagemath/cu2-src.zip
 _eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	e4a9360924c5ce9f52e61342cde58512
-_md5_=796f1d657cd16a32b6256a3456fdb890
+_md5_=feb732ea5bd2b6fbb100f1ca1fb060a1
