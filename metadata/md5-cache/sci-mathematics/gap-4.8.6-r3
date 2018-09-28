@@ -11,5 +11,5 @@ RDEPEND=dev-libs/gmp:= readline? ( sys-libs/readline:= ) emacs? ( virtual/emacs 
 RESTRICT=mirror
 SLOT=0
 SRC_URI=mirror://sagemath/gap-lite-4.8.6.tar.xz
-_eclasses_=autotools	1bf086cdd7356f5c9a4acd9727bd2065	elisp-common	23f47b2e1de7abf387105eddd1318738	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	f164325a2cdb5b3ea39311d483988861
+_eclasses_=autotools	1bf086cdd7356f5c9a4acd9727bd2065	elisp-common	23f47b2e1de7abf387105eddd1318738	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	b2f01ad412baf81650c23fcf0975fa33	toolchain-funcs	f164325a2cdb5b3ea39311d483988861
 _md5_=e3f7d293da6603b1003d718b96a6f50d
