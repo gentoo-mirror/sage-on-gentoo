@@ -11,4 +11,4 @@ RESTRICT=test
 SLOT=0/16.1.2
 SRC_URI=https://common-lisp.net/project/ecl/static/files/release/ecl-16.1.2.tgz
 _eclasses_=eutils	6e6c2737b59a4b982de6fb3ecefd87f8	multilib	b2f01ad412baf81650c23fcf0975fa33	toolchain-funcs	f164325a2cdb5b3ea39311d483988861
-_md5_=49ab9d6c57d12eadec85fdf75eaf78cc
+_md5_=70a8519b2d14d4d209aeb6b8b54b2512
