@@ -39,7 +39,7 @@ CDEPEND="dev-libs/gmp:0=
 	>=dev-libs/ppl-1.1
 	~dev-lisp/ecls-16.1.2
 	>=dev-python/six-1.11.0[${PYTHON_USEDEP}]
-	>=dev-python/numpy-1.13.3-r100[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.15.2[${PYTHON_USEDEP}]
 	=dev-python/cython-0.28*[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
 	~dev-python/pkgconfig-1.2.2[${PYTHON_USEDEP}]
@@ -70,7 +70,7 @@ CDEPEND="dev-libs/gmp:0=
 	>=sci-mathematics/glpk-4.63:0=[gmp]
 	>=sci-mathematics/lcalc-1.23-r6[pari]
 	>=sci-mathematics/lrcalc-1.2-r1
-	>=dev-python/cypari2-1.2.1[${PYTHON_USEDEP}]
+	>=dev-python/cypari2-1.3.1[${PYTHON_USEDEP}]
 	~sci-mathematics/planarity-3.0.0.5
 	=sci-libs/brial-1.2*
 	=dev-python/sage-brial-1*[${PYTHON_USEDEP}]
@@ -138,8 +138,7 @@ CHECKREQS_DISK_BUILD="8G"
 
 S="${WORKDIR}/${P}/src"
 
-REQUIRED_USE="doc-html? ( l10n_en sagenb )
-	doc-pdf? ( sagenb )
+REQUIRED_USE="doc-html? ( l10n_en )
 	testsuite? ( doc-html jmol )"
 
 pkg_setup() {
@@ -317,7 +316,7 @@ python_prepare() {
 	# Some SAGE_ROOT elimination
 	#'sage' is not in SAGE_ROOT, but in PATH or 
 	# alternatively in SAGE_LOCAL/bin
-	eapply "${FILESDIR}"/${PN}-8.3-SAGE_ROOT.patch
+	eapply "${FILESDIR}"/${PN}-8.5-SAGE_ROOT.patch
 
 	# remove the test trying to pre-compile sage's .py file with python3
 	rm sage/tests/py3_syntax.py || die "cannot remove py3_syntax test"
