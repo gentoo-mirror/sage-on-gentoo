@@ -1,4 +1,4 @@
-# Copyright 1999-2018 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
@@ -10,8 +10,7 @@ FORTRAN_NEEDED=lapack
 
 inherit distutils-r1 flag-o-matic fortran-2 multiprocessing toolchain-funcs
 
-# 1.15.2 not avalaible yet
-DOC_PV="1.15.1"
+DOC_PV="${PV}"
 DOC_P="${PN}-${DOC_PV}"
 
 DESCRIPTION="Fast array and numerical python library"
