@@ -15,7 +15,7 @@ LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 LANGS="el en es fr pt"
-IUSE="ao doc examples fltk gc +glpk static-libs"
+IUSE="ao doc +ecm examples fltk gc +glpk static-libs"
 for X in ${LANGS} ; do
 	IUSE="${IUSE} l10n_${X}"
 done
@@ -31,6 +31,7 @@ RDEPEND="dev-libs/gmp:=[cxx]
 	dev-libs/ntl:=
 	virtual/lapack
 	net-misc/curl
+	ecm? ( >=sci-mathematics/gmp-ecm-7.0.0 )
 	glpk? ( sci-mathematics/glpk )
 	gc? ( dev-libs/boehm-gc )"
 
@@ -69,6 +70,7 @@ src_configure(){
 		$(use_enable static-libs static) \
 		$(use_enable fltk gui)  \
 		$(use_enable ao) \
+		$(use_enable ecm) \
 		$(use_enable glpk) \
 		$(use_enable gc)
 
