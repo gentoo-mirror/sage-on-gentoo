@@ -1,16 +1,15 @@
 BDEPEND=>=app-portage/elt-patches-20170815 !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
 DEFINED_PHASES=configure install postinst postrm prepare setup
-DEPEND=dev-libs/gmp:= readline? ( sys-libs/readline:= ) !sci-libs/libgap !dev-gap/Alnuth:0 !dev-gap/GUAVA:0 !dev-gap/HAPcryst:0 !dev-gap/aclib:0 !dev-gap/atlasrep:0 !dev-gap/autpgrp:0 !dev-gap/crime:0 !dev-gap/cryst:0 !dev-gap/crystcat:0 !dev-gap/ctbllib:0 !dev-gap/design:0 !dev-gap/factint:0 !dev-gap/grape:0 !dev-gap/hap:0 !dev-gap/happrime:0 !dev-gap/laguna:0 !dev-gap/polycyclic:0 !dev-gap/polymaking:0 !dev-gap/sonata:0 !dev-gap/tomlib:0 !dev-gap/toric:0
+DEPEND=dev-libs/gmp:= readline? ( sys-libs/readline:= ) !!sci-libs/libgap
 DESCRIPTION=System for computational discrete algebra
 EAPI=7
 HOMEPAGE=http://www.gap-system.org/
 IUSE=emacs readline vim-syntax
 KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos
 LICENSE=GPL-2+
-PDEPEND=dev-gap/GAPDoc:4.10.0 dev-gap/primgrp:4.10.0 dev-gap/SmallGrp:4.10.0 dev-gap/transgrp:4.10.0
-RDEPEND=dev-libs/gmp:= readline? ( sys-libs/readline:= ) !sci-libs/libgap !dev-gap/Alnuth:0 !dev-gap/GUAVA:0 !dev-gap/HAPcryst:0 !dev-gap/aclib:0 !dev-gap/atlasrep:0 !dev-gap/autpgrp:0 !dev-gap/crime:0 !dev-gap/cryst:0 !dev-gap/crystcat:0 !dev-gap/ctbllib:0 !dev-gap/design:0 !dev-gap/factint:0 !dev-gap/grape:0 !dev-gap/hap:0 !dev-gap/happrime:0 !dev-gap/laguna:0 !dev-gap/polycyclic:0 !dev-gap/polymaking:0 !dev-gap/sonata:0 !dev-gap/tomlib:0 !dev-gap/toric:0 emacs? ( virtual/emacs ) vim-syntax? ( app-vim/vim-gap )
+RDEPEND=dev-libs/gmp:= readline? ( sys-libs/readline:= ) !!sci-libs/libgap emacs? ( virtual/emacs ) vim-syntax? ( app-vim/vim-gap ) !dev-gap/Alnuth:0 !dev-gap/GUAVA:0 !dev-gap/HAPcryst:0 !dev-gap/aclib:0 !dev-gap/atlasrep:0 !dev-gap/autpgrp:0 !dev-gap/crime:0 !dev-gap/cryst:0 !dev-gap/crystcat:0 !dev-gap/ctbllib:0 !dev-gap/design:0 !dev-gap/factint:0 !dev-gap/grape:0 !dev-gap/hap:0 !dev-gap/happrime:0 !dev-gap/laguna:0 !dev-gap/polycyclic:0 !dev-gap/polymaking:0 !dev-gap/sonata:0 !dev-gap/tomlib:0 !dev-gap/toric:0 dev-gap/GAPDoc:4.10.0 dev-gap/primgrp:4.10.0 dev-gap/SmallGrp:4.10.0 dev-gap/transgrp:4.10.0
 RESTRICT=mirror
 SLOT=4.10.0
 SRC_URI=https://www.gap-system.org/pub/gap/gap-4.10/tar.bz2/gap-4.10.0.tar.bz2
 _eclasses_=autotools	1bf086cdd7356f5c9a4acd9727bd2065	elisp-common	23f47b2e1de7abf387105eddd1318738	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	b2f01ad412baf81650c23fcf0975fa33	toolchain-funcs	f164325a2cdb5b3ea39311d483988861
-_md5_=292cc162e7df016ff9005a97e96fa210
+_md5_=509df0a5d0bba784fcf060a448cbeb50
