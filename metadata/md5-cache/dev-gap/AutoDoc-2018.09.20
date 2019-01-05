@@ -1,4 +1,4 @@
-DEFINED_PHASES=install
+DEFINED_PHASES=install prepare
 DESCRIPTION=Generate documentation from GAP source code
 EAPI=7
 HOMEPAGE=http://www.gap-system.org/Packages/autodoc.html
@@ -7,4 +7,4 @@ LICENSE=GPL-2+
 RDEPEND=sci-mathematics/gap:4.10.0 dev-gap/GAPDoc:4.10.0
 SLOT=4.10.0
 SRC_URI=https://www.gap-system.org/pub/gap/gap-4.10/tar.bz2/gap-4.10.0.tar.bz2
-_md5_=ae2625d195e05b33fe913da8a8e97eaf
+_md5_=e5261e53671e65c74a698bbdab60995c
