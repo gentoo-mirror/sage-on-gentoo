@@ -15,10 +15,15 @@ IUSE=""
 RDEPEND="sci-mathematics/gap:${SLOT}
 	dev-gap/GAPDoc:${SLOT}"
 
-DOCS="ChangeLog README TODO"
+DOCS="CHANGES README TODO"
 
 S="${WORKDIR}/gap-${SLOT}/pkg/${P}"
 
+src_prepare(){
+	default
+
+	rm -f makefile
+}
 src_install(){
 	default
 
