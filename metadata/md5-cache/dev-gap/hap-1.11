@@ -1,11 +1,10 @@
 DEFINED_PHASES=install postinst
-DEPEND=>=sci-mathematics/gap-4.7.8
 DESCRIPTION=Homological Algebra Programming
 EAPI=6
 HOMEPAGE=http://www.gap-system.org/Packages/hap.html
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2+
-RDEPEND=>=sci-mathematics/gap-4.7.8 dev-gap/polycyclic dev-gap/crystcat
+RDEPEND=sci-mathematics/gap:0 dev-gap/polycyclic:0 dev-gap/crystcat:0
 SLOT=0
 SRC_URI=http://www.gap-system.org/pub/gap/gap4/tar.bz2/packages/hap1.11.tar.bz2
-_md5_=2b36e7e823ff9b902e73c23378ba38ce
+_md5_=c32ee1c7e647ee426a337ad4ed9489f3

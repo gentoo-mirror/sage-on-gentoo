@@ -1,11 +1,10 @@
 DEFINED_PHASES=install prepare
-DEPEND=>=sci-mathematics/gap-4.7.8
 DESCRIPTION=A HAP extension for crytallographic groups
 EAPI=7
 HOMEPAGE=http://www.gap-system.org/Packages/hapcryst.html
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2+
-RDEPEND=>=sci-mathematics/gap-4.7.8 dev-gap/hap dev-gap/polycyclic dev-gap/aclib dev-gap/cryst dev-gap/polymaking
+RDEPEND=sci-mathematics/gap:0 dev-gap/hap:0 dev-gap/polycyclic:0 dev-gap/aclib:0 dev-gap/cryst:0 dev-gap/polymaking:0
 SLOT=0
 SRC_URI=http://www.gap-system.org/pub/gap/gap4/tar.bz2/packages/HAPcryst0_1_11.tar.bz2
-_md5_=ca21e7773f73b9fa0e0429ca6aa3c8f4
+_md5_=96bb339282b52c43c4c4e89535515ae4
