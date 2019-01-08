@@ -4,7 +4,7 @@ EAPI=7
 HOMEPAGE=http://www.gap-system.org/Packages/alnuth.html
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2+
-RDEPEND=sci-mathematics/gap:4.10.0 >=sci-mathematics/pari-2.5.0 dev-gap/polycyclic:4.10.0
-SLOT=4.10.0
+RDEPEND=sci-mathematics/gap:0/4.10.0 >=sci-mathematics/pari-2.5.0 dev-gap/polycyclic:0/4.10.0
+SLOT=0/4.10.0
 SRC_URI=https://www.gap-system.org/pub/gap/gap-4.10/tar.bz2/gap-4.10.0.tar.bz2
-_md5_=c154321cd24cf715fb21bb47b0148715
+_md5_=4792391a03dd645eabb2edc32c3532ab
