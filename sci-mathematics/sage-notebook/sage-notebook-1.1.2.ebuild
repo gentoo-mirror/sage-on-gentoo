@@ -1,4 +1,4 @@
-# Copyright 1999-2018 Gentoo Foundation
+# Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
@@ -18,7 +18,7 @@ SRC_URI="https://github.com/sagemath/sagenb/archive/${PV}.tar.gz -> ${P}.tar.gz"
 LICENSE="GPL-3+"
 SLOT="0"
 KEYWORDS="~amd64 ~amd64-linux ~x86-linux"
-IUSE="+java server test"
+IUSE="doc-html +java server test"
 
 RESTRICT="mirror test"
 
@@ -33,12 +33,13 @@ DEPEND=">=dev-python/pexpect-4.0.1-r1[${PYTHON_USEDEP}]
 	)
 	>=dev-python/jinja-2.5.5[${PYTHON_USEDEP}]
 	>=dev-python/docutils-0.5[${PYTHON_USEDEP}]
-	<dev-python/flask-1.0.0[${PYTHON_USEDEP}]
+	dev-python/flask[${PYTHON_USEDEP}]
 	>=dev-python/flask-autoindex-0.5[${PYTHON_USEDEP}]
 	>=dev-python/flask-openid-1.2.3[${PYTHON_USEDEP}]
 	dev-python/flask-oldsessions[${PYTHON_USEDEP}]
 	>=dev-python/flask-babel-0.8[${PYTHON_USEDEP}]
-	dev-python/webassets[${PYTHON_USEDEP}]"
+	dev-python/webassets[${PYTHON_USEDEP}]
+	>=dev-python/sphinx-1.7.5[${PYTHON_USEDEP}]"
 RDEPEND="${DEPEND}
 	dev-libs/mathjax
 	java? ( >=sci-chemistry/sage-jmol-bin-14.2.11 )"
@@ -49,10 +50,9 @@ S="${WORKDIR}/${MY_P}"
 
 PATCHES=(
 	"${FILESDIR}"/${PN}-0.10.7-setup.py.patch
-	"${FILESDIR}"/${PN}-1.0.1-base.patch
+	"${FILESDIR}"/${PN}-1.1.0-base.patch
 	"${FILESDIR}"/${PN}-0.9.1-notebook.patch
 	"${FILESDIR}"/${PN}-1.0.1-json.patch
-	"${FILESDIR}"/PR450.patch
 	)
 
 pkg_setup() {
@@ -81,6 +81,14 @@ src_prepare() {
 	distutils-r1_src_prepare
 }
 
+python_compile_all() {
+	if use doc-html ; then
+		pushd doc
+		emake html || die "failed to build documentation"
+		HTML_DOCS="doc/build/html/*"
+		popd
+	fi
+}
 python_install_all() {
 	# install runscript+configuration file to run the notebook as a daemon
 	if use server ; then
