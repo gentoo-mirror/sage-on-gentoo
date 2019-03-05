@@ -1,0 +1,10 @@
+DEFINED_PHASES=install
+DESCRIPTION=Polycyclic presentations for matrix groups
+EAPI=7
+HOMEPAGE=http://www.gap-system.org/Packages/polenta.html
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=sci-mathematics/gap:0/4.10.1 dev-gap/polycyclic:0/4.10.1 dev-gap/radiroot:0/4.10.1 dev-gap/Alnuth:0/4.10.1
+SLOT=0/4.10.1
+SRC_URI=https://www.gap-system.org/pub/gap/gap-4.10/tar.bz2/gap-4.10.1.tar.bz2
+_md5_=07045fc6748a1979fa86ca5396167382

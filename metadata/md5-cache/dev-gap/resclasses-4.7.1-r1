@@ -1,0 +1,10 @@
+DEFINED_PHASES=install
+DESCRIPTION=Set-Theoretic Computations with Residue Classes
+EAPI=7
+HOMEPAGE=http://www.gap-system.org/Packages/resclasses.html
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=sci-mathematics/gap:0/4.10.1 dev-gap/GAPDoc:0/4.10.1 dev-gap/utils:0/4.10.1 dev-gap/polycyclic:0/4.10.1
+SLOT=0/4.10.1
+SRC_URI=https://www.gap-system.org/pub/gap/gap-4.10/tar.bz2/gap-4.10.1.tar.bz2
+_md5_=9292b52ba05696dd5191885b0569ed2c

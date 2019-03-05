@@ -1,0 +1,10 @@
+DEFINED_PHASES=install
+DESCRIPTION=The Design Package for GAP
+EAPI=7
+HOMEPAGE=http://www.gap-system.org/Packages/design.html
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=sci-mathematics/gap:0/4.10.1 dev-gap/grape:0/4.10.1
+SLOT=0/4.10.1
+SRC_URI=https://www.gap-system.org/pub/gap/gap-4.10/tar.bz2/gap-4.10.1.tar.bz2
+_md5_=1477c27d4ddf6dd138b01e6fc589376d

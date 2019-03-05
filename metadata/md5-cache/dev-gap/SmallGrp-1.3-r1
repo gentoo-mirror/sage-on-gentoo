@@ -1,0 +1,10 @@
+DEFINED_PHASES=install
+DESCRIPTION=The GAP Small Groups Library
+EAPI=7
+HOMEPAGE=http://www.gap-system.org/Packages/smallgrp.html
+KEYWORDS=~amd64 ~x86
+LICENSE=Artistic-2
+RDEPEND=sci-mathematics/gap:0/4.10.1
+SLOT=0/4.10.1
+SRC_URI=https://www.gap-system.org/pub/gap/gap-4.10/tar.bz2/gap-4.10.1.tar.bz2
+_md5_=435eed484f58499056bd9714d2604bb0

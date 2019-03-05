@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install prepare setup
+DEPEND=sci-mathematics/gap:0/4.10.1
+DESCRIPTION=Hashes and Crypto in GAP
+EAPI=7
+HOMEPAGE=http://www.gap-system.org/Packages/crypting.html
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD-3
+RDEPEND=sci-mathematics/gap:0/4.10.1 dev-gap/GAPDoc:0/4.10.1
+SLOT=0/4.10.1
+SRC_URI=https://www.gap-system.org/pub/gap/gap-4.10/tar.bz2/gap-4.10.1.tar.bz2
+_eclasses_=multilib	b2f01ad412baf81650c23fcf0975fa33	toolchain-funcs	f164325a2cdb5b3ea39311d483988861
+_md5_=9e039e634c733a90e2dd23d6c2ebb51e
