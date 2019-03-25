@@ -10,4 +10,4 @@ RDEPEND=>=sci-libs/amd-2.4 >=sci-libs/colamd-2.9 cuda? ( x11-drivers/nvidia-driv
 SLOT=0
 SRC_URI=mirror://sagemath/cholmod-3.0.13.tar.bz2
 _eclasses_=multilib	b2f01ad412baf81650c23fcf0975fa33	toolchain-funcs	b45201c4e6c096b98e250336954e64b9
-_md5_=4d6b647c75c94afc5eb09f5535830902
+_md5_=f6899800c903d2500d0052d68698b38d
