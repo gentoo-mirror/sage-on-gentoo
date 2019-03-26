@@ -9,4 +9,4 @@ LICENSE=LGPL-2.1
 RDEPEND=>=sci-libs/amd-2.4 >=sci-libs/btf-1.2 >=sci-libs/colamd-2.9
 SLOT=0
 SRC_URI=mirror://sagemath/klu-1.3.9.tar.bz2
-_md5_=49be610c5250e5f95cf64fc63eefd643
+_md5_=5c8d02082a64e49782ffcfab29f56dbc

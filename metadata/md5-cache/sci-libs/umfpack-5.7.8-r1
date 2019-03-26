@@ -10,4 +10,4 @@ RDEPEND=>=sci-libs/amd-2 >=sci-libs/suitesparseconfig-5.4.0 virtual/blas cholmod
 SLOT=0
 SRC_URI=mirror://sagemath/umfpack-5.7.8.tar.bz2
 _eclasses_=multilib	b2f01ad412baf81650c23fcf0975fa33	toolchain-funcs	b45201c4e6c096b98e250336954e64b9
-_md5_=c937347542b931359ecad07184901e98
+_md5_=5f647bca2226d5f636773c3606de6e01

@@ -9,4 +9,4 @@ LICENSE=GPL-2
 RDEPEND=virtual/lapack >=sci-libs/cholmod-2[lapack,metis?] tbb? ( dev-cpp/tbb )
 SLOT=0
 SRC_URI=mirror://sagemath/spqr-2.0.9.tar.bz2
-_md5_=606ec8a749c21c067ed2407add2ab090
+_md5_=16af91b2a8747be7af91cda679c85950
