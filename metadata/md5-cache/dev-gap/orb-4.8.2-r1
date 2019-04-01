@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile install prepare setup
-DEPEND=>=sci-mathematics/gap-4.10.1
+DEPEND=>=sci-mathematics/gap-4.10.1:=
 DESCRIPTION=Methods to enumerate orbits
 EAPI=7
 HOMEPAGE=http://www.gap-system.org/Packages/orb.html
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3+
-RDEPEND=>=sci-mathematics/gap-4.10.1
+RDEPEND=>=sci-mathematics/gap-4.10.1:=
 SLOT=0
 SRC_URI=https://github.com/gap-packages/orb/releases/download/v4.8.2/orb-4.8.2.tar.gz
 _eclasses_=multilib	b2f01ad412baf81650c23fcf0975fa33	toolchain-funcs	b45201c4e6c096b98e250336954e64b9
-_md5_=eedaf3b4c6b75734b8460e82e49e3e26
+_md5_=17c667887c2031407f75270260b13976
