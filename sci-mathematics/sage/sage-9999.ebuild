@@ -81,7 +81,7 @@ CDEPEND="dev-libs/gmp:0=
 	>=sci-mathematics/ratpoints-2.1.3
 	media-libs/gd[jpeg,png]
 	media-libs/libpng:0=
-	~media-gfx/threejs-sage-extension-80
+	~media-gfx/threejs-sage-extension-100
 	>=sys-libs/readline-6.2
 	sys-libs/zlib
 	virtual/cblas
@@ -106,7 +106,7 @@ RDEPEND="${CDEPEND}
 	>=dev-python/pexpect-4.2.1[${PYTHON_USEDEP}]
 	>=dev-python/rpy-2.8.0[${PYTHON_USEDEP}]
 	<dev-python/rpy-2.9.0
-	~dev-python/sympy-1.3[${PYTHON_USEDEP}]
+	~dev-python/sympy-1.4[${PYTHON_USEDEP}]
 	media-gfx/tachyon[png]
 	jmol? ( sci-chemistry/sage-jmol-bin )
 	>=sci-libs/cddlib-094j[tools]
@@ -386,9 +386,6 @@ python_install() {
 			die "failed to remove cython debugging information."
 	fi
 
-	# For installation of jupyter extensions SAGE_DOC 
-	# needs to point to the final installation point
-	export SAGE_DOC="${EPREFIX}/usr/share/doc/${PF}"
 	distutils-r1_python_install
 
 	##############################################
