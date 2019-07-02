@@ -1,4 +1,4 @@
-# Copyright 1999-2018 Gentoo Foundation
+# Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -15,29 +15,34 @@ LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 LANGS="el en es fr pt"
-IUSE="ao doc examples fltk gc static-libs"
+IUSE="ao doc +ecm examples fltk gc +glpk static-libs"
 for X in ${LANGS} ; do
 	IUSE="${IUSE} l10n_${X}"
 done
 
 RDEPEND="dev-libs/gmp:=[cxx]
 	sys-libs/readline:=
-	fltk? ( >=x11-libs/fltk-1.1.9 )
+	fltk? ( >=x11-libs/fltk-1.1.9
+		media-libs/libpng:= )
 	ao? ( media-libs/libao )
 	dev-libs/mpfr:=
 	sci-libs/mpfi
 	sci-libs/gsl:=
 	>=sci-mathematics/pari-2.7:=
-	sci-mathematics/glpk
 	dev-libs/ntl:=
 	virtual/lapack
+	net-misc/curl
+	ecm? ( >=sci-mathematics/gmp-ecm-7.0.0 )
+	glpk? ( sci-mathematics/glpk )
 	gc? ( dev-libs/boehm-gc )"
 
 DEPEND="${RDEPEND}
-	virtual/pkgconfig"
+	virtual/pkgconfig
+	virtual/yacc"
 
 PATCHES=(
 	"${FILESDIR}"/${PN}-1.2.2-gsl_lapack.patch
+	"${FILESDIR}"/${PN}-1.5.0.61-tex_header.patch
 	)
 
 S="${WORKDIR}/${PN}-${MY_PV}"
@@ -45,6 +50,9 @@ S="${WORKDIR}/${PN}-${MY_PV}"
 src_prepare(){
 	if !(use fltk); then
 		eapply "${FILESDIR}"/${PN}-1.2.2-test_with_nofltk.patch
+	fi
+	if has_version ">=sci-mathematics/pari-2.11.0" ; then
+		eapply "${FILESDIR}"/pari_2_11.patch
 	fi
 	default
 
@@ -58,11 +66,16 @@ src_configure(){
 		append-libs $(fltk-config --ldflags | sed -e 's/\(-L\S*\)\s.*/\1/') || die
 	fi
 
+	# Using libsamplerate is currently broken
 	econf \
 		--enable-gmpxx \
+		--disable-samplerate \
 		$(use_enable static-libs static) \
 		$(use_enable fltk gui)  \
+		$(use_enable fltk png)  \
 		$(use_enable ao) \
+		$(use_enable ecm) \
+		$(use_enable glpk) \
 		$(use_enable gc)
 
 }
