@@ -2,3 +2,60 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+dev-gap/grape:bliss - Use bliss instead of nauty's dreadnaut as the back end for grape.
+dev-lang/python:threads - Enable threading support. (DON'T DISABLE THIS UNLESS YOU KNOW WHAT YOU'RE DOING)
+dev-lang/python:wide-unicode - Enable wide Unicode implementation which uses 4-byte Unicode characters. Switching of this USE flag changes ABI of Python and requires reinstallation of many Python modules. (DON'T DISABLE THIS UNLESS YOU KNOW WHAT YOU'RE DOING)
+dev-lang/python:wininst - Install Windows executables required to create an executable installer for MS Windows.
+dev-lisp/ecls:gengc - Use generational garbage collection (experimental)
+dev-lisp/ecls:libatomic - Use dev-libs/libatomic_ops library
+dev-lisp/ecls:precisegc - Use type information during garbage collection (experimental)
+dev-python/cvxopt:dsdp - Use interior point library sci-libs/dsdp
+dev-python/cvxopt:glpk - Use GNU Linear Programming Kit sci-mathematics/glpk
+dev-python/gmpy:mpir - Use sci-libs/mpir as gmp implementation
+dev-python/sphinx:net - enable internet capabilities
+dev-python/sympy:imaging - Add support for dev-python/pillow
+dev-python/sympy:ipython - Add support for dev-python/ipython
+dev-python/sympy:mathml - Add support for mathml
+dev-python/sympy:pyglet - Use dev-python/pyglet for plots and print preview
+dev-python/sympy:symengine - Add support for a dev-python/symengine backend
+dev-python/sympy:texmacs - Add app-office/texmacs interface
+dev-python/sympy:theano - Add support for dev-python/theano
+sci-libs/cddlib:tools - Add a few executables and tests for cddlib
+sci-libs/cholmod:cuda - Use nvidia cuda toolkit for speeding up computations
+sci-libs/cholmod:metis - Enable the Partition module to cholmod using sci-libs/metis
+sci-libs/fflas-ffpack:cpu_flags_x86_avx512dq - enable avx512dq instructions
+sci-libs/fflas-ffpack:cpu_flags_x86_avx512vl - enable avx512vl instructions
+sci-libs/linbox:opencl - enable the use of opencl in linbox
+sci-libs/pynac:giac - Use the sci-mathematics/giac library.
+sci-libs/scipy:sparse - Adds support for sparse solving with sci-libs/umfpack
+sci-libs/spqr:metis - Use sci-libs/metis or sci-libs/parmetis for partitioning
+sci-libs/spqr:tbb - Enable multithreading with the Intel Threads Building Block dev-cpp/tbb
+sci-libs/umfpack:cholmod - Use sci-libs/cholmod for matrix ordering
+sci-mathematics/eclib:flint - Enable the use of flint for certain operations
+sci-mathematics/flint:gc - Enable garbage collection support via dev-libs/boehm-gc
+sci-mathematics/flint:ntl - Build NTL interface
+sci-mathematics/gap:recommended_pkgs - Trigger installation of the recommended default packages for GAP. This list is controlled by the "PackagesToLoad" "UserPreference" inside GAP.
+sci-mathematics/giac:ecm - Enable the use of sci-mathematics/gmp-ecm
+sci-mathematics/giac:gc - Enable garbage collection support via dev-libs/boehm-gc
+sci-mathematics/giac:glpk - Enable the use of sci-mathematics/glpk
+sci-mathematics/gmp-ecm:custom-tune - Improve performance of some operations by selecting machine-specific defaults
+sci-mathematics/gmp-ecm:gwnum - Use GWNum lib where possible
+sci-mathematics/lcalc:pari - Use pari for elliptic curve routines. This enables '-e' option
+sci-mathematics/maxima:clisp - Compile maxima with GNU CLISP (dev-lisp/clisp)
+sci-mathematics/maxima:clozurecl - Compile maxima with Clozure Common Lisp (dev-lisp/clozurecl)
+sci-mathematics/maxima:cmucl - Compile maxima with CMU Common Lisp (dev-lisp/cmucl)
+sci-mathematics/maxima:ecls - Compile maxima with Embeddable Common Lisp (dev-lisp/ecls)
+sci-mathematics/maxima:gcl - Compile maxima with GNU Common Lisp (dev-lisp/gcl)
+sci-mathematics/maxima:sbcl - Compile maxima with Steel Bank Common Lisp (dev-lisp/sbcl)
+sci-mathematics/pari:data - Add additional data (elldata, galdata, seadata, nftables)
+sci-mathematics/sage:bliss - build the bindings to the bliss library
+sci-mathematics/sage:doc-html - build and install html documentation
+sci-mathematics/sage:doc-html-bin - install pre-built html documentation
+sci-mathematics/sage:doc-pdf - build and install documentation in pdf format
+sci-mathematics/sage:doc-pdf-bin - install pre-built pdf documentation
+sci-mathematics/sage:jmol - Make jmol the default 3D rendering engine. Tachyon will be used otherwise.
+sci-mathematics/sage:sagenb - Trigger the installation of the historic sage-notebook (a jupyter notebook is installed with sage)
+sci-mathematics/sage:testsuite - If activated installs tools to runs the testsuite and insure that all the files needed are present.
+sci-mathematics/sage-notebook:doc-html - build and install html documentation
+sci-mathematics/sage-notebook:java - Enable JMol for 3D-printing in the notebook
+sci-mathematics/sage-notebook:server - Install scripts and user to run the notebook as a daemon
