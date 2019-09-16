@@ -119,7 +119,7 @@ sci-mathematics/gap 4.10.0-r4 4.10.1-r1 4.10.2-r1: System for computational disc
 sci-mathematics/gfan 0.6.2: computes Groebner fans and tropical varities
 sci-mathematics/giac 1.2.3.57 1.4.9.71-r1 1.5.0.63: A free C++ CAS (Computer Algebra System) library and its interfaces
 sci-mathematics/glpk 4.63-r2 4.65: GNU Linear Programming Kit
-sci-mathematics/gmp-ecm 7.0.4: Elliptic Curve Method for Integer Factorization
+sci-mathematics/gmp-ecm 7.0.4-r1: Elliptic Curve Method for Integer Factorization
 sci-mathematics/gp2c 0.0.9_p5 0.0.10 0.0.11.2: A GP to C translator
 sci-mathematics/lcalc 1.23-r10: A program for calculating with L-functions
 sci-mathematics/lie 2.2.2: A Computer algebra package for Lie group computations
