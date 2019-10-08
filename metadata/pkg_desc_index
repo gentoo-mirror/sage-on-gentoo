@@ -63,7 +63,7 @@ dev-python/flask-autoindex 0.6 0.6.2: A mod_autoindex for Flask
 dev-python/flask-oldsessions 0.10: Compatibility layer for older flask-0.10 and under sessions
 dev-python/flask-silk 0.2: Adds silk icons to your Flask application or module, or extension
 dev-python/fpylll 0.4.1: A Python (2 and 3) wrapper for fplll.
-dev-python/giacpy_sage 0.6.6 0.6.7-r1 0.6.7-r2: A Cython frontend to the c++ library giac for sage
+dev-python/giacpy_sage 0.6.6 0.6.7-r1 0.6.8: A Cython frontend to the c++ library giac for sage
 dev-python/gmpy 2.1.0_alpha4 2.1.0_beta1: Python bindings for GMP, MPC, MPFR and MPIR libraries
 dev-python/jupyter-kernel-gap 0.9: This wrapper-kernel is a Jupyter kernel for GAP
 dev-python/pari_jupyter 1.3.2: Jupyter kernel for PARI/GP
