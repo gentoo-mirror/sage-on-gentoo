@@ -106,7 +106,7 @@ sci-libs/suitesparseconfig 5.4.0: Common configurations for all packages in suit
 sci-libs/symmetrica 2.0-r4 2.0-r6: A collection of routine to handle a variety of topics
 sci-libs/umfpack 5.7.8-r1: Unsymmetric multifrontal sparse LU factorization library
 sci-libs/zn_poly 0.9.1: A library for polynomial arithmetic
-sci-mathematics/ExportSageNB 3.2: This is a tool to convert SageNB notebooks to other formats.
+sci-mathematics/ExportSageNB 3.2 3.3: This is a tool to convert SageNB notebooks to other formats.
 sci-mathematics/arb 2.16.0 2.17.0: C library for arbitrary-precision interval arithmetic
 sci-mathematics/cliquer 1.21-r1: autotooled fork of cliquer
 sci-mathematics/cu2 20060223: An non-optimal 2x2x2 rubik's cube solver
