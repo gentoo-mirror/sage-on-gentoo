@@ -10,5 +10,5 @@ RDEPEND=>=sci-mathematics/gap-4.10.1
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/gap-packages/guava/releases/download/v3.14/guava-3.14.tar.gz
-_eclasses_=autotools	1bf086cdd7356f5c9a4acd9727bd2065	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	2f8b8f320bee13b71a8a54cc6d09e08a
+_eclasses_=autotools	1bf086cdd7356f5c9a4acd9727bd2065	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
 _md5_=1a9c129cb1f4ad468c9233ab92a0d61b
