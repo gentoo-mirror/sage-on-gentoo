@@ -84,7 +84,7 @@ sci-libs/ccolamd 2.9.6: Constrained Column approximate minimum degree ordering a
 sci-libs/cddlib 094j: C implementation of the Double Description Method of Motzkin et al
 sci-libs/cholmod 3.0.13-r2: Sparse Cholesky factorization and update/downdate library
 sci-libs/colamd 2.9.6: Column approximate minimum degree ordering algorithm
-sci-libs/cxsparse 3.2.0: Extended sparse matrix package
+sci-libs/cxsparse 3.2.0-r1: Extended sparse matrix package
 sci-libs/fflas-ffpack 2.3.2-r1 2.4.3: FFLAS-FFPACK is a library for dense linear algebra over word-size finite fields.
 sci-libs/fplll 5.2.1: Different implementations of the floating-point LLL reduction algorithm
 sci-libs/givaro 4.0.4 4.1.1: Givaro is a C++ library for arithmetic and algebraic computations

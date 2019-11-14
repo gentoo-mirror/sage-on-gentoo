@@ -4,9 +4,9 @@ DESCRIPTION=Hashes and Crypto in GAP
 EAPI=7
 HOMEPAGE=http://www.gap-system.org/Packages/crypting.html
 KEYWORDS=~amd64 ~x86
-LICENSE=BSD-3
+LICENSE=BSD
 RDEPEND=>=sci-mathematics/gap-4.10.1:= >=dev-gap/GAPDoc-1.6.2
 SLOT=0
 SRC_URI=https://github.com/gap-packages/crypting/releases/download/v0.9/crypting-0.9.tar.gz
 _eclasses_=multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
-_md5_=80b5fb6fedb79f8c78565bd4b9368baa
+_md5_=ab3bf77e93f40498d6c08fa999a63441
