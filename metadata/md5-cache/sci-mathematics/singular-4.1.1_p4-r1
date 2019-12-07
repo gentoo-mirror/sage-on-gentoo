@@ -4,11 +4,11 @@ DEPEND=dev-libs/gmp:0 dev-libs/ntl:= emacs? ( >=virtual/emacs-22 ) sci-mathemati
 DESCRIPTION=Computer algebra system for polynomial computations
 EAPI=7
 HOMEPAGE=http://www.singular.uni-kl.de/
-IUSE=emacs examples python +readline static-libs +python_single_target_python2_7
+IUSE=emacs examples python +readline static-libs +python_targets_python2_7 +python_single_target_python2_7
 KEYWORDS=~amd64 ~ppc ~x86 ~x86-linux ~x86-macos
 LICENSE=GPL-2
 RDEPEND=dev-libs/gmp:0 dev-libs/ntl:= emacs? ( >=virtual/emacs-22 ) sci-mathematics/flint sci-libs/cddlib python? ( python_single_target_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 >=dev-lang/python-exec-2:=[python_targets_python2_7] ) )
 SLOT=0
 SRC_URI=http://www.mathematik.uni-kl.de/ftp/pub/Math/Singular/SOURCES/4-1-1/singular-4.1.1p4.tar.gz
-_eclasses_=autotools	ea7865c8fba1ea8d3639f355fffe1a3c	elisp-common	23f47b2e1de7abf387105eddd1318738	eutils	fcb2aa98e1948b835b5ae66ca52868c5	flag-o-matic	8a43b9830f1e64a7a5fc0a276afa0275	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	1d91b03d42ab6308b5f4f6b598ed110e	prefix	c2993e4c430c1ee24f278983d6189501	python-single-r1	4de31a18344a72217ca7cc04ec6d1f8e	python-utils-r1	f7aef159261e9835066ddf8d3a0e3487	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
+_eclasses_=autotools	ea7865c8fba1ea8d3639f355fffe1a3c	elisp-common	23f47b2e1de7abf387105eddd1318738	eutils	fcb2aa98e1948b835b5ae66ca52868c5	flag-o-matic	8a43b9830f1e64a7a5fc0a276afa0275	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	1d91b03d42ab6308b5f4f6b598ed110e	prefix	c2993e4c430c1ee24f278983d6189501	python-single-r1	721d0faeb54c0c332aa593d384993b4c	python-utils-r1	f7aef159261e9835066ddf8d3a0e3487	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
 _md5_=c4d4dbdcf817650f28b011200775ac15
