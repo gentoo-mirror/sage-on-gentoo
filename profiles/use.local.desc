@@ -55,6 +55,3 @@ sci-mathematics/sage:doc-pdf-bin - install pre-built pdf documentation
 sci-mathematics/sage:jmol - Make jmol the default 3D rendering engine. Tachyon will be used otherwise.
 sci-mathematics/sage:sagenb - Trigger the installation of the historic sage-notebook (a jupyter notebook is installed with sage)
 sci-mathematics/sage:testsuite - If activated installs tools to runs the testsuite and insure that all the files needed are present.
-sci-mathematics/sage-notebook:doc-html - build and install html documentation
-sci-mathematics/sage-notebook:java - Enable JMol for 3D-printing in the notebook
-sci-mathematics/sage-notebook:server - Install scripts and user to run the notebook as a daemon
