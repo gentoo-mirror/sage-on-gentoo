@@ -43,7 +43,6 @@ sci-mathematics/maxima:cmucl - Compile maxima with CMU Common Lisp (dev-lisp/cmu
 sci-mathematics/maxima:ecls - Compile maxima with Embeddable Common Lisp (dev-lisp/ecls)
 sci-mathematics/maxima:gcl - Compile maxima with GNU Common Lisp (dev-lisp/gcl)
 sci-mathematics/maxima:sbcl - Compile maxima with Steel Bank Common Lisp (dev-lisp/sbcl)
-sci-mathematics/pari:data - Add additional data (elldata, galdata, seadata, nftables)
 sci-mathematics/sage:bliss - build the bindings to the bliss library
 sci-mathematics/sage:doc-html - build and install html documentation
 sci-mathematics/sage:doc-html-bin - install pre-built html documentation
