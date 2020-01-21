@@ -1,14 +1,14 @@
 DEFINED_PHASES=configure install setup test
-DEPEND=virtual/pkgconfig >=dev-libs/boost-1.58.0 >=sci-libs/m4ri-20140914 !sci-mathematics/brial
+DEPEND=virtual/pkgconfig >=dev-libs/boost-1.58.0 >=sci-libs/m4ri-20140914[png=] !sci-mathematics/brial
 DESCRIPTION=BriAL, a successor to PolyBoRI: Polynomials over Boolean Rings
-EAPI=6
+EAPI=7
 HOMEPAGE=https://github.com/BRiAl/BRiAl
-IUSE=doc static-libs
+IUSE=png static-libs
 KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux ~x64-macos ~x86-macos
 LICENSE=GPL-2
-RDEPEND=>=dev-libs/boost-1.58.0 >=sci-libs/m4ri-20140914 !sci-mathematics/brial
+RDEPEND=>=dev-libs/boost-1.58.0 >=sci-libs/m4ri-20140914[png=] !sci-mathematics/brial
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://github.com/BRiAl/BRiAl/releases/download/1.2.5/brial-1.2.5.tar.bz2
+SRC_URI=https://github.com/BRiAl/BRiAl/releases/download/1.2.7/brial-1.2.7.tar.bz2
 _eclasses_=multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
-_md5_=1ee8d5e2816b5ef510df8c23c52ab858
+_md5_=b3308391e7323ae1e0dde74c9590d2a5
