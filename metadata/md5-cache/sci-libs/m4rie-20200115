@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install
+DEPEND=>=sci-libs/m4ri-20140914
+DESCRIPTION=fast arithmetic with dense matrices over GF(2^e) for 2 <= e <= 16
+EAPI=7
+HOMEPAGE=https://bitbucket.org/malb/m4rie/src/master/
+IUSE=debug static-libs
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos
+LICENSE=GPL-2+
+RDEPEND=>=sci-libs/m4ri-20140914
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://bitbucket.org/malb/m4rie/downloads/m4rie-20200115.tar.gz
+_md5_=6474d61eea2a3f4e09ae976ebcbb4da9
