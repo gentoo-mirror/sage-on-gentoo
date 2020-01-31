@@ -8,7 +8,6 @@ dev-lisp/ecls:libatomic - Use dev-libs/libatomic_ops library
 dev-lisp/ecls:precisegc - Use type information during garbage collection (experimental)
 dev-python/cvxopt:dsdp - Use interior point library sci-libs/dsdp
 dev-python/cvxopt:glpk - Use GNU Linear Programming Kit sci-mathematics/glpk
-dev-python/gmpy:mpir - Use sci-libs/mpir as gmp implementation
 dev-python/sphinx:net - enable internet capabilities
 dev-python/sympy:imaging - Add support for dev-python/pillow
 dev-python/sympy:ipython - Add support for dev-python/ipython
