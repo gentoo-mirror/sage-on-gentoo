@@ -27,7 +27,6 @@ sci-libs/scipy:sparse - Adds support for sparse solving with sci-libs/umfpack
 sci-libs/spqr:metis - Use sci-libs/metis or sci-libs/parmetis for partitioning
 sci-libs/spqr:tbb - Enable multithreading with the Intel Threads Building Block dev-cpp/tbb
 sci-libs/umfpack:cholmod - Use sci-libs/cholmod for matrix ordering
-sci-mathematics/eclib:flint - Enable the use of flint for certain operations
 sci-mathematics/flint:gc - Enable garbage collection support via dev-libs/boehm-gc
 sci-mathematics/flint:ntl - Build NTL interface
 sci-mathematics/gap:recommended_pkgs - Trigger installation of the recommended default packages for GAP. This list is controlled by the "PackagesToLoad" "UserPreference" inside GAP.
