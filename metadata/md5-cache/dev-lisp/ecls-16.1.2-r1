@@ -1,5 +1,5 @@
 DEFINED_PHASES=compile configure install prepare setup
-DEPEND=dev-libs/gmp:0 virtual/libffi libatomic? ( dev-libs/libatomic_ops ) >=dev-libs/boehm-gc-7.1[threads?] >=dev-lisp/asdf-2.33-r3:= app-text/texi2html emacs? ( virtual/emacs >=app-eselect/eselect-emacs-1.12 )
+DEPEND=dev-libs/gmp:0 virtual/libffi libatomic? ( dev-libs/libatomic_ops ) >=dev-libs/boehm-gc-7.1[threads?] >=dev-lisp/asdf-2.33-r3:= app-text/texi2html emacs? ( >=app-editors/emacs-23.1:* >=app-eselect/eselect-emacs-1.12 )
 DESCRIPTION=ECL is an embeddable Common Lisp implementation
 EAPI=7
 HOMEPAGE=https://common-lisp.net/project/ecl/
@@ -11,4 +11,4 @@ RESTRICT=test
 SLOT=0/16.1.2
 SRC_URI=https://common-lisp.net/project/ecl/static/files/release/ecl-16.1.2.tgz
 _eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
-_md5_=70a8519b2d14d4d209aeb6b8b54b2512
+_md5_=2108e5788481a1cc6646cc785a07139d
