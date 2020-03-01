@@ -1,14 +1,14 @@
 DEFINED_PHASES=compile configure install prepare setup
-DEPEND=dev-libs/gmp:0 virtual/libffi libatomic? ( dev-libs/libatomic_ops ) >=dev-libs/boehm-gc-7.1[threads?] >=dev-lisp/asdf-2.33-r3:= app-text/texi2html emacs? ( >=app-editors/emacs-23.1:* >=app-eselect/eselect-emacs-1.12 )
+DEPEND=dev-libs/gmp:0 dev-libs/libffi libatomic? ( dev-libs/libatomic_ops ) >=dev-libs/boehm-gc-7.1[threads?] >=dev-lisp/asdf-2.33-r3:= app-text/texi2html emacs? ( >=app-editors/emacs-23.1:* >=app-eselect/eselect-emacs-1.12 )
 DESCRIPTION=ECL is an embeddable Common Lisp implementation
 EAPI=7
 HOMEPAGE=https://common-lisp.net/project/ecl/
 IUSE=cxx debug emacs gengc precisegc cpu_flags_x86_sse +threads +unicode +libatomic X
 KEYWORDS=~amd64 ~ppc ~sparc ~x86
 LICENSE=BSD LGPL-2
-RDEPEND=dev-libs/gmp:0 virtual/libffi libatomic? ( dev-libs/libatomic_ops ) >=dev-libs/boehm-gc-7.1[threads?] >=dev-lisp/asdf-2.33-r3:=
+RDEPEND=dev-libs/gmp:0 dev-libs/libffi libatomic? ( dev-libs/libatomic_ops ) >=dev-libs/boehm-gc-7.1[threads?] >=dev-lisp/asdf-2.33-r3:=
 RESTRICT=test
 SLOT=0/16.1.2
 SRC_URI=https://common-lisp.net/project/ecl/static/files/release/ecl-16.1.2.tgz
 _eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
-_md5_=2108e5788481a1cc6646cc785a07139d
+_md5_=37e2d0fab0b06c23a5f1b2ce6fa5b619

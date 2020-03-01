@@ -8,8 +8,8 @@ IUSE=emacs readline +recommended_pkgs vim-syntax
 KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos
 LICENSE=GPL-2+
 RDEPEND=dev-libs/gmp:= readline? ( sys-libs/readline:= ) !!sci-libs/libgap dev-gap/GAPDoc:0/4.10.0 dev-gap/primgrp:0/4.10.0 dev-gap/SmallGrp:0/4.10.0 dev-gap/transgrp:0/4.10.0 recommended_pkgs? ( dev-gap/autpgrp:0/4.10.0 dev-gap/Alnuth:0/4.10.0 dev-gap/crisp:0/4.10.0 dev-gap/ctbllib:0/4.10.0 dev-gap/factint:0/4.10.0 dev-gap/fga:0/4.10.0 dev-gap/irredsol:0/4.10.0 dev-gap/laguna:0/4.10.0 dev-gap/polenta:0/4.10.0 dev-gap/polycyclic:0/4.10.0 dev-gap/resclasses:0/4.10.0 dev-gap/sophus:0/4.10.0 dev-gap/tomlib:0/4.10.0 ) emacs? ( >=app-editors/emacs-23.1:* ) vim-syntax? ( app-vim/vim-gap )
-RESTRICT=mirror
+RESTRICT=primaryuri
 SLOT=0/4.10.0
 SRC_URI=https://www.gap-system.org/pub/gap/gap-4.10/tar.bz2/gap-4.10.0.tar.bz2
 _eclasses_=autotools	ea7865c8fba1ea8d3639f355fffe1a3c	elisp-common	504a3383c45504fde86b00426619a709	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
-_md5_=54a77708236a755978cd20a80284a49c
+_md5_=505fcfda52bf2310b50e5cb5371fb5a1
