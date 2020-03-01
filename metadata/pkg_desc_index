@@ -98,16 +98,14 @@ sci-mathematics/ExportSageNB 3.2 3.3: This is a tool to convert SageNB notebooks
 sci-mathematics/cu2 20060223: An non-optimal 2x2x2 rubik's cube solver
 sci-mathematics/cubex 20060128: An non-optimal 3x3x3 rubik's cube solver
 sci-mathematics/dikcube 20070912-r1: Dik T. Winter's rubik's cube solver and related tools
-sci-mathematics/flint 2.5.2-r1 2.5.2-r2: Fast Library for Number Theory
 sci-mathematics/flintqs 1.0: William Hart's GPL'd multi-polynomial quadratic sieve for integer factorization
 sci-mathematics/gap 4.10.0-r4 4.10.1-r1 4.10.2-r1: System for computational discrete algebra
 sci-mathematics/gfan 0.6.2: computes Groebner fans and tropical varities
 sci-mathematics/giac 1.2.3.57 1.4.9.71-r1 1.5.0.75 1.5.0.85: A free C++ CAS (Computer Algebra System) library and its interfaces
 sci-mathematics/glpk 4.65: GNU Linear Programming Kit
-sci-mathematics/gmp-ecm 7.0.4-r1: Elliptic Curve Method for Integer Factorization
 sci-mathematics/lcalc 1.23-r10: A program for calculating with L-functions
 sci-mathematics/lie 2.2.2: A Computer algebra package for Lie group computations
-sci-mathematics/maxima 5.42.2 5.43.0: Free computer algebra environment based on Macsyma
+sci-mathematics/maxima 5.42.2 5.43.2: Free computer algebra environment based on Macsyma
 sci-mathematics/mcube 20051209: An non-optimal 4x4x4 rubik's cube solver
 sci-mathematics/nauty 2.6.1: Computing automorphism groups of graphs and digraphs
 sci-mathematics/optimal 20040603-r1: An optimal rubik's cube solver using God's Algorithm
