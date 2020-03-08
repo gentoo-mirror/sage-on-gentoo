@@ -102,7 +102,6 @@ sci-mathematics/flintqs 1.0: William Hart's GPL'd multi-polynomial quadratic sie
 sci-mathematics/gap 4.10.0-r4 4.10.1-r1 4.10.2-r1: System for computational discrete algebra
 sci-mathematics/gfan 0.6.2: computes Groebner fans and tropical varities
 sci-mathematics/giac 1.2.3.57 1.4.9.71-r1 1.5.0.75 1.5.0.87: A free C++ CAS (Computer Algebra System) library and its interfaces
-sci-mathematics/glpk 4.65: GNU Linear Programming Kit
 sci-mathematics/lcalc 1.23-r10: A program for calculating with L-functions
 sci-mathematics/lie 2.2.2: A Computer algebra package for Lie group computations
 sci-mathematics/maxima 5.42.2 5.43.2: Free computer algebra environment based on Macsyma
