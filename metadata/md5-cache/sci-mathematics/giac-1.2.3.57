@@ -10,5 +10,5 @@ LICENSE=GPL-2
 RDEPEND=dev-libs/gmp:=[cxx] sys-libs/readline:= fltk? ( >=x11-libs/fltk-1.1.9 ) ao? ( media-libs/libao ) dev-libs/mpfr:= sci-libs/mpfi sci-libs/gsl:= >=sci-mathematics/pari-2.7:= dev-libs/ntl:= virtual/lapack gc? ( dev-libs/boehm-gc )
 SLOT=0
 SRC_URI=http://www-fourier.ujf-grenoble.fr/~parisse/debian/dists/stable/main/source/giac_1.2.3-57.tar.gz
-_eclasses_=autotools	ea7865c8fba1ea8d3639f355fffe1a3c	eutils	fcb2aa98e1948b835b5ae66ca52868c5	flag-o-matic	53d57b0f8b8c19ff72cb341a42b891ed	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	1d91b03d42ab6308b5f4f6b598ed110e	pax-utils	a41d1fd1c111289ffa04490de6ee79d7	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
+_eclasses_=autotools	7d999b62b8749fad43fff00620cedf47	eutils	fcb2aa98e1948b835b5ae66ca52868c5	flag-o-matic	53d57b0f8b8c19ff72cb341a42b891ed	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	1d91b03d42ab6308b5f4f6b598ed110e	pax-utils	a41d1fd1c111289ffa04490de6ee79d7	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
 _md5_=2ec4d7bc332d3275cb1e17c934d50845
