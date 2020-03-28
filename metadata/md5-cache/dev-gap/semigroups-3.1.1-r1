@@ -9,5 +9,5 @@ LICENSE=GPL-3+
 RDEPEND=>=sci-mathematics/gap-4.10.1:= >=sci-libs/libsemigroups-0.6.4 >=dev-gap/orb-4.8.2 >=dev-gap/io-4.5.4 >=dev-gap/digraphs-0.15 >=dev-gap/genss-1.6.5
 SLOT=0
 SRC_URI=https://github.com/gap-packages/Semigroups/releases/download/v3.1.1/semigroups-3.1.1.tar.gz
-_eclasses_=autotools	7d999b62b8749fad43fff00620cedf47	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	c9e26066f2b7b5a91ad08d042f7f7306	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
+_eclasses_=autotools	7d999b62b8749fad43fff00620cedf47	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	318e8ae683e57fd3ccd0d31a769d8ee8	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
 _md5_=d01e74134b93bd514f5e1ac5fe1b564a
