@@ -11,6 +11,10 @@ dev-python/cvxopt:glpk - Use GNU Linear Programming Kit sci-mathematics/glpk
 dev-python/ipython:matplotlib - Add support for dev-python/matplotlib
 dev-python/ipython:nbconvert - Enable support for converting notebooks to various formats using app-text/pandoc
 dev-python/ipython:notebook - Install requirements for the web notebook based on www-servers/tornado
+dev-python/networkx:extras - Provide graph drawing and graph layout algorithms along with shapefile format reading and writing
+dev-python/networkx:pandas - Provides a DataFrame, which is a tabular data structure with labeled axes
+dev-python/networkx:scipy - Enables scipy backend
+dev-python/networkx:yaml - Provides YAML format reading and writing
 dev-python/sphinx:net - enable internet capabilities
 dev-python/sympy:imaging - Add support for dev-python/pillow
 dev-python/sympy:ipython - Add support for dev-python/ipython
