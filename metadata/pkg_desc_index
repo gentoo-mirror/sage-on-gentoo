@@ -71,7 +71,7 @@ dev-python/sympy 1.4-r102: Computer Algebra System in pure Python
 dev-tex/sage-latex 3.4: SageTeX allows you to embed Sage code into LaTeX documents
 media-gfx/threejs-sage-extension 105 110: JavaScript 3D library
 sci-chemistry/sage-jmol-bin 14.2.11-r1 14.29.52: Jmol is a java molecular viever for 3-D chemical structures.
-sci-libs/amd 2.4.6: Library to order a sparse matrix prior to Cholesky factorization
+sci-libs/amd 2.4.6 2.4.6-r1: Library to order a sparse matrix prior to Cholesky factorization
 sci-libs/brial 1.2.8: BriAL, a successor to PolyBoRI: Polynomials over Boolean Rings
 sci-libs/btf 1.2.6: Algorithm for matrix permutation into block triangular form
 sci-libs/camd 2.4.6: Library to order a sparse matrix prior to Cholesky factorization
