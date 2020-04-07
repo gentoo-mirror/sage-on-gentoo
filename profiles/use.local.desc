@@ -23,11 +23,8 @@ dev-python/sympy:pyglet - Use dev-python/pyglet for plots and print preview
 dev-python/sympy:symengine - Add support for a dev-python/symengine backend
 dev-python/sympy:texmacs - Add app-office/texmacs interface
 dev-python/sympy:theano - Add support for dev-python/theano
-sci-libs/cddlib:tools - Add a few executables and tests for cddlib
 sci-libs/cholmod:cuda - Use nvidia cuda toolkit for speeding up computations
 sci-libs/cholmod:metis - Enable the Partition module to cholmod using sci-libs/metis
-sci-libs/fflas-ffpack:cpu_flags_x86_avx512dq - enable avx512dq instructions
-sci-libs/fflas-ffpack:cpu_flags_x86_avx512vl - enable avx512vl instructions
 sci-libs/linbox:opencl - enable the use of opencl in linbox
 sci-libs/pynac:giac - Use the sci-mathematics/giac library.
 sci-libs/scipy:sparse - Adds support for sparse solving with sci-libs/umfpack
