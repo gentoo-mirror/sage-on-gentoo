@@ -2,10 +2,10 @@ DEFINED_PHASES=install
 DEPEND=virtual/texi2dvi
 DESCRIPTION=A Meta Package for GAP Documentation
 EAPI=7
-HOMEPAGE=http://www.gap-system.org/Packages/gapdoc.html
+HOMEPAGE=https://www.gap-system.org/Packages/gapdoc.html
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2+
 RDEPEND=virtual/texi2dvi >=sci-mathematics/gap-4.10.1
 SLOT=0
 SRC_URI=https://github.com/frankluebeck/GAPDoc/archive/relv1.6.2.tar.gz -> GAPDoc-1.6.2.tar.gz
-_md5_=cf3cb4048632d1f3411c4c06d116a29b
+_md5_=41920993abce2e48a64322854f25764f

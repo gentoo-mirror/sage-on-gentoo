@@ -1,10 +1,10 @@
 DEFINED_PHASES=install
 DESCRIPTION=Computing the Automorphism Group of a p-Group
 EAPI=7
-HOMEPAGE=http://www.gap-system.org/Packages/autpgrp.html
+HOMEPAGE=https://www.gap-system.org/Packages/autpgrp.html
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2+
 RDEPEND=sci-mathematics/gap:0/4.10.0
 SLOT=0/4.10.0
 SRC_URI=https://www.gap-system.org/pub/gap/gap-4.10/tar.bz2/gap-4.10.0.tar.bz2
-_md5_=4be474601c143234c9aeb68c041fc262
+_md5_=61a2637c54939a54ce47a8d7fc8ba2e4

@@ -1,10 +1,10 @@
 DEFINED_PHASES=install
 DESCRIPTION=Algebraic number theory and an interface to PARI/GP
 EAPI=7
-HOMEPAGE=http://www.gap-system.org/Packages/alnuth.html
+HOMEPAGE=https://www.gap-system.org/Packages/alnuth.html
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2+
 RDEPEND=>=sci-mathematics/gap-4.10.1 >=sci-mathematics/pari-2.5.0 >=dev-gap/polycyclic-2.14
 SLOT=0
 SRC_URI=https://github.com/gap-packages/alnuth/releases/download/v3.1.0/alnuth-3.1.0.tar.gz
-_md5_=1867af24dbb0e8950f6eb5960f2c8f95
+_md5_=5a71139025c90a20394743af5c3fe3b0

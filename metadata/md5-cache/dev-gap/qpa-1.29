@@ -1,10 +1,10 @@
 DEFINED_PHASES=install
 DESCRIPTION=Quivers and Path Algebras
 EAPI=7
-HOMEPAGE=http://www.gap-system.org/Packages/qpa.html
+HOMEPAGE=https://www.gap-system.org/Packages/qpa.html
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2+
 RDEPEND=sci-mathematics/gap:0/4.10.0 dev-gap/gbnp:0/4.10.0
 SLOT=0/4.10.0
 SRC_URI=https://www.gap-system.org/pub/gap/gap-4.10/tar.bz2/gap-4.10.0.tar.bz2
-_md5_=a95fc8c5b2ed5930c215a6d3efabb53b
+_md5_=035ddfee0633dee525a1be2ab0fade9e

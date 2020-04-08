@@ -2,10 +2,10 @@ DEFINED_PHASES=configure install
 DEPEND=>=sci-mathematics/gap-4.10.1
 DESCRIPTION=Cohomology groups of finite groups on finite modules
 EAPI=7
-HOMEPAGE=http://www.gap-system.org/Packages/cohomolo.html
+HOMEPAGE=https://www.gap-system.org/Packages/cohomolo.html
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2+
 RDEPEND=>=sci-mathematics/gap-4.10.1
 SLOT=0
 SRC_URI=https://github.com/gap-packages/cohomolo/releases/download/v1.6.7/cohomolo-1.6.7.tar.gz
-_md5_=6fba7c82895cf193bbd182d11462603a
+_md5_=06f2b3563859caa70853ec513f143909

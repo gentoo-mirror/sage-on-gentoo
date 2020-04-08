@@ -1,10 +1,10 @@
 DEFINED_PHASES=install
 DESCRIPTION=Computing with Radicals, Injectors, Schunck classes and Projectors
 EAPI=7
-HOMEPAGE=http://www.gap-system.org/Packages/crisp.html
+HOMEPAGE=https://www.gap-system.org/Packages/crisp.html
 KEYWORDS=~amd64 ~x86
 LICENSE=BSD-2
 RDEPEND=sci-mathematics/gap:0/4.10.1
 SLOT=0/4.10.1
 SRC_URI=https://www.gap-system.org/pub/gap/gap-4.10/tar.bz2/gap-4.10.1.tar.bz2
-_md5_=811716da73f773d9bc7ceaeea5f6018e
+_md5_=9eca45d6207f1d3f8a60b31cb80f73d0

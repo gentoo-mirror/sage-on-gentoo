@@ -3,7 +3,7 @@ DEFINED_PHASES=configure install postinst postrm prepare setup
 DEPEND=dev-libs/gmp:= readline? ( sys-libs/readline:= ) !!sci-libs/libgap
 DESCRIPTION=System for computational discrete algebra
 EAPI=7
-HOMEPAGE=http://www.gap-system.org/
+HOMEPAGE=https://www.gap-system.org/
 IUSE=emacs readline +recommended_pkgs vim-syntax
 KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos
 LICENSE=GPL-2+
@@ -12,4 +12,4 @@ RESTRICT=primaryuri
 SLOT=0/4.10.1
 SRC_URI=https://github.com/gap-system/gap/releases/download/v4.10.1/gap-4.10.1.tar.bz2
 _eclasses_=autotools	7d999b62b8749fad43fff00620cedf47	elisp-common	504a3383c45504fde86b00426619a709	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	318e8ae683e57fd3ccd0d31a769d8ee8	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
-_md5_=6c597c7616ad4f705fda6e5d6937bb47
+_md5_=0397e080dbcfc573c17e425f7f4ab2e4

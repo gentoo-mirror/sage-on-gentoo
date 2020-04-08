@@ -1,10 +1,10 @@
 DEFINED_PHASES=install
 DESCRIPTION=The GAP Library of Tables of Marks
 EAPI=7
-HOMEPAGE=http://www.gap-system.org/Packages/tomlib.html
+HOMEPAGE=https://www.gap-system.org/Packages/tomlib.html
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2+
 RDEPEND=>=sci-mathematics/gap-4.10.1 >=dev-gap/atlasrep-1.5_p1
 SLOT=0
 SRC_URI=https://github.com/gap-packages/tomlib/releases/download/v1.2.7/tomlib-1.2.7.tar.gz
-_md5_=cf85243b7f64cd25c43fac81bcaac19a
+_md5_=eedef0085165ac484ae7d3fa05514563

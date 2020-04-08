@@ -1,10 +1,10 @@
 DEFINED_PHASES=install
 DESCRIPTION=Utility functions in GAP
 EAPI=7
-HOMEPAGE=http://www.gap-system.org/Packages/utils.html
+HOMEPAGE=https://www.gap-system.org/Packages/utils.html
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
 RDEPEND=sci-mathematics/gap:0/4.10.0 dev-gap/GAPDoc:0/4.10.0 dev-gap/AutoDoc:0/4.10.0 dev-gap/polycyclic:0/4.10.0
 SLOT=0/4.10.0
 SRC_URI=https://www.gap-system.org/pub/gap/gap-4.10/tar.bz2/gap-4.10.0.tar.bz2
-_md5_=1c9ba0185b96bb95b78355e4f7ddf573
+_md5_=2e028896e2a80de312049c52ef16e4e9

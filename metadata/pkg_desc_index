@@ -92,7 +92,7 @@ sci-libs/spqr 2.0.9-r1: Multithreaded multifrontal sparse QR factorization libra
 sci-libs/suitesparseconfig 5.4.0: Common configurations for all packages in suitesparse
 sci-libs/umfpack 5.7.8-r1 5.7.9: Unsymmetric multifrontal sparse LU factorization library
 sci-libs/zn_poly 0.9.1: A library for polynomial arithmetic
-sci-mathematics/ExportSageNB 3.2 3.3: This is a tool to convert SageNB notebooks to other formats.
+sci-mathematics/ExportSageNB 3.3: This is a tool to convert SageNB notebooks to other formats.
 sci-mathematics/arb 2.16.0 2.17.0: C library for arbitrary-precision interval arithmetic
 sci-mathematics/cu2 20060223: An non-optimal 2x2x2 rubik's cube solver
 sci-mathematics/cubex 20060128: An non-optimal 3x3x3 rubik's cube solver

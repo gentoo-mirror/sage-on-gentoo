@@ -1,10 +1,10 @@
 DEFINED_PHASES=install
 DESCRIPTION=Sage's graph database
 EAPI=6
-HOMEPAGE=http://www.sagemath.org
+HOMEPAGE=https://www.sagemath.org
 KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos
 LICENSE=GPL-2
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://sageupstream/graphs/graphs-20161026.tar.bz2
-_md5_=c15d4818e16c04e6bd09396f80bef0e9
+_md5_=dbba43c047d3ea7357ded1b8a9d7fdd2

@@ -1,10 +1,10 @@
 DEFINED_PHASES=install
 DESCRIPTION=Database and algorithms for Lie p-rings
 EAPI=7
-HOMEPAGE=http://www.gap-system.org/Packages/liepring.html
+HOMEPAGE=https://www.gap-system.org/Packages/liepring.html
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
 RDEPEND=>=sci-mathematics/gap-4.10.1
 SLOT=0
 SRC_URI=https://github.com/gap-packages/liepring/releases/download/v1.9.2/liepring-1.9.2.tar.gz
-_md5_=37fbbd69604f3fe0c6efb2a5dba303a9
+_md5_=646749f624034505526c1fa3fc18ad7d

@@ -3,11 +3,11 @@ DEFINED_PHASES=configure install prepare
 DEPEND=sci-mathematics/gap:0/4.10.0 >=sci-libs/libsemigroups-0.6.4
 DESCRIPTION=A package for semigroups and monoids
 EAPI=7
-HOMEPAGE=http://www.gap-system.org/Packages/semigroups.html
+HOMEPAGE=https://www.gap-system.org/Packages/semigroups.html
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3+
 RDEPEND=sci-mathematics/gap:0/4.10.0 >=sci-libs/libsemigroups-0.6.4 dev-gap/orb:0/4.10.0 dev-gap/io:0/4.10.0 dev-gap/digraphs:0/4.10.0 dev-gap/genss:0/4.10.0
 SLOT=0/4.10.0
 SRC_URI=https://www.gap-system.org/pub/gap/gap-4.10/tar.bz2/gap-4.10.0.tar.bz2
 _eclasses_=autotools	7d999b62b8749fad43fff00620cedf47	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	318e8ae683e57fd3ccd0d31a769d8ee8	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
-_md5_=a16dec43ad1414a137d50af313afbc1b
+_md5_=0a0513a75e8e4d5c8d4a3210ff318265

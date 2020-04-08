@@ -3,12 +3,12 @@ DEFINED_PHASES=configure install prepare
 DEPEND=dev-libs/gmp:=[cxx] sys-libs/readline:= fltk? ( >=x11-libs/fltk-1.1.9 ) ao? ( media-libs/libao ) dev-libs/mpfr:= sci-libs/mpfi sci-libs/gsl:= >=sci-mathematics/pari-2.7:= dev-libs/ntl:= virtual/lapack gc? ( dev-libs/boehm-gc ) virtual/pkgconfig
 DESCRIPTION=A free C++ CAS (Computer Algebra System) library and its interfaces
 EAPI=7
-HOMEPAGE=http://www-fourier.ujf-grenoble.fr/~parisse/giac.html
+HOMEPAGE=https://www-fourier.ujf-grenoble.fr/~parisse/giac.html
 IUSE=ao doc examples fltk gc static-libs l10n_el l10n_en l10n_es l10n_fr l10n_pt
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
 RDEPEND=dev-libs/gmp:=[cxx] sys-libs/readline:= fltk? ( >=x11-libs/fltk-1.1.9 ) ao? ( media-libs/libao ) dev-libs/mpfr:= sci-libs/mpfi sci-libs/gsl:= >=sci-mathematics/pari-2.7:= dev-libs/ntl:= virtual/lapack gc? ( dev-libs/boehm-gc )
 SLOT=0
-SRC_URI=http://www-fourier.ujf-grenoble.fr/~parisse/debian/dists/stable/main/source/giac_1.2.3-57.tar.gz
+SRC_URI=https://www-fourier.ujf-grenoble.fr/~parisse/debian/dists/stable/main/source/giac_1.2.3-57.tar.gz
 _eclasses_=autotools	7d999b62b8749fad43fff00620cedf47	eutils	fcb2aa98e1948b835b5ae66ca52868c5	flag-o-matic	f1194291b9a1baca337c1c89b5f7f365	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	318e8ae683e57fd3ccd0d31a769d8ee8	pax-utils	a41d1fd1c111289ffa04490de6ee79d7	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
-_md5_=2ec4d7bc332d3275cb1e17c934d50845
+_md5_=082b9eec53ea8705e90ab490a13368b3

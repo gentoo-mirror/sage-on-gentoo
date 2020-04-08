@@ -1,10 +1,10 @@
 DEFINED_PHASES=install
 DESCRIPTION=a package for doing computations with quantum groups
 EAPI=7
-HOMEPAGE=http://www.gap-system.org/Packages/quagroup.html
+HOMEPAGE=https://www.gap-system.org/Packages/quagroup.html
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2+
 RDEPEND=>=sci-mathematics/gap-4.10.1
 SLOT=0
 SRC_URI=https://github.com/gap-packages/quagroup/archive/v1.8.tar.gz -> quagroup-1.8.tar.gz
-_md5_=c7d4ceea826e8935022eb1e94ac3dc7e
+_md5_=b3beb38b22f761eefd6d3e11d50d1eee

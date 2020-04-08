@@ -1,10 +1,10 @@
 DEFINED_PHASES=install
 DESCRIPTION=System of nearrings and their applications
 EAPI=7
-HOMEPAGE=http://www.gap-system.org/Packages/sonata.html
+HOMEPAGE=https://www.gap-system.org/Packages/sonata.html
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2+
 RDEPEND=>=sci-mathematics/gap-4.10.1
 SLOT=0
 SRC_URI=https://github.com/gap-packages/sonata/releases/download/v2.9.1/sonata-2.9.1.tar.gz
-_md5_=2d3a2cae5a747c622819d02621ada176
+_md5_=500885f0dda9c479bd1a97fe4b7b4596

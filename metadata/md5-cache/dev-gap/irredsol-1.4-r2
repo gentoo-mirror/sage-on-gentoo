@@ -1,10 +1,10 @@
 DEFINED_PHASES=install
 DESCRIPTION=Irreducible soluble linear groups over finite fields and more
 EAPI=7
-HOMEPAGE=http://www.gap-system.org/Packages/irredsol.html
+HOMEPAGE=https://www.gap-system.org/Packages/irredsol.html
 KEYWORDS=~amd64 ~x86
 LICENSE=BSD-2
 RDEPEND=sci-mathematics/gap:0/4.10.2
 SLOT=0/4.10.2
 SRC_URI=https://www.gap-system.org/pub/gap/gap-4.10/tar.bz2/gap-4.10.2.tar.bz2
-_md5_=4289e8c24e8b4f2bd06429144b873ec2
+_md5_=1910654eaabd3b09ad4ec567a83e1822

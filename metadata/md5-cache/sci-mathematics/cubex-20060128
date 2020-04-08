@@ -1,11 +1,11 @@
 DEFINED_PHASES=compile install
 DESCRIPTION=An non-optimal 3x3x3 rubik's cube solver
 EAPI=6
-HOMEPAGE=http://www.wrongway.org/?rubiksource
+HOMEPAGE=https://www.wrongway.org/?rubiksource
 KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux ~x64-macos
 LICENSE=GPL-2
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://sagemath/cubex-20060128.tar.xz
 _eclasses_=multilib	318e8ae683e57fd3ccd0d31a769d8ee8	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
-_md5_=ace5e83e33c0434f2cc5a46c803a203a
+_md5_=096cfa55abdd4692ea7e80972258a7d8

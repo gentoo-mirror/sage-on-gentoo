@@ -1,10 +1,10 @@
 DEFINED_PHASES=install prepare
 DESCRIPTION=computing Grobner bases of noncommutative polynomials
 EAPI=7
-HOMEPAGE=http://www.gap-system.org/Packages/gbnp.html
+HOMEPAGE=https://www.gap-system.org/Packages/gbnp.html
 KEYWORDS=~amd64 ~x86
 LICENSE=LGPL-2.1+
 RDEPEND=>=sci-mathematics/gap-4.10.1 >=dev-gap/GAPDoc-1.6.2
 SLOT=0
 SRC_URI=https://github.com/gap-packages/gbnp/archive/v1.0.3.tar.gz -> gbnp-1.0.3.tar.gz
-_md5_=0ae78d39163ef75b87447e01b2935258
+_md5_=7512fd28254f3b076139e0c1c14186d5

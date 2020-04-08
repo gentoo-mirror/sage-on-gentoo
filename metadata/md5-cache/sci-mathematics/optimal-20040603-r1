@@ -1,11 +1,11 @@
 DEFINED_PHASES=compile install
 DESCRIPTION=An optimal rubik's cube solver using God's Algorithm
 EAPI=6
-HOMEPAGE=http://www.permutationpuzzles.org/rubik/
+HOMEPAGE=https://www.permutationpuzzles.org/rubik/
 KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos
 LICENSE=GPL-2
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://sagemath/optimal-20040603.tar.gz
 _eclasses_=multilib	318e8ae683e57fd3ccd0d31a769d8ee8	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
-_md5_=e395cf149a16dcf1b3844f6b6d9a5ce7
+_md5_=31706d9f5d5db53aa124981d97009e14

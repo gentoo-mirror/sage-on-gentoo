@@ -1,10 +1,10 @@
 DEFINED_PHASES=install
 DESCRIPTION=The crystallographic groups catalog
 EAPI=7
-HOMEPAGE=http://www.gap-system.org/Packages/crystcat.html
+HOMEPAGE=https://www.gap-system.org/Packages/crystcat.html
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2+
 RDEPEND=sci-mathematics/gap:0/4.10.1 dev-gap/cryst:0/4.10.1
 SLOT=0/4.10.1
 SRC_URI=https://www.gap-system.org/pub/gap/gap-4.10/tar.bz2/gap-4.10.1.tar.bz2
-_md5_=5526e7cf1b5bd62a097b878ef6ca4e50
+_md5_=dc439c5dbcbac70acf0670424a55ab81

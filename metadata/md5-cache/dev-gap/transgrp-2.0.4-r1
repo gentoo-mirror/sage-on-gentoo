@@ -1,10 +1,10 @@
 DEFINED_PHASES=install
 DESCRIPTION=GAP Transitive Groups Library
 EAPI=7
-HOMEPAGE=http://www.gap-system.org/Packages/transgrp.html
+HOMEPAGE=https://www.gap-system.org/Packages/transgrp.html
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3 Artistic-2
 RDEPEND=sci-mathematics/gap:0/4.10.1
 SLOT=0/4.10.1
 SRC_URI=https://www.gap-system.org/pub/gap/gap-4.10/tar.bz2/gap-4.10.1.tar.bz2
-_md5_=e73c9e65cbcf0b1a7e45cfa8116c2c16
+_md5_=fe6856550921322ca74967efce365bfd

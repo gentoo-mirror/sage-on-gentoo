@@ -1,10 +1,10 @@
 DEFINED_PHASES=install prepare
 DESCRIPTION=Generic Schreier-Sims
 EAPI=7
-HOMEPAGE=http://www.gap-system.org/Packages/genss.html
+HOMEPAGE=https://www.gap-system.org/Packages/genss.html
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3+
 RDEPEND=>=sci-mathematics/gap-4.10.1 >=dev-gap/GAPDoc-1.6.2 >=dev-gap/io-4.5.4 >=dev-gap/orb-4.8.2
 SLOT=0
 SRC_URI=https://github.com/gap-packages/genss/releases/download/v1.6.5/genss-1.6.5.tar.bz2
-_md5_=0ac13a9c76db876c71cf3da33358f334
+_md5_=78561f28ddc59eaed85789abdac77aac

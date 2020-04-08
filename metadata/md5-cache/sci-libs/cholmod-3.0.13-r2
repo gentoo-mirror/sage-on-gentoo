@@ -2,7 +2,7 @@ DEFINED_PHASES=configure
 DEPEND=>=sci-libs/amd-2.4 >=sci-libs/colamd-2.9 cuda? ( x11-drivers/nvidia-drivers dev-util/nvidia-cuda-toolkit ) lapack? ( virtual/lapack ) metis? ( >=sci-libs/camd-2.4 >=sci-libs/ccolamd-2.9 || ( >=sci-libs/metis-5.1.0 sci-libs/parmetis ) ) virtual/pkgconfig doc? ( virtual/latex-base )
 DESCRIPTION=Sparse Cholesky factorization and update/downdate library
 EAPI=7
-HOMEPAGE=http://faculty.cse.tamu.edu/davis/suitesparse.html
+HOMEPAGE=https://faculty.cse.tamu.edu/davis/suitesparse.html
 IUSE=cuda doc +lapack metis minimal static-libs
 KEYWORDS=~amd64 ~arm ~arm64 ~hppa ~ia64 ~mips ~ppc ~ppc64 ~sparc ~x86 ~amd64-linux ~x86-linux ~x86-macos
 LICENSE=minimal? ( LGPL-2.1 ) !minimal? ( GPL-2 )
@@ -10,4 +10,4 @@ RDEPEND=>=sci-libs/amd-2.4 >=sci-libs/colamd-2.9 cuda? ( x11-drivers/nvidia-driv
 SLOT=0
 SRC_URI=mirror://sagemath/cholmod-3.0.13.tar.bz2
 _eclasses_=multilib	318e8ae683e57fd3ccd0d31a769d8ee8	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
-_md5_=c5b77d990918269a94fd98892979d833
+_md5_=8482561a0062187eebf6445d183cb78b

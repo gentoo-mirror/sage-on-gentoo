@@ -1,10 +1,10 @@
 DEFINED_PHASES=install
 DESCRIPTION=Computing with crystallographic groups
 EAPI=7
-HOMEPAGE=http://www.gap-system.org/Packages/cryst.html
+HOMEPAGE=https://www.gap-system.org/Packages/cryst.html
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2+
 RDEPEND=sci-mathematics/gap:0/4.10.2 >=dev-gap/polycyclic-2.14
 SLOT=0/4.10.2
 SRC_URI=https://www.gap-system.org/pub/gap/gap-4.10/tar.bz2/gap-4.10.2.tar.bz2
-_md5_=acda505c49b348e6de0a8d626460d3f0
+_md5_=a32271890f743d933c0b07ff0f448a58

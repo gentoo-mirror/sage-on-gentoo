@@ -1,10 +1,10 @@
 DEFINED_PHASES=install
 DESCRIPTION=Lie AlGebras and UNits of group Algebras
 EAPI=7
-HOMEPAGE=http://www.gap-system.org/Packages/laguna.html
+HOMEPAGE=https://www.gap-system.org/Packages/laguna.html
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2+
 RDEPEND=sci-mathematics/gap:0/4.10.0 dev-gap/GAPDoc:0/4.10.0
 SLOT=0/4.10.0
 SRC_URI=https://www.gap-system.org/pub/gap/gap-4.10/tar.bz2/gap-4.10.0.tar.bz2
-_md5_=38de6f52869f22aab4ccfb2cddfad159
+_md5_=b5bcd86cfe2218287dd068372293458c

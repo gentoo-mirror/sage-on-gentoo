@@ -2,11 +2,11 @@ DEFINED_PHASES=configure
 DEPEND=virtual/lapack >=sci-libs/cholmod-2[lapack,metis?] tbb? ( dev-cpp/tbb ) virtual/pkgconfig doc? ( virtual/latex-base )
 DESCRIPTION=Multithreaded multifrontal sparse QR factorization library
 EAPI=7
-HOMEPAGE=http://faculty.cse.tamu.edu/davis/suitesparse.html
+HOMEPAGE=https://faculty.cse.tamu.edu/davis/suitesparse.html
 IUSE=doc metis static-libs tbb
 KEYWORDS=~amd64 ~arm ~hppa ~ppc ~ppc64 ~x86 ~amd64-linux ~x86-linux
 LICENSE=GPL-2
 RDEPEND=virtual/lapack >=sci-libs/cholmod-2[lapack,metis?] tbb? ( dev-cpp/tbb )
 SLOT=0
 SRC_URI=mirror://sagemath/spqr-2.0.9.tar.bz2
-_md5_=16af91b2a8747be7af91cda679c85950
+_md5_=79979e507d12b516938d234fab82eca7

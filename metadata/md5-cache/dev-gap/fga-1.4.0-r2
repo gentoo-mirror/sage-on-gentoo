@@ -1,10 +1,10 @@
 DEFINED_PHASES=install
 DESCRIPTION=Free Group Algorithms
 EAPI=7
-HOMEPAGE=http://www.gap-system.org/Packages/fga.html
+HOMEPAGE=https://www.gap-system.org/Packages/fga.html
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2+
 RDEPEND=>=sci-mathematics/gap-4.10.1
 SLOT=0
 SRC_URI=https://github.com/chsievers/fga/archive/v1.4.0.tar.gz -> fga-1.4.0.tar.gz
-_md5_=a9855909efa867b000245a0f08b89423
+_md5_=f4bb814775088d728fa9ae51780e0525
