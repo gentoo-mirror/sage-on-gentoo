@@ -16,13 +16,6 @@ dev-python/networkx:pandas - Provides a DataFrame, which is a tabular data struc
 dev-python/networkx:scipy - Enables scipy backend
 dev-python/networkx:yaml - Provides YAML format reading and writing
 dev-python/sphinx:net - enable internet capabilities
-dev-python/sympy:imaging - Add support for dev-python/pillow
-dev-python/sympy:ipython - Add support for dev-python/ipython
-dev-python/sympy:mathml - Add support for mathml
-dev-python/sympy:pyglet - Use dev-python/pyglet for plots and print preview
-dev-python/sympy:symengine - Add support for a dev-python/symengine backend
-dev-python/sympy:texmacs - Add app-office/texmacs interface
-dev-python/sympy:theano - Add support for dev-python/theano
 sci-libs/cholmod:cuda - Use nvidia cuda toolkit for speeding up computations
 sci-libs/cholmod:metis - Enable the Partition module to cholmod using sci-libs/metis
 sci-libs/linbox:opencl - enable the use of opencl in linbox
