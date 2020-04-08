@@ -89,7 +89,6 @@ sci-libs/modular_decomposition 20100607: This is an implementation of a modular 
 sci-libs/mpfrcx 0.4.2 0.5: Mpfrcx is a library for the arithmetic of univariate polynomials
 sci-libs/pynac 0.7.26: A modified version of GiNaC that replaces the dependency on CLN by Python
 sci-libs/rbio 2.2.6: Sparse matrices Rutherford/Boeing format tools
-sci-libs/scipy 1.2.1: Scientific algorithms library for Python
 sci-libs/spqr 2.0.9-r1: Multithreaded multifrontal sparse QR factorization library
 sci-libs/suitesparseconfig 5.4.0: Common configurations for all packages in suitesparse
 sci-libs/umfpack 5.7.8-r1 5.7.9: Unsymmetric multifrontal sparse LU factorization library

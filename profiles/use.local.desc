@@ -27,7 +27,6 @@ sci-libs/cholmod:cuda - Use nvidia cuda toolkit for speeding up computations
 sci-libs/cholmod:metis - Enable the Partition module to cholmod using sci-libs/metis
 sci-libs/linbox:opencl - enable the use of opencl in linbox
 sci-libs/pynac:giac - Use the sci-mathematics/giac library.
-sci-libs/scipy:sparse - Adds support for sparse solving with sci-libs/umfpack
 sci-libs/spqr:metis - Use sci-libs/metis or sci-libs/parmetis for partitioning
 sci-libs/spqr:tbb - Enable multithreading with the Intel Threads Building Block dev-cpp/tbb
 sci-libs/umfpack:cholmod - Use sci-libs/cholmod for matrix ordering
