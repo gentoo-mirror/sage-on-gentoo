@@ -80,7 +80,7 @@ sci-libs/klu 1.3.9-r2: Sparse LU factorization for circuit simulation
 sci-libs/ldl 2.2.6: Simple but educational LDL^T matrix factorization algorithm
 sci-libs/libhomfly 1.02.5: Library to compute the homfly polynomial of a link
 sci-libs/libsemigroups 0.6.7: libsemigroups is a C++ library for semigroups and monoids
-sci-libs/linbox 1.6.3: A C++ template library for linear algebra over integers and over finite fields
+sci-libs/linbox 1.6.3-r1: A C++ template library for linear algebra over integers and over finite fields
 sci-libs/m4rie 20150908-r1 20200115: fast arithmetic with dense matrices over GF(2^e) for 2 <= e <= 16
 sci-libs/modular_decomposition 20100607: This is an implementation of a modular decomposition algorithm.
 sci-libs/mpfrcx 0.4.2 0.5: Mpfrcx is a library for the arithmetic of univariate polynomials
