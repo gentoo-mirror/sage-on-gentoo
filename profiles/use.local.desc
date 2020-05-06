@@ -13,7 +13,6 @@ dev-python/networkx:extras - Provide graph drawing and graph layout algorithms a
 dev-python/networkx:pandas - Provides a DataFrame, which is a tabular data structure with labeled axes
 dev-python/networkx:scipy - Enables scipy backend
 dev-python/networkx:yaml - Provides YAML format reading and writing
-dev-python/sphinx:net - enable internet capabilities
 sci-libs/cholmod:cuda - Use nvidia cuda toolkit for speeding up computations
 sci-libs/cholmod:metis - Enable the Partition module to cholmod using sci-libs/metis
 sci-libs/linbox:opencl - enable the use of opencl in linbox
