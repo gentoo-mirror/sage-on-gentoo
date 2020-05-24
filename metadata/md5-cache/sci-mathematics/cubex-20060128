@@ -7,5 +7,5 @@ LICENSE=GPL-2
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://sagemath/cubex-20060128.tar.xz
-_eclasses_=multilib	797cda3549becfe50afdfa35192ca137	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
+_eclasses_=multilib	ac7989ababbeabdef6fdc6e465b21644	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
 _md5_=096cfa55abdd4692ea7e80972258a7d8

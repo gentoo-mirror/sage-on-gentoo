@@ -9,5 +9,5 @@ LICENSE=minimal? ( LGPL-2.1 ) !minimal? ( GPL-2 )
 RDEPEND=>=sci-libs/amd-2.4 >=sci-libs/colamd-2.9 cuda? ( x11-drivers/nvidia-drivers dev-util/nvidia-cuda-toolkit ) lapack? ( virtual/lapack ) metis? ( >=sci-libs/camd-2.4 >=sci-libs/ccolamd-2.9 || ( >=sci-libs/metis-5.1.0 sci-libs/parmetis ) )
 SLOT=0
 SRC_URI=mirror://sagemath/cholmod-3.0.13.tar.bz2
-_eclasses_=multilib	797cda3549becfe50afdfa35192ca137	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
+_eclasses_=multilib	ac7989ababbeabdef6fdc6e465b21644	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
 _md5_=8482561a0062187eebf6445d183cb78b
