@@ -6,9 +6,6 @@ dev-gap/grape:bliss - Use bliss instead of nauty's dreadnaut as the back end for
 dev-lisp/ecls:gengc - Use generational garbage collection (experimental)
 dev-lisp/ecls:libatomic - Use dev-libs/libatomic_ops library
 dev-lisp/ecls:precisegc - Use type information during garbage collection (experimental)
-dev-python/ipython:matplotlib - Add support for dev-python/matplotlib
-dev-python/ipython:nbconvert - Enable support for converting notebooks to various formats using app-text/pandoc
-dev-python/ipython:notebook - Install requirements for the web notebook based on www-servers/tornado
 dev-python/networkx:extras - Provide graph drawing and graph layout algorithms along with shapefile format reading and writing
 dev-python/networkx:pandas - Provides a DataFrame, which is a tabular data structure with labeled axes
 dev-python/networkx:scipy - Enables scipy backend
