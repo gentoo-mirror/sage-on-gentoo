@@ -99,7 +99,7 @@ sci-mathematics/maxima 5.42.2 5.43.2: Free computer algebra environment based on
 sci-mathematics/mcube 20051209: An non-optimal 4x4x4 rubik's cube solver
 sci-mathematics/nauty 2.6.1: Computing automorphism groups of graphs and digraphs
 sci-mathematics/optimal 20040603-r1: An optimal rubik's cube solver using God's Algorithm
-sci-mathematics/palp 2.1-r1: A Package for Analyzing Lattice Polytopes
+sci-mathematics/palp 2.1-r1 2.11: A Package for Analyzing Lattice Polytopes
 sci-mathematics/pari-data 20190912: Data sets for pari
 sci-mathematics/qsieve 3.02: A program for factoring numbers
 sci-mathematics/ratpoints 2.1.3-r4: Ratpoints tries to find all rational points on a hyperelliptic curve
