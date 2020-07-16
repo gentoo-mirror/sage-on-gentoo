@@ -98,7 +98,7 @@ sci-mathematics/gap 4.10.0-r4 4.10.1-r1 4.10.2-r1: System for computational disc
 sci-mathematics/giac 1.5.0.87: A free C++ CAS (Computer Algebra System) library and its interfaces
 sci-mathematics/lcalc 1.23-r10: A program for calculating with L-functions
 sci-mathematics/lie 2.2.2: A Computer algebra package for Lie group computations
-sci-mathematics/maxima 5.42.2 5.43.2: Free computer algebra environment based on Macsyma
+sci-mathematics/maxima 5.42.2: Free computer algebra environment based on Macsyma
 sci-mathematics/mcube 20051209: An non-optimal 4x4x4 rubik's cube solver
 sci-mathematics/nauty 2.6.1: Computing automorphism groups of graphs and digraphs
 sci-mathematics/optimal 20040603-r1: An optimal rubik's cube solver using God's Algorithm
