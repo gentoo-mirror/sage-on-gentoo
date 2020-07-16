@@ -1,9 +1,9 @@
 # Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
 
-inherit eutils multilib
+inherit autotools multilib
 
 # test phase only works if ecls already installed #516876
 RESTRICT="test"
@@ -29,17 +29,22 @@ DEPEND="${CDEPEND}
 		emacs? ( >=app-editors/emacs-23.1:* >=app-eselect/eselect-emacs-1.12 )"
 RDEPEND="${CDEPEND}"
 
+DOCS=( "${FILESDIR}"/README.Gentoo README.md CHANGELOG )
+
 S="${WORKDIR}"/${MY_P}
 
 PATCHES=(
-	"${FILESDIR}/${P}-headers-gentoo.patch"
-	"${FILESDIR}/${P}-build.patch"
-	"${FILESDIR}/flisten-bug.patch"
-	"${FILESDIR}/format-directive-limit.patch"
+	"${FILESDIR}/${PN}-16.1.3-headers-gentoo.patch"
+	"${FILESDIR}/${PN}-16.1.3-build.patch"
+	"${FILESDIR}/${PN}-20.4.24-donotcompressinfo.patch"
+	"${FILESDIR}/215.patch"
+	"${FILESDIR}/216.patch"
+	"${FILESDIR}/ECL_WITH_LISP_FPE.patch"
 	"${FILESDIR}/write_error.patch"
+
 )
 
-pkg_setup () {
+pkg_setup() {
 	if use gengc || use precisegc ; then
 		ewarn "You have enabled the generational garbage collector or"
 		ewarn "the precise collection routines. These features are not very stable"
@@ -51,13 +56,14 @@ pkg_setup () {
 src_prepare() {
 	default
 	cp "${EPREFIX}"/usr/share/common-lisp/source/asdf/build/asdf.lisp contrib/asdf/ || die
+	cd src
+	eautoreconf
 }
 
 src_configure() {
 	econf \
-		--with-system-gmp \
+		--enable-gmp=system \
 		--enable-boehm=system \
-		--enable-longdouble=yes \
 		--with-dffi \
 		$(use_with cxx) \
 		$(use_enable gengc) \
@@ -66,9 +72,7 @@ src_configure() {
 		$(use_enable libatomic libatomic system) \
 		$(use_with cpu_flags_x86_sse sse) \
 		$(use_enable threads) \
-		$(use_with threads __thread) \
 		$(use_enable unicode) \
-		$(use_with unicode unicode-names) \
 		$(use_with X x)
 }
 
@@ -84,14 +88,12 @@ src_compile() {
 	fi
 
 	#parallel make fails
-	emake -j1 || die "Compilation failed"
+	emake -j1
 }
 
-src_install () {
-	emake DESTDIR="${D}" install || die "Installation failed"
+src_install() {
+	default
 
-	dodoc README.md CHANGELOG
-	dodoc "${FILESDIR}"/README.Gentoo
 	pushd build/doc
 	newman ecl.man ecl.1
 	newman ecl-config.man ecl-config.1
