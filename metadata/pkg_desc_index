@@ -52,7 +52,7 @@ dev-gap/tomlib 1.2.7 1.2.7-r2 1.2.8: The GAP Library of Tables of Marks
 dev-gap/toric 1.9.4 1.9.4-r2: toric varieties and some combinatorial geometry computations
 dev-gap/transgrp 2.0.4 2.0.4-r1 2.0.4-r2: GAP Transitive Groups Library
 dev-gap/utils 0.59 0.61-r1 0.63: Utility functions in GAP
-dev-lisp/ecls 16.1.2-r1 20.4.24-r1: ECL is an embeddable Common Lisp implementation
+dev-lisp/ecls 16.1.2-r1 20.4.24-r2: ECL is an embeddable Common Lisp implementation
 dev-perl/MongoDB 2.2.1: Official MongoDB Driver for Perl
 dev-perl/UUID-URandom 0.001: thin wrapper around Crypt::URandom
 dev-python/cypari2 2.1.1: A Python interface to the number theory library libpari
