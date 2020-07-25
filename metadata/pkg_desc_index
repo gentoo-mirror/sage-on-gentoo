@@ -57,7 +57,7 @@ dev-perl/MongoDB 2.2.1: Official MongoDB Driver for Perl
 dev-perl/UUID-URandom 0.001: thin wrapper around Crypt::URandom
 dev-python/cypari2 2.1.1: A Python interface to the number theory library libpari
 dev-python/cysignals 1.10.2: interrupt and signal handling for Cython
-dev-python/fpylll 0.5.1 0.5.2: A Python (2 and 3) wrapper for fplll.
+dev-python/fpylll 0.5.2: A Python (2 and 3) wrapper for fplll.
 dev-python/giacpy_sage 0.7.1: A Cython frontend to the c++ library giac for sage
 dev-python/gmpy 2.1.0_beta1-r1: Python bindings for GMP, MPC, MPFR and MPIR libraries
 dev-python/networkx 2.4-r2: Python tools to manipulate graphs and complex networks
