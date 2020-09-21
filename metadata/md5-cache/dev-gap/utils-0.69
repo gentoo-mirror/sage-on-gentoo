@@ -1,0 +1,10 @@
+DEFINED_PHASES=install
+DESCRIPTION=Utility functions in GAP
+EAPI=7
+HOMEPAGE=https://www.gap-system.org/Packages/utils.html
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=sci-mathematics/gap-4.10.2 >=dev-gap/GAPDoc-1.6.2 >=dev-gap/AutoDoc-2019.05.20 >=dev-gap/polycyclic-2.14
+SLOT=0
+SRC_URI=https://github.com/gap-packages/utils/releases/download/v0.69/utils-0.69.tar.gz
+_md5_=158916dc1ac4a988c65894c15641a945

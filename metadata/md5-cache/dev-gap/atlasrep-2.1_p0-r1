@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DESCRIPTION=A GAP Interface to the Atlas of Group Representations
+EAPI=7
+HOMEPAGE=https://www.gap-system.org/Packages/atlasrep.html
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3+
+RDEPEND=sci-mathematics/gap >=dev-gap/GAPDoc-1.6.2 >=dev-gap/io-4.6.0
+RESTRICT=mirror
+SLOT=0
+SRC_URI=mirror://sagemath/atlasrep-2r1p0.tar.bz2
+_md5_=4f378ae3de3f9d449c655431ccfbce5b

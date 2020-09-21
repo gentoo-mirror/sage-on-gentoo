@@ -7,9 +7,9 @@ HOMEPAGE=https://www.gap-system.org/
 IUSE=emacs readline +recommended_pkgs vim-syntax
 KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos
 LICENSE=GPL-2+
-RDEPEND=dev-libs/gmp:= readline? ( sys-libs/readline:= ) !!sci-libs/libgap dev-gap/GAPDoc:0/4.10.0 dev-gap/primgrp:0/4.10.0 dev-gap/SmallGrp:0/4.10.0 dev-gap/transgrp:0/4.10.0 recommended_pkgs? ( dev-gap/autpgrp:0/4.10.0 dev-gap/Alnuth:0/4.10.0 dev-gap/crisp:0/4.10.0 dev-gap/ctbllib:0/4.10.0 dev-gap/factint:0/4.10.0 dev-gap/fga:0/4.10.0 dev-gap/irredsol:0/4.10.0 dev-gap/laguna:0/4.10.0 dev-gap/polenta:0/4.10.0 dev-gap/polycyclic:0/4.10.0 dev-gap/resclasses:0/4.10.0 dev-gap/sophus:0/4.10.0 dev-gap/tomlib:0/4.10.0 ) emacs? ( >=app-editors/emacs-23.1:* ) vim-syntax? ( app-vim/vim-gap )
+RDEPEND=dev-libs/gmp:= readline? ( sys-libs/readline:= ) !!sci-libs/libgap dev-gap/GAPDoc:0/4.10.0 dev-gap/primgrp:0/4.10.0 dev-gap/SmallGrp:0/4.10.0 dev-gap/transgrp:0/4.10.0 recommended_pkgs? ( dev-gap/autpgrp:0/4.10.0 dev-gap/Alnuth:0/4.10.0 dev-gap/crisp:0/4.10.0 >=dev-gap/ctbllib-1.2 dev-gap/factint:0/4.10.0 dev-gap/fga:0/4.10.0 dev-gap/irredsol:0/4.10.0 dev-gap/laguna:0/4.10.0 dev-gap/polenta:0/4.10.0 dev-gap/polycyclic:0/4.10.0 dev-gap/resclasses:0/4.10.0 dev-gap/sophus:0/4.10.0 dev-gap/tomlib:0/4.10.0 ) emacs? ( >=app-editors/emacs-23.1:* ) vim-syntax? ( app-vim/vim-gap )
 RESTRICT=primaryuri
 SLOT=0/4.10.0
 SRC_URI=https://www.gap-system.org/pub/gap/gap-4.10/tar.bz2/gap-4.10.0.tar.bz2
 _eclasses_=autotools	7d999b62b8749fad43fff00620cedf47	elisp-common	848a95b01913ff6374bcb5eae09c52ba	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	98584e405e2b0264d37e8f728327fed1	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
-_md5_=a2290a9d0009f678a1af7335b1117bb2
+_md5_=39a8849bdb3527c8584838f8ee7659ea

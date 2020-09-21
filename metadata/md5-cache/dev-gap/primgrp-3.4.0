@@ -1,0 +1,10 @@
+DEFINED_PHASES=install
+DESCRIPTION=GAP Primitive Permutation Groups Library
+EAPI=7
+HOMEPAGE=https://www.gap-system.org/Packages/primgrp.html
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=>=sci-mathematics/gap-4.10.1 >=dev-gap/GAPDoc-1.6.2
+SLOT=0
+SRC_URI=https://github.com/gap-packages/primgrp/releases/download/v3.4.0/primgrp-3.4.0.tar.gz
+_md5_=e747cccce9f37777b735b6bce967fdff
