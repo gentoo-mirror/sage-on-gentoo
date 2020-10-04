@@ -93,7 +93,7 @@ sci-mathematics/arb 2.16.0 2.17.0 2.18.0: C library for arbitrary-precision inte
 sci-mathematics/cu2 20060223: An non-optimal 2x2x2 rubik's cube solver
 sci-mathematics/cubex 20060128: An non-optimal 3x3x3 rubik's cube solver
 sci-mathematics/dikcube 20070912-r1: Dik T. Winter's rubik's cube solver and related tools
-sci-mathematics/gap 4.10.0-r5 4.10.1-r1 4.10.2-r1 4.11.0: System for computational discrete algebra
+sci-mathematics/gap 4.10.0-r5 4.10.1-r1 4.10.2-r1 4.11.0-r1: System for computational discrete algebra
 sci-mathematics/giac 1.5.0.87 1.6.0.25: A free C++ CAS (Computer Algebra System) library and its interfaces
 sci-mathematics/lcalc 1.23-r10: A program for calculating with L-functions
 sci-mathematics/lie 2.2.2: A Computer algebra package for Lie group computations
