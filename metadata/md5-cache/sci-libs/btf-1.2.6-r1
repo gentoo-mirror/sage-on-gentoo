@@ -1,4 +1,4 @@
-DEFINED_PHASES=configure
+DEFINED_PHASES=configure install
 DEPEND=sci-libs/suitesparseconfig virtual/pkgconfig
 DESCRIPTION=Algorithm for matrix permutation into block triangular form
 EAPI=7
@@ -9,4 +9,4 @@ LICENSE=LGPL-2.1
 RDEPEND=sci-libs/suitesparseconfig
 SLOT=0
 SRC_URI=mirror://sagemath/btf-1.2.6.tar.bz2
-_md5_=33f949a8a396bc2898dca0f0a7a3b903
+_md5_=76301ed4303214f90b2abe29d90bf3ab

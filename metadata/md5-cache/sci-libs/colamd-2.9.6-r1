@@ -1,4 +1,4 @@
-DEFINED_PHASES=configure
+DEFINED_PHASES=configure install
 DEPEND=>=sci-libs/suitesparseconfig-5.4.0 virtual/pkgconfig
 DESCRIPTION=Column approximate minimum degree ordering algorithm
 EAPI=7
@@ -9,4 +9,4 @@ LICENSE=LGPL-2.1
 RDEPEND=>=sci-libs/suitesparseconfig-5.4.0
 SLOT=0
 SRC_URI=mirror://sagemath/colamd-2.9.6.tar.bz2
-_md5_=027611f1c34396b1f74f1f05439e1199
+_md5_=641352fc8933f03bb38ddc96b81cbf0a

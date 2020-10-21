@@ -1,4 +1,4 @@
-DEFINED_PHASES=configure
+DEFINED_PHASES=configure install
 DEPEND=sci-libs/suitesparseconfig virtual/pkgconfig
 DESCRIPTION=Constrained Column approximate minimum degree ordering algorithm
 EAPI=7
@@ -9,4 +9,4 @@ LICENSE=LGPL-2.1
 RDEPEND=sci-libs/suitesparseconfig
 SLOT=0
 SRC_URI=mirror://sagemath/ccolamd-2.9.6.tar.bz2
-_md5_=3f781fbfeab99d058c6e237d292be2c3
+_md5_=5c07fb192757ad9f9334ca1f181c8bc3

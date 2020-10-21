@@ -1,4 +1,4 @@
-DEFINED_PHASES=configure
+DEFINED_PHASES=configure install
 DEPEND=virtual/lapack >=sci-libs/cholmod-2[lapack,metis?] tbb? ( dev-cpp/tbb ) virtual/pkgconfig doc? ( virtual/latex-base )
 DESCRIPTION=Multithreaded multifrontal sparse QR factorization library
 EAPI=7
@@ -9,4 +9,4 @@ LICENSE=GPL-2
 RDEPEND=virtual/lapack >=sci-libs/cholmod-2[lapack,metis?] tbb? ( dev-cpp/tbb )
 SLOT=0
 SRC_URI=mirror://sagemath/spqr-2.0.9.tar.bz2
-_md5_=79979e507d12b516938d234fab82eca7
+_md5_=87f152b14818cd927429c52cacc58d2c

@@ -1,4 +1,4 @@
-DEFINED_PHASES=configure
+DEFINED_PHASES=configure install
 DEPEND=>=sci-libs/suitesparseconfig-5.4.0 virtual/pkgconfig
 DESCRIPTION=Sparse matrices Rutherford/Boeing format tools
 EAPI=7
@@ -9,4 +9,4 @@ LICENSE=GPL-2+
 RDEPEND=>=sci-libs/suitesparseconfig-5.4.0
 SLOT=0
 SRC_URI=mirror://sagemath/rbio-2.2.6.tar.bz2
-_md5_=f2f39e42ed1a644b52fdd55b95ae2dc5
+_md5_=c031861d3cb20fee583d4fcb625f1353
