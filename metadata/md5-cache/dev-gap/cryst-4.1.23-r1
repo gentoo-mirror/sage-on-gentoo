@@ -4,7 +4,7 @@ EAPI=7
 HOMEPAGE=https://www.gap-system.org/Packages/cryst.html
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2+
-RDEPEND=sci-mathematics/gap >=dev-gap/polycyclic-2.14
+RDEPEND=sci-mathematics/gap-core >=dev-gap/polycyclic-2.14
 SLOT=0
 SRC_URI=https://github.com/gap-packages/cryst/archive/14c181691192214a20fe4cdfdd520e023fb65793.tar.gz -> cryst-4.1.23.tar.gz
-_md5_=ef4f19c8ae2e6e1d4a6913a982278ea2
+_md5_=fa1fef854f6296cf05e4204aca52ef70

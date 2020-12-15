@@ -4,8 +4,8 @@ EAPI=7
 HOMEPAGE=https://www.gap-system.org/Packages/atlasrep.html
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3+
-RDEPEND=sci-mathematics/gap >=dev-gap/GAPDoc-1.6.2 >=dev-gap/io-4.6.0
+RDEPEND=|| ( <sci-mathematics/gap-4.11.0 >=sci-mathematics/gap-core-4.11.0 ) >=dev-gap/GAPDoc-1.6.2 >=dev-gap/io-4.6.0
 RESTRICT=mirror
 SLOT=0
 SRC_URI=mirror://sagemath/atlasrep-2r1p0.tar.bz2
-_md5_=4f378ae3de3f9d449c655431ccfbce5b
+_md5_=cf7d7a02427bad8c8a0393ac203daf21

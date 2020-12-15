@@ -1,11 +1,11 @@
 DEFINED_PHASES=configure install
-DEPEND=>=sci-mathematics/gap-4.10.1:=
+DEPEND=>=sci-mathematics/gap-core-4.11.0
 DESCRIPTION=Bindings for low level C library I/O routines
 EAPI=7
 HOMEPAGE=https://www.gap-system.org/Packages/io.html
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3+
-RDEPEND=>=sci-mathematics/gap-4.10.1:=
+RDEPEND=>=sci-mathematics/gap-core-4.11.0
 SLOT=0
 SRC_URI=https://github.com/gap-packages/io/releases/download/v4.7.0/io-4.7.0.tar.bz2
-_md5_=f83febcfee6f79272f60b305ee0220c5
+_md5_=e0c0741e011acfd68304c380ed63adee

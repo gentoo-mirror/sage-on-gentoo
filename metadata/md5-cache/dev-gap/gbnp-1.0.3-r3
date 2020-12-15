@@ -4,7 +4,7 @@ EAPI=7
 HOMEPAGE=https://www.gap-system.org/Packages/gbnp.html
 KEYWORDS=~amd64 ~x86
 LICENSE=LGPL-2.1+
-RDEPEND=>=sci-mathematics/gap-4.10.1 >=dev-gap/GAPDoc-1.6.2
+RDEPEND=|| ( =sci-mathematics/gap-4.10* >=sci-mathematics/gap-core-4.11.0 ) >=dev-gap/GAPDoc-1.6.2
 SLOT=0
 SRC_URI=https://github.com/gap-packages/gbnp/archive/v1.0.3.tar.gz -> gbnp-1.0.3.tar.gz
-_md5_=7512fd28254f3b076139e0c1c14186d5
+_md5_=83578b19a86918b0516f4c488b07f133

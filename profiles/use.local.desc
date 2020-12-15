@@ -15,6 +15,9 @@ sci-libs/umfpack:cholmod - Use sci-libs/cholmod for matrix ordering
 sci-mathematics/gap:memcheck - Enable memory checking
 sci-mathematics/gap:recommended_pkgs - Trigger installation of the recommended default packages for GAP. This list is controlled by the "PackagesToLoad" "UserPreference" inside GAP.
 sci-mathematics/gap:valgrind - Build symbols to be used by valgrind
+sci-mathematics/gap-core:memcheck - Enable memory checking
+sci-mathematics/gap-core:recommended_pkgs - Trigger installation of the recommended default packages for GAP. This list is controlled by the "PackagesToLoad" "UserPreference" inside GAP.
+sci-mathematics/gap-core:valgrind - Build symbols to be used by valgrind
 sci-mathematics/giac:ecm - Enable the use of sci-mathematics/gmp-ecm
 sci-mathematics/giac:gc - Enable garbage collection support via dev-libs/boehm-gc
 sci-mathematics/giac:glpk - Enable the use of sci-mathematics/glpk
