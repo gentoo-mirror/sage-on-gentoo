@@ -9,5 +9,5 @@ LICENSE=GPL-2+
 RDEPEND=|| ( =sci-mathematics/gap-4.10* >=sci-mathematics/gap-core-4.11.0 ) dev-libs/gmp:0= >=dev-gap/polycyclic-2.14
 SLOT=0
 SRC_URI=https://github.com/gap-packages/nq/releases/download/v2.5.4/nq-2.5.4.tar.bz2
-_eclasses_=autotools	f491ec40ca051c35e20da7b670e8c14f	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_eclasses_=autotools	b8cf7d8850baf5b731738e6d4f00937a	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
 _md5_=4aeb0e167d14d80842173b56e4f34cb9
