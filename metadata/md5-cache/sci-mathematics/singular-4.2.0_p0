@@ -1,0 +1,14 @@
+BDEPEND=>=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DEFINED_PHASES=compile configure install postinst postrm prepare test
+DEPEND=dev-libs/gmp:0 dev-libs/ntl:= emacs? ( >=app-editors/emacs-23.1:* ) sci-mathematics/flint sci-libs/cddlib dev-lang/perl readline? ( sys-libs/readline )
+DESCRIPTION=Computer algebra system for polynomial computations
+EAPI=7
+HOMEPAGE=https://www.singular.uni-kl.de/ https://github.com/Singular/Sources
+IUSE=emacs examples +readline static-libs
+KEYWORDS=~amd64 ~ppc ~x86 ~x86-linux ~x86-macos
+LICENSE=GPL-2 GPL-3
+RDEPEND=dev-libs/gmp:0 dev-libs/ntl:= emacs? ( >=app-editors/emacs-23.1:* ) sci-mathematics/flint sci-libs/cddlib dev-lang/perl readline? ( sys-libs/readline )
+SLOT=0
+SRC_URI=ftp://jim.mathematik.uni-kl.de/pub/Math/Singular/SOURCES/4-2-0/singular-4.2.0p0.tar.gz
+_eclasses_=autotools	b8cf7d8850baf5b731738e6d4f00937a	elisp-common	b9df8d576b8e3d10e3da1c292b027912	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_md5_=34f7700e742f8c4ff5a08e88b4fe158a
