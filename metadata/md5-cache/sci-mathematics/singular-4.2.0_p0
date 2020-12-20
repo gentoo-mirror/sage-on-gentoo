@@ -11,4 +11,4 @@ RDEPEND=dev-libs/gmp:0 dev-libs/ntl:= emacs? ( >=app-editors/emacs-23.1:* ) sci-
 SLOT=0
 SRC_URI=ftp://jim.mathematik.uni-kl.de/pub/Math/Singular/SOURCES/4-2-0/singular-4.2.0p0.tar.gz
 _eclasses_=autotools	b8cf7d8850baf5b731738e6d4f00937a	elisp-common	b9df8d576b8e3d10e3da1c292b027912	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
-_md5_=34f7700e742f8c4ff5a08e88b4fe158a
+_md5_=62d6098d799ea81dc665dfe38a7eb5e3
