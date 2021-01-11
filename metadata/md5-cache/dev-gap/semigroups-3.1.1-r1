@@ -1,4 +1,4 @@
-BDEPEND=>=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+BDEPEND=>=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.2-r1:1.16 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
 DEFINED_PHASES=configure install prepare
 DEPEND=>=sci-mathematics/gap-4.10.1:= >=sci-libs/libsemigroups-0.6.4
 DESCRIPTION=A package for semigroups and monoids
@@ -9,5 +9,5 @@ LICENSE=GPL-3+
 RDEPEND=>=sci-mathematics/gap-4.10.1:= >=sci-libs/libsemigroups-0.6.4 >=dev-gap/orb-4.8.2 >=dev-gap/io-4.5.4 >=dev-gap/digraphs-0.15 >=dev-gap/genss-1.6.5
 SLOT=0
 SRC_URI=https://github.com/gap-packages/Semigroups/releases/download/v3.1.1/semigroups-3.1.1.tar.gz
-_eclasses_=autotools	3ec5e49b810b2571ca9c6d76f55867bb	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	1a94dc06d324bd0dab754e11abe6d27e
+_eclasses_=autotools	9677fc170e6d375dc41c14871b33d28c	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	1a94dc06d324bd0dab754e11abe6d27e
 _md5_=c2a2f72132286a46fce13c1175c4795e
