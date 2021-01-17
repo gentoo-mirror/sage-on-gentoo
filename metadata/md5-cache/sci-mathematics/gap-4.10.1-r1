@@ -5,11 +5,11 @@ DESCRIPTION=System for computational discrete algebra
 EAPI=7
 HOMEPAGE=https://www.gap-system.org/
 IUSE=emacs readline +recommended_pkgs vim-syntax
-KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos
 LICENSE=GPL-2+
 RDEPEND=dev-libs/gmp:= readline? ( sys-libs/readline:= ) !!sci-libs/libgap ~dev-gap/GAPDoc-1.6.2 ~dev-gap/primgrp-3.3.2 ~dev-gap/SmallGrp-1.3 ~dev-gap/transgrp-2.0.4 recommended_pkgs? ( >=dev-gap/autpgrp-1.10 >=dev-gap/Alnuth-3.1.0 >=dev-gap/crisp-1.4.4 >=dev-gap/ctbllib-1.2_p2 >=dev-gap/factint-1.6.2 >=dev-gap/fga-1.4.0 >=dev-gap/irredsol-1.4 >=dev-gap/laguna-3.9.2 >=dev-gap/polenta-1.3.8 >=dev-gap/polycyclic-2.14 >=dev-gap/resclasses-4.7.1 >=dev-gap/sophus-1.24 >=dev-gap/tomlib-1.2.7 ) emacs? ( >=app-editors/emacs-23.1:* ) vim-syntax? ( app-vim/vim-gap )
 RESTRICT=primaryuri
 SLOT=0/4.10.1
 SRC_URI=https://github.com/gap-system/gap/releases/download/v4.10.1/gap-4.10.1.tar.bz2
 _eclasses_=autotools	9988ecbe04129214297a7bbf3d253710	elisp-common	34cc2b6f6d8914019a353fe39cff43ce	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	1a94dc06d324bd0dab754e11abe6d27e
-_md5_=0397e080dbcfc573c17e425f7f4ab2e4
+_md5_=548edb3a32a42af9ef186d58edd36b1f

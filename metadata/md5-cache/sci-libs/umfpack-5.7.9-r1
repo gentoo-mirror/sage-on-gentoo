@@ -4,10 +4,10 @@ DESCRIPTION=Unsymmetric multifrontal sparse LU factorization library
 EAPI=7
 HOMEPAGE=https://faculty.cse.tamu.edu/davis/suitesparse.html
 IUSE=doc +cholmod static-libs
-KEYWORDS=~alpha ~amd64 ~arm ~arm64 ~hppa ~mips ~ppc ~ppc64 ~sparc ~x86 ~amd64-linux ~x86-linux ~x86-macos
+KEYWORDS=~alpha ~amd64 ~arm ~arm64 ~hppa ~mips ~ppc ~ppc64 ~sparc ~x86 ~amd64-linux ~x86-linux
 LICENSE=GPL-2
 RDEPEND=>=sci-libs/amd-2 >=sci-libs/suitesparseconfig-5.4.0 virtual/blas cholmod? ( >=sci-libs/cholmod-2[-minimal] )
 SLOT=0
 SRC_URI=mirror://sagemath/umfpack-5.7.9.tar.bz2
 _eclasses_=multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	1a94dc06d324bd0dab754e11abe6d27e
-_md5_=6db3001e3872af6b8e0f808fb05d1c5d
+_md5_=91b539d0dda087b1859b052aaee7ede5
