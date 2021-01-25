@@ -111,6 +111,7 @@ sci-mathematics/sage-data-conway_polynomials 0.5: Sage's conway polynomial datab
 sci-mathematics/sage-data-elliptic_curves 0.8: Sage's elliptic curves databases
 sci-mathematics/sage-data-graphs 20161026: Sage's graph database
 sci-mathematics/sage-data-polytopes_db 20170220: Sage's polytopes database
+sci-mathematics/sage-flatsurf 0.3: package for working with flat surfaces in SageMath.
 sci-mathematics/sage_numerical_backends_coin 9.0_beta12: COIN-OR mixed integer linear programming backend for SageMath
 sci-mathematics/singular 4.1.1_p2-r2 4.1.1_p2-r3 4.1.3_p2 4.1.3_p2-r1 4.2.0_p0: Computer algebra system for polynomial computations
 sci-mathematics/surface_dynamics 0.4.5: This sagemath package adds various functionality
