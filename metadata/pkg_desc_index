@@ -100,6 +100,7 @@ sci-mathematics/lcalc 1.23-r10: A program for calculating with L-functions
 sci-mathematics/lie 2.2.2: A Computer algebra package for Lie group computations
 sci-mathematics/maxima 5.44.0: Free computer algebra environment based on Macsyma
 sci-mathematics/mcube 20051209: An non-optimal 4x4x4 rubik's cube solver
+sci-mathematics/modular_resolution 1.1: p_group_cohomology helper library
 sci-mathematics/nauty 2.6.1 2.6.7-r1: Computing automorphism groups of graphs and digraphs
 sci-mathematics/optimal 20040603-r1: An optimal rubik's cube solver using God's Algorithm
 sci-mathematics/palp 2.1-r1 2.11-r1: A Package for Analyzing Lattice Polytopes
