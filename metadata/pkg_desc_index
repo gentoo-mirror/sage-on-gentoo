@@ -81,7 +81,7 @@ sci-libs/ldl 2.2.6-r1: Simple but educational LDL^T matrix factorization algorit
 sci-libs/libsemigroups 0.6.7 1.0.5 1.3.1: libsemigroups is a C++ library for semigroups and monoids
 sci-libs/modular_decomposition 20100607: This is an implementation of a modular decomposition algorithm.
 sci-libs/mpfrcx 0.4.2 0.5: Mpfrcx is a library for the arithmetic of univariate polynomials
-sci-libs/pynac 0.7.26-r1 0.7.27: A modified version of GiNaC that replaces the dependency on CLN by Python
+sci-libs/pynac 0.7.26-r1 0.7.27-r1: A modified version of GiNaC that replaces the dependency on CLN by Python
 sci-libs/rbio 2.2.6-r1: Sparse matrices Rutherford/Boeing format tools
 sci-libs/spqr 2.0.9-r2: Multithreaded multifrontal sparse QR factorization library
 sci-libs/suitesparseconfig 5.4.0: Common configurations for all packages in suitesparse
