@@ -120,6 +120,6 @@ sci-mathematics/sage-flatsurf 0.3: package for working with flat surfaces in Sag
 sci-mathematics/sage_numerical_backends_coin 9.0_beta12: COIN-OR mixed integer linear programming backend for SageMath
 sci-mathematics/shared_meataxe 1.0 1.0.1: A library and set of programs for working with matrices over finite fields
 sci-mathematics/singular 4.1.1_p2-r3 4.1.3_p2-r1 4.2.0_p0: Computer algebra system for polynomial computations
-sci-mathematics/surface_dynamics 0.4.5: This sagemath package adds various functionality
+sci-mathematics/surface_dynamics 0.4.5 0.4.6: This sagemath package adds various functionality
 www-misc/thebe 20160525: Thebe is a Jupyter javascript plugin for static sites
 www-misc/thebelab 0.3.3: ThebeLab: turning static HTML pages into live documents
