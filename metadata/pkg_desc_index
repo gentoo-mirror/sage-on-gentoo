@@ -56,7 +56,7 @@ dev-lisp/ecls 20.4.24-r2: ECL is an embeddable Common Lisp implementation
 dev-perl/MongoDB 2.2.1: Official MongoDB Driver for Perl
 dev-perl/UUID-URandom 0.001: thin wrapper around Crypt::URandom
 dev-python/cypari2 2.1.1 2.1.2: A Python interface to the number theory library libpari
-dev-python/cysignals 1.10.2: interrupt and signal handling for Cython
+dev-python/cysignals 1.10.2 1.10.3: interrupt and signal handling for Cython
 dev-python/fpylll 0.5.2 0.5.4: A Python (2 and 3) wrapper for fplll.
 dev-python/gappy 0.1.0a_p3: a Python interface to GAP
 dev-python/gmpy 2.1.0_beta5: Python bindings for GMP, MPC, MPFR and MPIR libraries
