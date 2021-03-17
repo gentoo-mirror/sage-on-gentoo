@@ -114,7 +114,7 @@ sci-mathematics/sage 9.2-r2 9999: Math software for abstract and numerical compu
 sci-mathematics/sage-data-combinatorial_designs 20140630: Data for Combinatorial Designs
 sci-mathematics/sage-data-conway_polynomials 0.5: Sage's conway polynomial database
 sci-mathematics/sage-data-elliptic_curves 0.8: Sage's elliptic curves databases
-sci-mathematics/sage-data-graphs 20161026: Sage's graph database
+sci-mathematics/sage-data-graphs 20161026 20210214: Sage's graph database
 sci-mathematics/sage-data-polytopes_db 20170220: Sage's polytopes database
 sci-mathematics/sage-flatsurf 0.3: package for working with flat surfaces in SageMath.
 sci-mathematics/sage_numerical_backends_coin 9.0_beta12: COIN-OR mixed integer linear programming backend for SageMath
