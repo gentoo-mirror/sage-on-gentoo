@@ -97,7 +97,7 @@ sci-mathematics/flint 2.6.3: Fast Library for Number Theory
 sci-mathematics/gap 4.10.0-r5 4.10.1-r1 4.10.2-r2 4.11.0-r3: System for computational discrete algebra. Meta package.
 sci-mathematics/gap-core 4.11.0: System for computational discrete algebra. Core functionality.
 sci-mathematics/giac 1.5.0.87 1.6.0.47: A free C++ CAS (Computer Algebra System) library and its interfaces
-sci-mathematics/latte-int 1.7.5: latte-int(egrale) consists of tools for lattice point enumeration
+sci-mathematics/latte-int 1.7.5 1.7.6: latte-int(egrale) consists of tools for lattice point enumeration
 sci-mathematics/lcalc 1.23-r10: A program for calculating with L-functions
 sci-mathematics/lie 2.2.2: A Computer algebra package for Lie group computations
 sci-mathematics/maxima 5.44.0: Free computer algebra environment based on Macsyma
@@ -119,7 +119,7 @@ sci-mathematics/sage-data-polytopes_db 20170220: Sage's polytopes database
 sci-mathematics/sage-flatsurf 0.3: package for working with flat surfaces in SageMath.
 sci-mathematics/sage_numerical_backends_coin 9.0_beta12: COIN-OR mixed integer linear programming backend for SageMath
 sci-mathematics/shared_meataxe 1.0 1.0.1: A library and set of programs for working with matrices over finite fields
-sci-mathematics/singular 4.1.1_p2-r3 4.1.3_p2-r1 4.2.0_p0: Computer algebra system for polynomial computations
+sci-mathematics/singular 4.1.1_p2-r3 4.2.0_p1: Computer algebra system for polynomial computations
 sci-mathematics/surface_dynamics 0.4.5 0.4.6: This sagemath package adds various functionality
 www-misc/thebe 20160525: Thebe is a Jupyter javascript plugin for static sites
 www-misc/thebelab 0.3.3: ThebeLab: turning static HTML pages into live documents

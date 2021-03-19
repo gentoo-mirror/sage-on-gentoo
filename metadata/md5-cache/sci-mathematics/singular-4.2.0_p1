@@ -4,11 +4,12 @@ DEPEND=dev-libs/gmp:0 dev-libs/ntl:= emacs? ( >=app-editors/emacs-23.1:* ) sci-m
 DESCRIPTION=Computer algebra system for polynomial computations
 EAPI=7
 HOMEPAGE=https://www.singular.uni-kl.de/ https://github.com/Singular/Sources
+INHERIT=autotools elisp-common
 IUSE=emacs examples +readline static-libs
 KEYWORDS=~amd64 ~ppc ~x86 ~x86-linux
 LICENSE=GPL-2 GPL-3
 RDEPEND=dev-libs/gmp:0 dev-libs/ntl:= emacs? ( >=app-editors/emacs-23.1:* ) sci-mathematics/flint sci-libs/cddlib dev-lang/perl readline? ( sys-libs/readline )
 SLOT=0
-SRC_URI=ftp://jim.mathematik.uni-kl.de/pub/Math/Singular/SOURCES/4-1-3/singular-4.1.3p2.tar.gz
-_eclasses_=autotools	9988ecbe04129214297a7bbf3d253710	elisp-common	d4b53ec63c580b993ed19445f411e1d2	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
-_md5_=a31e03a53c6aaa1ead77d52176f9c4cf
+SRC_URI=ftp://jim.mathematik.uni-kl.de/pub/Math/Singular/SOURCES/4-2-0/singular-4.2.0p1.tar.gz
+_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	libtool	f143db5a74ccd9ca28c1234deffede96	autotools	9988ecbe04129214297a7bbf3d253710	elisp-common	d4b53ec63c580b993ed19445f411e1d2
+_md5_=5ba9ce0bf0cc1a6031160fea6092c01a
