@@ -4,10 +4,11 @@ DEPEND=>=sci-mathematics/gap-4.10.2:= sci-mathematics/planarity sci-libs/bliss
 DESCRIPTION=Graphs, digraphs, and multidigraphs in GAP
 EAPI=7
 HOMEPAGE=https://www.gap-system.org/Packages/digraphs.html
+INHERIT=autotools
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3+
 RDEPEND=>=sci-mathematics/gap-4.10.2:= sci-mathematics/planarity sci-libs/bliss >=dev-gap/io-4.6.0 >=dev-gap/orb-4.8.2
 SLOT=0
 SRC_URI=https://github.com/gap-packages/Digraphs/releases/download/v0.15.2/digraphs-0.15.2.tar.gz
-_eclasses_=autotools	9988ecbe04129214297a7bbf3d253710	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	libtool	f143db5a74ccd9ca28c1234deffede96	autotools	4ba6c345bf49883c84d5fa5c9bf40c0b
 _md5_=c7e44c10823fb549be37b2616d1e6e06

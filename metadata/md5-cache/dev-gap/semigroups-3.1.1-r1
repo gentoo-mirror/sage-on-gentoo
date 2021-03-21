@@ -4,10 +4,11 @@ DEPEND=>=sci-mathematics/gap-4.10.1:= >=sci-libs/libsemigroups-0.6.4
 DESCRIPTION=A package for semigroups and monoids
 EAPI=7
 HOMEPAGE=https://www.gap-system.org/Packages/semigroups.html
+INHERIT=autotools
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3+
 RDEPEND=>=sci-mathematics/gap-4.10.1:= >=sci-libs/libsemigroups-0.6.4 >=dev-gap/orb-4.8.2 >=dev-gap/io-4.5.4 >=dev-gap/digraphs-0.15 >=dev-gap/genss-1.6.5
 SLOT=0
 SRC_URI=https://github.com/gap-packages/Semigroups/releases/download/v3.1.1/semigroups-3.1.1.tar.gz
-_eclasses_=autotools	9988ecbe04129214297a7bbf3d253710	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	libtool	f143db5a74ccd9ca28c1234deffede96	autotools	4ba6c345bf49883c84d5fa5c9bf40c0b
 _md5_=c2a2f72132286a46fce13c1175c4795e
