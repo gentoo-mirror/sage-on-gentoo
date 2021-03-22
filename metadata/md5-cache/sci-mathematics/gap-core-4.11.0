@@ -14,5 +14,5 @@ REQUIRED_USE=valgrind? ( memcheck )
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=https://github.com/gap-system/gap/releases/download/v4.11.0/gap-4.11.0.tar.bz2
-_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	libtool	f143db5a74ccd9ca28c1234deffede96	autotools	4ba6c345bf49883c84d5fa5c9bf40c0b	elisp-common	d4b53ec63c580b993ed19445f411e1d2
+_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	libtool	f143db5a74ccd9ca28c1234deffede96	autotools	4ba6c345bf49883c84d5fa5c9bf40c0b	elisp-common	36f97076abd90f943a34f8bcd58b5bcc
 _md5_=48ca5b8d662c9d39942f3867922b3540
