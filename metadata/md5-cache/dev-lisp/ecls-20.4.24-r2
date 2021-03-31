@@ -12,5 +12,5 @@ RDEPEND=dev-libs/gmp:0 dev-libs/libffi libatomic? ( dev-libs/libatomic_ops ) >=d
 RESTRICT=test
 SLOT=0/20.4.24
 SRC_URI=https://common-lisp.net/project/ecl/static/files/release/ecl-20.4.24.tgz
-_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	libtool	f143db5a74ccd9ca28c1234deffede96	autotools	4ba6c345bf49883c84d5fa5c9bf40c0b
+_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	libtool	f143db5a74ccd9ca28c1234deffede96	autotools	6ff8412ccf96444868b310b0a28973ba
 _md5_=887053ee6adf3a9e1b741509b0fde07d
