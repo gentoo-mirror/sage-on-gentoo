@@ -3,10 +3,11 @@ DEPEND=|| ( =sci-mathematics/gap-4.10* >=sci-mathematics/gap-core-4.11.0 )
 DESCRIPTION=Cohomology groups of finite groups on finite modules
 EAPI=7
 HOMEPAGE=https://www.gap-system.org/Packages/cohomolo.html
+INHERIT=toolchain-funcs
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2+
 RDEPEND=|| ( =sci-mathematics/gap-4.10* >=sci-mathematics/gap-core-4.11.0 )
 SLOT=0
 SRC_URI=https://github.com/gap-packages/cohomolo/releases/download/v1.6.8/cohomolo-1.6.8.tar.gz
-_eclasses_=multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e
 _md5_=8469c7e8a0080d257d5e3dc44c78ea20

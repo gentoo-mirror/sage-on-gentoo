@@ -3,10 +3,11 @@ DEPEND=>=sci-mathematics/gap-core-4.11.0
 DESCRIPTION=Hashes and Crypto in GAP
 EAPI=7
 HOMEPAGE=https://www.gap-system.org/Packages/crypting.html
+INHERIT=toolchain-funcs multilib
 KEYWORDS=~amd64 ~x86
 LICENSE=BSD
 RDEPEND=>=sci-mathematics/gap-core-4.11.0 >=dev-gap/GAPDoc-1.6.2
 SLOT=0
 SRC_URI=https://github.com/gap-packages/crypting/releases/download/v0.10/crypting-0.10.tar.gz
-_eclasses_=multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e
 _md5_=a93a58f41047249a4882b04ac6923c12
