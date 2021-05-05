@@ -98,7 +98,7 @@ sci-mathematics/gap 4.10.0-r5 4.10.1-r1 4.10.2-r2 4.11.0-r3: System for computat
 sci-mathematics/gap-core 4.11.0: System for computational discrete algebra. Core functionality.
 sci-mathematics/giac 1.5.0.87 1.6.0.47 1.7.0.1 1.7.0.3: A free C++ CAS (Computer Algebra System) library and its interfaces
 sci-mathematics/latte-int 1.7.5 1.7.6: latte-int(egrale) consists of tools for lattice point enumeration
-sci-mathematics/lcalc 1.23-r10: A program for calculating with L-functions
+sci-mathematics/lcalc 1.23-r11: A program for calculating with L-functions
 sci-mathematics/lie 2.2.2: A Computer algebra package for Lie group computations
 sci-mathematics/maxima 5.44.0: Free computer algebra environment based on Macsyma
 sci-mathematics/mcube 20051209: An non-optimal 4x4x4 rubik's cube solver
