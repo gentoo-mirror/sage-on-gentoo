@@ -1,17 +1,17 @@
-BDEPEND=python_targets_python3_7? ( dev-lang/python:3.7 ) python_targets_python3_8? ( dev-lang/python:3.8 ) python_targets_python3_9? ( dev-lang/python:3.9 ) >=dev-lang/python-exec-2:=[python_targets_python3_7(-)?,python_targets_python3_8(-)?,python_targets_python3_9(-)?,-python_single_target_python3_7(-),-python_single_target_python3_8(-),-python_single_target_python3_9(-)]
+BDEPEND=python_targets_python3_8? ( dev-lang/python:3.8 ) python_targets_python3_9? ( dev-lang/python:3.9 ) >=dev-lang/python-exec-2:=[python_targets_python3_8(-)?,python_targets_python3_9(-)?,-python_single_target_python3_8(-),-python_single_target_python3_9(-)]
 DEFINED_PHASES=compile configure install postinst postrm prepare test
 DEPEND=app-text/texlive[extra] virtual/latex-base >=sys-apps/texinfo-4.2-r5
 DESCRIPTION=SageTeX allows you to embed Sage code into LaTeX documents
 EAPI=7
 HOMEPAGE=https://www.sagemath.org https://github.com/dandrake/sagetex
 INHERIT=distutils-r1 latex-package
-IUSE=examples python_targets_python3_7 python_targets_python3_8 python_targets_python3_9
+IUSE=examples python_targets_python3_8 python_targets_python3_9
 KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux ~x64-macos
 LICENSE=GPL-2+
-RDEPEND=app-text/texlive[extra] dev-tex/pgf python_targets_python3_7? ( dev-lang/python:3.7 ) python_targets_python3_8? ( dev-lang/python:3.8 ) python_targets_python3_9? ( dev-lang/python:3.9 ) >=dev-lang/python-exec-2:=[python_targets_python3_7(-)?,python_targets_python3_8(-)?,python_targets_python3_9(-)?,-python_single_target_python3_7(-),-python_single_target_python3_8(-),-python_single_target_python3_9(-)] virtual/latex-base
-REQUIRED_USE=|| ( python_targets_python3_7 python_targets_python3_8 python_targets_python3_9 )
+RDEPEND=app-text/texlive[extra] dev-tex/pgf python_targets_python3_8? ( dev-lang/python:3.8 ) python_targets_python3_9? ( dev-lang/python:3.9 ) >=dev-lang/python-exec-2:=[python_targets_python3_8(-)?,python_targets_python3_9(-)?,-python_single_target_python3_8(-),-python_single_target_python3_9(-)] virtual/latex-base
+REQUIRED_USE=|| ( python_targets_python3_8 python_targets_python3_9 )
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=https://github.com/sagemath/sagetex/releases/download/v3.5/sagetex-3.5.tar.gz
-_eclasses_=multiprocessing	cac3169468f893670dac3e7cb940e045	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	multibuild	6b3d5ee849dafe6cdfd7b859c211fb01	python-utils-r1	d273d56dc725880edbeb1f6389faf5f1	python-r1	26e4ad0a4190b14f70973dc253e86535	distutils-r1	f0ca511df3fddd316b783632b804e8fb	latex-package	e5f296c98696dd02059bc6a5a03282e2
+_eclasses_=multiprocessing	cac3169468f893670dac3e7cb940e045	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	multibuild	6b3d5ee849dafe6cdfd7b859c211fb01	python-utils-r1	6e84b7d3d8d0bb1ee12774f4a66909e2	python-r1	26e4ad0a4190b14f70973dc253e86535	distutils-r1	f0ca511df3fddd316b783632b804e8fb	latex-package	e5f296c98696dd02059bc6a5a03282e2
 _md5_=1ada5bbef3cdcb1ad9acd7036e5ad6b8
