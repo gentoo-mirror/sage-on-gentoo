@@ -9,5 +9,5 @@ LICENSE=GPL-2+
 RDEPEND=|| ( =sci-mathematics/gap-4.10* >=sci-mathematics/gap-core-4.11.0 )
 SLOT=0
 SRC_URI=https://github.com/gap-packages/cohomolo/releases/download/v1.6.8/cohomolo-1.6.8.tar.gz
-_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e
+_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	ebdbaed22e873a5abe6205f41349b479
 _md5_=8469c7e8a0080d257d5e3dc44c78ea20
