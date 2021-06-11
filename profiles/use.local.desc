@@ -21,11 +21,13 @@ sci-mathematics/giac:gc - Enable garbage collection support via dev-libs/boehm-g
 sci-mathematics/giac:glpk - Enable the use of sci-mathematics/glpk
 sci-mathematics/lcalc:pari - Use pari for elliptic curve routines. This enables '-e' option
 sci-mathematics/maxima:clisp - Compile maxima with GNU CLISP (dev-lisp/clisp)
-sci-mathematics/maxima:clozurecl - Compile maxima with Clozure Common Lisp (dev-lisp/clozurecl)
+sci-mathematics/maxima:clozurecl - Compile maxima with 32-bit Clozure Common Lisp (dev-lisp/clozurecl)
+sci-mathematics/maxima:clozurecl64 - Compile maxima with 64-bit Clozure Common Lisp (dev-lisp/clozurecl)
 sci-mathematics/maxima:cmucl - Compile maxima with CMU Common Lisp (dev-lisp/cmucl)
 sci-mathematics/maxima:ecls - Compile maxima with Embeddable Common Lisp (dev-lisp/ecls)
 sci-mathematics/maxima:gcl - Compile maxima with GNU Common Lisp (dev-lisp/gcl)
 sci-mathematics/maxima:sbcl - Compile maxima with Steel Bank Common Lisp (dev-lisp/sbcl)
+sci-mathematics/maxima:vtk - Support plotting with sci-libs/vtk
 sci-mathematics/sage:bliss - build the bindings to the bliss library
 sci-mathematics/sage:doc-html - build and install html documentation
 sci-mathematics/sage:doc-html-bin - install pre-built html documentation
