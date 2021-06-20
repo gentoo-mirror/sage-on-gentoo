@@ -8,50 +8,52 @@ dev-gap/SmallGrp 1.4.1 1.4.2: The GAP Small Groups Library
 dev-gap/aclib 1.3.2: Almost Crystallographic Groups - A Library and Algorithms
 dev-gap/atlasrep 2.1_p0-r2: A GAP Interface to the Atlas of Group Representations
 dev-gap/autpgrp 1.10.2: Computing the Automorphism Group of a p-Group
-dev-gap/cohomolo 1.6.8-r1: Cohomology groups of finite groups on finite modules
+dev-gap/cohomolo 1.6.8-r1 1.6.9: Cohomology groups of finite groups on finite modules
 dev-gap/corelg 1.54: computation with real Lie groups
 dev-gap/crime 1.5-r3: A GAP Package to Calculate Group Cohomology and Massey Products
 dev-gap/crisp 1.4.5: Computing with Radicals, Injectors, Schunck classes and Projectors
 dev-gap/crypting 0.10: Hashes and Crypto in GAP
-dev-gap/cryst 4.1.23-r1: Computing with crystallographic groups
+dev-gap/cryst 4.1.23-r1 4.1.24: Computing with crystallographic groups
 dev-gap/crystcat 1.1.9-r2: The crystallographic groups catalog
 dev-gap/ctbllib 1.2_p2-r6 1.3.2: The GAP Character Table Library
+dev-gap/datastructures 0.2.6: Collection of standard data structures for GAP
 dev-gap/design 1.7-r1: The Design Package for GAP
-dev-gap/digraphs 1.1.1: Graphs, digraphs, and multidigraphs in GAP
+dev-gap/digraphs 1.1.1 1.4.1: Graphs, digraphs, and multidigraphs in GAP
 dev-gap/factint 1.6.3: Advanced Methods for Factoring Integers
 dev-gap/fga 1.4.0-r3: Free Group Algorithms
-dev-gap/gbnp 1.0.3-r3: computing Grobner bases of noncommutative polynomials
+dev-gap/gap-recommended 4.11.1: Meta package pulling the recommended pkgs for gap
+dev-gap/gbnp 1.0.3-r3 1.0.4: computing Grobner bases of noncommutative polynomials
 dev-gap/genss 1.6.6: Generic Schreier-Sims
-dev-gap/grape 4.8.3: GRaph Algorithms using PErmutation groups
+dev-gap/grape 4.8.3 4.8.5: GRaph Algorithms using PErmutation groups
 dev-gap/guava 3.15: GAP package for computing with error-correcting codes
-dev-gap/hap 1.26 1.29: Homological Algebra Programming
+dev-gap/hap 1.26 1.29 1.30: Homological Algebra Programming
 dev-gap/hecke 1.5.3: Calculating decomposition matrices of Hecke algebras
 dev-gap/images 1.3.0: Finding minimal and canonical images in permutation groups
-dev-gap/io 4.7.0: Bindings for low level C library I/O routines
-dev-gap/irredsol 1.4.1: Irreducible soluble linear groups over finite fields and more
+dev-gap/io 4.7.0 4.7.1: Bindings for low level C library I/O routines
+dev-gap/irredsol 1.4.1 1.4.2: Irreducible soluble linear groups over finite fields and more
 dev-gap/laguna 3.9.3-r1: Lie AlGebras and UNits of group Algebras
 dev-gap/liealgdb 2.2.1: A database of Lie algebras
 dev-gap/liepring 1.9.2-r3: Database and algorithms for Lie p-rings
 dev-gap/liering 2.4.1-r1: finitely presented Lie rings
 dev-gap/loops 3.4.1-r2: Computing with quasigroups and loops in GAP
-dev-gap/nq 2.5.4-r2: Nilpotent Quotients of Finitely Presented Groups
+dev-gap/nq 2.5.4-r2 2.5.5: Nilpotent Quotients of Finitely Presented Groups
 dev-gap/orb 4.8.3: Methods to enumerate orbits
 dev-gap/p_group_cohomology_helper 0.1: GAP helper for p_group_cohomology SageMath package
 dev-gap/polenta 1.3.9: Polycyclic presentations for matrix groups
 dev-gap/polycyclic 2.15.1 2.16: Computation with polycyclic groups
 dev-gap/polymaking 0.8.2-r2: Interfacing the geometry software polymake
 dev-gap/primgrp 3.4.0 3.4.1: GAP Primitive Permutation Groups Library
-dev-gap/qpa 1.30 1.31: Quivers and Path Algebras
+dev-gap/qpa 1.30 1.31 1.32: Quivers and Path Algebras
 dev-gap/quagroup 1.8.2: a package for doing computations with quantum groups
 dev-gap/radiroot 2.8-r3: Computing with Radicals, Injectors, Schunck classes and Projectors
 dev-gap/resclasses 4.7.2-r1: Set-Theoretic Computations with Residue Classes
-dev-gap/semigroups 3.2.3: A package for semigroups and monoids
+dev-gap/semigroups 3.2.3 3.4.2: A package for semigroups and monoids
 dev-gap/sla 1.5.3: a package for doing computations with simple Lie algebras
 dev-gap/sonata 2.9.1-r3: System of nearrings and their applications
 dev-gap/sophus 1.24-r3: Computing in nilpotent Lie algebras
 dev-gap/tomlib 1.2.9: The GAP Library of Tables of Marks
 dev-gap/toric 1.9.5: toric varieties and some combinatorial geometry computations
-dev-gap/transgrp 3.0: GAP Transitive Groups Library
+dev-gap/transgrp 3.0 3.3: GAP Transitive Groups Library
 dev-gap/utils 0.69: Utility functions in GAP
 dev-perl/MongoDB 2.2.1: Official MongoDB Driver for Perl
 dev-perl/UUID-URandom 0.001: thin wrapper around Crypt::URandom
@@ -62,6 +64,7 @@ dev-python/gappy 0.1.0a_p3: a Python interface to GAP
 dev-python/gmpy 2.1.0_beta5: Python bindings for GMP, MPC, MPFR and MPIR libraries
 dev-python/jupyter-threejs-sage 122: Custom build of Three.js for SageMath
 dev-python/jupyter_jsmol 0.2.4: jupyter jsmol widget viewer
+dev-python/memory_allocator 0.1.0: An extension class for memory aalocation in cython
 dev-python/pplpy 0.8.4-r2 0.8.7: A Python wrapper for the Parma Polyhedra Library (PPL)
 dev-tex/sagetex 3.5-r1: SageTeX allows you to embed Sage code into LaTeX documents
 media-gfx/threejs-sage-extension 110 117 122: JavaScript 3D library
@@ -76,10 +79,10 @@ sci-libs/colamd 2.9.6-r1: Column approximate minimum degree ordering algorithm
 sci-libs/cxsparse 3.2.0-r1: Extended sparse matrix package
 sci-libs/klu 1.3.9-r3: Sparse LU factorization for circuit simulation
 sci-libs/ldl 2.2.6-r1: Simple but educational LDL^T matrix factorization algorithm
-sci-libs/libsemigroups 0.6.7 1.0.5 1.3.1: libsemigroups is a C++ library for semigroups and monoids
+sci-libs/libsemigroups 0.6.7 1.0.5 1.3.7: libsemigroups is a C++ library for semigroups and monoids
 sci-libs/modular_decomposition 20100607: This is an implementation of a modular decomposition algorithm.
 sci-libs/mpfrcx 0.4.2 0.5: Mpfrcx is a library for the arithmetic of univariate polynomials
-sci-libs/pynac 0.7.27-r4: A modified version of GiNaC that replaces the dependency on CLN by Python
+sci-libs/pynac 0.7.27-r4 0.7.27-r5: A modified version of GiNaC that replaces the dependency on CLN by Python
 sci-libs/rbio 2.2.6-r1: Sparse matrices Rutherford/Boeing format tools
 sci-libs/spqr 2.0.9-r2: Multithreaded multifrontal sparse QR factorization library
 sci-libs/suitesparseconfig 5.4.0: Common configurations for all packages in suitesparse
