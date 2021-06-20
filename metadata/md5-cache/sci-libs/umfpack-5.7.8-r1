@@ -10,5 +10,5 @@ LICENSE=GPL-2
 RDEPEND=>=sci-libs/amd-2 >=sci-libs/suitesparseconfig-5.4.0 virtual/blas cholmod? ( >=sci-libs/cholmod-2[-minimal] )
 SLOT=0
 SRC_URI=mirror://sagemath/umfpack-5.7.8.tar.bz2
-_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	ebdbaed22e873a5abe6205f41349b479
+_eclasses_=toolchain-funcs	2545dc6f0aaecb2dea61424911e82674	multilib	ba7da83f763a749a2870c28785c6dc0b
 _md5_=add595f4115b7f0c131845093aacce48
