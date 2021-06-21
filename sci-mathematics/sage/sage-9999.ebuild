@@ -9,7 +9,7 @@ DISTUTILS_USE_SETUPTOOLS=bdepend
 
 inherit desktop distutils-r1 flag-o-matic multiprocessing prefix toolchain-funcs git-r3
 
-EGIT_REPO_URI="https://github.com/vbraun/sage.git"
+EGIT_REPO_URI="https://github.com/sagemath/sage.git"
 EGIT_BRANCH=develop
 EGIT_CHECKOUT_DIR="${WORKDIR}/${P}"
 KEYWORDS=""
@@ -94,7 +94,7 @@ DEPEND="dev-libs/gmp:0=
 	sci-libs/libbraiding
 	bliss? ( >=sci-libs/bliss-0.73 )
 	meataxe? ( sci-mathematics/shared_meataxe )
-	>=dev-python/sphinx-4.0.2[${PYTHON_USEDEP}]"
+	>=dev-python/sphinx-3.5.4[${PYTHON_USEDEP}]"
 
 BDEPEND="app-portage/gentoolkit
 	doc-pdf? ( app-text/texlive[extra,${L10N_USEDEP}] )"
