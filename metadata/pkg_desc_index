@@ -82,7 +82,7 @@ sci-libs/ldl 2.2.6-r1: Simple but educational LDL^T matrix factorization algorit
 sci-libs/libsemigroups 0.6.7 1.0.5 1.3.7: libsemigroups is a C++ library for semigroups and monoids
 sci-libs/modular_decomposition 20100607: This is an implementation of a modular decomposition algorithm.
 sci-libs/mpfrcx 0.4.2 0.5: Mpfrcx is a library for the arithmetic of univariate polynomials
-sci-libs/pynac 0.7.27-r4 0.7.27-r5: A modified version of GiNaC that replaces the dependency on CLN by Python
+sci-libs/pynac 0.7.27-r4 0.7.27-r5 0.7.29: A modified version of GiNaC that replaces the dependency on CLN by Python
 sci-libs/rbio 2.2.6-r1: Sparse matrices Rutherford/Boeing format tools
 sci-libs/spqr 2.0.9-r2: Multithreaded multifrontal sparse QR factorization library
 sci-libs/suitesparseconfig 5.4.0: Common configurations for all packages in suitesparse
@@ -122,7 +122,7 @@ sci-mathematics/sage_docbuild 9.3_rc0: sage docbuilding tools
 sci-mathematics/sage_numerical_backends_coin 9.0_beta12: COIN-OR mixed integer linear programming backend for SageMath
 sci-mathematics/sagemath-standard 9.3_rc2: Math software for abstract and numerical computations
 sci-mathematics/shared_meataxe 1.0 1.0.1: A library and set of programs for working with matrices over finite fields
-sci-mathematics/singular 4.1.1_p2-r3 4.2.0_p3: Computer algebra system for polynomial computations
+sci-mathematics/singular 4.1.1_p2-r3 4.2.1: Computer algebra system for polynomial computations
 sci-mathematics/snappy 2.8: SnapPy is for studying the topology and geometry of 3-manifolds
 sci-mathematics/snappy_manifolds 1.1.2: The SnapPy manifold database
 sci-mathematics/spherogram 1.8.3: Python module for dealing with planar diagrams arising in 3-dimensional topology
