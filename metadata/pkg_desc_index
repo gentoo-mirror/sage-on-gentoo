@@ -122,7 +122,7 @@ sci-mathematics/sage_docbuild 9.3_rc0: sage docbuilding tools
 sci-mathematics/sage_numerical_backends_coin 9.0_beta12: COIN-OR mixed integer linear programming backend for SageMath
 sci-mathematics/sagemath-standard 9.3_rc2: Math software for abstract and numerical computations
 sci-mathematics/shared_meataxe 1.0 1.0.1: A library and set of programs for working with matrices over finite fields
-sci-mathematics/singular 4.1.1_p2-r3 4.2.1: Computer algebra system for polynomial computations
+sci-mathematics/singular 4.1.1_p2-r3: Computer algebra system for polynomial computations
 sci-mathematics/snappy 2.8: SnapPy is for studying the topology and geometry of 3-manifolds
 sci-mathematics/snappy_manifolds 1.1.2: The SnapPy manifold database
 sci-mathematics/spherogram 1.8.3: Python module for dealing with planar diagrams arising in 3-dimensional topology
