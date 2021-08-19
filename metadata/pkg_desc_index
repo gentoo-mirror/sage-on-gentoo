@@ -74,7 +74,6 @@ sci-libs/brial 1.2.8: BriAL, a successor to PolyBoRI: Polynomials over Boolean R
 sci-libs/btf 1.2.6-r1: Algorithm for matrix permutation into block triangular form
 sci-libs/camd 2.4.6-r2: Library to order a sparse matrix prior to Cholesky factorization
 sci-libs/ccolamd 2.9.6-r1: Constrained Column approximate minimum degree ordering algorithm
-sci-libs/cholmod 3.0.13-r3: Sparse Cholesky factorization and update/downdate library
 sci-libs/colamd 2.9.6-r1: Column approximate minimum degree ordering algorithm
 sci-libs/cxsparse 3.2.0-r1: Extended sparse matrix package
 sci-libs/klu 1.3.9-r3: Sparse LU factorization for circuit simulation
@@ -84,7 +83,6 @@ sci-libs/modular_decomposition 20100607: This is an implementation of a modular 
 sci-libs/mpfrcx 0.4.2 0.5: Mpfrcx is a library for the arithmetic of univariate polynomials
 sci-libs/pynac 0.7.27-r4 0.7.27-r5 0.7.29-r1: A modified version of GiNaC that replaces the dependency on CLN by Python
 sci-libs/rbio 2.2.6-r1: Sparse matrices Rutherford/Boeing format tools
-sci-libs/spqr 2.0.9-r2: Multithreaded multifrontal sparse QR factorization library
 sci-libs/suitesparseconfig 5.4.0: Common configurations for all packages in suitesparse
 sci-libs/umfpack 5.7.8-r1 5.7.9-r1: Unsymmetric multifrontal sparse LU factorization library
 sci-libs/zn_poly 0.9.1 0.9.2: A library for polynomial arithmetic
