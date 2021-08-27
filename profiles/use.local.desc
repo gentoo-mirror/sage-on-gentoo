@@ -4,7 +4,6 @@
 
 dev-gap/grape:bliss - Use bliss instead of nauty's dreadnaut as the back end for grape.
 sci-libs/pynac:giac - Use the sci-mathematics/giac library.
-sci-libs/umfpack:cholmod - Use sci-libs/cholmod for matrix ordering
 sci-mathematics/flint:ntl - Build NTL interface
 sci-mathematics/gap:memcheck - Enable memory checking
 sci-mathematics/gap:recommended_pkgs - Trigger installation of the recommended default packages for GAP. This list is controlled by the "PackagesToLoad" "UserPreference" inside GAP.
