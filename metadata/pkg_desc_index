@@ -93,7 +93,7 @@ sci-mathematics/dikcube 20070912-r1: Dik T. Winter's rubik's cube solver and rel
 sci-mathematics/flint 2.6.3: Fast Library for Number Theory
 sci-mathematics/gap 4.11.0-r3 4.11.1: System for computational discrete algebra. Meta package.
 sci-mathematics/gap-core 4.11.0 4.11.1: System for computational discrete algebra. Core functionality.
-sci-mathematics/giac 1.5.0.87 1.6.0.47 1.7.0.1 1.7.0.25: A free C++ CAS (Computer Algebra System) library and its interfaces
+sci-mathematics/giac 1.5.0.87 1.6.0.47 1.7.0.1 1.7.0.31: A free C++ CAS (Computer Algebra System) library and its interfaces
 sci-mathematics/latte-int 1.7.5 1.7.6: latte-int(egrale) consists of tools for lattice point enumeration
 sci-mathematics/lcalc 1.23-r11 2.0.1: A program for calculating with L-functions
 sci-mathematics/lie 2.2.2: A Computer algebra package for Lie group computations
@@ -117,6 +117,7 @@ sci-mathematics/sage-data-polytopes_db 20170220: Sage's polytopes database
 sci-mathematics/sage-flatsurf 0.3: package for working with flat surfaces in SageMath.
 sci-mathematics/sage_docbuild 9.3_rc0: sage docbuilding tools
 sci-mathematics/sage_numerical_backends_coin 9.0_beta12: COIN-OR mixed integer linear programming backend for SageMath
+sci-mathematics/sage_setup 9999: Tool to help install sage and sage related packages
 sci-mathematics/sagemath-standard 9.3_rc2: Math software for abstract and numerical computations
 sci-mathematics/shared_meataxe 1.0 1.0.1: A library and set of programs for working with matrices over finite fields
 sci-mathematics/singular 4.1.1_p2-r3: Computer algebra system for polynomial computations
