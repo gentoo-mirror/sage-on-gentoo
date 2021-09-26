@@ -4,7 +4,6 @@
 
 dev-gap/grape:bliss - Use bliss instead of nauty's dreadnaut as the back end for grape.
 sci-libs/pynac:giac - Use the sci-mathematics/giac library.
-sci-mathematics/flint:ntl - Build NTL interface
 sci-mathematics/gap:memcheck - Enable memory checking
 sci-mathematics/gap:recommended_pkgs - Trigger installation of the recommended default packages for GAP. This list is controlled by the "PackagesToLoad" "UserPreference" inside GAP.
 sci-mathematics/gap:valgrind - Build symbols to be used by valgrind
@@ -31,6 +30,8 @@ sci-mathematics/sage:doc-pdf-bin - install pre-built pdf documentation
 sci-mathematics/sage:jmol - Make jmol the default 3D rendering engine. Tachyon will be used otherwise.
 sci-mathematics/sage:meataxe - build the bindings to the shared_meataxe library
 sci-mathematics/sage:testsuite - If activated installs tools to runs the testsuite and insure that all the files needed are present.
+sci-mathematics/sage-doc:doc-html - build and install html documentation
+sci-mathematics/sage-doc:doc-pdf - build and install documentation in pdf format
 sci-mathematics/sagemath-standard:bliss - build the bindings to the bliss library
 sci-mathematics/sagemath-standard:doc-html - build and install html documentation
 sci-mathematics/sagemath-standard:doc-pdf - build and install documentation in pdf format
