@@ -95,7 +95,7 @@ sci-mathematics/giac 1.5.0.87 1.6.0.47 1.7.0.1 1.7.0.31: A free C++ CAS (Compute
 sci-mathematics/latte-int 1.7.5 1.7.6: latte-int(egrale) consists of tools for lattice point enumeration
 sci-mathematics/lcalc 1.23-r11 2.0.1: A program for calculating with L-functions
 sci-mathematics/lie 2.2.2: A Computer algebra package for Lie group computations
-sci-mathematics/maxima 5.45.1-r2: Free computer algebra environment based on Macsyma
+sci-mathematics/maxima 5.45.1-r2 5.45.1-r3: Free computer algebra environment based on Macsyma
 sci-mathematics/mcube 20051209: An non-optimal 4x4x4 rubik's cube solver
 sci-mathematics/modular_resolution 1.1-r1: p_group_cohomology helper library
 sci-mathematics/nauty 2.6.7-r1: Computing automorphism groups of graphs and digraphs
