@@ -63,7 +63,7 @@ dev-python/fpylll 0.5.4: A Python (2 and 3) wrapper for fplll.
 dev-python/gappy 0.1.0a_p3: a Python interface to GAP
 dev-python/jupyter-threejs-sage 122: Custom build of Three.js for SageMath
 dev-python/jupyter_jsmol 0.2.4-r1: jupyter jsmol widget viewer
-dev-python/memory_allocator 0.1.0: An extension class for memory aalocation in cython
+dev-python/memory_allocator 0.1.0 0.1.1: An extension class for memory aalocation in cython
 dev-python/pplpy 0.8.7: A Python wrapper for the Parma Polyhedra Library (PPL)
 dev-tex/sagetex 3.5-r1: SageTeX allows you to embed Sage code into LaTeX documents
 media-gfx/threejs-sage-extension 122-r1: JavaScript 3D library
