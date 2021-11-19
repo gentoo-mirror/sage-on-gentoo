@@ -65,7 +65,7 @@ dev-python/jupyter-threejs-sage 122: Custom build of Three.js for SageMath
 dev-python/jupyter_jsmol 0.2.4-r1: jupyter jsmol widget viewer
 dev-python/memory_allocator 0.1.0 0.1.1: An extension class for memory aalocation in cython
 dev-python/pplpy 0.8.7: A Python wrapper for the Parma Polyhedra Library (PPL)
-dev-tex/sagetex 3.5-r1: SageTeX allows you to embed Sage code into LaTeX documents
+dev-tex/sagetex 3.5-r1 3.6: SageTeX allows you to embed Sage code into LaTeX documents
 media-gfx/threejs-sage-extension 122-r1: JavaScript 3D library
 sci-chemistry/sage-jmol-bin 14.2.11-r1 14.29.52: Jmol is a java molecular viever for 3-D chemical structures.
 sci-libs/amd 2.4.6-r2: Library to order a sparse matrix prior to Cholesky factorization
