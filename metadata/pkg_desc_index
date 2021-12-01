@@ -58,7 +58,7 @@ dev-gap/utils 0.69: Utility functions in GAP
 dev-perl/MongoDB 2.2.1: Official MongoDB Driver for Perl
 dev-perl/UUID-URandom 0.001: thin wrapper around Crypt::URandom
 dev-python/cypari2 2.1.2: A Python interface to the number theory library libpari
-dev-python/cysignals 1.10.3: interrupt and signal handling for Cython
+dev-python/cysignals 1.10.3 1.11.0: interrupt and signal handling for Cython
 dev-python/fpylll 0.5.4: A Python (2 and 3) wrapper for fplll.
 dev-python/gappy 0.1.0a_p3: a Python interface to GAP
 dev-python/jupyter-threejs-sage 122: Custom build of Three.js for SageMath
