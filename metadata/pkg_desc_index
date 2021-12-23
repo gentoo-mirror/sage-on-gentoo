@@ -58,13 +58,15 @@ dev-gap/utils 0.69: Utility functions in GAP
 dev-perl/MongoDB 2.2.1: Official MongoDB Driver for Perl
 dev-perl/UUID-URandom 0.001: thin wrapper around Crypt::URandom
 dev-python/cypari2 2.1.2: A Python interface to the number theory library libpari
-dev-python/cysignals 1.10.3 1.11.1: interrupt and signal handling for Cython
+dev-python/cysignals 1.10.3 1.11.2: interrupt and signal handling for Cython
 dev-python/fpylll 0.5.4: A Python (2 and 3) wrapper for fplll.
 dev-python/gappy 0.1.0a_p3: a Python interface to GAP
 dev-python/jupyter-threejs-sage 122: Custom build of Three.js for SageMath
 dev-python/jupyter_jsmol 0.2.4-r1: jupyter jsmol widget viewer
+dev-python/lrcalc 2.1: Python bindings for lrcalc
 dev-python/memory_allocator 0.1.0 0.1.1: An extension class for memory aalocation in cython
 dev-python/pplpy 0.8.7: A Python wrapper for the Parma Polyhedra Library (PPL)
+dev-python/primecountpy 0.1.0: cython interface to primecount
 dev-tex/sagetex 3.5-r1 3.6: SageTeX allows you to embed Sage code into LaTeX documents
 media-gfx/threejs-sage-extension 122-r1: JavaScript 3D library
 sci-chemistry/sage-jmol-bin 14.2.11-r1 14.29.52: Jmol is a java molecular viever for 3-D chemical structures.
@@ -101,7 +103,7 @@ sci-mathematics/modular_resolution 1.1-r1: p_group_cohomology helper library
 sci-mathematics/nauty 2.6.7-r1: Computing automorphism groups of graphs and digraphs
 sci-mathematics/optimal 20040603-r1: An optimal rubik's cube solver using God's Algorithm
 sci-mathematics/pGroupCohomology 3.3.2: Modular Cohomology Rings of Finite Groups
-sci-mathematics/palp 2.11-r1: A Package for Analyzing Lattice Polytopes
+sci-mathematics/palp 2.11-r1 2.20: A Package for Analyzing Lattice Polytopes
 sci-mathematics/pari-data 20190912: Data sets for pari
 sci-mathematics/plink 2.3.1: a full featured graphical editor for knot and link projections
 sci-mathematics/primecount 7.2: primecount is a CLI and library that counts the primes below an integer x<10^31
