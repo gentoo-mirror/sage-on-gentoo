@@ -59,7 +59,7 @@ dev-perl/MongoDB 2.2.1: Official MongoDB Driver for Perl
 dev-perl/UUID-URandom 0.001: thin wrapper around Crypt::URandom
 dev-python/cypari2 2.1.2: A Python interface to the number theory library libpari
 dev-python/cysignals 1.10.3 1.11.2: interrupt and signal handling for Cython
-dev-python/fpylll 0.5.4: A Python (2 and 3) wrapper for fplll.
+dev-python/fpylll 0.5.4 0.5.6: A Python (2 and 3) wrapper for fplll.
 dev-python/gappy 0.1.0a_p3: a Python interface to GAP
 dev-python/jupyter-threejs-sage 122: Custom build of Three.js for SageMath
 dev-python/jupyter_jsmol 0.2.4-r1: jupyter jsmol widget viewer
@@ -116,7 +116,7 @@ sci-mathematics/sage-data-graphs 20210214: Sage's graph database
 sci-mathematics/sage-data-polytopes_db 20170220: Sage's polytopes database
 sci-mathematics/sage-doc 9999: Build the sage documentation
 sci-mathematics/sage-flatsurf 0.3: package for working with flat surfaces in SageMath.
-sci-mathematics/sage_docbuild 9.3_rc0 9999: Tool to help install sage and sage related packages
+sci-mathematics/sage_docbuild 9999: Tool to help install sage and sage related packages
 sci-mathematics/sage_numerical_backends_coin 9.0_beta12: COIN-OR mixed integer linear programming backend for SageMath
 sci-mathematics/sage_setup 9999: Tool to help install sage and sage related packages
 sci-mathematics/shared_meataxe 1.0 1.0.1: A library and set of programs for working with matrices over finite fields
