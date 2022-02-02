@@ -1,0 +1,9 @@
+DEFINED_PHASES=install
+DESCRIPTION=JavaScript 3D library
+EAPI=7
+HOMEPAGE=https://github.com/sagemath/threejs-sage
+KEYWORDS=~amd64 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos
+LICENSE=MIT
+SLOT=0
+SRC_URI=https://github.com/sagemath/threejs-sage/archive/r122.tar.gz -> threejs-sage-extension-122.tar.gz
+_md5_=1247d658a06fd14635a9a107a48a12b3
