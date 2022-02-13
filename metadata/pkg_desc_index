@@ -53,7 +53,7 @@ dev-gap/sonata 2.9.1-r3: System of nearrings and their applications
 dev-gap/sophus 1.24-r3: Computing in nilpotent Lie algebras
 dev-gap/tomlib 1.2.9: The GAP Library of Tables of Marks
 dev-gap/toric 1.9.5: toric varieties and some combinatorial geometry computations
-dev-gap/transgrp 3.0 3.3: GAP Transitive Groups Library
+dev-gap/transgrp 3.5: GAP Transitive Groups Library
 dev-gap/utils 0.69: Utility functions in GAP
 dev-perl/MongoDB 2.2.1: Official MongoDB Driver for Perl
 dev-perl/UUID-URandom 0.001: thin wrapper around Crypt::URandom
