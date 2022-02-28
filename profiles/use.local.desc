@@ -3,7 +3,6 @@
 # * generated automatically using pmaint *
 
 dev-gap/grape:bliss - Use bliss instead of nauty's dreadnaut as the back end for grape.
-sci-libs/pynac:giac - Use the sci-mathematics/giac library.
 sci-mathematics/gap:memcheck - Enable memory checking
 sci-mathematics/gap:valgrind - Build symbols to be used by valgrind
 sci-mathematics/gap-core:memcheck - Enable memory checking
@@ -21,10 +20,6 @@ sci-mathematics/maxima:gcl - Compile maxima with GNU Common Lisp (dev-lisp/gcl)
 sci-mathematics/maxima:sbcl - Compile maxima with Steel Bank Common Lisp (dev-lisp/sbcl)
 sci-mathematics/maxima:vtk - Support plotting with sci-libs/vtk
 sci-mathematics/sage:bliss - build the bindings to the bliss library
-sci-mathematics/sage:doc-html - build and install html documentation
-sci-mathematics/sage:doc-html-bin - install pre-built html documentation
-sci-mathematics/sage:doc-pdf - build and install documentation in pdf format
-sci-mathematics/sage:doc-pdf-bin - install pre-built pdf documentation
 sci-mathematics/sage:jmol - Make jmol the default 3D rendering engine. Tachyon will be used otherwise.
 sci-mathematics/sage:meataxe - build the bindings to the shared_meataxe library
 sci-mathematics/sage:testsuite - If activated installs tools to runs the testsuite and insure that all the files needed are present.
