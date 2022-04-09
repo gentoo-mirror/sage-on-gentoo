@@ -1,17 +1,17 @@
-BDEPEND=python_targets_python3_8? ( >=dev-lang/python-3.8.12_p1-r1:3.8 ) python_targets_python3_9? ( >=dev-lang/python-3.9.9-r1:3.9 )
+BDEPEND=python_targets_python3_8? ( >=dev-lang/python-3.8.12_p1-r1:3.8 ) python_targets_python3_9? ( >=dev-lang/python-3.9.9-r1:3.9 ) python_targets_python3_10? ( >=dev-lang/python-3.10.0_p1-r1:3.10 )
 DEFINED_PHASES=compile configure install postinst postrm prepare test
 DEPEND=app-text/texlive[extra] virtual/latex-base >=sys-apps/texinfo-4.2-r5
 DESCRIPTION=SageTeX allows you to embed Sage code into LaTeX documents
 EAPI=7
 HOMEPAGE=https://www.sagemath.org https://github.com/dandrake/sagetex
 INHERIT=distutils-r1 latex-package
-IUSE=examples python_targets_python3_8 python_targets_python3_9
+IUSE=examples python_targets_python3_8 python_targets_python3_9 python_targets_python3_10
 KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux ~x64-macos
 LICENSE=GPL-2+
-RDEPEND=app-text/texlive[extra] dev-tex/pgf python_targets_python3_8? ( >=dev-lang/python-3.8.12_p1-r1:3.8 ) python_targets_python3_9? ( >=dev-lang/python-3.9.9-r1:3.9 ) virtual/latex-base
-REQUIRED_USE=|| ( python_targets_python3_8 python_targets_python3_9 )
+RDEPEND=app-text/texlive[extra] dev-tex/pgf python_targets_python3_8? ( >=dev-lang/python-3.8.12_p1-r1:3.8 ) python_targets_python3_9? ( >=dev-lang/python-3.9.9-r1:3.9 ) python_targets_python3_10? ( >=dev-lang/python-3.10.0_p1-r1:3.10 ) virtual/latex-base
+REQUIRED_USE=|| ( python_targets_python3_8 python_targets_python3_9 python_targets_python3_10 )
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=https://github.com/sagemath/sagetex/releases/download/v3.6/sagetex-3.6.tar.gz
 _eclasses_=multibuild	d26d81f242cb193d899a72bca423d0bd	multiprocessing	61c959fc55c15c00bbb1079d6a71370b	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	python-utils-r1	59dddabd6a41ab69723654916142f63b	python-r1	8638751691200e941f26fe0ac3aef1d1	distutils-r1	ec76bb491d5818737463eced9aad899b	latex-package	223c086dd062dba43b89726880f9f0c2
-_md5_=1e262339e0b2a373bf960bccf8815bed
+_md5_=c77412366aed07ca4f1c36abdf7acca7
