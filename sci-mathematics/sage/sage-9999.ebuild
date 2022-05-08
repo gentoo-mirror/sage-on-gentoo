@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{8..10} )
 PYTHON_REQ_USE="readline,sqlite"
 DISTUTILS_USE_PEP517=setuptools
 
-inherit desktop distutils-r1 flag-o-matic multiprocessing prefix toolchain-funcs git-r3
+inherit desktop distutils-r1 multiprocessing prefix toolchain-funcs git-r3
 
 EGIT_REPO_URI="https://github.com/sagemath/sage.git"
 EGIT_BRANCH=develop
@@ -63,7 +63,7 @@ DEPEND="
 	~sci-mathematics/eclib-20210625[flint]
 	>=sci-mathematics/flint-2.7.1:=[ntl]
 	~sci-mathematics/gap-4.11.1
-	( =sci-mathematics/giac-1.7.0* =sci-mathematics/giac-1.9.0* )
+	>=sci-mathematics/giac-1.7.0
 	>=sci-mathematics/glpk-5.0:0=[gmp]
 	~sci-mathematics/gmp-ecm-7.0.4[-openmp]
 	=sci-mathematics/lcalc-2.0*
@@ -123,7 +123,6 @@ RDEPEND="
 	~sci-mathematics/sage-data-elliptic_curves-0.8
 	~sci-mathematics/sage-data-graphs-20210214
 	~sci-mathematics/sage-data-polytopes_db-20170220
-	!sci-mathematics/sage-notebook
 	>=sci-mathematics/sympow-1.018.1
 	www-servers/tornado
 
@@ -216,12 +215,6 @@ python_configure_all() {
 	export SAGE_NUM_THREADS=$(makeopts_jobs)
 }
 
-python_configure() {
-	# files are not built unless they are touched
-	find sage -name "*pyx" -exec touch '{}' \; \
-		|| die "failed to touch *pyx files"
-}
-
 python_install() {
 	# Install cython debugging files if requested
 	# They are now produced by default
@@ -258,8 +251,7 @@ python_install_all() {
 		EOF
 	fi
 
-	insinto /usr/share/doc/"${PF}"
-	doins ../COPYING.txt
+	dodoc ../COPYING.txt
 
 	# install links for the jupyter kernel
 	# We have to be careful of removing prefix if present
