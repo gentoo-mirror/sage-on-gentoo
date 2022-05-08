@@ -2,12 +2,12 @@ DEFINED_PHASES=configure
 DEPEND=dev-libs/gmp:= doc? ( app-doc/doxygen )
 DESCRIPTION=A program for factoring numbers
 EAPI=6
-HOMEPAGE=https://www.thorstenreinecke.de/qsieve/
+HOMEPAGE=http://www.thorstenreinecke.de/qsieve/
 IUSE=doc cpu_flags_x86_sse2
 KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux ~x64-macos
 LICENSE=GPL-2
 RDEPEND=dev-libs/gmp:=
 RESTRICT=primaryuri
 SLOT=0
-SRC_URI=https://www.thorstenreinecke.de/downloads/qsieve-3.02.tar.bz2
-_md5_=589e1f7ca905b00f33c9458c70be723a
+SRC_URI=http://www.thorstenreinecke.de/downloads/qsieve-3.02.tar.bz2
+_md5_=29264e90c4e2cea4230294ff0582c711

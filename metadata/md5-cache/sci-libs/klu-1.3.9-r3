@@ -3,7 +3,7 @@ DEFINED_PHASES=configure install prepare
 DEPEND=>=sci-libs/amd-2.4 >=sci-libs/btf-1.2 >=sci-libs/colamd-2.9 virtual/pkgconfig doc? ( virtual/latex-base )
 DESCRIPTION=Sparse LU factorization for circuit simulation
 EAPI=7
-HOMEPAGE=https://faculty.cse.tamu.edu/davis/suitesparse.html
+HOMEPAGE=https://people.engr.tamu.edu/davis/suitesparse.html
 INHERIT=autotools
 IUSE=doc static-libs
 KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
@@ -12,4 +12,4 @@ RDEPEND=>=sci-libs/amd-2.4 >=sci-libs/btf-1.2 >=sci-libs/colamd-2.9
 SLOT=0
 SRC_URI=mirror://sagemath/klu-1.3.9.tar.bz2
 _eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	libtool	241a8f577b9781a42a7421e53448a44e	autotools	b46e8992a8126c894fbdc8084fc040c4
-_md5_=f66fae6b370d3cb8a5703ed28ef1e2ab
+_md5_=f0b48e7248a71cb1f75a5ac757b7bb74

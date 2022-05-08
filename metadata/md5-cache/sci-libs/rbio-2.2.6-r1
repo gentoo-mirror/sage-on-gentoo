@@ -2,11 +2,11 @@ DEFINED_PHASES=configure install
 DEPEND=>=sci-libs/suitesparseconfig-5.4.0 virtual/pkgconfig
 DESCRIPTION=Sparse matrices Rutherford/Boeing format tools
 EAPI=7
-HOMEPAGE=https://faculty.cse.tamu.edu/davis/suitesparse.html
+HOMEPAGE=https://people.engr.tamu.edu/davis/suitesparse.html
 IUSE=static-libs
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2+
 RDEPEND=>=sci-libs/suitesparseconfig-5.4.0
 SLOT=0
 SRC_URI=mirror://sagemath/rbio-2.2.6.tar.bz2
-_md5_=c031861d3cb20fee583d4fcb625f1353
+_md5_=e5495779fd4e67f8f9ed8cdf08f650b7
