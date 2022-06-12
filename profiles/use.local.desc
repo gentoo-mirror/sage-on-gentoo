@@ -21,5 +21,4 @@ sci-mathematics/maxima:vtk - Support plotting with sci-libs/vtk
 sci-mathematics/sage:bliss - build the bindings to the bliss library
 sci-mathematics/sage:jmol - Make jmol the default 3D rendering engine. Tachyon will be used otherwise.
 sci-mathematics/sage:meataxe - build the bindings to the shared_meataxe library
-sci-mathematics/sage:testsuite - If activated installs tools to runs the testsuite and insure that all the files needed are present.
 sci-mathematics/sage-doc:doc-pdf - build and install documentation in pdf format
