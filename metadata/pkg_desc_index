@@ -99,7 +99,7 @@ sci-mathematics/giac 1.7.0.1 1.7.0.57 1.9.0.13: A free C++ Computer Algebra Syst
 sci-mathematics/knot_floer_homology 1.1: Python module for dealing with planar diagrams arising in 3-dimensional topology
 sci-mathematics/latte-int 1.7.5 1.7.6: latte-int(egrale) consists of tools for lattice point enumeration
 sci-mathematics/lie 2.2.2: A Computer algebra package for Lie group computations
-sci-mathematics/maxima 5.45.1-r3 5.46.0-r1: Free computer algebra environment based on Macsyma
+sci-mathematics/maxima 5.45.1-r4 5.46.0-r1: Free computer algebra environment based on Macsyma
 sci-mathematics/mcube 20051209: An non-optimal 4x4x4 rubik's cube solver
 sci-mathematics/modular_resolution 1.1-r1: p_group_cohomology helper library
 sci-mathematics/optimal 20040603-r1: An optimal rubik's cube solver using God's Algorithm
