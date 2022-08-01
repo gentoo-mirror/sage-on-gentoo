@@ -73,7 +73,7 @@ dev-tex/sagetex 3.5-r1 3.6: SageTeX allows you to embed Sage code into LaTeX doc
 media-gfx/threejs-sage-extension 122-r2: JavaScript 3D library
 sci-chemistry/sage-jmol-bin 14.2.11-r1 14.29.52: Jmol is a java molecular viever for 3-D chemical structures.
 sci-libs/amd 2.4.6-r2: Library to order a sparse matrix prior to Cholesky factorization
-sci-libs/brial 1.2.8: BriAL, a successor to PolyBoRI: Polynomials over Boolean Rings
+sci-libs/brial 1.2.11: A C++ library for polynomials over boolean rings
 sci-libs/btf 1.2.6-r1: Algorithm for matrix permutation into block triangular form
 sci-libs/camd 2.4.6-r2: Library to order a sparse matrix prior to Cholesky factorization
 sci-libs/ccolamd 2.9.6-r1: Constrained Column approximate minimum degree ordering algorithm
@@ -109,7 +109,6 @@ sci-mathematics/palp 2.20: A Package for Analyzing Lattice Polytopes
 sci-mathematics/pari-data 20190912: Data sets for pari
 sci-mathematics/plink 2.4.1: a full featured graphical editor for knot and link projections
 sci-mathematics/qsieve 3.02: A program for factoring numbers
-sci-mathematics/ratpoints 2.1.3-r4: Ratpoints tries to find all rational points on a hyperelliptic curve
 sci-mathematics/sage 9.6-r1 9999: Math software for abstract and numerical computations
 sci-mathematics/sage-conf 9999: Math software for abstract and numerical computations
 sci-mathematics/sage-data-combinatorial_designs 20140630: Data for Combinatorial Designs
