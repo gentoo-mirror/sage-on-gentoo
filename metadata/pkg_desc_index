@@ -124,7 +124,7 @@ sci-mathematics/sage-flatsurf 0.4.6: package for working with flat surfaces in S
 sci-mathematics/sage_docbuild 9.6-r1 9999: Tool to help install sage and sage related packages
 sci-mathematics/sage_numerical_backends_coin 9.0_beta12: COIN-OR mixed integer linear programming backend for SageMath
 sci-mathematics/sage_setup 9.6 9999: Tool to help install sage and sage related packages
-sci-mathematics/shared_meataxe 1.0 1.0.1: A library and set of programs for working with matrices over finite fields
+sci-mathematics/shared_meataxe 1.0.1-r1: A library and set of programs for working with matrices over finite fields
 sci-mathematics/singular 4.2.1_p3-r2 4.3.0_p1-r1: Computer algebra system for polynomial computations
 sci-mathematics/snappy 3.0.3: SnapPy is for studying the topology and geometry of 3-manifolds
 sci-mathematics/snappy_manifolds 1.1.2: The SnapPy manifold database
