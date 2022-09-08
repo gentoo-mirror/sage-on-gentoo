@@ -4,7 +4,7 @@ DEPEND=~dev-gap/gap-recommended-4.11.1 dev-libs/gmp:0= >=dev-libs/mpc-1.1.0 >=de
 DESCRIPTION=Math software for abstract and numerical computations
 EAPI=8
 HOMEPAGE=https://www.sagemath.org
-INHERIT=desktop distutils-r1 multiprocessing prefix toolchain-funcs git-r3
+INHERIT=desktop distutils-r1 multiprocessing toolchain-funcs git-r3
 IUSE=debug +doc jmol latex test X bliss meataxe python_targets_python3_8 python_targets_python3_9 python_targets_python3_10
 LICENSE=GPL-2
 PDEPEND=doc? ( ~sci-mathematics/sage-doc-9999 )
@@ -13,5 +13,5 @@ RDEPEND=~dev-gap/gap-recommended-4.11.1 dev-libs/gmp:0= >=dev-libs/mpc-1.1.0 >=d
 REQUIRED_USE=doc? ( jmol ) test? ( jmol ) || ( python_targets_python3_8 python_targets_python3_9 python_targets_python3_10 )
 RESTRICT=!test? ( test )
 SLOT=0
-_eclasses_=desktop	22952d8f27cac191d75529d4c38e6bfa	multibuild	d26d81f242cb193d899a72bca423d0bd	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	python-utils-r1	b9fc5e97e886514e5132f50465185401	python-r1	2d51fd03931e743811ce30d198e4dcfd	distutils-r1	e3b0f72d558eb613ff83262d22cbf887	prefix	eab3c99d77fe00506c109c8a736186f7	git-r3	b9ac6f96d2a88edb5b351df634dc5e53
-_md5_=704132dee1e23e4cc10b4a2a8adc3e9a
+_eclasses_=desktop	22952d8f27cac191d75529d4c38e6bfa	multibuild	d26d81f242cb193d899a72bca423d0bd	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	python-utils-r1	b9fc5e97e886514e5132f50465185401	python-r1	2d51fd03931e743811ce30d198e4dcfd	distutils-r1	e3b0f72d558eb613ff83262d22cbf887	git-r3	b9ac6f96d2a88edb5b351df634dc5e53
+_md5_=a59d559ddd4a96e05be5b9c23c2cba53
