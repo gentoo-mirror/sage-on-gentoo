@@ -99,7 +99,6 @@ sci-mathematics/database_knotinfo 2021.10.1: Content of the KnotInfo & LinkInfo 
 sci-mathematics/dikcube 20070912-r1: Dik T. Winter's rubik's cube solver and related tools
 sci-mathematics/gap 4.11.1: System for computational discrete algebra. Meta package.
 sci-mathematics/gap-core 4.11.1: System for computational discrete algebra. Core functionality.
-sci-mathematics/giac 1.9.0.21: A free C++ Computer Algebra System library and its interfaces
 sci-mathematics/knot_floer_homology 1.1: Python module for dealing with planar diagrams arising in 3-dimensional topology
 sci-mathematics/latte-int 1.7.6: latte-int(egrale) consists of tools for lattice point enumeration
 sci-mathematics/lie 2.2.2: A Computer algebra package for Lie group computations
