@@ -1,0 +1,12 @@
+DEFINED_PHASES=install
+DESCRIPTION=The crystallographic groups catalog
+EAPI=8
+HOMEPAGE=https://www.gap-system.org/Packages/crystcat.html
+INHERIT=gap-pkg
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=>=sci-mathematics/gap-4.12.0 >=dev-gap/cryst-4.1.25
+SLOT=0
+SRC_URI=https://github.com/gap-packages/crystcat/archive/dc84e1a8bac2ae613ba321b8247ebeee6defaa28.tar.gz -> crystcat-1.1.10.tar.gz
+_eclasses_=gap-pkg	719c26cd182e2f76f6b075e368d28aa8
+_md5_=16005ff1a48917a46c900b3f19c0a5a4

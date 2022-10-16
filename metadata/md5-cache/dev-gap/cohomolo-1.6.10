@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install setup
+DEPEND=>=sci-mathematics/gap-4.12.0
+DESCRIPTION=Cohomology groups of finite groups on finite modules
+EAPI=8
+HOMEPAGE=https://www.gap-system.org/Packages/cohomolo.html
+INHERIT=gap-pkg toolchain-funcs
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=>=sci-mathematics/gap-4.12.0
+SLOT=0
+SRC_URI=https://github.com/gap-packages/cohomolo/releases/download/v1.6.10/cohomolo-1.6.10.tar.gz
+_eclasses_=gap-pkg	719c26cd182e2f76f6b075e368d28aa8	toolchain-funcs	441f754fd75cd4fd1fa06fbc17da6144	multilib	5ca4e49abed8e3a2f7b56920eadee157
+_md5_=8ce8afb229f41ca3ece85932384125b2

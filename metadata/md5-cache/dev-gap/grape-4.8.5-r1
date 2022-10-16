@@ -1,13 +1,13 @@
 DEFINED_PHASES=install prepare
 DESCRIPTION=GRaph Algorithms using PErmutation groups
-EAPI=7
+EAPI=8
 HOMEPAGE=https://www.gap-system.org/Packages/grape.html
-INHERIT=prefix
+INHERIT=gap-pkg prefix
 IUSE=bliss
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2+
-RDEPEND=>=sci-mathematics/gap-core-4.11.1 bliss? ( >=sci-libs/bliss-0.73 ) !bliss? ( sci-mathematics/nauty )
+RDEPEND=>=sci-mathematics/gap-4.12.0 bliss? ( >=sci-libs/bliss-0.73 ) !bliss? ( sci-mathematics/nauty )
 SLOT=0
 SRC_URI=https://github.com/gap-packages/grape/releases/download/v4.8.5/grape-4.8.5.tar.gz
-_eclasses_=prefix	eab3c99d77fe00506c109c8a736186f7
-_md5_=4b38120ded57a44301d8ee57498a1f51
+_eclasses_=gap-pkg	719c26cd182e2f76f6b075e368d28aa8	prefix	eab3c99d77fe00506c109c8a736186f7
+_md5_=dbc0266214118bd470fed31e5775ea61
