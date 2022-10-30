@@ -6,5 +6,5 @@ KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2+
 RDEPEND=|| ( sci-mathematics/gap sci-mathematics/gap-core ) >=dev-gap/GAPDoc-1.6.2
 SLOT=0
-SRC_URI=https://files.gap-system.org/gap4/tar.bz2/packages/ctbllib-1r2p2.tar.bz2 -> ctbllib-1.2_p2.tar.bz2
-_md5_=2fd73528d833763f879b3cc0671f83f9
+SRC_URI=mirror://sagemath/ctbllib-1.2_p2.tar.bz2
+_md5_=3241cf26b3d8579d7435b29c70b56495
