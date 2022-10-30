@@ -9,6 +9,6 @@ LICENSE=|| ( GPL-2 GPL-3 )
 RDEPEND=>=sci-mathematics/gap-core-4.11.0
 RESTRICT=primaryuri
 SLOT=0
-SRC_URI=https://github.com/gap-packages/guava/releases/download/v3.16/guava-3.16.tar.gz
+SRC_URI=https://github.com/gap-packages/guava/releases/download/v3.17/guava-3.17.tar.gz
 _eclasses_=gap-pkg	719c26cd182e2f76f6b075e368d28aa8	toolchain-funcs	441f754fd75cd4fd1fa06fbc17da6144	multilib	5ca4e49abed8e3a2f7b56920eadee157
 _md5_=f37da41beed4793776c8dcba4712e981
