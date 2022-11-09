@@ -8,5 +8,5 @@ LICENSE=GPL-2+
 RDEPEND=>=sci-mathematics/gap-4.12.0 >=dev-gap/gbnp-1.0.5
 SLOT=0
 SRC_URI=https://github.com/gap-packages/qpa/archive/v1.34.tar.gz -> qpa-1.34.tar.gz
-_eclasses_=gap-pkg	719c26cd182e2f76f6b075e368d28aa8
+_eclasses_=gap-pkg	c8a0d7032a3ad11035cbef1d58db6bc5
 _md5_=c536dd8c9602e2fbf919aae9f80dd0fd

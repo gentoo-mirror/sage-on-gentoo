@@ -8,5 +8,5 @@ LICENSE=GPL-2+
 RDEPEND=>=sci-mathematics/gap-4.12.0
 SLOT=0
 SRC_URI=https://github.com/chsievers/fga/archive/v1.4.0.tar.gz -> fga-1.4.0.tar.gz
-_eclasses_=gap-pkg	719c26cd182e2f76f6b075e368d28aa8
+_eclasses_=gap-pkg	c8a0d7032a3ad11035cbef1d58db6bc5
 _md5_=4664740e6e41acd0cba7888a79c9c7dd

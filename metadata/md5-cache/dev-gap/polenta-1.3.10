@@ -8,5 +8,5 @@ LICENSE=GPL-2
 RDEPEND=>=sci-mathematics/gap-4.12.0 >=dev-gap/polycyclic-2.16 >=dev-gap/radiroot-2.9 >=dev-gap/Alnuth-3.2.1
 SLOT=0
 SRC_URI=https://github.com/gap-packages/polenta/releases/download/v1.3.10/polenta-1.3.10.tar.bz2
-_eclasses_=gap-pkg	719c26cd182e2f76f6b075e368d28aa8
+_eclasses_=gap-pkg	c8a0d7032a3ad11035cbef1d58db6bc5
 _md5_=af01074d02f9c690a1d951e96ac500c5

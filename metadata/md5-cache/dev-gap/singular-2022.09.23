@@ -8,5 +8,5 @@ LICENSE=GPL-2+
 RDEPEND=>=sci-mathematics/gap-4.12.1 sci-mathematics/singular
 SLOT=0
 SRC_URI=https://github.com/gap-packages/singular/releases/download/v2022.09.23/singular-2022.09.23.tar.gz
-_eclasses_=gap-pkg	719c26cd182e2f76f6b075e368d28aa8
+_eclasses_=gap-pkg	c8a0d7032a3ad11035cbef1d58db6bc5
 _md5_=f59e7e04421d937573b6274aceb9ee91
