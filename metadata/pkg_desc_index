@@ -81,7 +81,7 @@ sci-libs/brial 1.2.11: A C++ library for polynomials over boolean rings
 sci-libs/btf 2.0.0: Algorithm for matrix permutation into block triangular form
 sci-libs/camd 3.0.0: Library to order a sparse matrix prior to Cholesky factorization
 sci-libs/ccolamd 3.0.0: Constrained Column approximate minimum degree ordering algorithm
-sci-libs/cholmod 4.0.0: Sparse Cholesky factorization and update/downdate library
+sci-libs/cholmod 4.0.1: Sparse Cholesky factorization and update/downdate library
 sci-libs/colamd 3.0.0: Column approximate minimum degree ordering algorithm
 sci-libs/csparse 3.2.0: sparse matrix package
 sci-libs/cxsparse 4.0.0: Extended sparse matrix package
@@ -93,9 +93,9 @@ sci-libs/mpfrcx 0.4.2 0.5: Mpfrcx is a library for the arithmetic of univariate 
 sci-libs/qdldl 0.1.6: A free LDL factorisation routine for quasi-definite linear systems
 sci-libs/rbio 3.0.0: Sparse matrices Rutherford/Boeing format tools
 sci-libs/spex 2.0.0: a software package for SParse EXact algebra
-sci-libs/spqr 3.0.0: Multithreaded multifrontal sparse QR factorization library
-sci-libs/suitesparseconfig 6.0.0: Common configurations for all packages in suitesparse
-sci-libs/umfpack 6.0.0: Unsymmetric multifrontal sparse LU factorization library
+sci-libs/spqr 3.0.1: Multithreaded multifrontal sparse QR factorization library
+sci-libs/suitesparseconfig 6.0.1: Common configurations for all packages in suitesparse
+sci-libs/umfpack 6.0.1: Unsymmetric multifrontal sparse LU factorization library
 sci-libs/zn_poly 0.9.2: A library for polynomial arithmetic
 sci-mathematics/ExportSageNB 3.3 3.4: This is a tool to convert SageNB notebooks to other formats.
 sci-mathematics/FXrays 1.3.4: Finding extremal rays of a polyhedral cone
