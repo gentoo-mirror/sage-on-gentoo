@@ -10,5 +10,5 @@ RDEPEND=>=sci-mathematics/gap-core-4.11.0
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=https://github.com/gap-packages/guava/releases/download/v3.17/guava-3.17.tar.gz
-_eclasses_=gap-pkg	c8a0d7032a3ad11035cbef1d58db6bc5	toolchain-funcs	441f754fd75cd4fd1fa06fbc17da6144	multilib	5ca4e49abed8e3a2f7b56920eadee157
+_eclasses_=gap-pkg	c8a0d7032a3ad11035cbef1d58db6bc5	toolchain-funcs	959e1d99122907eb98a3a660297a967e	multilib	5ca4e49abed8e3a2f7b56920eadee157
 _md5_=f37da41beed4793776c8dcba4712e981
