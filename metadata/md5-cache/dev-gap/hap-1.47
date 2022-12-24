@@ -9,4 +9,4 @@ RDEPEND=>=sci-mathematics/gap-4.12.0 >=dev-gap/aclib-1.3.2 >=dev-gap/polycyclic-
 SLOT=0
 SRC_URI=https://github.com/gap-packages/hap/releases/download/v1.47/hap-1.47.tar.gz
 _eclasses_=gap-pkg	c8a0d7032a3ad11035cbef1d58db6bc5
-_md5_=16e366c7936b7759ea6a638da6b9f2f1
+_md5_=f4a0cfe4f8c80f3cba9be728d6455de8

@@ -9,4 +9,4 @@ RDEPEND=>=sci-mathematics/gap-4.12.0 >=dev-gap/grape-4.8.5 >=dev-gap/GAPDoc-1.6.
 SLOT=0
 SRC_URI=https://github.com/gap-packages/design/releases/download/v1.7/design-1.7.tar.gz
 _eclasses_=gap-pkg	c8a0d7032a3ad11035cbef1d58db6bc5
-_md5_=279297bd978d055c9be1428409e5a678
+_md5_=aa5bd11d49681bda59e3324a02b60369

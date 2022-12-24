@@ -8,6 +8,6 @@ KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2+
 RDEPEND=>=sci-mathematics/gap-4.12.0 bliss? ( >=sci-libs/bliss-0.73 ) !bliss? ( sci-mathematics/nauty )
 SLOT=0
-SRC_URI=https://github.com/gap-packages/grape/releases/download/v4.8.5/grape-4.8.5.tar.gz
+SRC_URI=https://github.com/gap-packages/grape/releases/download/v4.9.0/grape-4.9.0.tar.gz
 _eclasses_=gap-pkg	c8a0d7032a3ad11035cbef1d58db6bc5	prefix	eab3c99d77fe00506c109c8a736186f7
-_md5_=dbc0266214118bd470fed31e5775ea61
+_md5_=934e2f035ad46b8e9d00d219b1065356

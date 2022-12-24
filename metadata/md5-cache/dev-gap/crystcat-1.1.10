@@ -9,4 +9,4 @@ RDEPEND=>=sci-mathematics/gap-4.12.0 >=dev-gap/cryst-4.1.25
 SLOT=0
 SRC_URI=https://github.com/gap-packages/crystcat/archive/dc84e1a8bac2ae613ba321b8247ebeee6defaa28.tar.gz -> crystcat-1.1.10.tar.gz
 _eclasses_=gap-pkg	c8a0d7032a3ad11035cbef1d58db6bc5
-_md5_=16005ff1a48917a46c900b3f19c0a5a4
+_md5_=c789b800dabf69d2c5cdbed3d683933c

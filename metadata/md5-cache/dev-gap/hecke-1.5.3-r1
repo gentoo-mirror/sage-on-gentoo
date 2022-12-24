@@ -1,7 +1,7 @@
 DEFINED_PHASES=install
 DESCRIPTION=Calculating decomposition matrices of Hecke algebras
 EAPI=8
-HOMEPAGE=https://www.gap-system.org/Packages/autpgrp.html
+HOMEPAGE=https://www.gap-system.org/Packages/hecke.html
 INHERIT=gap-pkg
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2+
@@ -9,4 +9,4 @@ RDEPEND=>=sci-mathematics/gap-4.12.0
 SLOT=0
 SRC_URI=https://github.com/gap-packages/hecke/releases/download/v1.5.3/hecke-1.5.3.tar.gz
 _eclasses_=gap-pkg	c8a0d7032a3ad11035cbef1d58db6bc5
-_md5_=701b8eca86e44013a797a29c75b7a41d
+_md5_=faef749bb3d5ebacfd4749b5d4b27f57

@@ -9,4 +9,4 @@ RDEPEND=>=sci-mathematics/gap-4.12.0 >=dev-gap/atlasrep-1.5_p1
 SLOT=0
 SRC_URI=https://github.com/gap-packages/tomlib/releases/download/v1.2.9/tomlib-1.2.9.tar.gz
 _eclasses_=gap-pkg	c8a0d7032a3ad11035cbef1d58db6bc5
-_md5_=7349e6a39ed5c3f6391d20288715176d
+_md5_=07d0946cba3ce39da134fe6710760901
