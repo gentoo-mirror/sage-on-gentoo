@@ -80,7 +80,6 @@ dev-tex/sagetex 3.6 3.6.1: SageTeX allows you to embed Sage code into LaTeX docu
 media-gfx/threejs-sage-extension 122-r2: JavaScript 3D library
 sci-chemistry/sage-jmol-bin 14.2.11-r1 14.29.52: Jmol is a java molecular viever for 3-D chemical structures.
 sci-libs/amd 3.0.2: Library to order a sparse matrix prior to Cholesky factorization
-sci-libs/brial 1.2.11: A C++ library for polynomials over boolean rings
 sci-libs/btf 2.0.2: Algorithm for matrix permutation into block triangular form
 sci-libs/camd 3.0.2: Library to order a sparse matrix prior to Cholesky factorization
 sci-libs/ccolamd 3.0.2: Constrained Column approximate minimum degree ordering algorithm
@@ -92,7 +91,7 @@ sci-libs/klu 2.0.2: Sparse LU factorization for circuit simulation
 sci-libs/ldl 3.0.2: Simple but educational LDL^T matrix factorization algorithm
 sci-libs/libsemigroups 1.0.5 2.3.2: libsemigroups is a C++ library for semigroups and monoids
 sci-libs/modular_decomposition 20100607: This is an implementation of a modular decomposition algorithm.
-sci-libs/mpfrcx 0.4.2 0.5: Mpfrcx is a library for the arithmetic of univariate polynomials
+sci-libs/mpfrcx 0.6.3: Mpfrcx is a library for the arithmetic of univariate polynomials
 sci-libs/qdldl 0.1.6: A free LDL factorisation routine for quasi-definite linear systems
 sci-libs/rbio 3.0.0: Sparse matrices Rutherford/Boeing format tools
 sci-libs/spex 2.0.2: a software package for SParse EXact algebra
@@ -135,5 +134,3 @@ sci-mathematics/snappy 3.0.3: SnapPy is for studying the topology and geometry o
 sci-mathematics/snappy_manifolds 1.1.2: The SnapPy manifold database
 sci-mathematics/spherogram 2.1: Python module for dealing with planar diagrams arising in 3-dimensional topology
 sci-mathematics/surface_dynamics 0.4.7: This sagemath package adds various functionality
-www-misc/thebe 20160525: Thebe is a Jupyter javascript plugin for static sites
-www-misc/thebelab 0.3.3: ThebeLab: turning static HTML pages into live documents
