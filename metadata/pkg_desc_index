@@ -105,7 +105,7 @@ sci-mathematics/cu2 20060223: An non-optimal 2x2x2 rubik's cube solver
 sci-mathematics/cubex 20060128: An non-optimal 3x3x3 rubik's cube solver
 sci-mathematics/database_knotinfo 2021.10.1 2022.7.1: Content of the KnotInfo & LinkInfo databases as lists of dictionaries
 sci-mathematics/dikcube 20070912-r1: Dik T. Winter's rubik's cube solver and related tools
-sci-mathematics/gap 4.11.1 4.12.2: System for computational discrete algebra. Core functionality.
+sci-mathematics/gap 4.11.1 4.12.2-r1: System for computational discrete algebra. Core functionality.
 sci-mathematics/gap-core 4.11.1: System for computational discrete algebra. Core functionality.
 sci-mathematics/knot_floer_homology 1.1: Python module for dealing with planar diagrams arising in 3-dimensional topology
 sci-mathematics/latte-int 1.7.6: latte-int(egrale) consists of tools for lattice point enumeration
