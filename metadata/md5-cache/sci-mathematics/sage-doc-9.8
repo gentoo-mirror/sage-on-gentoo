@@ -1,0 +1,14 @@
+BDEPEND=|| ( ( >=dev-lang/python-3.11.1-r1:3.11[readline,sqlite] dev-python/sphinx[python_targets_python3_11(-)] dev-python/furo[python_targets_python3_11(-)] dev-python/jupyter_sphinx[python_targets_python3_11(-)] ~sci-mathematics/sage-9.8[python_targets_python3_11(-),jmol] ~sci-mathematics/sage_docbuild-9.8[python_targets_python3_11(-)] ) ( >=dev-lang/python-3.10.9-r1:3.10[readline,sqlite] dev-python/sphinx[python_targets_python3_10(-)] dev-python/furo[python_targets_python3_10(-)] dev-python/jupyter_sphinx[python_targets_python3_10(-)] ~sci-mathematics/sage-9.8[python_targets_python3_10(-),jmol] ~sci-mathematics/sage_docbuild-9.8[python_targets_python3_10(-)] ) ( >=dev-lang/python-3.9.16-r1:3.9[readline,sqlite] dev-python/sphinx[python_targets_python3_9(-)] dev-python/furo[python_targets_python3_9(-)] dev-python/jupyter_sphinx[python_targets_python3_9(-)] ~sci-mathematics/sage-9.8[python_targets_python3_9(-),jmol] ~sci-mathematics/sage_docbuild-9.8[python_targets_python3_9(-)] ) ) doc-pdf? ( app-text/texlive[extra,l10n_en,l10n_ca?,l10n_de?,l10n_es?,l10n_fr?,l10n_hu?,l10n_it?,l10n_ja?,l10n_pt?,l10n_ru?,l10n_tr?] )
+DEFINED_PHASES=compile configure install prepare setup
+DESCRIPTION=Build the sage documentation
+EAPI=8
+HOMEPAGE=https://www.sagemath.org
+INHERIT=python-any-r1
+IUSE=doc-pdf l10n_ca l10n_de l10n_es l10n_fr l10n_hu l10n_it l10n_ja l10n_pt l10n_ru l10n_tr
+KEYWORDS=~amd64 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos
+LICENSE=GPL-2
+RESTRICT=mirror test
+SLOT=0
+SRC_URI=https://github.com/sagemath/sage/archive/9.8.tar.gz -> sage-doc-9.8.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	9a610728b9bcca1919234cceb35a1027	multilib	5ca4e49abed8e3a2f7b56920eadee157	python-utils-r1	429bfd4e8d8e39db5385ba5744f30788	python-any-r1	d2955aaac8daaaa69fcc6dc93ed19f29
+_md5_=973c020cb75c64f54e2ce79b3b971ccd
