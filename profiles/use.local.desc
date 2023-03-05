@@ -20,8 +20,6 @@ sci-libs/cholmod:partition - Previously called "partition", enable graph partiti
 sci-libs/cholmod:supernodal - supernodal cholesky factorisation
 sci-mathematics/gap:memcheck - Enable memory checking
 sci-mathematics/gap:valgrind - Build symbols to be used by valgrind
-sci-mathematics/gap-core:memcheck - Enable memory checking
-sci-mathematics/gap-core:valgrind - Build symbols to be used by valgrind
 sci-mathematics/maxima:clisp - Compile maxima with GNU CLISP (dev-lisp/clisp)
 sci-mathematics/maxima:clozurecl - Compile maxima with 32-bit Clozure Common Lisp (dev-lisp/clozurecl)
 sci-mathematics/maxima:clozurecl64 - Compile maxima with 64-bit Clozure Common Lisp (dev-lisp/clozurecl)
