@@ -58,12 +58,11 @@ dev-gap/transgrp 3.6.3: GAP Transitive Groups Library
 dev-gap/utils 0.81: Utility functions in GAP
 dev-perl/MongoDB 2.2.1: Official MongoDB Driver for Perl
 dev-perl/UUID-URandom 0.001: thin wrapper around Crypt::URandom
-dev-python/aesara 2.8.9: Library for operating on mathematical expressions with multi-dimensional arrays
 dev-python/cvxopt 1.3.0-r1: Python package for convex optimization
 dev-python/cylp 0.91.5 9999: Python interface to coinor-cbc
-dev-python/cypari2 2.1.2 2.1.3: A Python interface to the number theory library libpari
+dev-python/cypari2 2.1.3: A Python interface to the number theory library libpari
 dev-python/cysignals 1.11.2: interrupt and signal handling for Cython
-dev-python/fpylll 0.5.7 0.5.9: A Python (2 and 3) wrapper for fplll.
+dev-python/fpylll 0.5.9: A Python (2 and 3) wrapper for fplll.
 dev-python/jupyter-threejs-sage 122: Custom build of Three.js for SageMath
 dev-python/jupyter_jsmol 2022.1.0: jupyter jsmol widget viewer
 dev-python/jupyter_sphinx 0.3.2: Jupyter sphinx extensions
@@ -73,9 +72,7 @@ dev-python/osqp-python 0.6.2_p5: A Python wrapper for osqp
 dev-python/pplpy 0.8.7: A Python wrapper for the Parma Polyhedra Library (PPL)
 dev-python/primecountpy 0.1.0: cython interface to primecount
 dev-python/qdldl-python 0.1.5_p2: A Python wrapper for qdldl
-dev-python/symengine 0.9.2-r1: Python wrappers to the symengine C++ library
-dev-python/sympy 1.11.1: Computer Algebra System in pure Python
-dev-tex/sagetex 3.6 3.6.1: SageTeX allows you to embed Sage code into LaTeX documents
+dev-tex/sagetex 3.6.1: SageTeX allows you to embed Sage code into LaTeX documents
 media-gfx/threejs-sage-extension 122-r2: JavaScript 3D library
 sci-chemistry/sage-jmol-bin 14.29.52: Jmol is a java molecular viever for 3-D chemical structures.
 sci-libs/amd 3.0.3: Library to order a sparse matrix prior to Cholesky factorization
@@ -88,7 +85,7 @@ sci-libs/csparse 3.2.0: sparse matrix package
 sci-libs/cxsparse 4.0.3: Extended sparse matrix package
 sci-libs/klu 2.0.3: Sparse LU factorization for circuit simulation
 sci-libs/ldl 3.0.3: Simple but educational LDL^T matrix factorization algorithm
-sci-libs/libsemigroups 1.0.5 2.3.2: libsemigroups is a C++ library for semigroups and monoids
+sci-libs/libsemigroups 2.3.2: libsemigroups is a C++ library for semigroups and monoids
 sci-libs/modular_decomposition 20100607: This is an implementation of a modular decomposition algorithm.
 sci-libs/mpfrcx 0.6.3: Mpfrcx is a library for the arithmetic of univariate polynomials
 sci-libs/qdldl 0.1.6: A free LDL factorisation routine for quasi-definite linear systems
@@ -97,12 +94,11 @@ sci-libs/spex 2.0.3: a software package for SParse EXact algebra
 sci-libs/spqr 3.0.3: Multithreaded multifrontal sparse QR factorization library
 sci-libs/suitesparseconfig 7.0.0: Common configurations for all packages in suitesparse
 sci-libs/umfpack 6.1.0: Unsymmetric multifrontal sparse LU factorization library
-sci-libs/zn_poly 0.9.2: A library for polynomial arithmetic
-sci-mathematics/ExportSageNB 3.3 3.4: This is a tool to convert SageNB notebooks to other formats.
+sci-mathematics/ExportSageNB 3.4: This is a tool to convert SageNB notebooks to other formats.
 sci-mathematics/FXrays 1.3.4: Finding extremal rays of a polyhedral cone
 sci-mathematics/cu2 20060223: An non-optimal 2x2x2 rubik's cube solver
 sci-mathematics/cubex 20060128: An non-optimal 3x3x3 rubik's cube solver
-sci-mathematics/database_knotinfo 2021.10.1 2022.7.1: Content of the KnotInfo & LinkInfo databases as lists of dictionaries
+sci-mathematics/database_knotinfo 2022.7.1: Content of the KnotInfo & LinkInfo databases as lists of dictionaries
 sci-mathematics/dikcube 20070912-r1: Dik T. Winter's rubik's cube solver and related tools
 sci-mathematics/gap 4.12.2-r2: System for computational discrete algebra. Core functionality.
 sci-mathematics/knot_floer_homology 1.1: Python module for dealing with planar diagrams arising in 3-dimensional topology
@@ -116,17 +112,17 @@ sci-mathematics/pGroupCohomology 3.3.2: Modular Cohomology Rings of Finite Group
 sci-mathematics/palp 2.20: A Package for Analyzing Lattice Polytopes
 sci-mathematics/pari-data 20190912: Data sets for pari
 sci-mathematics/plink 2.4.1: a full featured graphical editor for knot and link projections
-sci-mathematics/sage 9.7-r5 9.8 9999: Math software for abstract and numerical computations
-sci-mathematics/sage-conf 9.7-r1 9.8 9999: Math software for abstract and numerical computations
+sci-mathematics/sage 9.8 9999: Math software for abstract and numerical computations
+sci-mathematics/sage-conf 9.8 9999: Math software for abstract and numerical computations
 sci-mathematics/sage-data-combinatorial_designs 20140630: Data for Combinatorial Designs
 sci-mathematics/sage-data-conway_polynomials 0.5: Sage's conway polynomial database
 sci-mathematics/sage-data-elliptic_curves 0.8: Sage's elliptic curves databases
 sci-mathematics/sage-data-graphs 20210214: Sage's graph database
 sci-mathematics/sage-data-polytopes_db 20170220: Sage's polytopes database
-sci-mathematics/sage-doc 9.7 9.8 9999: Build the sage documentation
+sci-mathematics/sage-doc 9.8 9999: Build the sage documentation
 sci-mathematics/sage-flatsurf 0.4.6: package for working with flat surfaces in SageMath.
-sci-mathematics/sage_docbuild 9.7 9.8 9999: Tool to help install sage and sage related packages
-sci-mathematics/sage_setup 9.7 9.8 9999: Tool to help install sage and sage related packages
+sci-mathematics/sage_docbuild 9.8 9999: Tool to help install sage and sage related packages
+sci-mathematics/sage_setup 9.8 9999: Tool to help install sage and sage related packages
 sci-mathematics/shared_meataxe 1.0.1-r1: A library and set of programs for working with matrices over finite fields
 sci-mathematics/snappy 3.0.3: SnapPy is for studying the topology and geometry of 3-manifolds
 sci-mathematics/snappy_manifolds 1.1.2: The SnapPy manifold database
