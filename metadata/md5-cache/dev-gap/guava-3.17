@@ -1,13 +1,13 @@
 DEFINED_PHASES=compile configure install prepare
-DEPEND=>=sci-mathematics/gap-core-4.11.0
+DEPEND=>=sci-mathematics/gap-4.12.2
 DESCRIPTION=GAP package for computing with error-correcting codes
 EAPI=8
 HOMEPAGE=https://www.gap-system.org/Packages/guava.html
 INHERIT=gap-pkg toolchain-funcs
 KEYWORDS=~amd64 ~x86
 LICENSE=|| ( GPL-2 GPL-3 )
-RDEPEND=>=sci-mathematics/gap-core-4.11.0
+RDEPEND=>=sci-mathematics/gap-4.12.2
 SLOT=0
 SRC_URI=https://github.com/gap-packages/guava/releases/download/v3.17/guava-3.17.tar.gz
 _eclasses_=gap-pkg	c8a0d7032a3ad11035cbef1d58db6bc5	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	d1408425c7c4a7669b9b17735404b693
-_md5_=6a51d5429db6a785d03af7b764cfdc13
+_md5_=9bf5fcbe01307eec1fab52793b128661

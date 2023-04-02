@@ -5,8 +5,8 @@ HOMEPAGE=https://www.gap-system.org/Packages/aclib.html
 INHERIT=gap-pkg
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2+
-RDEPEND=>=sci-mathematics/gap-core-4.11.0
+RDEPEND=>=sci-mathematics/gap-4.12.2
 SLOT=0
 SRC_URI=https://github.com/gap-packages/aclib/releases/download/v1.3.2/aclib-1.3.2.tar.gz
 _eclasses_=gap-pkg	c8a0d7032a3ad11035cbef1d58db6bc5
-_md5_=3c0d99203f3e12616e4fc65fe2dc31f8
+_md5_=6a9503d58856ca942d5f2e2776fe9177
