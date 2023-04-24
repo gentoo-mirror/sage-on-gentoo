@@ -8,4 +8,4 @@ LICENSE=GPL-2
 SLOT=0
 SRC_URI=mirror://sagemath/cubex-20060128.tar.xz
 _eclasses_=toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	d1408425c7c4a7669b9b17735404b693
-_md5_=3025a4ed2ff67b60d2424ecde6053aa2
+_md5_=7116bec945821db7ad9ddae8a7816beb

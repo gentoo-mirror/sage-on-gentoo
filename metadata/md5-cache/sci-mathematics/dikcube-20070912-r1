@@ -8,4 +8,4 @@ LICENSE=MIT
 SLOT=0
 SRC_URI=mirror://sageupstream/rubiks/rubiks-20070912.tar.bz2
 _eclasses_=toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	d1408425c7c4a7669b9b17735404b693	flag-o-matic	514815b1cc0dd4aeac177c2e812b3b1a
-_md5_=7b83318e8382ead82850f65b29ac79be
+_md5_=5e6359e621332961859a82bc993b6d1f

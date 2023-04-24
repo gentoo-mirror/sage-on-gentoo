@@ -8,4 +8,4 @@ LICENSE=GPL-2
 RDEPEND=sci-mathematics/pari
 SLOT=0
 SRC_URI=https://pari.math.u-bordeaux.fr/pub/pari/packages/elldata.tgz -> elldata-20190912.tgz https://pari.math.u-bordeaux.fr/pub/pari/packages/galdata.tgz -> galdata-20190912.tgz https://pari.math.u-bordeaux.fr/pub/pari/packages/galpol.tgz -> galpol-20190912.tgz https://pari.math.u-bordeaux.fr/pub/pari/packages/seadata.tgz -> seadata-20190912.tgz https://pari.math.u-bordeaux.fr/pub/pari/packages/nftables.tgz -> nftables-20190912.tgz
-_md5_=cee8dbb2f2e053f117c18c4f1b780df1
+_md5_=0a46d327881492ab24591e9a00fa04b5

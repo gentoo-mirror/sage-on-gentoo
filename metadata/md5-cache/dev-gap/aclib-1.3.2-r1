@@ -8,5 +8,5 @@ LICENSE=GPL-2+
 RDEPEND=>=sci-mathematics/gap-4.12.2
 SLOT=0
 SRC_URI=https://github.com/gap-packages/aclib/releases/download/v1.3.2/aclib-1.3.2.tar.gz
-_eclasses_=gap-pkg	c8a0d7032a3ad11035cbef1d58db6bc5
-_md5_=6a9503d58856ca942d5f2e2776fe9177
+_eclasses_=gap-pkg	4adafc94565b0fc15cb28ea0b96b5db8
+_md5_=ea6a811cb1db8ed8ef6c46d6ce4f4c3f

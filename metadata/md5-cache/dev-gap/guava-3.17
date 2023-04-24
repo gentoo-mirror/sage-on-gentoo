@@ -9,5 +9,5 @@ LICENSE=|| ( GPL-2 GPL-3 )
 RDEPEND=>=sci-mathematics/gap-4.12.2
 SLOT=0
 SRC_URI=https://github.com/gap-packages/guava/releases/download/v3.17/guava-3.17.tar.gz
-_eclasses_=gap-pkg	c8a0d7032a3ad11035cbef1d58db6bc5	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	d1408425c7c4a7669b9b17735404b693
-_md5_=9bf5fcbe01307eec1fab52793b128661
+_eclasses_=gap-pkg	4adafc94565b0fc15cb28ea0b96b5db8	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	d1408425c7c4a7669b9b17735404b693
+_md5_=58e95043c61ca0bd5d513e9008432022

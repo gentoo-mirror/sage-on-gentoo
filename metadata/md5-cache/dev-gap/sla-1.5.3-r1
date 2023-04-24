@@ -8,5 +8,5 @@ LICENSE=GPL-2+
 RDEPEND=>=sci-mathematics/gap-4.12.0 >=dev-gap/quagroup-1.8.3
 SLOT=0
 SRC_URI=https://github.com/gap-packages/sla/releases/download/v1.5.3/sla-1.5.3.tar.gz
-_eclasses_=gap-pkg	c8a0d7032a3ad11035cbef1d58db6bc5
-_md5_=9d6bf70a38016e7c4c04e9b4f61baa1d
+_eclasses_=gap-pkg	4adafc94565b0fc15cb28ea0b96b5db8
+_md5_=491678ae7eb5d53b82f59fcb1b848725

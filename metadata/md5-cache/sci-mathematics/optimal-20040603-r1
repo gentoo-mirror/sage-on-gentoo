@@ -8,4 +8,4 @@ LICENSE=GPL-2
 SLOT=0
 SRC_URI=mirror://sagemath/optimal-20040603.tar.gz
 _eclasses_=toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	d1408425c7c4a7669b9b17735404b693
-_md5_=a2f7d02cd3c707b7c24bb9f6664d5b03
+_md5_=52175f18828715b455a0d7d80b401cb1

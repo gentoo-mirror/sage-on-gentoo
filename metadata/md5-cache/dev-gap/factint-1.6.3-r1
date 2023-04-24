@@ -8,5 +8,5 @@ LICENSE=GPL-2+
 RDEPEND=>=sci-mathematics/gap-4.12.0 >=dev-gap/GAPDoc-1.6.6
 SLOT=0
 SRC_URI=https://github.com/gap-packages/FactInt/releases/download/v1.6.3/FactInt-1.6.3.tar.gz
-_eclasses_=gap-pkg	c8a0d7032a3ad11035cbef1d58db6bc5
-_md5_=5f46ccf36db9f6f9db32966f406fb774
+_eclasses_=gap-pkg	4adafc94565b0fc15cb28ea0b96b5db8
+_md5_=b53d7524e81692dea15a032664fb41b3

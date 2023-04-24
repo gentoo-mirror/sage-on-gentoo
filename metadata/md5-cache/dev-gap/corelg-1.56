@@ -8,5 +8,5 @@ LICENSE=GPL-2+
 RDEPEND=>=sci-mathematics/gap-4.12.0 >=dev-gap/sla-1.5.3
 SLOT=0
 SRC_URI=https://github.com/gap-packages/corelg/archive/v1.56.tar.gz -> corelg-1.56.tar.gz
-_eclasses_=gap-pkg	c8a0d7032a3ad11035cbef1d58db6bc5
-_md5_=2d5f1b145f55e945ce8d093f33c75ce5
+_eclasses_=gap-pkg	4adafc94565b0fc15cb28ea0b96b5db8
+_md5_=31242d6876bae913e65d2c250f750cbb

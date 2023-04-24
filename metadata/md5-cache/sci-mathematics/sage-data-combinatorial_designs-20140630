@@ -6,4 +6,4 @@ KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos
 LICENSE=GPL-2
 SLOT=0
 SRC_URI=mirror://sageupstream/combinatorial_designs/combinatorial_designs-20140630.tar.bz2
-_md5_=2a4423b65017ad6d0f8dd9e04a63e348
+_md5_=d7ed96a59efa2ec053ebf4ca0d69e380

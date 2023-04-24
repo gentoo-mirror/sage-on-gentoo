@@ -8,5 +8,5 @@ LICENSE=GPL-2
 RDEPEND=>=sci-mathematics/gap-4.12.0 >=dev-gap/GAPDoc-1.6.6 >=dev-gap/AutoDoc-2022.07.10 >=dev-gap/polycyclic-2.16
 SLOT=0
 SRC_URI=https://github.com/gap-packages/utils/releases/download/v0.81/utils-0.81.tar.gz
-_eclasses_=gap-pkg	c8a0d7032a3ad11035cbef1d58db6bc5
-_md5_=a0cdd64e3c7e5d36becf556bbb4cd7cd
+_eclasses_=gap-pkg	4adafc94565b0fc15cb28ea0b96b5db8
+_md5_=77e78265aff7a099d6bc75a95c84e0cc
