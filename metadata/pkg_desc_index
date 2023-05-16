@@ -64,8 +64,8 @@ dev-python/cypari2 2.1.3: A Python interface to the number theory library libpar
 dev-python/cysignals 1.11.2: interrupt and signal handling for Cython
 dev-python/fpylll 0.5.9: A Python (2 and 3) wrapper for fplll.
 dev-python/jupyter-jsmol 2022.1.0: jupyter jsmol widget viewer
+dev-python/jupyter-sphinx 0.3.2: Jupyter sphinx extensions
 dev-python/jupyter-threejs-sage 122: Custom build of Three.js for SageMath
-dev-python/jupyter_sphinx 0.3.2: Jupyter sphinx extensions
 dev-python/lrcalc 2.1: Python bindings for lrcalc
 dev-python/memory_allocator 0.1.3: An extension class for memory aalocation in cython
 dev-python/osqp-python 0.6.2_p5: A Python wrapper for osqp
