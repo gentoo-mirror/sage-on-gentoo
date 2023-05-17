@@ -3,8 +3,6 @@
 # * generated automatically using pmaint *
 
 dev-gap/grape:bliss - Use bliss instead of nauty's dreadnaut as the back end for grape.
-dev-python/cvxopt:dsdp - Use interior point library sci-libs/dsdp
-dev-python/cvxopt:glpk - Use GNU Linear Programming Kit sci-mathematics/glpk
 sci-libs/cholmod:cholesky - Enable sparse Cholesky factorisation
 sci-libs/cholmod:cuda - Use nvidia cuda toolkit for speeding up computations
 sci-libs/cholmod:matrixops - Support basic sparse and dense matrix operations (add, multiply, scale, et cetera)

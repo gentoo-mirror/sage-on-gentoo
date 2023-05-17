@@ -58,7 +58,6 @@ dev-gap/transgrp 3.6.3: GAP Transitive Groups Library
 dev-gap/utils 0.81: Utility functions in GAP
 dev-perl/MongoDB 2.2.1: Official MongoDB Driver for Perl
 dev-perl/UUID-URandom 0.001: thin wrapper around Crypt::URandom
-dev-python/cvxopt 1.3.0-r1: Python package for convex optimization
 dev-python/cylp 0.91.5 9999: Python interface to coinor-cbc
 dev-python/cypari2 2.1.3: A Python interface to the number theory library libpari
 dev-python/cysignals 1.11.2: interrupt and signal handling for Cython
