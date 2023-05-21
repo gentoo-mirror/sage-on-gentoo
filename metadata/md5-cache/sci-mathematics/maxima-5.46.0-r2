@@ -1,0 +1,17 @@
+BDEPEND=clisp? ( dev-lisp/clisp:= ) clozurecl? ( dev-lisp/clozurecl app-misc/rlwrap ) clozurecl64? ( dev-lisp/clozurecl app-misc/rlwrap ) cmucl? ( dev-lisp/cmucl app-misc/rlwrap ) ecls? ( dev-lisp/ecls:= app-misc/rlwrap ) gcl? ( <dev-lisp/gcl-2.6.14[ansi,readline] ) sbcl? ( dev-lisp/sbcl:= app-misc/rlwrap ) test? ( sci-visualization/gnuplot ) sys-apps/texinfo sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.5:1.16 ) >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7
+DEFINED_PHASES=compile configure install postinst postrm prepare
+DEPEND=clisp? ( dev-lisp/clisp:= ) clozurecl? ( dev-lisp/clozurecl app-misc/rlwrap ) clozurecl64? ( dev-lisp/clozurecl app-misc/rlwrap ) cmucl? ( dev-lisp/cmucl app-misc/rlwrap ) ecls? ( dev-lisp/ecls:= app-misc/rlwrap ) gcl? ( <dev-lisp/gcl-2.6.14[ansi,readline] ) sbcl? ( dev-lisp/sbcl:= app-misc/rlwrap ) virtual/libcrypt:= emacs? ( >=app-editors/emacs-26:* ) gui? ( dev-lang/tk:0 )
+DESCRIPTION=Free computer algebra environment based on Macsyma
+EAPI=8
+HOMEPAGE=https://maxima.sourceforge.io/
+INHERIT=autotools elisp-common flag-o-matic xdg-utils
+IUSE=clisp clozurecl clozurecl64 cmucl ecls emacs gcl gui nls +sbcl X test l10n_de l10n_es l10n_pt l10n_pt-BR
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+LICENSE=GPL-2 GPL-2+
+RDEPEND=clisp? ( dev-lisp/clisp:= ) clozurecl? ( dev-lisp/clozurecl app-misc/rlwrap ) clozurecl64? ( dev-lisp/clozurecl app-misc/rlwrap ) cmucl? ( dev-lisp/cmucl app-misc/rlwrap ) ecls? ( dev-lisp/ecls:= app-misc/rlwrap ) gcl? ( <dev-lisp/gcl-2.6.14[ansi,readline] ) sbcl? ( dev-lisp/sbcl:= app-misc/rlwrap ) virtual/libcrypt:= emacs? ( >=app-editors/emacs-26:* ) gui? ( dev-lang/tk:0 ) X? ( x11-misc/xdg-utils sci-visualization/gnuplot[gd] ) emacs? ( virtual/latex-base app-emacs/auctex app-text/ghostscript-gpl dev-texlive/texlive-latexrecommended )
+REQUIRED_USE=|| ( clisp clozurecl clozurecl64 cmucl ecls gcl sbcl ) gui? ( X )
+RESTRICT=test
+SLOT=0
+SRC_URI=mirror://sourceforge/maxima/maxima-5.46.0.tar.gz
+_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	104e1332efb829e2f7cbf89307a474f1	libtool	9d3a9a889a6fa62ae794f817c156491b	autotools	f0d3196128225dee3220e65f3371bc7a	elisp-common	01bc6dc778b74a9deebe4e419a3b790e	flag-o-matic	16483e58fadb0d47b4528f0aa7e171f6	xdg-utils	baea6080dd821f5562d715887954c9d3
+_md5_=28d25076c9016a44a3bee5b52a17e469

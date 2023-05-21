@@ -104,7 +104,7 @@ sci-mathematics/gap 4.12.2-r2: System for computational discrete algebra. Core f
 sci-mathematics/knot_floer_homology 1.1: Python module for dealing with planar diagrams arising in 3-dimensional topology
 sci-mathematics/latte-int 1.7.6: latte-int(egrale) consists of tools for lattice point enumeration
 sci-mathematics/lie 2.2.2: A Computer algebra package for Lie group computations
-sci-mathematics/maxima 5.45.1-r4 5.46.0-r1: Free computer algebra environment based on Macsyma
+sci-mathematics/maxima 5.45.1-r4 5.46.0-r2: Free computer algebra environment based on Macsyma
 sci-mathematics/mcube 20051209: An non-optimal 4x4x4 rubik's cube solver
 sci-mathematics/modular_resolution 1.1-r1: p_group_cohomology helper library
 sci-mathematics/optimal 20040603-r1: An optimal rubik's cube solver using God's Algorithm
@@ -112,17 +112,17 @@ sci-mathematics/pGroupCohomology 3.3.2: Modular Cohomology Rings of Finite Group
 sci-mathematics/palp 2.20: A Package for Analyzing Lattice Polytopes
 sci-mathematics/pari-data 20190912: Data sets for pari
 sci-mathematics/plink 2.4.1: a full featured graphical editor for knot and link projections
-sci-mathematics/sage 9.8 9999: Math software for abstract and numerical computations
-sci-mathematics/sage-conf 9.8 9999: Math software for abstract and numerical computations
+sci-mathematics/sage 9.8 10.0 9999: Math software for abstract and numerical computations
+sci-mathematics/sage-conf 9.8 10.0 9999: Math software for abstract and numerical computations
 sci-mathematics/sage-data-combinatorial_designs 20140630: Data for Combinatorial Designs
 sci-mathematics/sage-data-conway_polynomials 0.5: Sage's conway polynomial database
 sci-mathematics/sage-data-elliptic_curves 0.8: Sage's elliptic curves databases
 sci-mathematics/sage-data-graphs 20210214: Sage's graph database
 sci-mathematics/sage-data-polytopes_db 20170220: Sage's polytopes database
-sci-mathematics/sage-doc 9.8 9999: Build the sage documentation
+sci-mathematics/sage-doc 9.8 10.0 9999: Build the sage documentation
 sci-mathematics/sage-flatsurf 0.4.6: package for working with flat surfaces in SageMath.
-sci-mathematics/sage_docbuild 9.8 9999: Tool to help install sage and sage related packages
-sci-mathematics/sage_setup 9.8 9999: Tool to help install sage and sage related packages
+sci-mathematics/sage_docbuild 9.8 10.0 9999: Tool to help install sage and sage related packages
+sci-mathematics/sage_setup 9.8 10.0 9999: Tool to help install sage and sage related packages
 sci-mathematics/shared_meataxe 1.0.1-r1: A library and set of programs for working with matrices over finite fields
 sci-mathematics/snappy 3.0.3: SnapPy is for studying the topology and geometry of 3-manifolds
 sci-mathematics/snappy_manifolds 1.1.2: The SnapPy manifold database
