@@ -123,6 +123,8 @@ sci-mathematics/sage-doc 9.8 10.0 9999: Build the sage documentation
 sci-mathematics/sage-flatsurf 0.4.6: package for working with flat surfaces in SageMath.
 sci-mathematics/sage_docbuild 9.8 10.0 9999: Tool to help install sage and sage related packages
 sci-mathematics/sage_setup 9.8 10.0 9999: Tool to help install sage and sage related packages
+sci-mathematics/sagemath-bliss 10.0: Graph (iso/auto)morphisms with bliss in sage
+sci-mathematics/sagemath-meataxe 10.0: Matrices over small finite fields with meataxe in sage
 sci-mathematics/shared_meataxe 1.0.1-r1: A library and set of programs for working with matrices over finite fields
 sci-mathematics/snappy 3.0.3: SnapPy is for studying the topology and geometry of 3-manifolds
 sci-mathematics/snappy_manifolds 1.1.2: The SnapPy manifold database
