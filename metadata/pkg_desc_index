@@ -86,6 +86,7 @@ sci-libs/cxsparse 4.0.3: Extended sparse matrix package
 sci-libs/klu 2.0.3: Sparse LU factorization for circuit simulation
 sci-libs/ldl 3.0.3: Simple but educational LDL^T matrix factorization algorithm
 sci-libs/libsemigroups 2.3.2: libsemigroups is a C++ library for semigroups and monoids
+sci-libs/libsirocco 2.1.0: Sirocco Is a ROot Certified COntinuator
 sci-libs/modular_decomposition 20100607: This is an implementation of a modular decomposition algorithm.
 sci-libs/mpfrcx 0.6.3: Mpfrcx is a library for the arithmetic of univariate polynomials
 sci-libs/qdldl 0.1.6: A free LDL factorisation routine for quasi-definite linear systems
@@ -125,6 +126,7 @@ sci-mathematics/sage_docbuild 9.8 10.0 9999: Tool to help install sage and sage 
 sci-mathematics/sage_setup 9.8 10.0 9999: Tool to help install sage and sage related packages
 sci-mathematics/sagemath-bliss 10.0: Graph (iso/auto)morphisms with bliss in sage
 sci-mathematics/sagemath-meataxe 10.0: Matrices over small finite fields with meataxe in sage
+sci-mathematics/sagemath-sirocco 10.0: Certified root continuation with sirocco in sage
 sci-mathematics/shared_meataxe 1.0.1-r1: A library and set of programs for working with matrices over finite fields
 sci-mathematics/snappy 3.0.3: SnapPy is for studying the topology and geometry of 3-manifolds
 sci-mathematics/snappy_manifolds 1.1.2: The SnapPy manifold database
