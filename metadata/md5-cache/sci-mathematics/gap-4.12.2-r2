@@ -4,13 +4,13 @@ DESCRIPTION=System for computational discrete algebra. Core functionality.
 EAPI=8
 HOMEPAGE=https://www.gap-system.org/
 INHERIT=elisp-common
-IUSE=cpu_flags_x86_popcnt debug emacs memcheck readline valgrind vim-syntax
+IUSE=cpu_flags_x86_popcnt debug emacs memcheck readline valgrind
 KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos
 LICENSE=GPL-2+
 PDEPEND=>=dev-gap/GAPDoc-1.6.6 >=dev-gap/primgrp-3.4.3 >=dev-gap/SmallGrp-1.5.1 >=dev-gap/transgrp-3.6.3
-RDEPEND=dev-libs/gmp:= sys-libs/zlib valgrind? ( dev-util/valgrind ) readline? ( sys-libs/readline:= ) emacs? ( >=app-editors/emacs-23.1:* ) vim-syntax? ( app-vim/vim-gap ) !<sci-mathematics/gap-4.12.0 !sci-mathematics/gap-core
+RDEPEND=dev-libs/gmp:= sys-libs/zlib valgrind? ( dev-util/valgrind ) readline? ( sys-libs/readline:= ) emacs? ( >=app-editors/emacs-23.1:* ) !<sci-mathematics/gap-4.12.0 !sci-mathematics/gap-core
 REQUIRED_USE=?? ( memcheck valgrind )
 SLOT=0/8
 SRC_URI=https://github.com/gap-system/gap/releases/download/v4.12.2/gap-4.12.2-core.tar.gz
 _eclasses_=elisp-common	b3b15bdbe800c721e93b69b70cce2b67
-_md5_=29873a31ad7f95316c52b2bbdc6165eb
+_md5_=fb17659509637a79a0faa85a72c0731f
