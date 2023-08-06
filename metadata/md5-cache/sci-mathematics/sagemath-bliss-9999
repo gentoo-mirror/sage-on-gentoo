@@ -1,10 +1,10 @@
-BDEPEND=sys-devel/autoconf dev-python/cython[python_targets_python3_10(-)?,python_targets_python3_11(-)?] python_targets_python3_10? ( dev-lang/python:3.10[readline,sqlite] ) python_targets_python3_11? ( dev-lang/python:3.11[readline,sqlite] ) >=dev-python/gpep517-13[python_targets_python3_10(-)?,python_targets_python3_11(-)?] >=dev-python/setuptools-67.8.0-r1[python_targets_python3_10(-)?,python_targets_python3_11(-)?] >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=dev-python/cython[python_targets_python3_10(-)?,python_targets_python3_11(-)?] python_targets_python3_10? ( dev-lang/python:3.10[readline,sqlite] ) python_targets_python3_11? ( dev-lang/python:3.11[readline,sqlite] ) >=dev-python/gpep517-13[python_targets_python3_10(-)?,python_targets_python3_11(-)?] >=dev-python/setuptools-67.8.0-r1[python_targets_python3_10(-)?,python_targets_python3_11(-)?] >=dev-vcs/git-1.8.2.1[curl] sys-devel/autoconf dev-python/build[python_targets_python3_10(-)?,python_targets_python3_11(-)?]
 DEFINED_PHASES=compile configure install prepare test unpack
 DEPEND=~sci-mathematics/sage-9999[python_targets_python3_10(-)?,python_targets_python3_11(-)?] ~sci-libs/bliss-0.77 python_targets_python3_10? ( dev-lang/python:3.10[readline,sqlite] ) python_targets_python3_11? ( dev-lang/python:3.11[readline,sqlite] )
 DESCRIPTION=Graph (iso/auto)morphisms with bliss in sage
 EAPI=8
 HOMEPAGE=https://www.sagemath.org
-INHERIT=distutils-r1 git-r3
+INHERIT=distutils-r1 git-r3 sage-git
 IUSE=python_targets_python3_10 python_targets_python3_11 debug
 LICENSE=GPL-2+
 PROPERTIES=live
@@ -12,5 +12,5 @@ RDEPEND=~sci-mathematics/sage-9999[python_targets_python3_10(-)?,python_targets_
 REQUIRED_USE=|| ( python_targets_python3_10 python_targets_python3_11 )
 RESTRICT=test
 SLOT=0
-_eclasses_=toolchain-funcs	0c8a0b0d318eb5d5180d114bd3f6592b	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	ad475baa777c9978fa035216c8264a10	out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	30dbf3c5a31db09a19f31ad0a68f2405	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	f3010c780f65d1bb5aea15a9af1adc9c	python-utils-r1	7f2c0a7465411e0f3a6db30e966155d6	python-r1	b3f874304c1bda6ffc3450ebb4ae5169	distutils-r1	b7cd5736a595ec0df9b164d5aec6f228	git-r3	2358a7b20091609e24bd3a83b3ac5991
-_md5_=95ce6555c6ecbc03b690ae46145c92df
+_eclasses_=toolchain-funcs	0c8a0b0d318eb5d5180d114bd3f6592b	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	ad475baa777c9978fa035216c8264a10	out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	30dbf3c5a31db09a19f31ad0a68f2405	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	f3010c780f65d1bb5aea15a9af1adc9c	python-utils-r1	7f2c0a7465411e0f3a6db30e966155d6	python-r1	b3f874304c1bda6ffc3450ebb4ae5169	distutils-r1	b7cd5736a595ec0df9b164d5aec6f228	git-r3	2358a7b20091609e24bd3a83b3ac5991	sage-git	a3b4d6c31f4feca93b98ea32024a48c5
+_md5_=28069afd32ae64682dda4ec32a9c00dc
