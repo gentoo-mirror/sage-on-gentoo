@@ -10,16 +10,11 @@ DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 prefix
 
 if [[ ${PV} == 9999 ]]; then
-	inherit git-r3
+	inherit git-r3 sage-git
 	EGIT_REPO_URI="https://github.com/sagemath/sage.git"
-	EGIT_BRANCH=develop
-	EGIT_CHECKOUT_DIR="${WORKDIR}/${P}"
-	KEYWORDS=""
-	S="${WORKDIR}/${P}/pkgs/${PN}_pypi"
 else
 	PYPI_NO_NORMALIZE=1
 	inherit pypi
-	KEYWORDS="~amd64 ~amd64-linux ~ppc-macos ~x64-macos"
 fi
 
 DESCRIPTION="Math software for abstract and numerical computations"
@@ -33,38 +28,15 @@ RESTRICT="test mirror"
 
 # pplpy needs to be installed to get documentation folder right :(
 DEPEND="~dev-python/pplpy-0.8.7:=[doc,${PYTHON_USEDEP}]"
-BDEPEND="app-portage/gentoolkit"
 RDEPEND=""
 
 PATCHES=(
 	"${FILESDIR}/${PN}-9.7.patch"
 )
 
-src_unpack() {
-	if [[ ${PV} == 9999 ]]; then
-		git-r3_src_unpack
-	fi
-
-	default
-}
-
-git_snapshot_prepare() {
-	# specific setup for sage-conf-9999
-	einfo "preparing the git snapshot"
-
-	# Get the real README.rst, not just a link.
-	# If we don't, a link to a file that doesn't exist is installed - not the file.
-	rm README.rst
-	cp ../sage-conf/README.rst .
-
-	# get the real setup.cfg otherwise it won't be patched
-	rm setup.cfg
-	cp ../sage-conf/setup.cfg setup.cfg
-}
-
 python_prepare_all() {
 	if [[ ${PV} == 9999 ]]; then
-		git_snapshot_prepare
+		sage-git_src_prepare "${PN}_pypi"
 	fi
 
 	distutils-r1_python_prepare_all
@@ -77,6 +49,7 @@ python_prepare_all() {
 	# set lib/lib64 - only useful for GAP_LIB_DIR for now
 	sed -i "s:@libdir@:$(get_libdir):g" _sage_conf/_conf.py
 	# Fix finding pplpy documentation with intersphinx
-	local pplpyver=`equery -q l -F '$name-$fullversion' pplpy:0`
-	sed -i "s:@PPLY_DOC_VERS@:${pplpyver}:" _sage_conf/_conf.py
+	local pplpyver=$(best_version dev-python/pplpy)
+	# using pplpyver from character 11 to remove "dev-python/"
+	sed -i "s:@PPLY_DOC_VERS@:${pplpyver:11}:" _sage_conf/_conf.py
 }
