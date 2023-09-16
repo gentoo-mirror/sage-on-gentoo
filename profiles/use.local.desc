@@ -11,12 +11,5 @@ sci-libs/cholmod:partition - Previously called "partition", enable graph partiti
 sci-libs/cholmod:supernodal - supernodal cholesky factorisation
 sci-mathematics/gap:memcheck - Enable memory checking
 sci-mathematics/gap:valgrind - Build symbols to be used by valgrind
-sci-mathematics/maxima:clisp - Compile maxima with GNU CLISP (dev-lisp/clisp)
-sci-mathematics/maxima:clozurecl - Compile maxima with 32-bit Clozure Common Lisp (dev-lisp/clozurecl)
-sci-mathematics/maxima:clozurecl64 - Compile maxima with 64-bit Clozure Common Lisp (dev-lisp/clozurecl)
-sci-mathematics/maxima:cmucl - Compile maxima with CMU Common Lisp (dev-lisp/cmucl)
-sci-mathematics/maxima:ecls - Compile maxima with Embeddable Common Lisp (dev-lisp/ecls)
-sci-mathematics/maxima:gcl - Compile maxima with GNU Common Lisp (dev-lisp/gcl)
-sci-mathematics/maxima:sbcl - Compile maxima with Steel Bank Common Lisp (dev-lisp/sbcl)
 sci-mathematics/sage:jmol - Make jmol the default 3D rendering engine. Tachyon will be used otherwise.
 sci-mathematics/sage-doc:doc-pdf - build and install documentation in pdf format
