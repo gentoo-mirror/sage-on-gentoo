@@ -110,7 +110,7 @@ sci-mathematics/pGroupCohomology 3.3.2: Modular Cohomology Rings of Finite Group
 sci-mathematics/palp 2.20: A Package for Analyzing Lattice Polytopes
 sci-mathematics/pari-data 20190912: Data sets for pari
 sci-mathematics/plink 2.4.1: a full featured graphical editor for knot and link projections
-sci-mathematics/sage 10.1 9999: Math software for abstract and numerical computations
+sci-mathematics/sage 10.1-r1 9999: Math software for abstract and numerical computations
 sci-mathematics/sage-conf 10.1 9999: Math software for abstract and numerical computations
 sci-mathematics/sage-data-combinatorial_designs 20140630: Data for Combinatorial Designs
 sci-mathematics/sage-data-conway_polynomials 0.5: Sage's conway polynomial database
