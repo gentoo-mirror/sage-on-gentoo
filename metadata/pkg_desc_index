@@ -40,7 +40,6 @@ dev-gap/orb 4.9.0: Methods to enumerate orbits
 dev-gap/p_group_cohomology_helper 0.1: GAP helper for p_group_cohomology SageMath package
 dev-gap/polenta 1.3.10: Polycyclic presentations for matrix groups
 dev-gap/polycyclic 2.16-r1: Computation with polycyclic groups
-dev-gap/polymaking 0.8.6: Interfacing the geometry software polymake
 dev-gap/primgrp 3.4.3: GAP Primitive Permutation Groups Library
 dev-gap/qpa 1.34: Quivers and Path Algebras
 dev-gap/quagroup 1.8.3: a package for doing computations with quantum groups
@@ -65,7 +64,7 @@ dev-python/jupyter-jsmol 2022.1.0: jupyter jsmol widget viewer
 dev-python/jupyter-sphinx 0.3.2: Jupyter sphinx extensions
 dev-python/jupyter-threejs-sage 122: Custom build of Three.js for SageMath
 dev-python/memory_allocator 0.1.3: An extension class for memory aalocation in cython
-dev-python/pplpy 0.8.7-r1 0.8.7-r2: A Python wrapper for the Parma Polyhedra Library (PPL)
+dev-python/pplpy 0.8.7-r1 0.8.9: A Python wrapper for the Parma Polyhedra Library (PPL)
 dev-python/primecountpy 0.1.0: cython interface to primecount
 dev-tex/sagetex 3.6.1: SageTeX allows you to embed Sage code into LaTeX documents
 media-gfx/threejs-sage-extension 122-r2: JavaScript 3D library
@@ -104,8 +103,7 @@ sci-mathematics/mcube 20051209: An non-optimal 4x4x4 rubik's cube solver
 sci-mathematics/modular_resolution 1.1-r1: p_group_cohomology helper library
 sci-mathematics/optimal 20040603-r1: An optimal rubik's cube solver using God's Algorithm
 sci-mathematics/pGroupCohomology 3.3.2: Modular Cohomology Rings of Finite Groups
-sci-mathematics/palp 2.20: A Package for Analyzing Lattice Polytopes
-sci-mathematics/pari-data 20190912: Data sets for pari
+sci-mathematics/palp 2.20-r1: Package for Analyzing Lattice Polytopes (PALP)
 sci-mathematics/plink 2.4.1: a full featured graphical editor for knot and link projections
 sci-mathematics/sage 10.1-r2 9999: Math software for abstract and numerical computations
 sci-mathematics/sage-conf 10.1 9999: Math software for abstract and numerical computations
