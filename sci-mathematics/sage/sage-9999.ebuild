@@ -3,7 +3,7 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{9..11} )
+PYTHON_COMPAT=( python3_{10..11} )
 PYTHON_REQ_USE="readline,sqlite"
 DISTUTILS_USE_PEP517=setuptools
 DISTUTILS_EXT=1
@@ -41,8 +41,8 @@ DEPEND="
 	>=dev-libs/ntl-11.4.3:=
 	>=dev-libs/ppl-1.1
 	~dev-lisp/ecl-21.2.1
-	>=dev-python/cypari2-2.1.3[${PYTHON_USEDEP}]
-	>=dev-python/cysignals-1.11.2[${PYTHON_USEDEP}]
+	>=dev-python/cypari2-2.1.3-r1[${PYTHON_USEDEP}]
+	>=dev-python/cysignals-1.11.2-r1[${PYTHON_USEDEP}]
 	>=dev-python/docutils-0.12[${PYTHON_USEDEP}]
 	>=dev-python/gmpy-2.1.0_beta5[${PYTHON_USEDEP}]
 	>=dev-python/ipykernel-4.6.0[${PYTHON_USEDEP}]
@@ -56,7 +56,7 @@ DEPEND="
 	dev-python/memory_allocator[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.16.1[${PYTHON_USEDEP}]
 	>=dev-python/pkgconfig-1.2.2[${PYTHON_USEDEP}]
-	~dev-python/pplpy-0.8.7:=[doc,${PYTHON_USEDEP}]
+	dev-python/pplpy[doc,${PYTHON_USEDEP}]
 	dev-python/primecountpy[${PYTHON_USEDEP}]
 	>=dev-python/psutil-4.4.0[${PYTHON_USEDEP}]
 	>=dev-python/six-1.11.0[${PYTHON_USEDEP}]
@@ -103,7 +103,7 @@ RDEPEND="
 	${DEPEND}
 	>=dev-lang/R-4.0.4
 	>=dev-python/cvxopt-1.2.6[glpk,${PYTHON_USEDEP}]
-	>=dev-python/fpylll-0.5.9[${PYTHON_USEDEP}]
+	>=dev-python/fpylll-0.5.9-r1[${PYTHON_USEDEP}]
 	>=dev-python/mpmath-1.2.1[${PYTHON_USEDEP}]
 	>=dev-python/networkx-2.6[${PYTHON_USEDEP}]
 	>=dev-python/pexpect-4.2.1[${PYTHON_USEDEP}]
@@ -133,7 +133,7 @@ RDEPEND="
 	jmol? ( sci-chemistry/sage-jmol-bin )
 "
 
-BDEPEND=">=dev-python/cython-0.29.24[${PYTHON_USEDEP}]"
+BDEPEND=">=dev-python/cython-3.0.0[${PYTHON_USEDEP}]"
 
 PDEPEND="
 	doc? ( ~sci-mathematics/sage-doc-${PV} )
@@ -151,7 +151,6 @@ REQUIRED_USE="doc? ( jmol )
 	test? ( jmol )"
 
 PATCHES=(
-	"${FILESDIR}"/MPL-3.8.0.patch
 	"${FILESDIR}"/${PN}-9.2-env.patch
 	"${FILESDIR}"/sage_exec-9.3.patch
 	"${FILESDIR}"/${PN}-9.3-forcejavatmp.patch
@@ -167,10 +166,6 @@ pkg_setup() {
 python_prepare_all() {
 	if [[ ${PV} == 9999 ]]; then
 		sage-git_src_prepare "${MY_PN}"
-	fi
-
-	if has_version ">=dev-python/cython-3.0.0"; then
-		PATCHES+=( "${FILESDIR}"/cython-3.patch )
 	fi
 
 	distutils-r1_python_prepare_all
@@ -200,9 +195,8 @@ python_prepare_all() {
 
 python_configure_all() {
 	export SAGE_NUM_THREADS=$(makeopts_jobs)
-	if has_version ">=dev-python/cython-3.0.0"; then
-		export SAGE_DEBUG=no
-	fi
+	# Needed for cython-3 for now
+	export SAGE_DEBUG=no
 }
 
 python_install() {
