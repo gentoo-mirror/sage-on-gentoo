@@ -12,5 +12,5 @@ RDEPEND=dev-libs/gmp:= sys-libs/zlib valgrind? ( dev-util/valgrind ) readline? (
 REQUIRED_USE=?? ( memcheck valgrind )
 SLOT=0/8
 SRC_URI=https://github.com/gap-system/gap/releases/download/v4.12.2/gap-4.12.2-core.tar.gz
-_eclasses_=elisp-common	dc179f98b2b4d9a4473fd3bdc154bbb6
+_eclasses_=elisp-common	2a0fa407d2e6363c663ccb299503b25c
 _md5_=f003534627348d93982260af78cc32ac
