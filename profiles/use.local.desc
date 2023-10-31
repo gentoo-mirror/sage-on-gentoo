@@ -3,6 +3,15 @@
 # * generated automatically using pmaint *
 
 dev-gap/grape:bliss - Use bliss instead of nauty's dreadnaut as the back end for grape.
+dev-python/cvxopt:dsdp - Use interior point library sci-libs/dsdp
+dev-python/cvxopt:glpk - Use GNU Linear Programming Kit sci-mathematics/glpk
+dev-python/sympy:aesara - Add support for dev-python/aesara
+dev-python/sympy:imaging - Add support for dev-python/pillow
+dev-python/sympy:ipython - Add support for dev-python/ipython
+dev-python/sympy:mathml - Add support for mathml
+dev-python/sympy:pyglet - Use dev-python/pyglet for plots and print preview
+dev-python/sympy:symengine - Add support for a dev-python/symengine backend
+dev-python/sympy:texmacs - Add app-office/texmacs interface
 sci-libs/cholmod:cholesky - Enable sparse Cholesky factorisation
 sci-libs/cholmod:cuda - Use nvidia cuda toolkit for speeding up computations
 sci-libs/cholmod:matrixops - Support basic sparse and dense matrix operations (add, multiply, scale, et cetera)
