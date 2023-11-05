@@ -63,7 +63,7 @@ dev-python/cysignals 1.11.2 1.11.2-r1: interrupt and signal handling for Cython
 dev-python/fpylll 0.5.9: A Python (2 and 3) wrapper for fplll.
 dev-python/gmpy 2.2.0_alpha1: Python bindings for GMP, MPC, MPFR and MPIR libraries
 dev-python/jupyter-jsmol 2022.1.0: jupyter jsmol widget viewer
-dev-python/jupyter-sphinx 0.3.2: Jupyter sphinx extensions
+dev-python/jupyter-sphinx 0.3.2 0.4.0: Jupyter sphinx extensions
 dev-python/jupyter-threejs-sage 122: Custom build of Three.js for SageMath
 dev-python/pplpy 0.8.7-r1 0.8.9: A Python wrapper for the Parma Polyhedra Library (PPL)
 dev-python/rpy 3.5.14: Python interface to the R Programming Language
