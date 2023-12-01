@@ -56,7 +56,6 @@ dev-gap/transgrp 3.6.3: GAP Transitive Groups Library
 dev-gap/utils 0.81: Utility functions in GAP
 dev-perl/MongoDB 2.2.1: Official MongoDB Driver for Perl
 dev-perl/UUID-URandom 0.001: thin wrapper around Crypt::URandom
-dev-python/cvxopt 1.3.2: Python package for convex optimization
 dev-python/cylp 0.91.6 9999: Python interface to coinor-cbc
 dev-python/cypari2 2.1.3: A Python interface to the number theory library libpari
 dev-python/cysignals 1.11.2 1.11.2-r1: interrupt and signal handling for Cython
@@ -66,8 +65,6 @@ dev-python/jupyter-jsmol 2022.1.0: jupyter jsmol widget viewer
 dev-python/jupyter-sphinx 0.3.2 0.4.0: Jupyter sphinx extensions
 dev-python/jupyter-threejs-sage 122: Custom build of Three.js for SageMath
 dev-python/pplpy 0.8.7-r1 0.8.9: A Python wrapper for the Parma Polyhedra Library (PPL)
-dev-python/rpy 3.5.14: Python interface to the R Programming Language
-dev-python/sympy 1.12: Computer Algebra System in pure Python
 dev-tex/sagetex 3.6.1: SageTeX allows you to embed Sage code into LaTeX documents
 media-gfx/threejs-sage-extension 122-r2: JavaScript 3D library
 sci-chemistry/sage-jmol-bin 14.29.52: Jmol is a java molecular viever for 3-D chemical structures.
