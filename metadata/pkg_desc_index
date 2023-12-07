@@ -93,6 +93,7 @@ sci-mathematics/cu2 20060223: An non-optimal 2x2x2 rubik's cube solver
 sci-mathematics/cubex 20060128: An non-optimal 3x3x3 rubik's cube solver
 sci-mathematics/database_knotinfo 2023.6.1: Content of the KnotInfo & LinkInfo databases as lists of dictionaries
 sci-mathematics/dikcube 20070912-r1: Dik T. Winter's rubik's cube solver and related tools
+sci-mathematics/flint 3.0.1: Fast Library for Number Theory
 sci-mathematics/gap 4.12.2-r2: System for computational discrete algebra. Core functionality.
 sci-mathematics/knot_floer_homology 1.1: Python module for dealing with planar diagrams arising in 3-dimensional topology
 sci-mathematics/latte-int 1.7.6: latte-int(egrale) consists of tools for lattice point enumeration
@@ -118,6 +119,7 @@ sci-mathematics/sagemath-bliss 10.2 9999: Graph (iso/auto)morphisms with bliss i
 sci-mathematics/sagemath-meataxe 10.2 9999: Matrices over small finite fields with meataxe in sage
 sci-mathematics/sagemath-sirocco 10.2 9999: Certified root continuation with sirocco in sage
 sci-mathematics/shared_meataxe 1.0.1-r1: A library and set of programs for working with matrices over finite fields
+sci-mathematics/singular 4.3.2_p10: Computer algebra system for polynomial computations
 sci-mathematics/snappy 3.0.3: SnapPy is for studying the topology and geometry of 3-manifolds
 sci-mathematics/snappy-manifolds 1.1.2: The SnapPy manifold database
 sci-mathematics/spherogram 2.1: Python module for dealing with planar diagrams arising in 3-dimensional topology
