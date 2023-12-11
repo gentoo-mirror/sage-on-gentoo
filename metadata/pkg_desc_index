@@ -58,10 +58,10 @@ dev-gap/transgrp 3.6.3: GAP Transitive Groups Library
 dev-gap/utils 0.81: Utility functions in GAP
 dev-perl/MongoDB 2.2.1: Official MongoDB Driver for Perl
 dev-perl/UUID-URandom 0.001: thin wrapper around Crypt::URandom
-dev-python/cylp 0.91.6 9999: Python interface to coinor-cbc
+dev-python/cylp 0.92.2 9999: Python interface to coinor-cbc
 dev-python/gmpy 2.2.0_alpha1: Python bindings for GMP, MPC, MPFR and MPIR libraries
 dev-python/jupyter-jsmol 2022.1.0: jupyter jsmol widget viewer
-dev-python/jupyter-sphinx 0.3.2 0.4.0: Jupyter sphinx extensions
+dev-python/jupyter-sphinx 0.4.0: Jupyter sphinx extensions
 dev-python/jupyter-threejs-sage 122: Custom build of Three.js for SageMath
 dev-python/pplpy 0.8.9: A Python wrapper for the Parma Polyhedra Library (PPL)
 dev-tex/sagetex 3.6.1: SageTeX allows you to embed Sage code into LaTeX documents
@@ -113,13 +113,17 @@ sci-mathematics/sage-data-graphs 20210214: Sage's graph database
 sci-mathematics/sage-data-polytopes_db 20170220: Sage's polytopes database
 sci-mathematics/sage-doc 10.2 9999: Build the sage documentation
 sci-mathematics/sage-flatsurf 0.4.6: package for working with flat surfaces in SageMath.
+sci-mathematics/sage-sws2rst 9999: SageNB worksheet converter
 sci-mathematics/sage_docbuild 10.2 9999: Tool to help install sage and sage related packages
 sci-mathematics/sage_setup 10.2 9999: Tool to help install sage and sage related packages
 sci-mathematics/sagemath-bliss 10.2 9999: Graph (iso/auto)morphisms with bliss in sage
+sci-mathematics/sagemath-categories 9999: Sage categories and basic rings
+sci-mathematics/sagemath-environment 9999: basic sagemath environment
 sci-mathematics/sagemath-meataxe 10.2 9999: Matrices over small finite fields with meataxe in sage
+sci-mathematics/sagemath-objects 9999: Sage objects/elements/parents/categories/coercion/metaclasses
+sci-mathematics/sagemath-repl 9999: Sage: IPython kernel, Sage preparser, doctester
 sci-mathematics/sagemath-sirocco 10.2 9999: Certified root continuation with sirocco in sage
 sci-mathematics/shared_meataxe 1.0.1-r1: A library and set of programs for working with matrices over finite fields
-sci-mathematics/singular 4.3.2_p10: Computer algebra system for polynomial computations
 sci-mathematics/snappy 3.0.3: SnapPy is for studying the topology and geometry of 3-manifolds
 sci-mathematics/snappy-manifolds 1.1.2: The SnapPy manifold database
 sci-mathematics/spherogram 2.1: Python module for dealing with planar diagrams arising in 3-dimensional topology
