@@ -9,4 +9,4 @@ RDEPEND=>=sci-mathematics/gap-4.12.0 >=dev-gap/sla-1.5.3
 SLOT=0
 SRC_URI=https://github.com/gap-packages/corelg/archive/v1.56.tar.gz -> corelg-1.56.tar.gz
 _eclasses_=gap-pkg	6ed64881ec42e7958d0fa256f094a1c6
-_md5_=31242d6876bae913e65d2c250f750cbb
+_md5_=425c80a67c414d2eb952bea9a8ee38e4

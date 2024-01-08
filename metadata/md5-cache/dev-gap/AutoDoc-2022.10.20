@@ -9,4 +9,4 @@ RDEPEND=>=sci-mathematics/gap-4.12.0 >=dev-gap/GAPDoc-1.6.6
 SLOT=0
 SRC_URI=https://github.com/gap-packages/AutoDoc/releases/download/v2022.10.20/AutoDoc-2022.10.20.tar.gz
 _eclasses_=gap-pkg	6ed64881ec42e7958d0fa256f094a1c6
-_md5_=eadf9c5b62737698ad14c46df0d1a571
+_md5_=eef47e8dfed4fc3d4dfd61ff1b570d79

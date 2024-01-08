@@ -9,4 +9,4 @@ RDEPEND=>=sci-mathematics/gap-4.12.0 >=dev-gap/hap-1.47 >=dev-gap/polycyclic-2.1
 SLOT=0
 SRC_URI=https://github.com/gap-packages/hapcryst/archive/v0.1.15.tar.gz -> HAPcryst-0.1.15.tar.gz
 _eclasses_=gap-pkg	6ed64881ec42e7958d0fa256f094a1c6
-_md5_=49b7bc377fb9e5022de315ffd0dafd0d
+_md5_=89312abf4f2dea184926c193df987b40

@@ -9,4 +9,4 @@ RDEPEND=>=sci-mathematics/gap-4.12.0
 SLOT=0
 SRC_URI=https://github.com/chsievers/fga/archive/v1.4.0.tar.gz -> fga-1.4.0.tar.gz
 _eclasses_=gap-pkg	6ed64881ec42e7958d0fa256f094a1c6
-_md5_=293b6f7b6d1f3e3c4b9e79345ddabe4d
+_md5_=fe1974d13734184491d9a1cdd2c7eb77

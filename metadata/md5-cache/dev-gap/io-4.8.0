@@ -10,4 +10,4 @@ RDEPEND=>=sci-mathematics/gap-4.12.0:=
 SLOT=0
 SRC_URI=https://github.com/gap-packages/io/releases/download/v4.8.0/io-4.8.0.tar.bz2
 _eclasses_=gap-pkg	6ed64881ec42e7958d0fa256f094a1c6
-_md5_=1699107c612ba22f3aeec43b34dec7f1
+_md5_=28794960daec64028ff9ad164c217923

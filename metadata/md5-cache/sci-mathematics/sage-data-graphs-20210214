@@ -6,4 +6,4 @@ KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos
 LICENSE=GPL-2
 SLOT=0
 SRC_URI=mirror://sageupstream/graphs/graphs-20210214.tar.bz2
-_md5_=755902dd3382ebdc10ff4e688b74f584
+_md5_=b7c819f34bd3f050b525655b8040300f

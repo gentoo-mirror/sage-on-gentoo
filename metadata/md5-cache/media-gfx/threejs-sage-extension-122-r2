@@ -6,4 +6,4 @@ KEYWORDS=~amd64 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos
 LICENSE=MIT
 SLOT=0
 SRC_URI=https://github.com/sagemath/threejs-sage/archive/r122.tar.gz -> threejs-sage-extension-122.tar.gz
-_md5_=3bd7f2fae4eb2ae6f46fda1faaaea1a8
+_md5_=c032c82de0d82a4906150e8bdd683205

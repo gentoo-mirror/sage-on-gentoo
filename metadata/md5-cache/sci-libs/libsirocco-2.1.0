@@ -8,4 +8,4 @@ LICENSE=GPL-3
 RDEPEND=dev-libs/gmp:= dev-libs/mpfr:=
 SLOT=0
 SRC_URI=https://github.com/miguelmarco/SIROCCO2/releases/download/2.1.0/libsirocco-2.1.0.tar.gz
-_md5_=3b27f773e45a717ba5882dfd629968d6
+_md5_=ce8dd7cfe46ab1644bd145337a371148

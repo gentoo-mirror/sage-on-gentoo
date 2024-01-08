@@ -9,4 +9,4 @@ RDEPEND=>=sci-mathematics/gap-4.12.0 >=dev-gap/polycyclic-2.16
 SLOT=0
 SRC_URI=https://github.com/gap-packages/cryst/archive/dd6c82a292a23c0f70f79a9b2ae8d9299c1efad5.tar.gz -> cryst-4.1.25.tar.gz
 _eclasses_=gap-pkg	6ed64881ec42e7958d0fa256f094a1c6
-_md5_=8121e2d9d2da13ecff9a118c0eeb2546
+_md5_=4cbcc381227158350b2b405ab590219d

@@ -9,4 +9,4 @@ RDEPEND=>=sci-mathematics/gap-4.12.0 >=dev-gap/gbnp-1.0.5
 SLOT=0
 SRC_URI=https://github.com/gap-packages/qpa/archive/v1.34.tar.gz -> qpa-1.34.tar.gz
 _eclasses_=gap-pkg	6ed64881ec42e7958d0fa256f094a1c6
-_md5_=4880e5412a82723aaaad17d918e0b33e
+_md5_=3bb4ac7892346f6efb01f069420c79dd

@@ -9,4 +9,4 @@ RDEPEND=>=sci-mathematics/gap-4.12.0 >=dev-gap/polycyclic-2.16 >=dev-gap/radiroo
 SLOT=0
 SRC_URI=https://github.com/gap-packages/polenta/releases/download/v1.3.10/polenta-1.3.10.tar.bz2
 _eclasses_=gap-pkg	6ed64881ec42e7958d0fa256f094a1c6
-_md5_=b9ae30116914ad03dd4accb2acd357a3
+_md5_=4dde4979564c8836f67ed16ca1aa3780

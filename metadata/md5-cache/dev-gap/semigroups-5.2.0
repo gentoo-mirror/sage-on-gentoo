@@ -11,4 +11,4 @@ RDEPEND=>=sci-mathematics/gap-4.12.0:= >=sci-libs/libsemigroups-2.3.2:= >=dev-ga
 SLOT=0
 SRC_URI=https://github.com/semigroups/Semigroups/releases/download/v5.2.0/semigroups-5.2.0.tar.gz
 _eclasses_=gap-pkg	6ed64881ec42e7958d0fa256f094a1c6	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	78cf3cc2d5572fddf5e5e10c70f7c81a
-_md5_=25c6eae61ead38d4bcca4cc306cb31b6
+_md5_=eda651237a5d78b5cf230e873e74787e

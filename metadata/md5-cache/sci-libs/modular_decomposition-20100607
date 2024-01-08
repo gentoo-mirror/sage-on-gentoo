@@ -8,4 +8,4 @@ LICENSE=GPL-2
 SLOT=0
 SRC_URI=mirror://sageupstream/modular_decomposition/modular_decomposition-20100607.tar.bz2
 _eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0
-_md5_=364c6f7a0296541313397573b5c7a9d1
+_md5_=9054e90564d3623a25db37e579673e03

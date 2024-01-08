@@ -9,4 +9,4 @@ RDEPEND=>=sci-mathematics/gap-4.12.0 >=dev-gap/GAPDoc-1.6.6 >=dev-gap/AutoDoc-20
 SLOT=0
 SRC_URI=https://github.com/gap-packages/utils/releases/download/v0.81/utils-0.81.tar.gz
 _eclasses_=gap-pkg	6ed64881ec42e7958d0fa256f094a1c6
-_md5_=77e78265aff7a099d6bc75a95c84e0cc
+_md5_=9e3d6c3911c3889d52eda5183766474d
