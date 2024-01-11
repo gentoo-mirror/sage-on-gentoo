@@ -58,7 +58,6 @@ dev-gap/transgrp 3.6.3: GAP Transitive Groups Library
 dev-gap/utils 0.81: Utility functions in GAP
 dev-perl/MongoDB 2.2.1: Official MongoDB Driver for Perl
 dev-perl/UUID-URandom 0.001: thin wrapper around Crypt::URandom
-dev-python/cvxopt 1.3.2-r1: Python package for convex optimization
 dev-python/cylp 0.92.2 9999: Python interface to coinor-cbc
 dev-python/gmpy 2.2.0_alpha1: Python bindings for GMP, MPC, MPFR and MPIR libraries
 dev-python/jupyter-jsmol 2022.1.0: jupyter jsmol widget viewer
@@ -68,33 +67,32 @@ dev-python/pplpy 0.8.9: A Python wrapper for the Parma Polyhedra Library (PPL)
 dev-tex/sagetex 3.6.1: SageTeX allows you to embed Sage code into LaTeX documents
 media-gfx/threejs-sage-extension 122-r2: JavaScript 3D library
 sci-chemistry/sage-jmol-bin 14.29.52: Jmol is a java molecular viever for 3-D chemical structures.
-sci-libs/amd 3.2.1 3.3.0: Library to order a sparse matrix prior to Cholesky factorization
-sci-libs/btf 2.2.1 2.3.0: Algorithm for matrix permutation into block triangular form
-sci-libs/camd 3.2.1 3.3.0: Library to order a sparse matrix prior to Cholesky factorization
-sci-libs/ccolamd 3.2.1 3.3.0: Constrained Column approximate minimum degree ordering algorithm
-sci-libs/cholmod 5.0.1 5.1.0: Sparse Cholesky factorization and update/downdate library
-sci-libs/colamd 3.2.1 3.3.0: Column approximate minimum degree ordering algorithm
+sci-libs/amd 3.2.1 3.3.1: Library to order a sparse matrix prior to Cholesky factorization
+sci-libs/btf 2.2.1 2.3.1: Algorithm for matrix permutation into block triangular form
+sci-libs/camd 3.2.1 3.3.1: Library to order a sparse matrix prior to Cholesky factorization
+sci-libs/ccolamd 3.2.1 3.3.1: Constrained Column approximate minimum degree ordering algorithm
+sci-libs/cholmod 5.0.1 5.1.1: Sparse Cholesky factorization and update/downdate library
+sci-libs/colamd 3.2.1 3.3.1: Column approximate minimum degree ordering algorithm
 sci-libs/csparse 3.2.0: sparse matrix package
-sci-libs/cxsparse 4.2.1 4.3.0: Extended sparse matrix package
-sci-libs/klu 2.2.2 2.3.0: Sparse LU factorization for circuit simulation
-sci-libs/ldl 3.2.1 3.3.0: Simple but educational LDL^T matrix factorization algorithm
+sci-libs/cxsparse 4.2.1 4.3.1: Extended sparse matrix package
+sci-libs/klu 2.2.2 2.3.1: Sparse LU factorization for circuit simulation
+sci-libs/ldl 3.2.1 3.3.1: Simple but educational LDL^T matrix factorization algorithm
 sci-libs/libsemigroups 2.3.2: libsemigroups is a C++ library for semigroups and monoids
 sci-libs/libsirocco 2.1.0: Sirocco Is a ROot Certified COntinuator
 sci-libs/modular_decomposition 20100607: This is an implementation of a modular decomposition algorithm.
 sci-libs/mpfrcx 0.6.3: Mpfrcx is a library for the arithmetic of univariate polynomials
 sci-libs/qdldl 0.1.6: A free LDL factorisation routine for quasi-definite linear systems
-sci-libs/rbio 4.2.1 4.3.0: Sparse matrices Rutherford/Boeing format tools
-sci-libs/spex 2.2.1 2.3.0: a software package for SParse EXact algebra
-sci-libs/spqr 4.2.2 4.3.0: Multithreaded multifrontal sparse QR factorization library
-sci-libs/suitesparseconfig 7.3.1 7.4.0: Common configurations for all packages in suitesparse
-sci-libs/umfpack 6.2.2 6.3.0: Unsymmetric multifrontal sparse LU factorization library
+sci-libs/rbio 4.2.1 4.3.1: Sparse matrices Rutherford/Boeing format tools
+sci-libs/spex 2.2.1 2.3.1: a software package for SParse EXact algebra
+sci-libs/spqr 4.2.2 4.3.1: Multithreaded multifrontal sparse QR factorization library
+sci-libs/suitesparseconfig 7.3.1 7.5.0: Common configurations for all packages in suitesparse
+sci-libs/umfpack 6.2.2 6.3.1: Unsymmetric multifrontal sparse LU factorization library
 sci-mathematics/ExportSageNB 3.4: This is a tool to convert SageNB notebooks to other formats.
 sci-mathematics/FXrays 1.3.4: Finding extremal rays of a polyhedral cone
 sci-mathematics/cu2 20060223: An non-optimal 2x2x2 rubik's cube solver
 sci-mathematics/cubex 20060128: An non-optimal 3x3x3 rubik's cube solver
 sci-mathematics/database_knotinfo 2023.6.1: Content of the KnotInfo & LinkInfo databases as lists of dictionaries
 sci-mathematics/dikcube 20070912-r1: Dik T. Winter's rubik's cube solver and related tools
-sci-mathematics/flint 3.0.1: Fast Library for Number Theory
 sci-mathematics/gap 4.12.2-r2: System for computational discrete algebra. Core functionality.
 sci-mathematics/knot_floer_homology 1.1: Python module for dealing with planar diagrams arising in 3-dimensional topology
 sci-mathematics/latte-int 1.7.6: latte-int(egrale) consists of tools for lattice point enumeration

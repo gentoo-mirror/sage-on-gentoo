@@ -3,15 +3,12 @@
 # * generated automatically using pmaint *
 
 dev-gap/grape:bliss - Use bliss instead of nauty's dreadnaut as the back end for grape.
-dev-python/cvxopt:dsdp - Use interior point library sci-libs/dsdp
-dev-python/cvxopt:glpk - Use GNU Linear Programming Kit sci-mathematics/glpk
 sci-libs/cholmod:cholesky - Enable sparse Cholesky factorisation
 sci-libs/cholmod:cuda - Use nvidia cuda toolkit for speeding up computations
 sci-libs/cholmod:matrixops - Support basic sparse and dense matrix operations (add, multiply, scale, et cetera)
 sci-libs/cholmod:modify - Enable Cholesky-modification routines like update, downdate, row-add, and row-delete
 sci-libs/cholmod:partition - Previously called "partition", enable graph partitioning and graph-partition-based orderings through of a modified copy of sci-libs/metis.
 sci-libs/cholmod:supernodal - supernodal cholesky factorisation
-sci-mathematics/flint:ntl - Build NTL interface
 sci-mathematics/gap:memcheck - Enable memory checking
 sci-mathematics/gap:valgrind - Build symbols to be used by valgrind
 sci-mathematics/sage:jmol - Make jmol the default 3D rendering engine. Tachyon will be used otherwise.
