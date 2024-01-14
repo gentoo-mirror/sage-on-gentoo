@@ -1,4 +1,4 @@
-BDEPEND=doc? ( virtual/latex-base ) app-alternatives/ninja >=dev-util/cmake-3.20.5
+BDEPEND=doc? ( virtual/latex-base ) app-alternatives/ninja >=dev-build/cmake-3.20.5
 DEFINED_PHASES=compile configure install prepare pretend setup test
 DEPEND=>=sci-libs/suitesparseconfig-7.5.0 >=sci-libs/amd-3.3.1 >=sci-libs/colamd-3.3.1 supernodal? ( virtual/lapack ) partition? ( >=sci-libs/camd-3.3.1 >=sci-libs/ccolamd-3.3.1 ) cuda? ( dev-util/nvidia-cuda-toolkit x11-drivers/nvidia-drivers )
 DESCRIPTION=Sparse Cholesky factorization and update/downdate library
@@ -13,5 +13,5 @@ REQUIRED_USE=supernodal? ( cholesky ) modify? ( cholesky ) test? ( cholesky matr
 RESTRICT=!test? ( test )
 SLOT=0/5
 SRC_URI=https://github.com/DrTimothyAldenDavis/SuiteSparse/archive/refs/tags/v7.5.0.tar.gz -> SuiteSparse-7.5.0.gh.tar.gz
-_eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	78cf3cc2d5572fddf5e5e10c70f7c81a	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	baea6080dd821f5562d715887954c9d3	cmake	b7ccad6f1800c4ea58dbbdafb0b1b5e0
+_eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	78cf3cc2d5572fddf5e5e10c70f7c81a	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	baea6080dd821f5562d715887954c9d3	cmake	c7c9a62d6232cac66d4ea32d575c3e7c
 _md5_=ed0e4d8f5d8bfbf54a2cebe19fc3bf5c
