@@ -6,11 +6,11 @@ HOMEPAGE=https://www.sagemath.org
 INHERIT=distutils-r1 git-r3 sage-git
 IUSE=python_targets_python3_10 python_targets_python3_11 python_targets_python3_12
 LICENSE=GPL-2
-PDEPEND=~sci-mathematics/sage-9999[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?]
+PDEPEND=~sci-mathematics/sagemath-standard-9999[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?]
 PROPERTIES=live
 RDEPEND=>=dev-python/sphinx-7.2.0[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] dev-python/jupyter-sphinx[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_11? ( dev-lang/python:3.11 ) python_targets_python3_12? ( dev-lang/python:3.12 )
 REQUIRED_USE=|| ( python_targets_python3_10 python_targets_python3_11 python_targets_python3_12 )
 RESTRICT=mirror test
 SLOT=0
 _eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	24c947ff5f858625cf0b33c15eed4425	out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	d67e78a235f541871c7dfe4cf7931489	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	python-utils-r1	8904b60325f22500b0c3ad4b68a42448	python-r1	8a28fa6d3e3bc96ff8a7eff2badbe71f	distutils-r1	8262de2e5a28df8624b96e031d8d0f2b	git-r3	86fa1f157b70b9d2ff340c4633b1cf4b	sage-git	712c59fc7a0557bd7ec311f5b294c503
-_md5_=bcc9b594f7dc9fb76f16b3e13cad716e
+_md5_=ab74c95b6363e850175ad2f10ed6ab2a
