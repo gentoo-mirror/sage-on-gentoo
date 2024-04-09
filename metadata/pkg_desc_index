@@ -3,7 +3,7 @@ dev-perl/UUID-URandom 0.001: thin wrapper around Crypt::URandom
 dev-python/cylp 0.92.2 9999: Python interface to coinor-cbc
 dev-python/gmpy 2.2.0_alpha1: Python bindings for GMP, MPC, MPFR and MPIR libraries
 dev-python/jupyter-jsmol 2022.1.0: jupyter jsmol widget viewer
-dev-python/jupyter-sphinx 0.4.0: Jupyter sphinx extensions
+dev-python/jupyter-sphinx 0.4.0 0.5.3: Jupyter sphinx extensions
 dev-python/jupyter-threejs-sage 122: Custom build of Three.js for SageMath
 dev-python/pplpy 0.8.9: A Python wrapper for the Parma Polyhedra Library (PPL)
 dev-tex/sagetex 3.6.1: SageTeX allows you to embed Sage code into LaTeX documents
