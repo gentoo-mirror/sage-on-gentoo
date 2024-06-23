@@ -27,6 +27,7 @@ sci-libs/rbio 4.3.1: Sparse matrices Rutherford/Boeing format tools
 sci-libs/spex 2.3.2: a software package for SParse EXact algebra
 sci-libs/spqr 4.3.2: Multithreaded multifrontal sparse QR factorization library
 sci-libs/suitesparseconfig 7.6.0: Common configurations for all packages in suitesparse
+sci-libs/treedec 0.9.3: tree decomposition algorithms
 sci-libs/umfpack 6.3.2: Unsymmetric multifrontal sparse LU factorization library
 sci-mathematics/ExportSageNB 3.4: This is a tool to convert SageNB notebooks to other formats.
 sci-mathematics/FXrays 1.3.4: Finding extremal rays of a polyhedral cone
@@ -62,6 +63,7 @@ sci-mathematics/sagemath-objects 9999: Sage objects/elements/parents/categories/
 sci-mathematics/sagemath-repl 9999: Sage: IPython kernel, Sage preparser, doctester
 sci-mathematics/sagemath-sirocco 10.3 9999: Certified root continuation with sirocco in sage
 sci-mathematics/sagemath-standard 10.3 9999: Math software for abstract and numerical computations
+sci-mathematics/sagemath-tdlib 9999: tree decomposition with treedec
 sci-mathematics/shared_meataxe 1.0.1-r1: A library and set of programs for working with matrices over finite fields
 sci-mathematics/snappy 3.0.3: SnapPy is for studying the topology and geometry of 3-manifolds
 sci-mathematics/snappy-manifolds 1.1.2: The SnapPy manifold database
