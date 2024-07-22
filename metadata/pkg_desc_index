@@ -62,7 +62,7 @@ sci-mathematics/sagemath-meataxe 10.4 9999: Matrices over small finite fields wi
 sci-mathematics/sagemath-objects 9999: Sage objects/elements/parents/categories/coercion/metaclasses
 sci-mathematics/sagemath-repl 9999: Sage: IPython kernel, Sage preparser, doctester
 sci-mathematics/sagemath-sirocco 10.4 9999: Certified root continuation with sirocco in sage
-sci-mathematics/sagemath-standard 10.4 9999: Math software for abstract and numerical computations
+sci-mathematics/sagemath-standard 10.4-r1 9999: Math software for abstract and numerical computations
 sci-mathematics/sagemath-tdlib 10.4 9999: tree decomposition with treedec
 sci-mathematics/shared_meataxe 1.0.1-r1: A library and set of programs for working with matrices over finite fields
 sci-mathematics/snappy 3.0.3: SnapPy is for studying the topology and geometry of 3-manifolds
