@@ -9,4 +9,4 @@ LICENSE=GPL-2
 SLOT=0
 SRC_URI=mirror://sagemath/mcube10-src.zip
 _eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0
-_md5_=fad76ce6c673d881917918a13cb3a22f
+_md5_=e8044d051bfd0ef92517a2af77db6019
