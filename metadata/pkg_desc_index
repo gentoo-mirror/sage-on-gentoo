@@ -2,7 +2,6 @@ dev-python/cylp 0.92.2 9999: Python interface to coinor-cbc
 dev-python/jupyter-jsmol 2022.1.0: jupyter jsmol widget viewer
 dev-python/jupyter-sphinx 0.5.3: Jupyter sphinx extensions
 dev-python/jupyter-threejs-sage 122: Custom build of Three.js for SageMath
-dev-python/pplpy 0.8.9: A Python wrapper for the Parma Polyhedra Library (PPL)
 dev-tex/sagetex 3.6.1: SageTeX allows you to embed Sage code into LaTeX documents
 media-gfx/threejs-sage-extension 122-r2: JavaScript 3D library
 sci-chemistry/sage-jmol-bin 14.29.52: Jmol is a java molecular viever for 3-D chemical structures.
