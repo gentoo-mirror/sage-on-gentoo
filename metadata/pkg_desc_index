@@ -7,6 +7,8 @@ dev-python/lrcalc 2.1-r1: Python bindings for sci-mathematics/lrcalc
 dev-python/pplpy 0.8.10: Python bindings for the Parma Polyhedra Library (PPL)
 dev-python/primecountpy 0.1.0: Cython interface to sci-mathematics/primecount
 dev-python/rpy2 3.5.17: Python interface to the R language
+dev-python/sphinx-copybutton 0.5.2: A small sphinx extension to add a "copy" button to code blocks
+dev-python/sphinx-inline-tabs 2023.4.21: A sphinx extension for inline tabs
 dev-tex/sagetex 3.6.1: SageTeX allows you to embed Sage code into LaTeX documents
 media-gfx/threejs-sage-extension 122-r2: JavaScript 3D library
 sci-chemistry/sage-jmol-bin 14.29.52: Jmol is a java molecular viever for 3-D chemical structures.
