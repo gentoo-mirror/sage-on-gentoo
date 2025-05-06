@@ -7,5 +7,5 @@ KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux ~x64-macos
 LICENSE=MIT
 SLOT=0
 SRC_URI=mirror://sageupstream/rubiks/rubiks-20070912.tar.bz2
-_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	e8de74bac929ba17427e740e95707d00
+_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	b892042b2667b8ac69ec8a2571dc290a
 _md5_=a48ae4f5d2b2ce237e3f526154a35754
