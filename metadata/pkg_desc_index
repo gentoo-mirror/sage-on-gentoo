@@ -57,8 +57,10 @@ sci-mathematics/sage-flatsurf 0.5.2: package for working with flat surfaces in S
 sci-mathematics/sage-sws2rst 10.6 9999: SageNB worksheet converter
 sci-mathematics/sage_docbuild 10.6 9999: Tool to build doc for sage and sage related packages
 sci-mathematics/sage_setup 10.6 9999: Tool to help install sage and sage related packages
+sci-mathematics/sagemath 9999: Math software for abstract and numerical computations
 sci-mathematics/sagemath-bliss 10.6 9999: Graph (iso/auto)morphisms with bliss in sage
 sci-mathematics/sagemath-categories 9999: Sage categories and basic rings
+sci-mathematics/sagemath-doc 9999: Build the sage documentation
 sci-mathematics/sagemath-environment 9999: basic sagemath environment
 sci-mathematics/sagemath-giac 0.1.1 9999: Support using Giac in sagemath
 sci-mathematics/sagemath-meataxe 10.6 9999: Matrices over small finite fields with meataxe in sage
