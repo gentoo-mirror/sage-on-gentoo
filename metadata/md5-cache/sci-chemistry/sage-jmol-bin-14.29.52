@@ -9,5 +9,5 @@ LICENSE=LGPL-2.1
 RDEPEND=>=virtual/jre-1.7 >=dev-java/java-config-2.2.0-r3
 SLOT=0
 SRC_URI=https://downloads.sourceforge.net/jmol/Jmol/Jmol-14.29.52-binary.tar.gz
-_eclasses_=java-utils-2	a080d4947ca188a48725a375b6184bc5	java-pkg-2	38fd81c7880666a00a638ca8deb64d72
+_eclasses_=java-utils-2	3febdd17a5820c438f6368dde60d4848	java-pkg-2	38fd81c7880666a00a638ca8deb64d72
 _md5_=4b2c7abc56f23f3727814aaec2818ea3
